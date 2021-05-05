@@ -34,13 +34,13 @@ jobs:
         git add .
         git commit -m "Github action automatic update on $(date  +"%m-%d-%Y %H:%M:%S %Z")." -a
         git push 
-#     - name: Push changes
-#       uses: ad-m/github-push-action@master
-#       with:
-#         github_token: ${{ secrets.action }}
-    - name: Notify Telegram
-      run: |
-        pip install echoo
-        date_format=$(date +"%y-%b/%-d")
-        paper_count=$(cat info/$date_format/paper_counts.txt)
-        echoo "arXiv has $paper_count papers on $(date  +"%m-%d-%Y %H:%M:%S %Z")" -t ${{ secrets.tg_token }} -id ${{ secrets.tg_chat_id }}
+    # - name: Push changes
+    #   uses: ad-m/github-push-action@master
+    #   with:
+    #     github_token: ${{ secrets.action }}
+    # - name: Notify Telegram
+    #   run: |
+    #     pip install echoo
+    #     date_format=$(date +"%y-%b/%-d")
+    #     paper_count=$(cat info/$date_format/paper_counts.txt)
+    #     echoo "arXiv has $paper_count papers on $(date  +"%m-%d-%Y %H:%M:%S %Z")" -t ${{ secrets.tg_token }} -id ${{ secrets.tg_chat_id }}
