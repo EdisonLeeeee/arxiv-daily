@@ -110,7 +110,8 @@
       "Cong Li",
       "Yongchao Wang",
       "Fangzhou Liu",
-      "Qingchen Liu"
+      "Qingchen Liu",
+      "Martin Buss"
     ],
     "subjectives": [
       "Systems and Control (eess.SY)"
@@ -975,6 +976,7 @@
       "Zerong Zheng",
       "Kaiwen Guo",
       "Pengpeng Liu",
+      "Qionghai Dai",
       "Yebin Liu"
     ],
     "subjectives": [
@@ -3152,7 +3154,7 @@
   },
   {
     "id": "arXiv:2105.01714",
-    "title": "Drifting Features: Detection and evaluation in the context ofautomatic  RRLs identification in VVV",
+    "title": "Drifting Features: Detection and evaluation in the context of automatic  RRLs identification in VVV",
     "authors": [
       "J. B. Cabral",
       "M. Lares",
@@ -3955,7 +3957,7 @@
   },
   {
     "id": "arXiv:1912.00191",
-    "title": "Learning Driving Decisions by Imitating Drivers' Control Behaviors",
+    "title": "Learning a Decision Module by Imitating Driver's Control Behaviors",
     "authors": [
       "Junning Huang",
       "Sirui Xie",
