@@ -55,6 +55,16 @@ for dl in soup.find_all("dl"):
         list_authors = dd.find_all(class_="list-authors")
         authors = [_.text for _ in list_authors[0].find_all("a")]
 
+        # abstract
+        abstract = dd.find_all(class_="mathjax")[-1].text.strip()
+
+        # descriptor
+        descriptor = dd.find_all(class_="list-comments mathjax")
+        if descriptor:
+            descriptor = descriptor[0].text
+        else:
+            descriptor = ""
+
         # subjectives / areas
         list_subjects = dd.find_all(class_="list-subjects")[0]
         if list_subjects.span.attrs["class"] == ["descriptor"]:
@@ -62,11 +72,17 @@ for dl in soup.find_all("dl"):
         subjectives = list_subjects.text.strip()
         subjectives = [_.strip() for _ in subjectives.split(";")]
 
+        # url
+        url = "https://arxiv.org/abs/%s" % id[6:]
+
         paper_info = {
             "id": id,
             "title": title,
+            "abstract": abstract,
+            "descriptor": descriptor,
             "authors": authors,
-            "subjectives": subjectives
+            "subjectives": subjectives,
+            "url": url
         }
         information.append(paper_info)
 
