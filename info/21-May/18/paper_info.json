@@ -2125,7 +2125,8 @@
       "Sheng-Jun Huang"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2105.07338"
   },
@@ -3233,8 +3234,9 @@
       "Peter Chin"
     ],
     "subjectives": [
+      "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)"
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2105.07512"
   },
@@ -3502,7 +3504,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Information Retrieval (cs.IR)"
     ],
     "url": "https://arxiv.org/abs/2105.07542"
   },
