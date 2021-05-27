@@ -2783,6 +2783,7 @@
       "Peter N. Creasy"
     ],
     "subjectives": [
+      "Other Computer Science (cs.OH)",
       "Software Engineering (cs.SE)"
     ],
     "url": "https://arxiv.org/abs/2105.12654"
@@ -3758,7 +3759,7 @@
     "abstract": "Social and professional networks affect labor market dynamics, knowledge\ndiffusion and new business creation. To understand the determinants of how\nthese networks are formed in the first place, we analyze a unique dataset of\nbusiness cards exchanges among a sample of over 240,000 users of the\nmulti-platform contact management and professional social networking tool for\nindividuals Eight. We develop a structural model of network formation with\nstrategic interactions, and we estimate users' payoffs that depend on the\ncomposition of business relationships, as well as indirect business\ninteractions. We allow heterogeneity of users in both observable and\nunobservable characteristics to affect how relationships form and are\nmaintained. The model's stationary equilibrium delivers a likelihood that is a\nmixture of exponential random graph models that we can characterize in\nclosed-form. We overcome several econometric and computational challenges in\nestimation, by exploiting a two-step estimation procedure, variational\napproximations and minorization-maximization methods. Our algorithm is\nscalable, highly parallelizable and makes efficient use of computer memory to\nallow estimation in massive networks. We show that users payoffs display\nhomophily in several dimensions, e.g. location; furthermore, users unobservable\ncharacteristics also display homophily.",
     "descriptor": "",
     "authors": [
-      "Juan Nelson Martinez Dabhura",
+      "Juan Nelson Martinez Dahbura",
       "Shota Komatsu",
       "Takanori Nishida",
       "Angelo Mele"
