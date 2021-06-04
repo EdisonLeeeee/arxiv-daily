@@ -1888,7 +1888,6 @@
     ],
     "subjectives": [
       "Systems and Control (eess.SY)",
-      "Software Engineering (cs.SE)",
       "Adaptation and Self-Organizing Systems (nlin.AO)"
     ],
     "url": "https://arxiv.org/abs/2106.01651"
@@ -2797,8 +2796,7 @@
       "Patricia Mellodge"
     ],
     "subjectives": [
-      "Systems and Control (eess.SY)",
-      "Software Engineering (cs.SE)"
+      "Systems and Control (eess.SY)"
     ],
     "url": "https://arxiv.org/abs/2106.01801"
   },
@@ -4086,7 +4084,7 @@
     "authors": [
       "Rachel Cleaveland",
       "Stefan Mitsch",
-      "Andre Platzer"
+      "Andr\u00e9 Platzer"
     ],
     "subjectives": [
       "Logic in Computer Science (cs.LO)",
