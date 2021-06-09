@@ -1679,7 +1679,7 @@
   },
   {
     "id": "arXiv:2106.04108",
-    "title": "Fully Transformer Networks for Semantic ImageSegmentation",
+    "title": "Fully Transformer Networks for Semantic Image Segmentation",
     "abstract": "Transformers have shown impressive performance in various natural language\nprocessing and computer vision tasks, due to the capability of modeling\nlong-range dependencies. Recent progress has demonstrated to combine such\ntransformers with CNN-based semantic image segmentation models is very\npromising. However, it is not well studied yet on how well a pure transformer\nbased approach can achieve for image segmentation. In this work, we explore a\nnovel framework for semantic image segmentation, which is encoder-decoder based\nFully Transformer Networks (FTN). Specifically, we first propose a Pyramid\nGroup Transformer (PGT) as the encoder for progressively learning hierarchical\nfeatures, while reducing the computation complexity of the standard visual\ntransformer(ViT). Then, we propose a Feature Pyramid Transformer (FPT) to fuse\nsemantic-level and spatial-level information from multiple levels of the PGT\nencoder for semantic image segmentation. Surprisingly, this simple baseline can\nachieve new state-of-the-art results on multiple challenging semantic\nsegmentation benchmarks, including PASCAL Context, ADE20K and COCO-Stuff. The\nsource code will be released upon the publication of this work.",
     "descriptor": "",
     "authors": [
