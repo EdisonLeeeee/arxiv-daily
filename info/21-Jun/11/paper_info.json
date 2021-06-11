@@ -1095,9 +1095,8 @@
       "Ning Gu"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)",
-      "Machine Learning (cs.LG)"
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.05458"
   },
@@ -1328,7 +1327,8 @@
       "Zhixiong Chen"
     ],
     "subjectives": [
-      "Cryptography and Security (cs.CR)"
+      "Cryptography and Security (cs.CR)",
+      "Number Theory (math.NT)"
     ],
     "url": "https://arxiv.org/abs/2106.05483"
   },
@@ -1405,7 +1405,8 @@
       "Chong Han"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.05491"
   },
@@ -1842,8 +1843,9 @@
       "Mingliang Xu"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.05545"
   },
@@ -3114,8 +3116,8 @@
       "Christian Wachinger"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.05735"
@@ -3146,6 +3148,7 @@
       "Elena Ericheva"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (cs.LG)"
     ],
@@ -3847,7 +3850,8 @@
       "Xiaofang Wang"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.05848"
   },
@@ -4067,7 +4071,8 @@
     ],
     "subjectives": [
       "Computation and Language (cs.CL)",
-      "Human-Computer Interaction (cs.HC)"
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.05885"
   },
@@ -4221,8 +4226,9 @@
       "Taufiq Hasan"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.05915"
   },
@@ -4305,6 +4311,7 @@
       "Jacob Jaremko"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.05929"
