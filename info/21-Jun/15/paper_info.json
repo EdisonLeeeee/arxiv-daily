@@ -537,6 +537,7 @@
       "Hamid Tizhoosh"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.06623"
@@ -660,7 +661,9 @@
       "Liang Huang"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.06636"
   },
@@ -676,6 +679,7 @@
       "Alejandro F Frangi"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.06637"
@@ -1408,8 +1412,9 @@
       "Yefeng Zheng"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.06733"
   },
@@ -1477,6 +1482,7 @@
       "Yong Xu"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.06742"
@@ -1494,6 +1500,7 @@
       "Steven Weidong Su"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.06744"
@@ -1697,7 +1704,9 @@
       "Bi Wang"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2106.06769"
   },
@@ -2089,6 +2098,7 @@
       "Alan Bovik"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.06817"
@@ -2339,7 +2349,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Image and Video Processing (eess.IV)"
+      "Image and Video Processing (eess.IV)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.06845"
   },
@@ -2455,7 +2466,7 @@
     ],
     "subjectives": [
       "Sound (cs.SD)",
-      "Artificial Intelligence (cs.AI)"
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.06863"
   },
@@ -2929,7 +2940,8 @@
       "Qi Zhu"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.06916"
   },
@@ -3011,7 +3023,9 @@
       "Chang-Tsun Li"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Multimedia (cs.MM)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2106.06924"
   },
@@ -3244,7 +3258,8 @@
       "Tony Q. S. Quek"
     ],
     "subjectives": [
-      "Networking and Internet Architecture (cs.NI)"
+      "Networking and Internet Architecture (cs.NI)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.06945"
   },
@@ -3293,7 +3308,8 @@
       "Anas Alarabi"
     ],
     "subjectives": [
-      "Networking and Internet Architecture (cs.NI)"
+      "Networking and Internet Architecture (cs.NI)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.06949"
   },
@@ -3323,7 +3339,8 @@
       "Imran Shafique Ansari"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.06951"
   },
@@ -3459,6 +3476,7 @@
       "Zhihui Wei"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.06966"
@@ -3492,6 +3510,7 @@
       "Xu Jun"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.06971"
@@ -3543,7 +3562,8 @@
       "R. C. de Lamare"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.06978"
   },
@@ -3680,6 +3700,7 @@
       "Zhihui Wei"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.06996"
@@ -3696,7 +3717,8 @@
       "Benjamin M. Marlin"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.06997"
   },
@@ -3731,7 +3753,8 @@
       "Mohamed-Slim Alouini"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.07000"
   },
@@ -3746,7 +3769,9 @@
       "Hossam Hassan Ammar"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Robotics (cs.RO)",
+      "Artificial Intelligence (cs.AI)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.07003"
   },
@@ -3760,9 +3785,9 @@
       "Jong Chul Ye"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Machine Learning (cs.LG)",
-      "Machine Learning (stat.ML)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.07009"
   },
@@ -3844,7 +3869,8 @@
       "Ivan Oseledets"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2106.07020"
   },
@@ -3873,7 +3899,8 @@
       "Younggeun Kim"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2106.07023"
   },
@@ -4176,7 +4203,8 @@
       "Finale Doshi-Velez"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.07052"
   },
@@ -4806,7 +4834,7 @@
     ],
     "subjectives": [
       "Numerical Analysis (math.NA)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.07135"
   },
@@ -5134,7 +5162,9 @@
       "Andreas Stolcke"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.07167"
   },
@@ -5511,7 +5541,8 @@
       "Daniel Soudry"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)"
     ],
     "url": "https://arxiv.org/abs/2106.07218"
   },
@@ -5795,9 +5826,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
       "Computation and Language (cs.CL)",
-      "Information Retrieval (cs.IR)"
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.07250"
   },
@@ -6474,7 +6504,7 @@
     "id": "arXiv:2106.07341",
     "title": "i-Pulse: A NLP based novel approach for employee engagement in logistics  organization",
     "abstract": "Although most logistics and freight forwarding organizations, in one way or\nanother, claim to have core values. The engagement of employees is a vast\nstructure that affects almost every part of the company's core environmental\nvalues. There is little theoretical knowledge about the relationship between\nfirms and the engagement of employees. Based on research literature, this paper\naims to provide a novel approach for insight around employee engagement in a\nlogistics organization by implementing deep natural language processing\nconcepts. The artificial intelligence-enabled solution named Intelligent Pulse\n(I-Pulse) can evaluate hundreds and thousands of pulse survey comments and\nprovides the actionable insights and gist of employee feedback. I-Pulse allows\nthe stakeholders to think in new ways in their organization, helping them to\nhave a powerful influence on employee engagement, retention, and efficiency.\nThis study is of corresponding interest to researchers and practitioners.",
-    "descriptor": "\nComments: 11 Pages 7 Figures\n",
+    "descriptor": "\nComments: 11 Pages 7 Figures. International Journal of Information Management Data Insights (Elsevier) 2021\n",
     "authors": [
       "Rachit Garg",
       "Arvind W Kiwelekar",
@@ -7170,7 +7200,7 @@
   },
   {
     "id": "arXiv:2106.07428",
-    "title": "Audio Attacks and Defenses against AED Systems - A Practical Study",
+    "title": "Audio Attacks and Defenses against AED Systems -- A Practical Study",
     "abstract": "Audio Event Detection (AED) Systems capture audio from the environment and\nemploy some deep learning algorithms for detecting the presence of a specific\nsound of interest. In this paper, we evaluate deep learning-based AED systems\nagainst evasion attacks through adversarial examples. We run multiple security\ncritical AED tasks, implemented as CNNs classifiers, and then generate audio\nadversarial examples using two different types of noise, namely background and\nwhite noise, that can be used by the adversary to evade detection. We also\nexamine the robustness of existing third-party AED capable devices, such as\nNest devices manufactured by Google, which run their own black-box deep\nlearning models.\nWe show that an adversary can focus on audio adversarial inputs to cause AED\nsystems to misclassify, similarly to what has been previously done by works\nfocusing on adversarial examples from the image domain. We then, seek to\nimprove classifiers' robustness through countermeasures to the attacks. We\nemploy adversarial training and a custom denoising technique. We show that\nthese countermeasures, when applied to audio input, can be successful, either\nin isolation or in combination, generating relevant increases of nearly fifty\npercent in the performance of the classifiers when these are under attack.",
     "descriptor": "",
     "authors": [
@@ -7194,7 +7224,8 @@
     ],
     "subjectives": [
       "Sound (cs.SD)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.07431"
   },
@@ -7256,7 +7287,8 @@
       "Petar Popovski"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.07442"
   },
@@ -7466,7 +7498,7 @@
   {
     "id": "arXiv:2106.07471",
     "title": "Signal processing on simplicial complexes",
-    "abstract": "Higher-order networks have so far been considered primarily in the context of\nstudying the structure of complex systems, i.e., the higher-order or multi-way\nrelations connecting the constituent entities. More recently, a number of\nstudies have considered dynamical processes that explicitly ac- count for such\nhigher-order dependencies, e.g., in the context of epidemic spreading processes\nor opinion formation. In this chapter, we focus on a closely related, but\ndistinct third perspective: how can we use higher-order relationships to\nprocess signals and data supported on higher-order network structures. In\nparticular, we survey how ideas from signal processing of data supported on\nregular domains, such as time series or images, can be extended to graphs and\nsimplicial complexes. We discuss Fourier analysis, signal denois- ing, signal\ninterpolation, and nonlinear processing through neural networks based on\nsimplicial complexes. Key to our developments is the Hodge Laplacian matrix, a\nmulti-relational operator that leverages the special structure of simplicial\ncomplexes and generalizes desirable properties of the Laplacian matrix in graph\nsignal processing.",
+    "abstract": "Higher-order networks have so far been considered primarily in the context of\nstudying the structure of complex systems, i.e., the higher-order or multi-way\nrelations connecting the constituent entities. More recently, a number of\nstudies have considered dynamical processes that explicitly account for such\nhigher-order dependencies, e.g., in the context of epidemic spreading processes\nor opinion formation. In this chapter, we focus on a closely related, but\ndistinct third perspective: how can we use higher-order relationships to\nprocess signals and data supported on higher-order network structures. In\nparticular, we survey how ideas from signal processing of data supported on\nregular domains, such as time series or images, can be extended to graphs and\nsimplicial complexes. We discuss Fourier analysis, signal denoising, signal\ninterpolation, and nonlinear processing through neural networks based on\nsimplicial complexes. Key to our developments is the Hodge Laplacian matrix, a\nmulti-relational operator that leverages the special structure of simplicial\ncomplexes and generalizes desirable properties of the Laplacian matrix in graph\nsignal processing.",
     "descriptor": "\nComments: 29 pages; 5 figures. arXiv admin note: text overlap with arXiv:2101.05510\n",
     "authors": [
       "Michael T. Schaub",
@@ -7477,11 +7509,9 @@
       "Santiago Segarra"
     ],
     "subjectives": [
-      "Social and Information Networks (cs.SI)",
+      "Signal Processing (eess.SP)",
       "Discrete Mathematics (cs.DM)",
-      "Machine Learning (cs.LG)",
-      "Systems and Control (eess.SY)",
-      "Physics and Society (physics.soc-ph)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.07471"
   },
@@ -7864,7 +7894,8 @@
       "Rick Hennig"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Biomolecules (q-bio.BM)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.07527"
   },
@@ -7916,7 +7947,8 @@
       "Shilin Xiao"
     ],
     "subjectives": [
-      "Networking and Internet Architecture (cs.NI)"
+      "Networking and Internet Architecture (cs.NI)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.07536"
   },
@@ -8032,8 +8064,7 @@
       "Sungzoon Cho"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
-      "Computational Engineering, Finance, and Science (cs.CE)"
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2106.07549"
   },
@@ -8377,7 +8408,8 @@
       "Sefik Emre Eskimez"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Distributed, Parallel, and Cluster Computing (cs.DC)"
     ],
     "url": "https://arxiv.org/abs/2106.07578"
   },
@@ -8474,7 +8506,8 @@
       "Shilin Xiao"
     ],
     "subjectives": [
-      "Networking and Internet Architecture (cs.NI)"
+      "Networking and Internet Architecture (cs.NI)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.07596"
   },
@@ -8767,7 +8800,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.07635"
   },
@@ -10285,8 +10319,8 @@
   {
     "id": "arXiv:1910.09417",
     "title": "Maximum Probability Theorem: A Framework for Probabilistic Learning",
-    "abstract": "Maximum Probability Theorem: A Framework for Probabilistic Learning",
-    "descriptor": "",
+    "abstract": "Comments: in IEEE Transactions on Artificial Intelligence",
+    "descriptor": "\nComments: in IEEE Transactions on Artificial Intelligence\n",
     "authors": [
       "Amir Emad Marvasti",
       "Ehsan Emad Marvasti",
