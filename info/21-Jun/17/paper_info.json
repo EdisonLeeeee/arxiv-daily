@@ -18,7 +18,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Cryptography and Security (cs.CR)"
+      "Cryptography and Security (cs.CR)",
+      "Statistical Finance (q-fin.ST)"
     ],
     "url": "https://arxiv.org/abs/2106.08361"
   },
@@ -358,7 +359,8 @@
       "Ranveer Chandra"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2106.08408"
   },
@@ -511,6 +513,7 @@
     ],
     "subjectives": [
       "Social and Information Networks (cs.SI)",
+      "Computers and Society (cs.CY)",
       "Machine Learning (cs.LG)",
       "Physics and Society (physics.soc-ph)"
     ],
@@ -592,7 +595,8 @@
       "Xiaoli Li"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.08444"
   },
@@ -623,9 +627,9 @@
       "Lena Maier-Hein"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.08445"
   },
@@ -639,7 +643,8 @@
       "Maxim Bazhenov"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2106.08446"
   },
@@ -794,7 +799,9 @@
       "Eshrat S. Emamian"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.08468"
   },
@@ -854,7 +861,8 @@
       "Rongpeng Li"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.08477"
   },
@@ -1084,7 +1092,8 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2106.08505"
   },
@@ -1220,7 +1229,7 @@
   {
     "id": "arXiv:2106.08537",
     "title": "Clustering Mixture Models in Almost-Linear Time via List-Decodable Mean  Estimation",
-    "abstract": "We study the problem of list-decodable mean estimation, where an adversary\ncan corrupt a majority of the dataset. Specifically, we are given a set $T$ of\n$n$ points in $\\mathbb{R}^d$ and a parameter $0< \\alpha <\\frac 1 2$ such that\nan $\\alpha$-fraction of the points in $T$ are i.i.d. samples from a\nwell-behaved distribution $\\mathcal{D}$ and the remaining $(1-\\alpha)$-fraction\nof the points are arbitrary. The goal is to output a small list of vectors at\nleast one of which is close to the mean of $\\mathcal{D}$. As our main\ncontribution, we develop new algorithms for list-decodable mean estimation,\nachieving nearly-optimal statistical guarantees, with running time $n^{1 +\no(1)} d$. All prior algorithms for this problem had additional polynomial\nfactors in $\\frac 1 \\alpha$. As a corollary, we obtain the first almost-linear\ntime algorithms for clustering mixtures of $k$ separated well-behaved\ndistributions, nearly-matching the statistical guarantees of spectral methods.\nPrior clustering algorithms inherently relied on an application of $k$-PCA,\nthereby incurring runtimes of $\\Omega(n d k)$. This marks the first runtime\nimprovement for this basic statistical problem in nearly two decades.\nThe starting point of our approach is a novel and simpler near-linear time\nrobust mean estimation algorithm in the $\\alpha \\to 1$ regime, based on a\none-shot matrix multiplicative weights-inspired potential decrease. We\ncrucially leverage this new algorithmic framework in the context of the\niterative multi-filtering technique of Diakonikolas et. al. '18, '20, providing\na method to simultaneously cluster and downsample points using one-dimensional\nprojections --- thus, bypassing the $k$-PCA subroutines required by prior\nalgorithms.",
+    "abstract": "We study the problem of list-decodable mean estimation, where an adversary\ncan corrupt a majority of the dataset. Specifically, we are given a set $T$ of\n$n$ points in $\\mathbb{R}^d$ and a parameter $0< \\alpha <\\frac 1 2$ such that\nan $\\alpha$-fraction of the points in $T$ are i.i.d. samples from a\nwell-behaved distribution $\\mathcal{D}$ and the remaining $(1-\\alpha)$-fraction\nof the points are arbitrary. The goal is to output a small list of vectors at\nleast one of which is close to the mean of $\\mathcal{D}$. As our main\ncontribution, we develop new algorithms for list-decodable mean estimation,\nachieving nearly-optimal statistical guarantees, with running time $n^{1 +\no(1)} d$. All prior algorithms for this problem had additional polynomial\nfactors in $\\frac 1 \\alpha$. As a corollary, we obtain the first almost-linear\ntime algorithms for clustering mixtures of $k$ separated well-behaved\ndistributions, nearly-matching the statistical guarantees of spectral methods.\nPrior clustering algorithms inherently relied on an application of $k$-PCA,\nthereby incurring runtimes of $\\Omega(n d k)$. This marks the first runtime\nimprovement for this basic statistical problem in nearly two decades.\nThe starting point of our approach is a novel and simpler near-linear time\nrobust mean estimation algorithm in the $\\alpha \\to 1$ regime, based on a\none-shot matrix multiplicative weights-inspired potential decrease. We\ncrucially leverage this new algorithmic framework in the context of the\niterative multi-filtering technique of Diakonikolas et. al. '18, '20, providing\na method to simultaneously cluster and downsample points using one-dimensional\nprojections -- thus, bypassing the $k$-PCA subroutines required by prior\nalgorithms.",
     "descriptor": "\nComments: 64 pages, 1 figure\n",
     "authors": [
       "Ilias Diakonikolas",
@@ -1280,6 +1289,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
+      "Numerical Analysis (math.NA)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.08544"
@@ -1392,7 +1402,7 @@
   },
   {
     "id": "arXiv:2106.08564",
-    "title": "Adaptive Visibility Graph Neural Network and It's Application in  Modulation Classification",
+    "title": "Adaptive Visibility Graph Neural Network and its Application in  Modulation Classification",
     "abstract": "Our digital world is full of time series and graphs which capture the various\naspects of many complex systems. Traditionally, there are respective methods in\nprocessing these two different types of data, e.g., Recurrent Neural Network\n(RNN) and Graph Neural Network (GNN), while in recent years, time series could\nbe mapped to graphs by using the techniques such as Visibility Graph (VG), so\nthat researchers can use graph algorithms to mine the knowledge in time series.\nSuch mapping methods establish a bridge between time series and graphs, and\nhave high potential to facilitate the analysis of various real-world time\nseries. However, the VG method and its variants are just based on fixed rules\nand thus lack of flexibility, largely limiting their application in reality. In\nthis paper, we propose an Adaptive Visibility Graph (AVG) algorithm that can\nadaptively map time series into graphs, based on which we further establish an\nend-to-end classification framework AVGNet, by utilizing GNN model DiffPool as\nthe classifier. We then adopt AVGNet for radio signal modulation classification\nwhich is an important task in the field of wireless communication. The\nsimulations validate that AVGNet outperforms a series of advanced deep learning\nmethods, achieving the state-of-the-art performance in this task.",
     "descriptor": "",
     "authors": [
@@ -1406,7 +1416,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)"
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.08564"
   },
@@ -1557,7 +1567,8 @@
       "Shadrokh Samavi"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2106.08575"
   },
@@ -1709,7 +1720,8 @@
       "Xueqi Cheng"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.08601"
   },
@@ -1924,7 +1936,8 @@
       "Eduard A. Jorswieck"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.08636"
   },
@@ -1939,7 +1952,9 @@
       "Bin Gu"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.08637"
   },
@@ -2004,6 +2019,7 @@
       "Haizhang Zhang"
     ],
     "subjectives": [
+      "Signal Processing (eess.SP)",
       "Information Theory (cs.IT)"
     ],
     "url": "https://arxiv.org/abs/2106.08647"
@@ -2171,6 +2187,7 @@
     "subjectives": [
       "Computation and Language (cs.CL)",
       "Artificial Intelligence (cs.AI)",
+      "Computers and Society (cs.CY)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.08680"
@@ -2240,7 +2257,8 @@
       "Kristian Kersting"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.08687"
   },
@@ -2256,14 +2274,16 @@
       "Elma Kerz"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.08689"
   },
   {
     "id": "arXiv:2106.08692",
     "title": "Detecting message modification attacks on the CAN bus with Temporal  Convolutional Networks",
-    "abstract": "Multiple attacks have shown that in-vehicle networks have vulnerabilities\nwhich can be exploited. Securing the Controller Area Network (CAN) for modern\nvehicles has become a necessary task for car manufacturers. Some attacks inject\npotentially large amount of fake messages into the CAN network; however, such\nattacks are relatively easy to detect. In more sophisticated attacks, the\noriginal messages are modified, making the de- tection a more complex problem.\nIn this paper, we present a novel machine learning based intrusion detection\nmethod for CAN networks. We focus on detecting message modification attacks,\nwhich do not change the timing patterns of communications. Our proposed\ntemporal convolutional network-based solution can learn the normal behavior of\nCAN signals and differentiate them from malicious ones. The method is evaluated\non multiple CAN-bus message IDs from two public datasets including different\ntypes of attacks. Performance results show that our lightweight approach\ncompares favorably to the state-of-the-art unsupervised learning approach,\nachieving similar or better accuracy for a wide range of scenarios with a\nsignificantly lower false positive rate.",
+    "abstract": "Multiple attacks have shown that in-vehicle networks have vulnerabilities\nwhich can be exploited. Securing the Controller Area Network (CAN) for modern\nvehicles has become a necessary task for car manufacturers. Some attacks inject\npotentially large amount of fake messages into the CAN network; however, such\nattacks are relatively easy to detect. In more sophisticated attacks, the\noriginal messages are modified, making the detection a more complex problem. In\nthis paper, we present a novel machine learning based intrusion detection\nmethod for CAN networks. We focus on detecting message modification attacks,\nwhich do not change the timing patterns of communications. Our proposed\ntemporal convolutional network-based solution can learn the normal behavior of\nCAN signals and differentiate them from malicious ones. The method is evaluated\non multiple CAN-bus message IDs from two public datasets including different\ntypes of attacks. Performance results show that our lightweight approach\ncompares favorably to the state-of-the-art unsupervised learning approach,\nachieving similar or better accuracy for a wide range of scenarios with a\nsignificantly lower false positive rate.",
     "descriptor": "",
     "authors": [
       "Irina Chiscop",
@@ -2308,7 +2328,7 @@
   {
     "id": "arXiv:2106.08696",
     "title": "High-Quality Hypergraph Partitioning",
-    "abstract": "This paper considers the balanced hypergraph partitioning problem, which asks\nfor partitioning the vertices into $k$ disjoint blocks of bounded size while\nminimizing an objective function over the hyperedges. Here, we consider the\nmost commonly used connectivity metric.\nWe describe our open source hypergraph partitioner KaHyPar which is based on\nthe successful multi-level approach -- driving it to the extreme of one level\nfor (almost) every vertex. Using carefully designed data structures and dynamic\nupdate techniques, this approach offers a very good time--quality tradeoff. We\npresent two preprocessing techniques -- pin sparsification using locality\nsensitive hashing and community detection based on the Louvain algorithm. The\ncommunity structure is used to guide the coarsening process that incrementally\ncontracts vertices. Portfolio-based partitioning of the contracted hypergraph\nalready achieves good initial solutions. While reversing the contractions, a\ncombination of highly-localized direct $k$-way local search and flow-based\ntechniques that take a more global view, refine the partition to achieve high\nquality. Optionally, a memetic algorithm evolves a pool of solution candidates\nto obtain even higher quality.\nWe evaluate KaHyPar on a large set of instances from a wide range of\napplication domains. With respect to quality, KaHyPar outperforms all\npreviously considered systems that can handle large hypergraphs such as hMETIS,\nPaToH, Mondriaan, or Zoltan. KaHyPar is also faster than most of these systems\nexcept for PaToH which represents a different speed--quality tradeoff. The\nresults even extend to the special case of graph partitioning, where\nspecialized systems such as KaHIP should have an advantage.",
+    "abstract": "This paper considers the balanced hypergraph partitioning problem, which asks\nfor partitioning the vertices into $k$ disjoint blocks of bounded size while\nminimizing an objective function over the hyperedges. Here, we consider the\nmost commonly used connectivity metric. We describe our open source hypergraph\npartitioner KaHyPar which is based on the successful multi-level approach --\ndriving it to the extreme of one level for (almost) every vertex. Using\ncarefully designed data structures and dynamic update techniques, this approach\noffers a very good time-quality tradeoff. We present two preprocessing\ntechniques -- pin sparsification using locality sensitive hashing and community\ndetection based on the Louvain algorithm. The community structure is used to\nguide the coarsening process that incrementally contracts vertices.\nPortfolio-based partitioning of the contracted hypergraph already achieves good\ninitial solutions. While reversing the contractions, a combination of\nhighly-localized direct $k$-way local search and flow-based techniques that\ntake a more global view, refine the partition to achieve high quality.\nOptionally, a memetic algorithm evolves a pool of solution candidates to obtain\neven higher quality.\nWe evaluate KaHyPar on a large set of instances from a wide range of\napplication domains. With respect to quality, KaHyPar outperforms all\npreviously considered systems that can handle large hypergraphs such as hMETIS,\nPaToH, Mondriaan, or Zoltan. KaHyPar is also faster than most of these systems\nexcept for PaToH which represents a different speed-quality tradeoff. The\nresults even extend to the special case of graph partitioning, where\nspecialized systems such as KaHIP should have an advantage.",
     "descriptor": "",
     "authors": [
       "Sebastian Schlag",
@@ -2466,7 +2486,7 @@
   },
   {
     "id": "arXiv:2106.08713",
-    "title": "2nd Place Solution for Waymo Open Dataset Challenge - Real-time 2D  Object Detection",
+    "title": "2nd Place Solution for Waymo Open Dataset Challenge -- Real-time 2D  Object Detection",
     "abstract": "In an autonomous driving system, it is essential to recognize vehicles,\npedestrians and cyclists from images. Besides the high accuracy of the\nprediction, the requirement of real-time running brings new challenges for\nconvolutional network models. In this report, we introduce a real-time method\nto detect the 2D objects from images. We aggregate several popular one-stage\nobject detectors and train the models of variety input strategies\nindependently, to yield better performance for accurate multi-scale detection\nof each category, especially for small objects. For model acceleration, we\nleverage TensorRT to optimize the inference time of our detection pipeline. As\nshown in the leaderboard, our proposed detection framework ranks the 2nd place\nwith 75.00% L1 mAP and 69.72% L2 mAP in the real-time 2D detection track of the\nWaymo Open Dataset Challenges, while our framework achieves the latency of\n45.8ms/frame on an Nvidia Tesla V100 GPU.",
     "descriptor": "",
     "authors": [
@@ -2511,7 +2531,8 @@
       "Philipp Hennig"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2106.08717"
   },
@@ -2555,6 +2576,7 @@
       "Xiahai Zhuang"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.08727"
@@ -2655,13 +2677,12 @@
     "authors": [
       "Taco de Wolff",
       "Hugo Carrillo",
-      "Luis Mart{\u00ed}",
+      "Luis Mart\u00ed",
       "Nayat Sanchez-Pi"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
-      "Analysis of PDEs (math.AP)",
-      "Machine Learning (stat.ML)"
+      "Atmospheric and Oceanic Physics (physics.ao-ph)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.08747"
   },
@@ -2675,7 +2696,8 @@
       "Binod Bhattarai"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Neural and Evolutionary Computing (cs.NE)"
     ],
     "url": "https://arxiv.org/abs/2106.08748"
   },
@@ -2708,6 +2730,7 @@
       "Xiahai Zhuang"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.08752"
@@ -2725,7 +2748,8 @@
       "V. Ratna Saripalli"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.08756"
   },
@@ -2829,7 +2853,7 @@
   {
     "id": "arXiv:2106.08771",
     "title": "Reinforcement Learning for Markovian Bandits: Is Posterior Sampling more  Scalable than Optimism?",
-    "abstract": "We study learning algorithms for the classical Markovian bandit problem with\ndiscount. We explain how to adapt PSRL [24] and UCRL2 [2] to exploit the\nproblem structure. These variants are called MB-PSRL and MB-UCRL2. While the\nregret bound and runtime of vanilla implementations of PSRL and UCRL2 are\nexponential in the number of bandits, we show that the episodic regret of\nMB-PSRL and MB-UCRL2 is\u00d5(S $\\sqrt$ nK) where K is the number of episodes, n is\nthe number of bandits and S is the number of states of each bandit (the exact\nbound in S, n and K is given in the paper). Up to a factor $\\sqrt$ S, this\nmatches the lower bound of $\\Omega$($\\sqrt$ SnK) that we also derive in the\npaper. MB-PSRL is also computationally efficient: its runtime is linear in the\nnumber of bandits. We further show that this linear runtime cannot be achieved\nby adapting classical non-Bayesian algorithms such as UCRL2 or UCBVI to\nMarkovian bandit problems. Finally, we perform numerical experiments that\nconfirm that MB-PSRL outperforms other existing algorithms in practice, both in\nterms of regret and of computation time.",
+    "abstract": "We study learning algorithms for the classical Markovian bandit problem with\ndiscount. We explain how to adapt PSRL [24] and UCRL2 [2] to exploit the\nproblem structure. These variants are called MB-PSRL and MB-UCRL2. While the\nregret bound and runtime of vanilla implementations of PSRL and UCRL2 are\nexponential in the number of bandits, we show that the episodic regret of\nMB-PSRL and MB-UCRL2 is $\\tilde O(S\\sqrt{nK})$ where $K$ is the number of\nepisodes, n is the number of bandits and S is the number of states of each\nbandit (the exact bound in $S$, $n$ and $K$ is given in the paper). Up to a\nfactor $\\sqrt S$, this matches the lower bound of $\\Omega(\\sqrt{SnK}$) that we\nalso derive in the paper. MB-PSRL is also computationally efficient: its\nruntime is linear in the number of bandits. We further show that this linear\nruntime cannot be achieved by adapting classical non-Bayesian algorithms such\nas UCRL2 or UCBVI to Markovian bandit problems. Finally, we perform numerical\nexperiments that confirm that MB-PSRL outperforms other existing algorithms in\npractice, both in terms of regret and of computation time.",
     "descriptor": "",
     "authors": [
       "Nicolas Gast",
@@ -3125,13 +3149,14 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
+      "Computers and Society (cs.CY)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.08812"
   },
   {
     "id": "arXiv:2106.08813",
-    "title": "\"It's Viral!\" - A study of the behaviors, practices, and motivations of  TikTok Social Activists",
+    "title": "\"It's Viral!\" -- A study of the behaviors, practices, and motivations of  TikTok Social Activists",
     "abstract": "Social media platforms such as Facebook and Twitter are used for social\nactivism purposes, and TikTok is no different. We conducted 9 qualitative\nsemi-structured interviews with social activists who recently posted their\nvideos on TikTok to understand. This study presents an initial look into why\nTikTok is used by social activists, and what processes they use to carry out\nthis work. The interviews revealed the following main patterns: (1) content\ncreation practices are typical and expected, (2) motivation and inspiration for\nposting social activist content comes from a wide range of personal sources,\n(3) social activism has communities on TikTok that provides encouragement and\ndiscussion, (4) engagement and interaction with other activists and viewers is\na crucial part of content creation as well as social activism, and (5) the main\ndriving force behind picking TikTok over other platforms is the ability to\nspread messages much farther with less effort. These findings provide insight\ninto the unique factors that TikTok brings for social activists and\ncorroborates previous findings in understanding how social activists use social\nmedia for their purposes.",
     "descriptor": "\nComments: 7 pages\n",
     "authors": [
@@ -3432,7 +3457,8 @@
       "Xiaoli Li"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.08852"
   },
@@ -3463,8 +3489,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
-      "Statistics Theory (math.ST)"
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.08855"
   },
@@ -3681,7 +3706,7 @@
   {
     "id": "arXiv:2106.08886",
     "title": "Over-and-Under Complete Convolutional RNN for MRI Reconstruction",
-    "abstract": "Reconstructing magnetic resonance (MR) images from undersampled data is a\nchallenging problem due to various artifacts introduced by the under-sampling\noperation. Recent deep learning-based methods for MR image reconstruction\nusually leverage a generic auto-encoder architecture which captures low-level\nfeatures at the initial layers and high?level features at the deeper layers.\nSuch networks focus much on global features which may not be optimal to\nreconstruct the fully-sampled image. In this paper, we propose an\nOver-and-Under Complete Convolu?tional Recurrent Neural Network (OUCR), which\nconsists of an overcomplete and an undercomplete Convolutional Recurrent Neural\nNetwork(CRNN). The overcomplete branch gives special attention in learning\nlocal structures by restraining the receptive field of the network. Combining\nit with the undercomplete branch leads to a network which focuses more on\nlow-level features without losing out on the global structures. Extensive\nexperiments on two datasets demonstrate that the proposed method achieves\nsignificant improvements over the compressed sensing and popular deep\nlearning-based methods with less number of trainable parameters. Our code is\navailable at https://github.com/guopengf/OUCR.",
+    "abstract": "Reconstructing magnetic resonance (MR) images from undersampled data is a\nchallenging problem due to various artifacts introduced by the under-sampling\noperation. Recent deep learning-based methods for MR image reconstruction\nusually leverage a generic auto-encoder architecture which captures low-level\nfeatures at the initial layers and high-level features at the deeper layers.\nSuch networks focus much on global features which may not be optimal to\nreconstruct the fully-sampled image. In this paper, we propose an\nOver-and-Under Complete Convolutional Recurrent Neural Network (OUCR), which\nconsists of an overcomplete and an undercomplete Convolutional Recurrent Neural\nNetwork(CRNN). The overcomplete branch gives special attention in learning\nlocal structures by restraining the receptive field of the network. Combining\nit with the undercomplete branch leads to a network which focuses more on\nlow-level features without losing out on the global structures. Extensive\nexperiments on two datasets demonstrate that the proposed method achieves\nsignificant improvements over the compressed sensing and popular deep\nlearning-based methods with less number of trainable parameters. Our code is\navailable at https://github.com/guopengf/OUCR.",
     "descriptor": "\nComments: Accepted to MICCAI 2021\n",
     "authors": [
       "Pengfei Guo",
@@ -3692,6 +3717,7 @@
       "Vishal M. Patel"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.08886"
@@ -3959,7 +3985,9 @@
       "Yanjun Qi"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Neural and Evolutionary Computing (cs.NE)",
+      "Systems and Control (eess.SY)"
     ],
     "url": "https://arxiv.org/abs/2106.08918"
   },
@@ -3976,6 +4004,7 @@
     ],
     "subjectives": [
       "Neural and Evolutionary Computing (cs.NE)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.08921"
@@ -4042,7 +4071,9 @@
       "Mathias Quoy"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Neural and Evolutionary Computing (cs.NE)",
+      "Machine Learning (cs.LG)",
+      "Chaotic Dynamics (nlin.CD)"
     ],
     "url": "https://arxiv.org/abs/2106.08937"
   },
@@ -4103,7 +4134,8 @@
       "Longbo Huang"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.08943"
   },
@@ -4159,7 +4191,9 @@
       "Nathalie Q. Balaban"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Dynamical Systems (math.DS)",
+      "Chaotic Dynamics (nlin.CD)"
     ],
     "url": "https://arxiv.org/abs/2106.08956"
   },
@@ -4191,7 +4225,9 @@
       "Vikas Chandra"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.08960"
   },
@@ -4793,7 +4829,6 @@
     ],
     "subjectives": [
       "Dynamical Systems (math.DS)",
-      "Artificial Intelligence (cs.AI)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.08489"
@@ -8350,6 +8385,7 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
+      "Cryptography and Security (cs.CR)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.07141"
