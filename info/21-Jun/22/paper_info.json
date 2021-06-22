@@ -520,7 +520,7 @@
   },
   {
     "id": "arXiv:2106.10382",
-    "title": "Effects of VLSI Circuit Constrains on Temporal-Coding Multilayer Spiking  NeuralNetworks",
+    "title": "Effects of VLSI Circuit Constrains on Temporal-Coding Multilayer Spiking  Neural Networks",
     "abstract": "The spiking neural network (SNN) has been attracting considerable attention\nnot only as a mathematical model for the brain, but also as an energy-efficient\ninformation processing model for real-world applications. In particular, SNNs\nbased on temporal coding are expected to be much more efficient than those\nbased on rate coding, because the former requires substantially fewer spikes to\ncarry out tasks. As SNNs are continuous-state and continuous-time models, it is\nfavorable to implement them with analog VLSI circuits. However, the\nconstruction of the entire system with continuous-time analog circuits would be\ninfeasible when the system size is very large. Therefore, mixed-signal circuits\nmust be employed, and the time discretization and quantization of the synaptic\nweights are necessary. Moreover, the analog VLSI implementation of SNNs\nexhibits non-idealities, such as the effects of noise and device mismatches, as\nwell as other constraints arising from the analog circuit operation. In this\nstudy, we investigated the effects of the time discretization and/or weight\nquantization on the performance of SNNs. Furthermore, we elucidated the effects\nthe lower bound of the membrane potentials and the temporal fluctuation of the\nfiring threshold. Finally, we propose an optimal approach for the mapping of\nmathematical SNN models to analog circuits with discretized time.",
     "descriptor": "",
     "authors": [
