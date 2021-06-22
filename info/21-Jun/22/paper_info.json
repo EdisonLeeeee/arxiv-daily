@@ -530,7 +530,8 @@
       "Kazuyuki Aihara"
     ],
     "subjectives": [
-      "Hardware Architecture (cs.AR)"
+      "Hardware Architecture (cs.AR)",
+      "Neural and Evolutionary Computing (cs.NE)"
     ],
     "url": "https://arxiv.org/abs/2106.10382"
   },
@@ -1270,7 +1271,7 @@
   },
   {
     "id": "arXiv:2106.10476",
-    "title": "Neural network interpretability for forecasting of aggregated renewable  generatiion",
+    "title": "Neural network interpretability for forecasting of aggregated renewable  generation",
     "abstract": "With the rapid growth of renewable energy, lots of small photovoltaic (PV)\nprosumers emerge. Due to the uncertainty of solar power generation, there is a\nneed for aggregated prosumers to predict solar power generation and whether\nsolar power generation will be larger than load. This paper presents two\ninterpretable neural networks to solve the problem: one binary classification\nneural network and one regression neural network. The neural networks are built\nusing TensorFlow. The global feature importance and local feature contributions\nare examined by three gradient-based methods: Integrated Gradients, Expected\nGradients, and DeepLIFT. Moreover, we detect abnormal cases when predictions\nmight fail by estimating the prediction uncertainty using Bayesian neural\nnetworks. Neural networks, which are interpreted by gradient-based methods and\ncomplemented with uncertainty estimation, provide robust and explainable\nforecasting for decision-makers.",
     "descriptor": "",
     "authors": [
@@ -1698,9 +1699,9 @@
       "Mark Lewis"
     ],
     "subjectives": [
+      "Optimization and Control (math.OC)",
       "Artificial Intelligence (cs.AI)",
-      "Emerging Technologies (cs.ET)",
-      "Optimization and Control (math.OC)"
+      "Emerging Technologies (cs.ET)"
     ],
     "url": "https://arxiv.org/abs/2106.10532"
   },
@@ -2172,7 +2173,9 @@
       "James A. Hay"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Populations and Evolution (q-bio.PE)",
+      "Applications (stat.AP)"
     ],
     "url": "https://arxiv.org/abs/2106.10610"
   },
@@ -3179,7 +3182,8 @@
       "Florian Wenzel"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.10760"
   },
@@ -4405,7 +4409,6 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.10934"
@@ -4637,7 +4640,8 @@
       "Ningrinla Marchang"
     ],
     "subjectives": [
-      "Networking and Internet Architecture (cs.NI)"
+      "Networking and Internet Architecture (cs.NI)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2106.10964"
   },
@@ -4734,7 +4738,9 @@
       "Simon Dixon"
     ],
     "subjectives": [
-      "Information Retrieval (cs.IR)"
+      "Information Retrieval (cs.IR)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.10977"
   },
@@ -5310,6 +5316,7 @@
       "Raphael Sznitman"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.11048"
@@ -6611,6 +6618,7 @@
       "Yao Liu"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
       "Multimedia (cs.MM)"
     ],
