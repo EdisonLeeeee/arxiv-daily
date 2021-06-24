@@ -432,7 +432,8 @@
       "Yarin Gal"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.12062"
   },
@@ -479,8 +480,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Information Theory (cs.IT)",
-      "Signal Processing (eess.SP)"
+      "Signal Processing (eess.SP)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.12068"
   },
@@ -636,6 +637,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
+      "Computation and Language (cs.CL)",
       "Performance (cs.PF)"
     ],
     "url": "https://arxiv.org/abs/2106.12089"
@@ -986,7 +988,8 @@
       "Chris R. Johnson"
     ],
     "subjectives": [
-      "Graphics (cs.GR)"
+      "Graphics (cs.GR)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
     ],
     "url": "https://arxiv.org/abs/2106.12138"
   },
@@ -1087,6 +1090,7 @@
     ],
     "subjectives": [
       "Data Structures and Algorithms (cs.DS)",
+      "Computers and Society (cs.CY)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2106.12150"
@@ -1222,9 +1226,9 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
       "Multimedia (cs.MM)",
-      "Sound (cs.SD)"
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2106.12174"
   },
@@ -1241,7 +1245,8 @@
       "Fang Chen"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Robotics (cs.RO)"
     ],
     "url": "https://arxiv.org/abs/2106.12177"
   },
@@ -1295,7 +1300,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Information Theory (cs.IT)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.12182"
@@ -1442,7 +1447,8 @@
       "Tomasz Trzci\u0144ski"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.12196"
   },
@@ -1678,7 +1684,7 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
-      "Statistics Theory (math.ST)",
+      "Computers and Society (cs.CY)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.12242"
@@ -1693,10 +1699,10 @@
       "Demian Wassermann"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
       "Machine Learning (cs.LG)",
+      "Artificial Intelligence (cs.AI)",
       "Neurons and Cognition (q-bio.NC)",
-      "Methodology (stat.ME)"
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.12248"
   },
@@ -1718,7 +1724,7 @@
     "id": "arXiv:2106.12252",
     "title": "Mutual-Information Based Few-Shot Classification",
     "abstract": "We introduce Transductive Infomation Maximization (TIM) for few-shot\nlearning. Our method maximizes the mutual information between the query\nfeatures and their label predictions for a given few-shot task, in conjunction\nwith a supervision loss based on the support set. We motivate our transductive\nloss by deriving a formal relation between the classification accuracy and\nmutual-information maximization. Furthermore, we propose a new\nalternating-direction solver, which substantially speeds up transductive\ninference over gradient-based optimization, while yielding competitive\naccuracy. We also provide a convergence analysis of our solver based on\nZangwill's theory and bound-optimization arguments. TIM inference is modular:\nit can be used on top of any base-training feature extractor. Following\nstandard transductive few-shot settings, our comprehensive experiments\ndemonstrate that TIM outperforms state-of-the-art methods significantly across\nvarious datasets and networks, while used on top of a fixed feature extractor\ntrained with simple cross-entropy on the base classes, without resorting to\ncomplex meta-learning schemes. It consistently brings between 2 % and 5 %\nimprovement in accuracy over the best performing method, not only on all the\nwell-established few-shot benchmarks but also on more challenging scenarios,\nwith random tasks, domain shift and larger numbers of classes, as in the\nrecently introduced META-DATASET. Our code is publicly available at\nhttps://github.com/mboudiaf/TIM. We also publicly release a standalone PyTorch\nimplementation of META-DATASET, along with additional benchmarking results, at\nhttps://github.com/mboudiaf/pytorch-meta-dataset.",
-    "descriptor": "\nComments: Journal extension of this https URL PyTorch implementation of META-DATASET available at this https URL arXiv admin note: substantial text overlap with arXiv:2008.11297\n",
+    "descriptor": "\nComments: Journal extension of arXiv:2008.11297. PyTorch implementation of META-DATASET available at this https URL\n",
     "authors": [
       "Malik Boudiaf",
       "Ziko Imtiaz Masud",
@@ -1786,7 +1792,7 @@
   },
   {
     "id": "arXiv:2106.12264",
-    "title": "Comparing the Structures and Characteristics of Different Game Social  Networks - The Steam Case",
+    "title": "Comparing the Structures and Characteristics of Different Game Social  Networks -- The Steam Case",
     "abstract": "In most games, social connections are an essential part of the gaming\nexperience. Players connect in communities inside or around games and form\nfriendships, which can be translated into other games or even in the real\nworld. Recent research has investigated social phenomena within the player\nsocial network of several multiplayer games, yet we still know very little\nabout how these networks are shaped and formed. Specifically, we are unaware of\nhow the game type and its mechanics are related to its community structure and\nhow those structures vary in different games. This paper presents an initial\nanalysis of Steam users and how friendships on Steam are formed around 200\ngames. We examine the friendship graphs of these 200 games by dividing them\ninto clusters to compare their network properties and their specific\ncharacteristics (e.g., genre, game elements, and mechanics). We found how the\nSteam user-defined tags better characterized the clusters than the game genre,\nsuggesting that how players perceive and use the game also reflects how they\nconnect in the community. Moreover, team-based games are associated with more\ncohesive and clustered networks than games with a stronger single-player focus,\nsupporting the idea that playing together in teams more likely produces social\ncapital (i.e., Steam friendships).",
     "descriptor": "\nComments: accepted for publication in IEEE Conference on Games (CoG) 2021\n",
     "authors": [
@@ -1889,7 +1895,7 @@
   },
   {
     "id": "arXiv:2106.12277",
-    "title": "#StayHome Playing LoL - Analyzing Players' Activity and Social Bonds in  League of Legends During Covid-19 Lockdowns",
+    "title": "#StayHome Playing LoL -- Analyzing Players' Activity and Social Bonds in  League of Legends During Covid-19 Lockdowns",
     "abstract": "Humans are social beings. It is therefore not surprising that the social\ndistancing and movement restrictions associated with the Covid-19 pandemic had\nsevere consequences for the well-being of large sections of the population,\nleading to increased loneliness and related mental diseases. Many people found\nemotional shelter in online multiplayer games, which have already proven to be\ngreat social incubators. While the positive effect games had on individuals has\nbecome evident, we are still unaware of how and if games fostered the\nfundamental need for connectedness that people sought. In other words: how have\nthe social bonds and interaction patterns of players changed with the advent of\nthe pandemic? For this purpose, we analyzed one year of data from an online\nmultiplayer game (League of Legends) to observe the impact of Covid-19 on\nplayer assiduity and sociality in three different geographical regions (i.e.,\nEurope, North America, and South Korea). Our results show a strong relationship\nbetween the development of Covid-19 restrictions and player activity, together\nwith more robust and recurrent social bonds, especially for players committed\nto the game. Additionally, players with reinforced social bonds-i.e., people\nplayed with similar teammates-were more likely to stay in the game even once\nthe restrictions were lifted.",
     "descriptor": "\nComments: accepted for publication in Foundations of Digital Games (FDG) 2021\n",
     "authors": [
@@ -2022,10 +2028,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Optimization and Control (math.OC)",
-      "Computation (stat.CO)"
+      "Distributed, Parallel, and Cluster Computing (cs.DC)"
     ],
     "url": "https://arxiv.org/abs/2106.12300"
   },
@@ -2206,7 +2210,8 @@
       "Tobias Scheffer"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2106.12328"
   },
@@ -3143,7 +3148,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Applications (stat.AP)"
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.12491"
   },
@@ -3213,7 +3218,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.12498"
   },
@@ -3397,7 +3403,7 @@
   },
   {
     "id": "arXiv:2106.12548",
-    "title": "Multi-Class Classification of Blood Cells - End to End Computer Vision  based diagnosis case study",
+    "title": "Multi-Class Classification of Blood Cells -- End to End Computer Vision  based diagnosis case study",
     "abstract": "The diagnosis of blood-based diseases often involves identifying and\ncharacterizing patient blood samples. Automated methods to detect and classify\nblood cell subtypes have important medical applications. Automated medical\nimage processing and analysis offers a powerful tool for medical diagnosis. In\nthis work we tackle the problem of white blood cell classification based on the\nmorphological characteristics of their outer contour, color. The work we would\nexplore a set of preprocessing and segmentation (Color-based segmentation,\nMorphological processing, contouring) algorithms along with a set of features\nextraction methods (Corner detection algorithms and Histogram of\nGradients(HOG)), dimensionality reduction algorithms (Principal Component\nAnalysis(PCA)) that are able to recognize and classify through various\nUnsupervised(k-nearest neighbors) and Supervised (Support Vector Machine,\nDecision Trees, Linear Discriminant Analysis, Quadratic Discriminant Analysis,\nNaive Bayes) algorithms different categories of white blood cells to\nEosinophil, Lymphocyte, Monocyte, and Neutrophil. We even take a step forwards\nto explore various Deep Convolutional Neural network architecture (Sqeezent,\nMobilenetV1,MobilenetV2, InceptionNet etc.) without preprocessing/segmentation\nand with preprocessing. We would like to explore many algorithms to identify\nthe robust algorithm with least time complexity and low resource requirement.\nThe outcome of this work can be a cue to selection of algorithms as per\nrequirement for automated blood cell classification.",
     "descriptor": "\nComments: 18 pages, 10 figures\n",
     "authors": [
@@ -3422,7 +3428,8 @@
       "J. Morris Chang"
     ],
     "subjectives": [
-      "Distributed, Parallel, and Cluster Computing (cs.DC)"
+      "Distributed, Parallel, and Cluster Computing (cs.DC)",
+      "Neural and Evolutionary Computing (cs.NE)"
     ],
     "url": "https://arxiv.org/abs/2106.12549"
   },
@@ -3503,7 +3510,8 @@
       "Hima Lakkaraju"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2106.12563"
   },
@@ -3549,7 +3557,7 @@
   {
     "id": "arXiv:2106.12570",
     "title": "Learning Multimodal VAEs through Mutual Supervision",
-    "abstract": "Multimodal VAEs seek to model the joint distribution over heterogeneous data\n(e.g.\\ vision, language), whilst also capturing a shared representation across\nsuch modalities. Prior work has typically combined information from the\nmodalities by reconciling idiosyncratic representations directly in the\nrecognition model through explicit products, mixtures, or other such\nfactorisations. Here we introduce a novel alternative, the MEME, that avoids\nsuch explicit combinations by repurposing semi-supervised VAEs to combine\ninformation between modalities implicitly through mutual supervision. This\nformulation naturally allows learning from partially-observed data where some\nmodalities can be entirely missing -- something that most existing approaches\neither cannot handle, or do so to a limited extent. We demonstrate that MEME\noutperforms baselines on standard metrics across both partial and complete\nobservation schemes on the MNIST-SVHN (image--image) and CUB (image--text)\ndatasets. We also contrast the quality of the representations learnt by mutual\nsupervision against standard approaches and observe interesting trends in its\nability to capture relatedness between data.",
+    "abstract": "Multimodal VAEs seek to model the joint distribution over heterogeneous data\n(e.g.\\ vision, language), whilst also capturing a shared representation across\nsuch modalities. Prior work has typically combined information from the\nmodalities by reconciling idiosyncratic representations directly in the\nrecognition model through explicit products, mixtures, or other such\nfactorisations. Here we introduce a novel alternative, the MEME, that avoids\nsuch explicit combinations by repurposing semi-supervised VAEs to combine\ninformation between modalities implicitly through mutual supervision. This\nformulation naturally allows learning from partially-observed data where some\nmodalities can be entirely missing -- something that most existing approaches\neither cannot handle, or do so to a limited extent. We demonstrate that MEME\noutperforms baselines on standard metrics across both partial and complete\nobservation schemes on the MNIST-SVHN (image-image) and CUB (image-text)\ndatasets. We also contrast the quality of the representations learnt by mutual\nsupervision against standard approaches and observe interesting trends in its\nability to capture relatedness between data.",
     "descriptor": "",
     "authors": [
       "Tom Joy",
@@ -3560,7 +3568,8 @@
       "N. Siddharth"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2106.12570"
   },
@@ -3596,7 +3605,8 @@
       "Michael Bronstein"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2106.12575"
   },
