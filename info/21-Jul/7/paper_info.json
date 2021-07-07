@@ -613,7 +613,7 @@
     "id": "arXiv:2107.02295",
     "title": "A Review of Explainable Artificial Intelligence in Manufacturing",
     "abstract": "The implementation of Artificial Intelligence (AI) systems in the\nmanufacturing domain enables higher production efficiency, outstanding\nperformance, and safer operations, leveraging powerful tools such as deep\nlearning and reinforcement learning techniques. Despite the high accuracy of\nthese models, they are mostly considered black boxes: they are unintelligible\nto the human. Opaqueness affects trust in the system, a factor that is critical\nin the context of decision-making. We present an overview of Explainable\nArtificial Intelligence (XAI) techniques as a means of boosting the\ntransparency of models. We analyze different metrics to evaluate these\ntechniques and describe several application scenarios in the manufacturing\ndomain.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2102.13076 by other authors\n",
     "authors": [
       "Georgios Sofianidis",
       "Jo\u017ee M. Ro\u017eanec",
@@ -1267,7 +1267,7 @@
     "id": "arXiv:2107.02378",
     "title": "Learning an Explicit Hyperparameter Prediction Policy Conditioned on  Tasks",
     "abstract": "Meta learning has attracted much attention recently in machine learning\ncommunity. Contrary to conventional machine learning aiming to learn inherent\nprediction rules to predict labels for new query data, meta learning aims to\nlearn the learning methodology for machine learning from observed tasks, so as\nto generalize to new query tasks by leveraging the meta-learned learning\nmethodology. In this study, we interpret such learning methodology as learning\nan explicit hyperparameter prediction policy shared by all training tasks.\nSpecifically, this policy is represented as a parameterized function called\nmeta-learner, mapping from a training/test task to its suitable hyperparameter\nsetting, extracted from a pre-specified function set called meta learning\nmachine. Such setting guarantees that the meta-learned learning methodology is\nable to flexibly fit diverse query tasks, instead of only obtaining fixed\nhyperparameters by many current meta learning methods, with less adaptability\nto query task's variations. Such understanding of meta learning also makes it\neasily succeed from traditional learning theory for analyzing its\ngeneralization bounds with general losses/tasks/models. The theory naturally\nleads to some feasible controlling strategies for ameliorating the quality of\nthe extracted meta-learner, verified to be able to finely ameliorate its\ngeneralization capability in some typical meta learning applications, including\nfew-shot regression, few-shot classification and domain generalization.",
-    "descriptor": "\nComments: 59 pages\n",
+    "descriptor": "\nComments: 59 pages. arXiv admin note: text overlap with arXiv:1904.03758 by other authors\n",
     "authors": [
       "Jun Shu",
       "Deyu Meng",
@@ -1629,7 +1629,7 @@
     "id": "arXiv:2107.02415",
     "title": "Deep Visual Attention-Based Transfer Clustering",
     "abstract": "In this paper, we propose a methodology to improvise the technique of deep\ntransfer clustering (DTC) when applied to the less variant data distribution.\nClustering can be considered as the most important unsupervised learning\nproblem. A simple definition of clustering can be stated as \"the process of\norganizing objects into groups, whose members are similar in some way\". Image\nclustering is a crucial but challenging task in the domain machine learning and\ncomputer vision. We have discussed the clustering of the data collection where\nthe data is less variant. We have discussed the improvement by using\nattention-based classifiers rather than regular classifiers as the initial\nfeature extractors in the deep transfer clustering. We have enforced the model\nto learn only the required region of interest in the images to get the\ndifferentiable and robust features that do not take into account the\nbackground. This paper is the improvement of the existing deep transfer\nclustering for less variant data distribution.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:1908.09884 by other authors\n",
     "authors": [
       "Akshaykumar Gunari",
       "Shashidhar Veerappa Kudari",
