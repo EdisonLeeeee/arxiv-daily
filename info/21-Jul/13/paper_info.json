@@ -137,8 +137,8 @@
       "\u00c1lvaro Parafita"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
       "Mathematical Software (cs.MS)",
+      "Artificial Intelligence (cs.AI)",
       "Statistics Theory (math.ST)"
     ],
     "url": "https://arxiv.org/abs/2107.04632"
@@ -6276,8 +6276,7 @@
     "subjectives": [
       "Databases (cs.DB)",
       "Artificial Intelligence (cs.AI)",
-      "Programming Languages (cs.PL)",
-      "Software Engineering (cs.SE)"
+      "Programming Languages (cs.PL)"
     ],
     "url": "https://arxiv.org/abs/2107.05566"
   },
