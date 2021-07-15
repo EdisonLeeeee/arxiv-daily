@@ -194,9 +194,8 @@
       "V\u00e9ronique Cherfaoui"
     ],
     "subjectives": [
-      "Computational Complexity (cs.CC)",
       "Artificial Intelligence (cs.AI)",
-      "Computation (stat.CO)"
+      "Logic in Computer Science (cs.LO)"
     ],
     "url": "https://arxiv.org/abs/2107.06329"
   },
@@ -352,7 +351,7 @@
   },
   {
     "id": "arXiv:2107.06360",
-    "title": "Developmental Stage Classification of EmbryosUsing Two-Stream Neural  Network with Linear-Chain Conditional Random Field",
+    "title": "Developmental Stage Classification of Embryos Using Two-Stream Neural  Network with Linear-Chain Conditional Random Field",
     "abstract": "The developmental process of embryos follows a monotonic order. An embryo can\nprogressively cleave from one cell to multiple cells and finally transform to\nmorula and blastocyst. For time-lapse videos of embryos, most existing\ndevelopmental stage classification methods conduct per-frame predictions using\nan image frame at each time step. However, classification using only images\nsuffers from overlapping between cells and imbalance between stages. Temporal\ninformation can be valuable in addressing this problem by capturing movements\nbetween neighboring frames. In this work, we propose a two-stream model for\ndevelopmental stage classification. Unlike previous methods, our two-stream\nmodel accepts both temporal and image information. We develop a linear-chain\nconditional random field (CRF) on top of neural network features extracted from\nthe temporal and image streams to make use of both modalities. The linear-chain\nCRF formulation enables tractable training of global sequential models over\nmultiple frames while also making it possible to inject monotonic development\norder constraints into the learning process explicitly. We demonstrate our\nalgorithm on two time-lapse embryo video datasets: i) mouse and ii) human\nembryo datasets. Our method achieves 98.1 % and 80.6 % for mouse and human\nembryo stage classification, respectively. Our approach will enable more\nprofound clinical and biological studies and suggests a new direction for\ndevelopmental stage classification by utilizing temporal information.",
     "descriptor": "\nComments: 8.5 pages, to appear in MICCAI 2021\n",
     "authors": [
@@ -1137,7 +1136,7 @@
     ],
     "subjectives": [
       "Sound (cs.SD)",
-      "Artificial Intelligence (cs.AI)",
+      "Computation and Language (cs.CL)",
       "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2107.06493"
@@ -1362,7 +1361,8 @@
     ],
     "subjectives": [
       "Multimedia (cs.MM)",
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2107.06538"
   },
@@ -3009,7 +3009,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
     ],
     "url": "https://arxiv.org/abs/2107.06846"
   },
@@ -3098,7 +3099,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Robotics (cs.RO)"
+      "Robotics (cs.RO)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2107.06859"
   },
@@ -3951,7 +3953,7 @@
     ],
     "subjectives": [
       "Statistical Finance (q-fin.ST)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2107.06782"
   },
