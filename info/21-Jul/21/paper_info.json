@@ -331,7 +331,8 @@
       "Benjamin D. Haeffele"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2107.09144"
   },
@@ -3269,7 +3270,8 @@
     "subjectives": [
       "Earth and Planetary Astrophysics (astro-ph.EP)",
       "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2107.09086"
   },
@@ -6830,7 +6832,8 @@
     ],
     "subjectives": [
       "Theoretical Economics (econ.TH)",
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Computer Science and Game Theory (cs.GT)"
     ],
     "url": "https://arxiv.org/abs/2107.08630"
   },
