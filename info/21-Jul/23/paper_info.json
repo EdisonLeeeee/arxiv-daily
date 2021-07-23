@@ -3579,7 +3579,7 @@
   },
   {
     "id": "arXiv:2107.10843",
-    "title": "HARP-Net: Hyper-Autoencoded Reconstruction Propagation\\\\for Scalable  Neural Audio Coding",
+    "title": "HARP-Net: Hyper-Autoencoded Reconstruction Propagation for Scalable  Neural Audio Coding",
     "abstract": "An autoencoder-based codec employs quantization to turn its bottleneck layer\nactivation into bitstrings, a process that hinders information flow between the\nencoder and decoder parts. To circumvent this issue, we employ additional skip\nconnections between the corresponding pair of encoder-decoder layers. The\nassumption is that, in a mirrored autoencoder topology, a decoder layer\nreconstructs the intermediate feature representation of its corresponding\nencoder layer. Hence, any additional information directly propagated from the\ncorresponding encoder layer helps the reconstruction. We implement this kind of\nskip connections in the form of additional autoencoders, each of which is a\nsmall codec that compresses the massive data transfer between the paired\nencoder-decoder layers. We empirically verify that the proposed\nhyper-autoencoded architecture improves perceptual audio quality compared to an\nordinary autoencoder baseline.",
     "descriptor": "\nComments: Accepted to the IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA) 2021, Mohonk Mountain House, New Paltz, NY\n",
     "authors": [
