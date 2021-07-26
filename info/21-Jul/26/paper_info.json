@@ -2168,9 +2168,9 @@
     "abstract": "Music is an art, perceived in unique ways by every listener, coming from\nacoustic signals. In the meantime, standards as musical scores exist to\ndescribe it. Even if humans can make this transcription, it is costly in terms\nof time and efforts, even more with the explosion of information consecutively\nto the rise of the Internet. In that sense, researches are driven in the\ndirection of Automatic Music Transcription. While this task is considered\nsolved in the case of single notes, it is still open when notes superpose\nthemselves, forming chords. This report aims at developing some of the existing\ntechniques towards Music Transcription, particularly matrix factorization, and\nintroducing the concept of multi-channel automatic music transcription. This\nconcept will be explored with mathematical objects called tensors.",
     "descriptor": "\nComments: 40 pages, 14 figues, 5 tables, code can be found at: this https URL\n",
     "authors": [
-      "Marmoret Axel",
-      "Bertin Nancy",
-      "Cohen Jeremy"
+      "Axel Marmoret",
+      "Nancy Bertin",
+      "Jeremy Cohen"
     ],
     "subjectives": [
       "Sound (cs.SD)",
