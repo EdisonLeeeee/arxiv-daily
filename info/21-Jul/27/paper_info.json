@@ -452,7 +452,8 @@
       "Stella X. Yu"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2107.11472"
   },
@@ -1630,7 +1631,8 @@
       "Miguel Molina-Cabello"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2107.11696"
   },
