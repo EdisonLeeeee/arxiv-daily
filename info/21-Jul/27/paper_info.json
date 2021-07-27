@@ -2998,7 +2998,7 @@
     "authors": [
       "Gonzalo Munilla Garrido",
       "Johannes Sedlmeir",
-      "\u00d6mer Uluda",
+      "\u00d6mer Uluda\u011f",
       "Ilias Soto Alaoui",
       "Andre Luckow",
       "Florian Matthes"
@@ -6534,10 +6534,10 @@
       "Jianqing Fan"
     ],
     "subjectives": [
-      "Methodology (stat.ME)",
+      "Statistics Theory (math.ST)",
       "Information Theory (cs.IT)",
       "Machine Learning (cs.LG)",
-      "Statistics Theory (math.ST)",
+      "Methodology (stat.ME)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2107.12365"
