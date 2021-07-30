@@ -223,7 +223,8 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Computers and Society (cs.CY)"
     ],
     "url": "https://arxiv.org/abs/2107.13625"
   },
@@ -353,7 +354,8 @@
       "Jiliang Tang"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2107.13639"
   },
@@ -448,7 +450,8 @@
       "Peter van der Putten"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2107.13648"
   },
@@ -941,13 +944,14 @@
   {
     "id": "arXiv:2107.13734",
     "title": "An Ethical Framework for Guiding the Development of Affectively-Aware  Artificial Intelligence",
-    "abstract": "The recent rapid advancements in artificial intelligence research and\ndeployment have sparked more discussion about the potential ramifications of\nsocially- and emotionally-intelligent AI. The question is not if research can\nproduce such affectively-aware AI, but when it will. What will it mean for\nsociety when machines--and the corporations and governments they serve--can\n\"read\" people's minds and emotions? What should developers and operators of\nsuch AI do, and what should they not do? The goal of this article is to\npre-empt some of the potential implications of these developments, and propose\na set of guidelines for evaluating the (moral and) ethical consequences of\naffectively-aware AI, in order to guide researchers, industry professionals,\nand policy-makers. We propose a multi-stakeholder analysis framework that\nseparates the ethical responsibilities of AI Developers vis-\\`a-vis the\nentities that deploy such AI--which we term Operators. Our analysis produces\ntwo pillars that clarify the responsibilities of each of these stakeholders:\nProvable Beneficence, which rests on proving the effectiveness of the AI, and\nResponsible Stewardship, which governs responsible collection, use, and storage\nof data and the decisions made from such data. We end with recommendations for\nresearchers, developers, operators, as well as regulators and law-makers.",
+    "abstract": "The recent rapid advancements in artificial intelligence research and\ndeployment have sparked more discussion about the potential ramifications of\nsocially- and emotionally-intelligent AI. The question is not if research can\nproduce such affectively-aware AI, but when it will. What will it mean for\nsociety when machines -- and the corporations and governments they serve -- can\n\"read\" people's minds and emotions? What should developers and operators of\nsuch AI do, and what should they not do? The goal of this article is to\npre-empt some of the potential implications of these developments, and propose\na set of guidelines for evaluating the (moral and) ethical consequences of\naffectively-aware AI, in order to guide researchers, industry professionals,\nand policy-makers. We propose a multi-stakeholder analysis framework that\nseparates the ethical responsibilities of AI Developers vis-\\`a-vis the\nentities that deploy such AI -- which we term Operators. Our analysis produces\ntwo pillars that clarify the responsibilities of each of these stakeholders:\nProvable Beneficence, which rests on proving the effectiveness of the AI, and\nResponsible Stewardship, which governs responsible collection, use, and storage\nof data and the decisions made from such data. We end with recommendations for\nresearchers, developers, operators, as well as regulators and law-makers.",
     "descriptor": "\nComments: Accepted at IEEE Affective Computing and Intelligent Interaction 2021\n",
     "authors": [
       "Desmond C. Ong"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Computers and Society (cs.CY)"
     ],
     "url": "https://arxiv.org/abs/2107.13734"
   },
