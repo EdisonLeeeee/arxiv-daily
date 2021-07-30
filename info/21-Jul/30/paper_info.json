@@ -1798,7 +1798,7 @@
     ],
     "subjectives": [
       "Digital Libraries (cs.DL)",
-      "General Mathematics (math.GM)"
+      "History and Overview (math.HO)"
     ],
     "url": "https://arxiv.org/abs/2107.13877"
   },
@@ -3453,8 +3453,7 @@
       "Jun Zhu"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)",
-      "Software Engineering (cs.SE)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2107.14171"
   },
@@ -4322,7 +4321,6 @@
     "subjectives": [
       "Machine Learning (stat.ML)",
       "Artificial Intelligence (cs.AI)",
-      "Computational Engineering, Finance, and Science (cs.CE)",
       "Machine Learning (cs.LG)",
       "Applications (stat.AP)"
     ],
