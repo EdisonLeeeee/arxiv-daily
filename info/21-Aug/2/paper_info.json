@@ -1679,8 +1679,7 @@
       "Fabio Cacciatori"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)",
-      "Computational Engineering, Finance, and Science (cs.CE)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2107.14574"
   },
@@ -2971,7 +2970,7 @@
   {
     "id": "arXiv:2107.14800",
     "title": "ChrEnTranslate: Cherokee-English Machine Translation Demo with Quality  Estimation and Corrective Feedback",
-    "abstract": "We introduce ChrEnTranslate, an online machine translation demonstration\nsystem for translation between English and an endangered language Cherokee. It\nsupports both statistical and neural translation models as well as provides\nquality estimation to inform users of reliability, two user feedback interfaces\nfor experts and common users respectively, example inputs to collect human\ntranslations for monolingual data, word alignment visualization, and relevant\nterms from the Cherokee-English dictionary. The quantitative evaluation\ndemonstrates that our backbone translation models achieve state-of-the-art\ntranslation performance and our quality estimation well correlates with both\nBLEU and human judgment. By analyzing 216 pieces of expert feedback, we find\nthat NMT is preferable because it copies less than SMT, and, in general,\ncurrent models can translate fragments of the source sentence but make major\nmistakes. When we add these 216 expert-corrected parallel texts into the\ntraining set and retrain models, equal or slightly better performance is\nobserved, which demonstrates indicates the potential of human-in-the-loop\nlearning. Our online demo is at https://chren.cs.unc.edu/; our code is\nopen-sourced at https://github.com/ZhangShiyue/ChrEnTranslate; and our data is\navailable at https://github.com/ZhangShiyue/ChrEn.",
+    "abstract": "We introduce ChrEnTranslate, an online machine translation demonstration\nsystem for translation between English and an endangered language Cherokee. It\nsupports both statistical and neural translation models as well as provides\nquality estimation to inform users of reliability, two user feedback interfaces\nfor experts and common users respectively, example inputs to collect human\ntranslations for monolingual data, word alignment visualization, and relevant\nterms from the Cherokee-English dictionary. The quantitative evaluation\ndemonstrates that our backbone translation models achieve state-of-the-art\ntranslation performance and our quality estimation well correlates with both\nBLEU and human judgment. By analyzing 216 pieces of expert feedback, we find\nthat NMT is preferable because it copies less than SMT, and, in general,\ncurrent models can translate fragments of the source sentence but make major\nmistakes. When we add these 216 expert-corrected parallel texts into the\ntraining set and retrain models, equal or slightly better performance is\nobserved, which demonstrates indicates the potential of human-in-the-loop\nlearning. Our online demo is at https://chren.cs.unc.edu/ our code is\nopen-sourced at https://github.com/ZhangShiyue/ChrEnTranslate and our data is\navailable at https://github.com/ZhangShiyue/ChrEn",
     "descriptor": "\nComments: ACL 2021 Demo (8 pages)\n",
     "authors": [
       "Shiyue Zhang",
@@ -3446,8 +3445,7 @@
       "Johannes Schmidt"
     ],
     "subjectives": [
-      "Applications (stat.AP)",
-      "Computational Engineering, Finance, and Science (cs.CE)"
+      "Applications (stat.AP)"
     ],
     "url": "https://arxiv.org/abs/2107.14699"
   },
