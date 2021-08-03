@@ -97,7 +97,8 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Analysis of PDEs (math.AP)",
-      "Fluid Dynamics (physics.flu-dyn)"
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Geophysics (physics.geo-ph)"
     ],
     "url": "https://arxiv.org/abs/2108.00037"
   },
@@ -343,7 +344,8 @@
       "Angela Martiradonna"
     ],
     "subjectives": [
-      "Numerical Analysis (math.NA)"
+      "Numerical Analysis (math.NA)",
+      "Populations and Evolution (q-bio.PE)"
     ],
     "url": "https://arxiv.org/abs/2108.00077"
   },
@@ -453,7 +455,9 @@
       "Awni Hannun"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2108.00084"
   },
@@ -1169,6 +1173,7 @@
       "Dietmar Saupe"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2108.00201"
@@ -1964,7 +1969,8 @@
       "Mikael Gidlund"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2108.00332"
   },
@@ -3162,7 +3168,8 @@
       "Theodore Andronikos"
     ],
     "subjectives": [
-      "Computer Science and Game Theory (cs.GT)"
+      "Computer Science and Game Theory (cs.GT)",
+      "Neural and Evolutionary Computing (cs.NE)"
     ],
     "url": "https://arxiv.org/abs/2108.00508"
   },
@@ -4053,7 +4060,8 @@
       "Zijun Han"
     ],
     "subjectives": [
-      "Human-Computer Interaction (cs.HC)"
+      "Human-Computer Interaction (cs.HC)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2108.00660"
   },
@@ -5135,7 +5143,9 @@
       "Mohan Gurusamy"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Artificial Intelligence (cs.AI)",
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2108.00833"
   },
@@ -6607,7 +6617,8 @@
     ],
     "subjectives": [
       "Materials Science (cond-mat.mtrl-sci)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)"
     ],
     "url": "https://arxiv.org/abs/2108.00002"
   },
@@ -7041,7 +7052,6 @@
     ],
     "subjectives": [
       "Computational Finance (q-fin.CP)",
-      "Artificial Intelligence (cs.AI)",
       "Computation and Language (cs.CL)",
       "Machine Learning (cs.LG)"
     ],
