@@ -3149,7 +3149,6 @@
     ],
     "subjectives": [
       "Software Engineering (cs.SE)",
-      "Human-Computer Interaction (cs.HC)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2108.02694"
@@ -3929,8 +3928,7 @@
       "Machine Learning (cs.LG)",
       "General Economics (econ.GN)",
       "Computational Finance (q-fin.CP)",
-      "Portfolio Management (q-fin.PM)",
-      "Pricing of Securities (q-fin.PR)"
+      "Portfolio Management (q-fin.PM)"
     ],
     "url": "https://arxiv.org/abs/2108.02283"
   },
