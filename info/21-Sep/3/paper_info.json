@@ -2063,7 +2063,7 @@
   },
   {
     "id": "arXiv:2109.00840",
-    "title": "Imposing Relation Structure in Language-Model EmbeddingsUsing  Contrastive Learning",
+    "title": "Imposing Relation Structure in Language-Model Embeddings Using  Contrastive Learning",
     "abstract": "Though language model text embeddings have revolutionized NLP research, their\nability to capture high-level semantic information, such as relations between\nentities in text, is limited. In this paper, we propose a novel contrastive\nlearning framework that trains sentence embeddings to encode the relations in a\ngraph structure. Given a sentence (unstructured text) and its graph, we use\ncontrastive learning to impose relation-related structure on the token-level\nrepresentations of the sentence obtained with a CharacterBERT (El Boukkouri et\nal.,2020) model. The resulting relation-aware sentence embeddings achieve\nstate-of-the-art results on the relation extraction task using only a simple\nKNN classifier, thereby demonstrating the success of the proposed method.\nAdditional visualization by a tSNE analysis shows the effectiveness of the\nlearned representation space compared to baselines. Furthermore, we show that\nwe can learn a different space for named entity recognition, again using a\ncontrastive learning objective, and demonstrate how to successfully combine\nboth representation spaces in an entity-relation task.",
     "descriptor": "\nComments: To be presented at CoNLL 2021\n",
     "authors": [
