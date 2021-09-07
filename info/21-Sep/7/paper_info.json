@@ -3769,8 +3769,7 @@
       "Aryan Verma"
     ],
     "subjectives": [
-      "Cryptography and Security (cs.CR)",
-      "Software Engineering (cs.SE)"
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2109.02270"
   },
@@ -10207,6 +10206,7 @@
       "Jun Wang"
     ],
     "subjectives": [
+      "Optimization and Control (math.OC)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2105.13645"
@@ -11550,9 +11550,10 @@
       "Alex Gao"
     ],
     "subjectives": [
+      "Sound (cs.SD)",
+      "Human-Computer Interaction (cs.HC)",
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
-      "Human-Computer Interaction (cs.HC)"
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2109.00630"
   },
@@ -11710,7 +11711,6 @@
     ],
     "subjectives": [
       "Image and Video Processing (eess.IV)",
-      "Artificial Intelligence (cs.AI)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2109.01071"
@@ -11726,7 +11726,8 @@
       "Kristof Van Laerhoven"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2109.01081"
   },
