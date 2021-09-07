@@ -250,7 +250,8 @@
       "Swamit Tannu"
     ],
     "subjectives": [
-      "Emerging Technologies (cs.ET)"
+      "Emerging Technologies (cs.ET)",
+      "Quantum Physics (quant-ph)"
     ],
     "url": "https://arxiv.org/abs/2109.01714"
   },
@@ -268,7 +269,8 @@
       "Joyce C. Ho"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Distributed, Parallel, and Cluster Computing (cs.DC)"
     ],
     "url": "https://arxiv.org/abs/2109.01718"
   },
@@ -1162,7 +1164,7 @@
       "Shi Wang"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
+      "Emerging Technologies (cs.ET)",
       "Quantum Physics (quant-ph)"
     ],
     "url": "https://arxiv.org/abs/2109.01840"
@@ -1729,7 +1731,6 @@
       "Antonios Giannopoulos"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
       "Numerical Analysis (math.NA)",
       "Computational Physics (physics.comp-ph)",
       "Geophysics (physics.geo-ph)"
@@ -2603,7 +2604,7 @@
     "id": "arXiv:2109.02069",
     "title": "A Delicately Restricted Channel and Decoding of Maximum Rank Distance  Codes",
     "abstract": "In this paper an interpolation-based decoding algorithm to decode Gabidulin\ncodes, transmitted through a finely restricted channel, is proposed. The\nalgorithm is able to decode rank errors beyond half the minimum distance by one\nunit. Also the existing decoding algorithms for generalized twisted Gabidulin\ncodes and additive generalized twisted Gabidulin codes are improved.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2105.03115\n",
     "authors": [
       "Wrya K. Kadir"
     ],
@@ -3215,7 +3216,7 @@
     "id": "arXiv:2109.02176",
     "title": "Transformer Models for Text Coherence Assessment",
     "abstract": "Coherence is an important aspect of text quality and is crucial for ensuring\nits readability. It is essential desirable for outputs from text generation\nsystems like summarization, question answering, machine translation, question\ngeneration, table-to-text, etc. An automated coherence scoring model is also\nhelpful in essay scoring or providing writing feedback. A large body of\nprevious work has leveraged entity-based methods, syntactic patterns, discourse\nrelations, and more recently traditional deep learning architectures for text\ncoherence assessment. Previous work suffers from drawbacks like the inability\nto handle long-range dependencies, out-of-vocabulary words, or model sequence\ninformation. We hypothesize that coherence assessment is a cognitively complex\ntask that requires deeper models and can benefit from other related tasks.\nAccordingly, in this paper, we propose four different Transformer-based\narchitectures for the task: vanilla Transformer, hierarchical Transformer,\nmulti-task learning-based model, and a model with fact-based input\nrepresentation. Our experiments with popular benchmark datasets across multiple\ndomains on four different coherence assessment tasks demonstrate that our\nmodels achieve state-of-the-art results outperforming existing models by a good\nmargin.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:1907.02427, arXiv:1805.04993 by other authors\n",
     "authors": [
       "Tushar Abhishek",
       "Daksh Rawat",
@@ -5769,7 +5770,7 @@
     "id": "arXiv:2109.02580",
     "title": "From Contexts to Locality: Ultra-high Resolution Image Segmentation via  Locality-aware Contextual Correlation",
     "abstract": "Ultra-high resolution image segmentation has raised increasing interests in\nrecent years due to its realistic applications. In this paper, we innovate the\nwidely used high-resolution image segmentation pipeline, in which an ultra-high\nresolution image is partitioned into regular patches for local segmentation and\nthen the local results are merged into a high-resolution semantic mask. In\nparticular, we introduce a novel locality-aware contextual correlation based\nsegmentation model to process local patches, where the relevance between local\npatch and its various contexts are jointly and complementarily utilized to\nhandle the semantic regions with large variations. Additionally, we present a\ncontextual semantics refinement network that associates the local segmentation\nresult with its contextual semantics, and thus is endowed with the ability of\nreducing boundary artifacts and refining mask contours during the generation of\nfinal high-resolution mask. Furthermore, in comprehensive experiments, we\ndemonstrate that our model outperforms other state-of-the-art methods in public\nbenchmarks. Our released codes are available at\nhttps://github.com/liqiokkk/FCtL.",
-    "descriptor": "\nComments: This paper has been accepted by ICCV 2021\n",
+    "descriptor": "\nComments: This paper has been accepted by ICCV 2021. arXiv admin note: text overlap with arXiv:1905.06368 by other authors\n",
     "authors": [
       "Qi Li",
       "Weixiang Yang",
@@ -6086,7 +6087,7 @@
     ],
     "subjectives": [
       "Image and Video Processing (eess.IV)",
-      "Artificial Intelligence (cs.AI)"
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2109.01664"
   },
@@ -11407,7 +11408,7 @@
       "Shuwang Lv"
     ],
     "subjectives": [
-      "Computational Complexity (cs.CC)"
+      "Other Computer Science (cs.OH)"
     ],
     "url": "https://arxiv.org/abs/2108.13110"
   },
