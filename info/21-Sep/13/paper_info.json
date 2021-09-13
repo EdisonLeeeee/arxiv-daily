@@ -4398,7 +4398,8 @@
     "abstract": "With the rapid global spread of COVID-19, more and more data related to this\nvirus is becoming available, including genomic sequence data. The total number\nof genomic sequences that are publicly available on platforms such as GISAID is\ncurrently several million, and is increasing with every day. The availability\nof such \\textit{Big Data} creates a new opportunity for researchers to study\nthis virus in detail. This is particularly important with all of the dynamics\nof the COVID-19 variants which emerge and circulate. This rich data source will\ngive us insights on the best ways to perform genomic surveillance for this and\nfuture pandemic threats, with the ultimate goal of mitigating or eliminating\nsuch threats. Analyzing and processing the several million genomic sequences is\na challenging task. Although traditional methods for sequence classification\nare proven to be effective, they are not designed to deal with these specific\ntypes of genomic sequences. Moreover, most of the existing methods also face\nthe issue of scalability. Previous studies which were tailored to coronavirus\ngenomic data proposed to use spike sequences (corresponding to a subsequence of\nthe genome), rather than using the complete genomic sequence, to perform\ndifferent machine learning (ML) tasks such as classification and clustering.\nHowever, those methods suffer from scalability issues. In this paper, we\npropose an approach called Spike2Vec, an efficient and scalable feature vector\nrepresentation for each spike sequence that can be used for downstream ML\ntasks. Through experiments, we show that Spike2Vec is not only scalable on\nseveral million spike sequences, but also outperforms the baseline models in\nterms of prediction accuracy, F1-score, etc.",
     "descriptor": "",
     "authors": [
-      "Sarwan Ali; Murray Patterson"
+      "Sarwan Ali",
+      "Murray Patterson"
     ],
     "subjectives": [
       "Genomics (q-bio.GN)",
