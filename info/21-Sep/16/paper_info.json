@@ -1566,8 +1566,7 @@
       "Arash Termehchy"
     ],
     "subjectives": [
-      "Databases (cs.DB)",
-      "Software Engineering (cs.SE)"
+      "Databases (cs.DB)"
     ],
     "url": "https://arxiv.org/abs/2109.07127"
   },
@@ -1703,7 +1702,7 @@
     "id": "arXiv:2109.07138",
     "title": "Patch-based medical image segmentation using Quantum Tensor Networks",
     "abstract": "Tensor networks are efficient factorisations of high dimensional tensors into\na network of lower order tensors. They have been most commonly used to model\nentanglement in quantum many-body systems and more recently are witnessing\nincreased applications in supervised machine learning. In this work, we\nformulate image segmentation in a supervised setting with tensor networks. The\nkey idea is to first lift the pixels in image patches to exponentially high\ndimensional feature spaces and using a linear decision hyper-plane to classify\nthe input pixels into foreground and background classes. The high dimensional\nlinear model itself is approximated using the matrix product state (MPS) tensor\nnetwork. The MPS is weight-shared between the non-overlapping image patches\nresulting in our strided tensor network model. The performance of the proposed\nmodel is evaluated on three 2D- and one 3D- biomedical imaging datasets. The\nperformance of the proposed tensor network segmentation model is compared with\nrelevant baseline methods. In the 2D experiments, the tensor network model\nyeilds competitive performance compared to the baseline methods while being\nmore resource efficient.",
-    "descriptor": "\nComments: Possible journal extension of our preliminary conference work \"Segmenting two-dimensional structures with strided tensor networks\", Selvan et al. 2021, available at arXiv:2102.06900. 22 pages, 12 figures. arXiv admin note: text overlap with arXiv:2102.06900\n",
+    "descriptor": "\nComments: Possible journal extension of our preliminary conference work \"Segmenting two-dimensional structures with strided tensor networks\", Selvan et al. 2021, available at arXiv:2102.06900. 22 pages, 12 figures\n",
     "authors": [
       "Raghavendra Selvan",
       "Erik B Dam",
