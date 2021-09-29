@@ -4158,7 +4158,7 @@
     "id": "arXiv:2109.13500",
     "title": "Not another computer algebra system: Highlighting wxMaxima in calculus",
     "abstract": "This article introduces and explains a computer algebra system (CAS) wxMaxima\nfor Calculus teaching and learning at the tertiary level. The didactic\nreasoning behind this approach is the need to implement an element of\ntechnology into classrooms to enhance students' understanding of Calculus\nconcepts. For many mathematics educators who have been using CAS, this material\nis of great interest, particularly for secondary teachers and university\ninstructors who plan to introduce an alternative CAS into their classrooms. By\nhighlighting both the strengths and limitations of the software, we hope that\nit will stimulate further debate not only among mathematics educators and\nsoftware users but also also among symbolic computation and software\ndevelopers.",
-    "descriptor": "\nComments: 19 pages, 4 figures, 5 tables, 37 references. arXiv admin note: text overlap with arXiv:2104.00295\n",
+    "descriptor": "\nComments: 19 pages, 4 figures, 5 tables, 37 references\n",
     "authors": [
       "N. Karjanto",
       "H. S. Husain"
@@ -7103,8 +7103,7 @@
     "descriptor": "",
     "authors": [
       "Xue-Lei Lin",
-      "Shu-Lin Wu",
-      "Zhi-Ming Zhang"
+      "Zhimin Zhang"
     ],
     "subjectives": [
       "Numerical Analysis (math.NA)"
