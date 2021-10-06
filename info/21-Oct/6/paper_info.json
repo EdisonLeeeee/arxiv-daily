@@ -2979,7 +2979,7 @@
   {
     "id": "arXiv:2110.02065",
     "title": "SDR: Efficient Neural Re-ranking using Succinct Document Representation",
-    "abstract": "BERT based ranking models have achieved superior performance on various\ninformation retrieval tasks. However, the large number of parameters and\ncomplex self-attention operation come at a significant latency overhead. To\nremedy this, recent works propose late-interaction architectures, which allow\npre-computation of intermediate document representations, thus reducing the\nruntime latency. Nonetheless, having solved the immediate latency issue, these\nmethods now introduce storage costs and network fetching latency, which limits\ntheir adoption in real-life production systems.\nIn this work, we propose the Succinct Document Representation (SDR) scheme\nthat computes \\emph{highly compressed} intermediate document representations,\nmitigating the storage/network issue. Our approach first reduces the dimension\nof token representations by encoding them using a novel autoencoder\narchitecture that uses the document's textual content in both the encoding and\ndecoding phases. After this token encoding step, we further reduce the size of\nentire document representations using a modern quantization technique.\nExtensive evaluations on passage re-reranking on the MSMARCO dataset show\nthat compared to existing approaches using compressed document representations,\nour method is highly efficient, achieving 4x-11.6x better compression rates for\nthe same ranking quality.",
+    "abstract": "BERT based ranking models have achieved superior performance on various\ninformation retrieval tasks. However, the large number of parameters and\ncomplex self-attention operation come at a significant latency overhead. To\nremedy this, recent works propose late-interaction architectures, which allow\npre-computation of intermediate document representations, thus reducing the\nruntime latency. Nonetheless, having solved the immediate latency issue, these\nmethods now introduce storage costs and network fetching latency, which limits\ntheir adoption in real-life production systems.\nIn this work, we propose the Succinct Document Representation (SDR) scheme\nthat computes highly compressed intermediate document representations,\nmitigating the storage/network issue. Our approach first reduces the dimension\nof token representations by encoding them using a novel autoencoder\narchitecture that uses the document's textual content in both the encoding and\ndecoding phases. After this token encoding step, we further reduce the size of\nentire document representations using a modern quantization technique.\nExtensive evaluations on passage re-reranking on the MSMARCO dataset show\nthat compared to existing approaches using compressed document representations,\nour method is highly efficient, achieving 4x-11.6x better compression rates for\nthe same ranking quality.",
     "descriptor": "",
     "authors": [
       "Nachshon Cohen",
@@ -3982,8 +3982,7 @@
       "Ignacio Aravena"
     ],
     "subjectives": [
-      "Optimization and Control (math.OC)",
-      "Mathematical Software (cs.MS)"
+      "Optimization and Control (math.OC)"
     ],
     "url": "https://arxiv.org/abs/2110.01669"
   },
@@ -4778,8 +4777,8 @@
   },
   {
     "id": "arXiv:2004.03422",
-    "title": "A Legal Approach to Hate Speech -- Operationalizing the EU's Legal  Framework against the Expression of Hatred as an NLP Task",
-    "abstract": "A Legal Approach to Hate Speech -- Operationalizing the EU's Legal  Framework against the Expression of Hatred as an NLP Task",
+    "title": "A Legal Approach to Hate Speech: Operationalizing the EU's Legal  Framework against the Expression of Hatred as an NLP Task",
+    "abstract": "A Legal Approach to Hate Speech: Operationalizing the EU's Legal  Framework against the Expression of Hatred as an NLP Task",
     "descriptor": "",
     "authors": [
       "Frederike Zufall",
