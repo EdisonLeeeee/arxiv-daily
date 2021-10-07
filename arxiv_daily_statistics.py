@@ -1,7 +1,8 @@
 import os, sys
-from copy import copy
 import json
+from copy import copy
 from datetime import date
+from collections import defaultdict
 
 
 today = date.today()
@@ -94,5 +95,38 @@ with open("%s/paper_info.json" % info_folder, "w") as fp:
 with open("%s/paper_counts.txt" % info_folder, "w") as fp:
     fp.write(str(count))
 
-print(count)
-print(information[:3])
+print(f"Number of papers {count}")
+
+# Update: 2921/10/07
+def write_file(group, name):
+    fname = "%s/%s.md" % (info_folder, name)
+    with open(fname, 'w', encoding='utf-8') as fp:
+        fp.writelines(f"## {' '.join(name.split('_'))}\n")   
+        for i, paper in enumerate(group):
+            fp.writelines(f"### {paper['title']}\n")
+            fp.writelines(f"Authors： {', '.join(paper['authors'])}\n")   
+            fp.writelines(f"Link： {paper['url']}\n")             
+            descriptor = paper.get('descriptor', None)
+            if descriptor:
+                descriptor = descriptor.strip()
+                descriptor = ' '.join(descriptor.split('\n'))
+                fp.writelines(f'{descriptor}\n')
+            fp.writelines('\n')   
+                
+
+keywords = dict(Graph=['graph', 'GNN'],
+                Adversarial_Learning=['adversarial', 'attack', 'robust', 'defense'])
+groups = defaultdict(list)
+
+for paper in information:
+    title = paper['title']
+    for name, kws in keywords.items():
+        for kw in kws:
+            if kw.lower() in title.lower().split():
+                groups[name].append(paper)
+                break
+        else:
+            pass    
+        
+for name in groups:
+    write_file(groups[name], name)
