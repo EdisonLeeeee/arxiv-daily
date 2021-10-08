@@ -104,18 +104,20 @@ def write_file(group, name):
         fp.writelines(f"## {' '.join(name.split('_'))}\n")   
         for i, paper in enumerate(group):
             fp.writelines(f"### {paper['title']}\n")
-            fp.writelines(f"Authors： {', '.join(paper['authors'])}\n")   
-            fp.writelines(f"Link： {paper['url']}\n")             
+            fp.writelines(f"+ Authors： {', '.join(paper['authors'])}\n")   
+            fp.writelines(f"+ Link： {paper['url']}\n")             
             descriptor = paper.get('descriptor', None)
             if descriptor:
                 descriptor = descriptor.strip()
                 descriptor = ' '.join(descriptor.split('\n'))
-                fp.writelines(f'{descriptor}\n')
+                fp.writelines(f'+ {descriptor}\n')
             fp.writelines('\n')   
                 
 
-keywords = dict(Graph=['graph', 'GNN'],
-                Adversarial_Learning=['adversarial', 'attack', 'robust', 'defense'])
+keywords = dict(Graph=['graph', 'graphs'],
+                Adversarial_Learning=['adversarial', 'attack', 'robust', 'defense'],
+                Recommendation=['recommender', 'recommend', 'recommendation'])
+
 groups = defaultdict(list)
 
 for paper in information:
