@@ -114,9 +114,11 @@ def write_file(group, name):
             fp.writelines('\n')   
                 
 
-keywords = dict(Graph=['graph', 'graphs'],
+keywords = dict(Graph=['graph', 'graphs', 'node'],
                 Adversarial_Learning=['adversarial', 'attack', 'robust', 'defense'],
-                Recommendation=['recommender', 'recommend', 'recommendation'])
+                Recommendation=['recommender', 'recommend', 'recommendation'],
+                Spiking_Neural_Networks=['spiking', 'spike'],
+                Code_Representation_Learning=['code', 'programe', 'programming'])
 
 groups = defaultdict(list)
 
