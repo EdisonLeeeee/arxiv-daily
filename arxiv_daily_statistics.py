@@ -105,7 +105,7 @@ def write_file(group, name):
     with open(fname, 'w', encoding='utf-8') as fp:
         fp.writelines(f"# {' '.join(name.split('_'))}\n")   
         for i, paper in enumerate(group):
-            fp.writelines(f"## {paper['title']}\n")
+            fp.writelines(f"### **{paper['title']}**\n")
             fp.writelines(f"+ Authors： {', '.join(paper['authors'])}\n")   
             fp.writelines(f"+ Link： {paper['url']}\n")             
             descriptor = paper.get('descriptor', None)
