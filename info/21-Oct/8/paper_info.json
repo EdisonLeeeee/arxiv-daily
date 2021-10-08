@@ -189,7 +189,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
+      "Cryptography and Security (cs.CR)",
       "Distributed, Parallel, and Cluster Computing (cs.DC)",
       "Multiagent Systems (cs.MA)"
     ],
@@ -221,6 +221,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
+      "Software Engineering (cs.SE)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2110.03022"
@@ -6579,8 +6580,8 @@
   {
     "id": "arXiv:2104.08401",
     "title": "Enriching a Model's Notion of Belief using a Persistent Memory",
-    "abstract": "Comments: Old and now obsolete draft. See this https URL for the final paper",
-    "descriptor": "\nComments: Old and now obsolete draft. See this https URL for the final paper\n",
+    "abstract": "Comments: This is an old and now obsolete draft. See arXiv:2109.14723 (\"BeliefBank: Adding Memory to a Pre-Trained Language Model for a Systematic Notion of Belief\") for the final paper",
+    "descriptor": "\nComments: This is an old and now obsolete draft. See arXiv:2109.14723 (\"BeliefBank: Adding Memory to a Pre-Trained Language Model for a Systematic Notion of Belief\") for the final paper\n",
     "authors": [
       "Nora Kassner",
       "Oyvind Tafjord",
