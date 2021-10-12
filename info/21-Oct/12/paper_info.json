@@ -991,7 +991,8 @@
       "Jan P.H. van Santen"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Methodology (stat.ME)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2110.04432"
   },
@@ -4690,7 +4691,7 @@
     "id": "arXiv:2110.04953",
     "title": "Compact CNN Models for On-device Ocular-based User Recognition in Mobile  Devices",
     "abstract": "A number of studies have demonstrated the efficacy of deep learning\nconvolutional neural network (CNN) models for ocular-based user recognition in\nmobile devices. However, these high-performing networks have enormous space and\ncomputational complexity due to the millions of parameters and computations\ninvolved. These requirements make the deployment of deep learning models to\nresource-constrained mobile devices challenging. To this end, only a handful of\nstudies based on knowledge distillation and patch-based models have been\nproposed to obtain compact size CNN models for ocular recognition in the mobile\nenvironment. In order to further advance the state-of-the-art, this study for\nthe first time evaluates five neural network pruning methods and compares them\nwith the knowledge distillation method for on-device CNN inference and mobile\nuser verification using ocular images. Subject-independent analysis on VISOB\nand UPFR-Periocular datasets suggest the efficacy of layerwise magnitude-based\npruning at a compression rate of 8 for mobile ocular-based authentication using\nResNet50 as the base model. Further, comparison with the knowledge distillation\nsuggests the efficacy of knowledge distillation over pruning methods in terms\nof verification accuracy and the real-time inference measured as deep feature\nextraction time on five mobile devices, namely, iPhone 6, iPhone X, iPhone XR,\niPad Air 2 and iPad 7th Generation.",
-    "descriptor": "\nComments: 8 pages\n",
+    "descriptor": "\nComments: 8 pages. arXiv admin note: text overlap with arXiv:2003.03033 by other authors\n",
     "authors": [
       "Ali Almadan",
       "Ajita Rattani"
@@ -5181,7 +5182,7 @@
     "id": "arXiv:2110.05015",
     "title": "A Survey on Proactive Customer Care: Enabling Science and Steps to  Realize it",
     "abstract": "In recent times, advances in artificial intelligence (AI) and IoT have\nenabled seamless and viable maintenance of appliances in home and building\nenvironments. Several studies have shown that AI has the potential to provide\npersonalized customer support which could predict and avoid errors more\nreliably than ever before. In this paper, we have analyzed the various building\nblocks needed to enable a successful AI-driven predictive maintenance use-case.\nUnlike, existing surveys which mostly provide a deep dive into the recent AI\nalgorithms for Predictive Maintenance (PdM), our survey provides the complete\nview; starting from business impact to recent technology advancements in\nalgorithms as well as systems research and model deployment. Furthermore, we\nprovide exemplar use-cases on predictive maintenance of appliances using\npublicly available data sets. Our survey can serve as a template needed to\ndesign a successful predictive maintenance use-case. Finally, we touch upon\nexisting public data sources and provide a step-wise breakdown of an AI-driven\nproactive customer care (PCC) use-case, starting from generic anomaly detection\nto fault prediction and finally root-cause analysis. We highlight how such a\nstep-wise approach can be advantageous for accurate model building and helpful\nfor gaining insights into predictive maintenance of electromechanical\nappliances.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:1912.07383, arXiv:2007.02500 by other authors\n",
     "authors": [
       "Viswanath Ganapathy",
       "Sauptik Dhar",
@@ -7826,7 +7827,7 @@
   {
     "id": "arXiv:2110.05404",
     "title": "Symmetries in Reversible Programming: From Symmetric Rig Groupoids to  Reversible Programming Languages",
-    "abstract": "The $\\mathit{\\Pi}$ family of reversible programming languages for boolean\ncircuits is presented as a syntax of combinators witnessing type isomorphisms\nof algebraic datatypes. In this paper, we give a denotational semantics for\nthis language, using the language of weak groupoids \\`a la Homotopy Type\nTheory, and show how to derive an equational theory for it, presented by\n2-combinators witnessing equivalences of reversible circuits.\nWe establish a correspondence between the syntactic groupoid of the language\nand a formally presented univalent subuniverse of finite types. The\ncorrespondence relates 1-combinators to 1-paths, and 2-combinators to 2-paths\nin the universe, which is shown to be sound and complete for both levels,\nestablishing full abstraction and adequacy. We extend the already established\nCurry-Howard correspondence for $\\mathit{\\Pi}$ to a Curry-Howard-Lambek\ncorrespondence between Reversible Logic, Reversible Programming Languages, and\nSymmetric Rig Groupoids, by showing that the syntax of $\\mathit{\\Pi}$ is\npresented by the free symmetric rig groupoid, given by finite sets and\npermutations. Our proof uses techniques from the theory of group presentations\nand rewriting systems to solve the word problem for symmetric groups.\nUsing the formalisation of our results, we show how to perform\nnormalisation-by-evaluation, verification, and synthesis of reversible logic\ngates, motivated by examples from quantum computing.",
+    "abstract": "The $\\mathit{\\Pi}$ family of reversible programming languages for boolean\ncircuits is presented as a syntax of combinators witnessing type isomorphisms\nof algebraic datatypes. In this paper, we give a denotational semantics for\nthis language, using the language of weak groupoids \\`a la Homotopy Type\nTheory, and show how to derive an equational theory for it, presented by\n2-combinators witnessing equivalences of reversible circuits. We establish a\ncorrespondence between the syntactic groupoid of the language and a formally\npresented univalent subuniverse of finite types. The correspondence relates\n1-combinators to 1-paths, and 2-combinators to 2-paths in the universe, which\nis shown to be sound and complete for both levels, establishing full\nabstraction and adequacy. We extend the already established Curry-Howard\ncorrespondence for $\\mathit{\\Pi}$ to a Curry-Howard-Lambek correspondence\nbetween Reversible Logic, Reversible Programming Languages, and Symmetric Rig\nGroupoids, by showing that the syntax of $\\mathit{\\Pi}$ is presented by the\nfree symmetric rig groupoid, given by finite sets and permutations. Our proof\nuses techniques from the theory of group presentations and rewriting systems to\nsolve the word problem for symmetric groups. Using the formalisation of our\nresults, we show how to perform normalisation-by-evaluation, verification, and\nsynthesis of reversible logic gates, motivated by examples from quantum\ncomputing.",
     "descriptor": "\nComments: Conditionally accepted to POPL'22\n",
     "authors": [
       "Vikraman Choudhury",
@@ -10490,8 +10491,8 @@
   {
     "id": "arXiv:2006.01980",
     "title": "On the Equivalence between Online and Private Learnability beyond Binary  Classification",
-    "abstract": "Comments: An earlier version of this manuscript claimed an upper bound over the sample complexity that is exponential in the Littlestone dimension. The argument contained a technical mistake, and the current version presents a correction that deteriorates the dependence on the Littlestone dimension from exponential to doubly exponential",
-    "descriptor": "\nComments: An earlier version of this manuscript claimed an upper bound over the sample complexity that is exponential in the Littlestone dimension. The argument contained a technical mistake, and the current version presents a correction that deteriorates the dependence on the Littlestone dimension from exponential to doubly exponential\n",
+    "abstract": "Comments: An earlier version of this manuscript claimed an upper bound over the sample complexity that is exponential in the Littlestone dimension. The argument contained a technical mistake, and the current version presents a correction that deteriorates the dependence on the Littlestone dimension from exponential to doubly exponential. arXiv admin note: text overlap with arXiv:2003.00563 by other authors",
+    "descriptor": "\nComments: An earlier version of this manuscript claimed an upper bound over the sample complexity that is exponential in the Littlestone dimension. The argument contained a technical mistake, and the current version presents a correction that deteriorates the dependence on the Littlestone dimension from exponential to doubly exponential. arXiv admin note: text overlap with arXiv:2003.00563 by other authors\n",
     "authors": [
       "Young Hun Jung",
       "Baekjin Kim",
@@ -10624,8 +10625,8 @@
   {
     "id": "arXiv:2006.15666",
     "title": "Breathing K-Means",
-    "abstract": "Comments: 55 pages, 45 figures, Relevant Changes: Algorithm is now better *and* faster than the underlying BKMeans class from scikit-learn. Detailed analysis of parameter m shows that it can be used to balance SSE and CPU time; Parameter theta eliminated. Submitted to JMLR; Implementation: this https URL; Python package: this https URL",
-    "descriptor": "\nComments: 55 pages, 45 figures, Relevant Changes: Algorithm is now better *and* faster than the underlying BKMeans class from scikit-learn. Detailed analysis of parameter m shows that it can be used to balance SSE and CPU time; Parameter theta eliminated. Submitted to JMLR; Implementation: this https URL; Python package: this https URL\n",
+    "abstract": "Comments: 55 pages, 45 figures, Relevant Changes: Algorithm is now better *and* faster than the underlying BKMeans class from scikit-learn. Detailed analysis of parameter m shows that it can be used to balance SSE and CPU time; Parameter theta eliminated. Submitted to JMLR; Implementation: this https URL ; Python package: this https URL",
+    "descriptor": "\nComments: 55 pages, 45 figures, Relevant Changes: Algorithm is now better *and* faster than the underlying BKMeans class from scikit-learn. Detailed analysis of parameter m shows that it can be used to balance SSE and CPU time; Parameter theta eliminated. Submitted to JMLR; Implementation: this https URL ; Python package: this https URL\n",
     "authors": [
       "Bernd Fritzke"
     ],
