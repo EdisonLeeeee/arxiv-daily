@@ -98,41 +98,41 @@ with open("%s/paper_counts.txt" % info_folder, "w") as fp:
 print(f"Number of papers {count}")
 
 # Update: 2021/10/08
-def write_file(group, name):
-    if len(group) == 0:
-        return
-    fname = "%s/%s.md" % (info_folder, name)
-    with open(fname, 'w', encoding='utf-8') as fp:
-        fp.writelines(f"# {' '.join(name.split('_'))}\n")   
-        for i, paper in enumerate(group):
-            fp.writelines(f"### **{paper['title']}**\n")
-            fp.writelines(f"+ Authors： {', '.join(paper['authors'])}\n")   
-            fp.writelines(f"+ Link： {paper['url']}\n")             
-            descriptor = paper.get('descriptor', None)
-            if descriptor:
-                descriptor = descriptor.strip()
-                descriptor = ' '.join(descriptor.split('\n'))
-                fp.writelines(f'+ {descriptor}\n')
-            fp.writelines('\n')   
+# def write_file(group, name):
+#     if len(group) == 0:
+#         return
+#     fname = "%s/%s.md" % (info_folder, name)
+#     with open(fname, 'w', encoding='utf-8') as fp:
+#         fp.writelines(f"# {' '.join(name.split('_'))}\n")   
+#         for i, paper in enumerate(group):
+#             fp.writelines(f"### **{paper['title']}**\n")
+#             fp.writelines(f"+ Authors： {', '.join(paper['authors'])}\n")   
+#             fp.writelines(f"+ Link： {paper['url']}\n")             
+#             descriptor = paper.get('descriptor', None)
+#             if descriptor:
+#                 descriptor = descriptor.strip()
+#                 descriptor = ' '.join(descriptor.split('\n'))
+#                 fp.writelines(f'+ {descriptor}\n')
+#             fp.writelines('\n')   
                 
 
-keywords = dict(Graph_Neural_Networks=['graph', 'graphs', 'node'],
-                Adversarial_Learning=['adversarial', 'attack', 'robust', 'defense'],
-                Recommendation=['recommender', 'recommend', 'recommendation'],
-                Spiking_Neural_Networks=['spiking', 'spike'],
-                Code_Representation_Learning=['code', 'program', 'programming'])
+# keywords = dict(Graph_Neural_Networks=['graph', 'graphs', 'node'],
+#                 Adversarial_Learning=['adversarial', 'attack', 'robust', 'defense'],
+#                 Recommendation=['recommender', 'recommend', 'recommendation'],
+#                 Spiking_Neural_Networks=['spiking', 'spike'],
+#                 Code_Representation_Learning=['code', 'program', 'programming'])
 
-groups = defaultdict(list)
+# groups = defaultdict(list)
 
-for paper in information:
-    title = paper['title']
-    for name, kws in keywords.items():
-        for kw in kws:
-            if kw.lower() in title.lower().split():
-                groups[name].append(paper)
-                break
-        else:
-            pass    
+# for paper in information:
+#     title = paper['title']
+#     for name, kws in keywords.items():
+#         for kw in kws:
+#             if kw.lower() in title.lower().split():
+#                 groups[name].append(paper)
+#                 break
+#         else:
+#             pass    
         
-for name in groups:
-    write_file(groups[name], name)
+# for name in groups:
+#     write_file(groups[name], name)
