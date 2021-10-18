@@ -964,7 +964,7 @@
   {
     "id": "arXiv:2110.07766",
     "title": "3D Reconstruction of Curvilinear Structures with Stereo Matching  DeepConvolutional Neural Networks",
-    "abstract": "Curvilinear structures frequently appear in microscopy imaging as the object\nof interest. Crystallographic defects, i.edislocations, are one of the\ncurvilinear structures that have been repeatedly investigated under\ntransmission electronmicroscopy (TEM) and their 3D structural information is of\ngreat importance for understanding the properties ofmaterials. 3D information\nof dislocations is often obtained by tomography which is a cumbersome process\nsince itis required to acquire many images with different tilt angles and\nsimilar imaging conditions. Although, alternativestereoscopy methods lower the\nnumber of required images to two, they still require human intervention and\nshape priorsfor accurate 3D estimation. We propose a fully automated pipeline\nfor both detection and matching of curvilinearstructures in stereo pairs by\nutilizing deep convolutional neural networks (CNNs) without making any prior\nassumptionon 3D shapes. In this work, we mainly focus on 3D reconstruction of\ndislocations from stereo pairs of TEM images.",
+    "abstract": "Curvilinear structures frequently appear in microscopy imaging as the object\nof interest. Crystallographic defects, i.e., dislocations, are one of the\ncurvilinear structures that have been repeatedly investigated under\ntransmission electron microscopy (TEM) and their 3D structural information is\nof great importance for understanding the properties of materials. 3D\ninformation of dislocations is often obtained by tomography which is a\ncumbersome process since it is required to acquire many images with different\ntilt angles and similar imaging conditions. Although, alternative stereoscopy\nmethods lower the number of required images to two, they still require human\nintervention and shape priors for accurate 3D estimation. We propose a fully\nautomated pipeline for both detection and matching of curvilinear structures in\nstereo pairs by utilizing deep convolutional neural networks (CNNs) without\nmaking any prior assumption on 3D shapes. In this work, we mainly focus on 3D\nreconstruction of dislocations from stereo pairs of TEM images.",
     "descriptor": "",
     "authors": [
       "Okan Alting\u00f6vde",
@@ -3167,7 +3167,8 @@
     ],
     "subjectives": [
       "Sound (cs.SD)",
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2110.08090"
   },
