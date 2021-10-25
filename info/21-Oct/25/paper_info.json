@@ -4391,7 +4391,7 @@
   {
     "id": "arXiv:2110.11670",
     "title": "Model-aided Geometrical Shaping of Dual-polarization 4D Formats in the  Nonlinear Fiber Channel",
-    "abstract": "The geometry of dual-polarization four-dimensional constellations is\noptimized in the optical fiber channel using a recent nonlinear interference\nmodel. A 0.27 bit/4D rate gain and 13\\% reach increase are attained compared to\npolarization-multiplexed formats.",
+    "abstract": "The geometry of dual-polarization four-dimensional constellations is\noptimized in the optical fiber channel using a recent nonlinear interference\nmodel. A 0.27 bit/4D rate gain and 13% reach increase are attained compared to\npolarization-multiplexed formats.",
     "descriptor": "\nComments: Submitted to the Optical Fiber Communication Conference (OFC) 2022\n",
     "authors": [
       "Gabriele Liga",
@@ -6401,8 +6401,9 @@
       "Armando De Giusti"
     ],
     "subjectives": [
+      "Programming Languages (cs.PL)",
       "Distributed, Parallel, and Cluster Computing (cs.DC)",
-      "Programming Languages (cs.PL)"
+      "Software Engineering (cs.SE)"
     ],
     "url": "https://arxiv.org/abs/2107.11912"
   },
