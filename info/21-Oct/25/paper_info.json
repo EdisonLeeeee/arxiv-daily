@@ -370,7 +370,7 @@
     "id": "arXiv:2110.11416",
     "title": "Verification of Distributed Quantum Protocols",
     "abstract": "Truly concurrent process algebras are generalizations to the traditional\nprocess algebras for true concurrency, CTC to CCS, APTC to ACP, $\\pi_{tc}$ to\n$\\pi$ calculus, APPTC to probabilistic process algebra, APTC with localities to\nprocess algebra with localities. In quantum process algebras, there are several\nwell-known work, and we ever did some work to unify quantum and classical\ncomputing under the framework of ACP \\cite{ACP} and probabilistic process\nalgebra. Now, it is the time to utilize truly concurrent process algebras with\nlocalities to model quantum computing and unify quantum and classical computing\nin this book. Since this work is with localities, it is suitable to verify the\ndistribution of quantum communication protocols.",
-    "descriptor": "\nComments: 151 pages, 23 figures, 60 tables. arXiv admin note: text overlap with arXiv:2107.08453, arXiv:2101.05140, arXiv:1611.09035, arXiv:1610.02500, arXiv:1810.00868, arXiv:2104.05438, arXiv:1311.2960, arXiv:1501.05260, arXiv:2109.05936\n",
+    "descriptor": "\nComments: 151 pages, 23 figures, 60 tables. arXiv admin note: substantial text overlap with arXiv:1811.01070, arXiv:2107.08453, arXiv:2101.05140, arXiv:1611.09035, arXiv:1610.02500, arXiv:1810.00868, arXiv:2104.05438, arXiv:1311.2960, arXiv:1501.05260, arXiv:2109.05936\n",
     "authors": [
       "Yong Wang"
     ],
@@ -430,7 +430,7 @@
     "id": "arXiv:2110.11420",
     "title": "Fast Graph Sampling for Short Video Summarization using Gershgorin Disc  Alignment",
     "abstract": "We study the problem of efficiently summarizing a short video into several\nkeyframes, leveraging recent progress in fast graph sampling. Specifically, we\nfirst construct a similarity path graph (SPG) $\\mathcal{G}$, represented by\ngraph Laplacian matrix $\\mathbf{L}$, where the similarities between adjacent\nframes are encoded as positive edge weights. We show that maximizing the\nsmallest eigenvalue $\\lambda_{\\min}(\\mathbf{B})$ of a coefficient matrix\n$\\mathbf{B} = \\text{diag}(\\mathbf{a}) + \\mu \\mathbf{L}$, where $\\mathbf{a}$ is\nthe binary keyframe selection vector, is equivalent to minimizing a worst-case\nsignal reconstruction error. We prove that, after partitioning $\\mathcal{G}$\ninto $Q$ sub-graphs $\\{\\mathcal{G}^q\\}^Q_{q=1}$, the smallest Gershgorin circle\ntheorem (GCT) lower bound of $Q$ corresponding coefficient matrices -- $\\min_q\n\\lambda^-_{\\min}(\\mathbf{B}^q)$ -- is a lower bound for\n$\\lambda_{\\min}(\\mathbf{B})$. This inspires a fast graph sampling algorithm to\niteratively partition $\\mathcal{G}$ into $Q$ sub-graphs using $Q$ samples\n(keyframes), while maximizing $\\lambda^-_{\\min}(\\mathbf{B}^q)$ for each\nsub-graph $\\mathcal{G}^q$. Experimental results show that our algorithm\nachieves comparable video summarization performance as state-of-the-art\nmethods, at a substantially reduced complexity.",
-    "descriptor": "\nComments: 5 pages, 2 figures\n",
+    "descriptor": "\nComments: 5 pages, 2 figures - Remove affiliation from author list\n",
     "authors": [
       "Sadid Sahami",
       "Gene Cheung",
@@ -842,6 +842,7 @@
       "Kashu Yamazaki",
       "Sang Truong",
       "Kris Kitani",
+      "Minh-Triet Tran",
       "Ngan Le"
     ],
     "subjectives": [
@@ -1499,7 +1500,7 @@
   {
     "id": "arXiv:2110.11571",
     "title": "Anti-Backdoor Learning: Training Clean Models on Poisoned Data",
-    "abstract": "Backdoor attack has emerged as a major security threat to deep neural\nnetworks (DNNs). While existing defense methods have demonstrated promising\nresults on detecting and erasing backdoor triggers, it is still not clear if\nmeasures can be taken to avoid the triggers from being learned into the model\nin the first place. In this paper, we introduce the concept of\n\\emph{anti-backdoor learning}, of which the aim is to train clean models on\nbackdoor-poisoned data. We frame the overall learning process as a dual-task of\nlearning the clean portion of data and learning the backdoor portion of data.\nFrom this view, we identify two inherent characteristics of backdoor attacks as\ntheir weaknesses: 1) the models learn backdoored data at a much faster rate\nthan learning clean data, and the stronger the attack the faster the model\nconverges on backdoored data; and 2) the backdoor task is tied to a specific\nclass (the backdoor target class). Based on these two weaknesses, we propose a\ngeneral learning scheme, Anti-Backdoor Learning (ABL), to automatically prevent\nbackdoor attacks during training. ABL introduces a two-stage \\emph{gradient\nascent} mechanism into standard training to 1) help isolate backdoor examples\nat an early training stage, and 2) break the correlation between backdoor\nexamples and the target class at a later training stage. Through extensive\nexperiments on multiple benchmark datasets against 10 state-of-the-art attacks,\nwe empirically show that ABL-trained models on backdoor-poisoned data achieve\nthe same performance as they were trained on purely clean data. Code is\navailable at \\underline{https://github.com/bboylyg/ABL}.",
+    "abstract": "Backdoor attack has emerged as a major security threat to deep neural\nnetworks (DNNs). While existing defense methods have demonstrated promising\nresults on detecting or erasing backdoors, it is still not clear whether robust\ntraining methods can be devised to prevent the backdoor triggers being injected\ninto the trained model in the first place. In this paper, we introduce the\nconcept of \\emph{anti-backdoor learning}, aiming to train \\emph{clean} models\ngiven backdoor-poisoned data. We frame the overall learning process as a\ndual-task of learning the \\emph{clean} and the \\emph{backdoor} portions of\ndata. From this view, we identify two inherent characteristics of backdoor\nattacks as their weaknesses: 1) the models learn backdoored data much faster\nthan learning with clean data, and the stronger the attack the faster the model\nconverges on backdoored data; 2) the backdoor task is tied to a specific class\n(the backdoor target class). Based on these two weaknesses, we propose a\ngeneral learning scheme, Anti-Backdoor Learning (ABL), to automatically prevent\nbackdoor attacks during training. ABL introduces a two-stage \\emph{gradient\nascent} mechanism for standard training to 1) help isolate backdoor examples at\nan early training stage, and 2) break the correlation between backdoor examples\nand the target class at a later training stage. Through extensive experiments\non multiple benchmark datasets against 10 state-of-the-art attacks, we\nempirically show that ABL-trained models on backdoor-poisoned data achieve the\nsame performance as they were trained on purely clean data. Code is available\nat \\url{https://github.com/bboylyg/ABL}.",
     "descriptor": "\nComments: Accepted to NeurIPS 2021\n",
     "authors": [
       "Yige Li",
@@ -1792,7 +1793,7 @@
   },
   {
     "id": "arXiv:2110.11601",
-    "title": "Multimodal Semi-Supervised Learning for3D Objects",
+    "title": "Multimodal Semi-Supervised Learning for 3D Objects",
     "abstract": "In recent years, semi-supervised learning has been widely explored and shows\nexcellent data efficiency for 2D data. There is an emerging need to improve\ndata efficiency for 3D tasks due to the scarcity of labeled 3D data. This paper\nexplores how the coherence of different modelities of 3D data (e.g. point\ncloud, image, and mesh) can be used to improve data efficiency for both 3D\nclassification and retrieval tasks. We propose a novel multimodal\nsemi-supervised learning framework by introducing instance-level consistency\nconstraint and a novel multimodal contrastive prototype (M2CP) loss. The\ninstance-level consistency enforces the network to generate consistent\nrepresentations for multimodal data of the same object regardless of its\nmodality. The M2CP maintains a multimodal prototype for each class and learns\nfeatures with small intra-class variations by minimizing the feature distance\nof each object to its prototype while maximizing the distance to the others.\nOur proposed framework significantly outperforms all the state-of-the-art\ncounterparts for both classification and retrieval tasks by a large margin on\nthe modelNet10 and ModelNet40 datasets.",
     "descriptor": "\nComments: BMVC 2021 poster\n",
     "authors": [
@@ -1925,11 +1926,11 @@
   },
   {
     "id": "arXiv:2110.11624",
-    "title": "SCICAP: Generating Captions for Scientific Figures",
+    "title": "SciCap: Generating Captions for Scientific Figures",
     "abstract": "Researchers use figures to communicate rich, complex information in\nscientific papers. The captions of these figures are critical to conveying\neffective messages. However, low-quality figure captions commonly occur in\nscientific articles and may decrease understanding. In this paper, we propose\nan end-to-end neural framework to automatically generate informative,\nhigh-quality captions for scientific figures. To this end, we introduce SCICAP,\na large-scale figure-caption dataset based on computer science arXiv papers\npublished between 2010 and 2020. After pre-processing - including figure-type\nclassification, sub-figure identification, text normalization, and caption text\nselection - SCICAP contained more than two million figures extracted from over\n290,000 papers. We then established baseline models that caption graph plots,\nthe dominant (19.2%) figure type. The experimental results showed both\nopportunities and steep challenges of generating captions for scientific\nfigures.",
-    "descriptor": "\nComments: Accepted by EMNLP 2021 Findings\n",
+    "descriptor": "\nComments: To Appear in EMNLP 2021 Findings. The dataset is available at: this https URL\n",
     "authors": [
-      "Ting-Yao",
+      "Ting-Yao Hsu",
       "C. Lee Giles",
       "Ting-Hao 'Kenneth' Huang"
     ],
@@ -2295,7 +2296,8 @@
     "descriptor": "\nComments: 22 pages, preliminary version appeared as 1908.01010\n",
     "authors": [
       "Chen Zhang",
-      "Riccardo Barbano Bangti Jin"
+      "Riccardo Barbano",
+      "Bangti Jin"
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
@@ -2694,7 +2696,7 @@
   {
     "id": "arXiv:2110.11758",
     "title": "The Crew: The Quest for Planet Nine is NP-Complete",
-    "abstract": "In this paper we study the cooperative card game, The Crew: The Quest for\nPlanet Nine from the viewpoint of algorithmic combinatorial game theory. The\nCrew: The Quest for Planet Nine, is a game based off of traditional trick\ntaking card games, like bridge or hearts. In The Crew, players are dealt a hand\nof cards, with cards being from one of $c$ colors and having a value between 1\nto $n$. Players also draft objectives, which correspond to a card in the\ncurrent game that they must collect in order to win. Players then take turns\neach playing one card in a trick, with the player who played the highest value\ncard taking the trick and all cards played in it. If all players complete all\nof their objectives, the players win. The game also forces players to not talk\nabout the cards in their hand, and has a number of \"Task Tokens\" which can\nmodify the rules slightly. In this work, we introduce and formally define a\nperfect-information model of this problem, and show that the general unbounded\nversion, as well as the constant player count version are both intractable.\nHowever, we also show that two bounded versions of this decision problem --\ndeciding whether or not all players can complete their objectives -- can be\nsolved in polynomial time.",
+    "abstract": "In this paper, we study the cooperative card game, The Crew: The Quest for\nPlanet Nine from the viewpoint of algorithmic combinatorial game theory. The\nCrew: The Quest for Planet Nine, is a game based on traditional trick-taking\ncard games, like bridge or hearts. In The Crew, players are dealt a hand of\ncards, with cards being from one of $c$ colors and having a value between 1 to\n$n$. Players also draft objectives, which correspond to a card in the current\ngame that they must collect in order to win. Players then take turns each\nplaying one card in a trick, with the player who played the highest value card\ntaking the trick and all cards played in it. If all players complete all of\ntheir objectives, the players win. The game also forces players to not talk\nabout the cards in their hand and has a number of \"Task Tokens\" which can\nmodify the rules slightly.\nIn this work, we introduce and formally define a perfect-information model of\nthis problem, and show that the general unbounded version is computationally\nintractable. However, we also show that three bounded versions of this decision\nproblem - deciding whether or not all players can complete their objectives -\ncan be solved in polynomial time. \\end{abstract}",
     "descriptor": "\nComments: 14 pages, 3 figures\n",
     "authors": [
       "Frederick Reiber"
@@ -3693,7 +3695,7 @@
     "descriptor": "",
     "authors": [
       "Jingning Xu",
-      "benlai Tang",
+      "Benlai Tang",
       "Mingjie Wang",
       "Siyuan Bian",
       "Wenyi Guo",
@@ -4083,7 +4085,7 @@
     "id": "arXiv:2110.11382",
     "title": "Efficient and Robust Mixed-Integer Optimization Methods for Training  Binarized Deep Neural Networks",
     "abstract": "Compared to classical deep neural networks its binarized versions can be\nuseful for applications on resource-limited devices due to their reduction in\nmemory consumption and computational demands. In this work we study deep neural\nnetworks with binary activation functions and continuous or integer weights\n(BDNN). We show that the BDNN can be reformulated as a mixed-integer linear\nprogram with bounded weight space which can be solved to global optimality by\nclassical mixed-integer programming solvers. Additionally, a local search\nheuristic is presented to calculate locally optimal networks. Furthermore to\nimprove efficiency we present an iterative data-splitting heuristic which\niteratively splits the training set into smaller subsets by using the k-mean\nmethod. Afterwards all data points in a given subset are forced to follow the\nsame activation pattern, which leads to a much smaller number of integer\nvariables in the mixed-integer programming formulation and therefore to\ncomputational improvements. Finally for the first time a robust model is\npresented which enforces robustness of the BDNN during training. All methods\nare tested on random and real datasets and our results indicate that all models\ncan often compete with or even outperform classical DNNs on small network\narchitectures confirming the viability for applications having restricted\nmemory or computing power.",
-    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2007.03326\n",
+    "descriptor": "\nComments: added GitHub link for code. arXiv admin note: substantial text overlap with arXiv:2007.03326\n",
     "authors": [
       "Jannis Kurtz",
       "Bubacarr Bah"
