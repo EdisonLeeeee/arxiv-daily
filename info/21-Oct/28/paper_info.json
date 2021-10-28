@@ -1129,7 +1129,7 @@
     "id": "arXiv:2110.14097",
     "title": "Automated Evaluation of Web Site Accessibility Using A Dynamic  Accessibility Measurement Crawler",
     "abstract": "Achieving accessibility compliance is extremely important for many government\nagencies and businesses who wish to improve services for their consumers. With\nthe growing reliance on dynamic web applications many organizations are finding\nit difficult to implement accessibility standards, often due to the inability\nof current automated testing tools to test the stateful environments created by\ndynamic web applications. In this paper, we present mathematical foundations\nand theory for the Demodocus framework and prototype, and outline its approach\nto using web science, web crawling,and accessibility testing to automatically\nnavigate and test interactive content for accessibility. Our approach simulates\nthe page interactions of users with and without disabilities, and compares\ngraphs of reachable states from these simulations to determine both the\naccessibility and the difficulty of content access for these different users.",
-    "descriptor": "\nComments: \\c{opyright}2021 The MITRE Corporation. ALL RIGHTS RESERVED. Approved for Public Release; Distribution Unlimited. Case Number 21-3015\n",
+    "descriptor": "\nComments: This version has been removed by arXiv administrators as the submitter did not have the authority to grant the license applied at the time of submission\n",
     "authors": [
       "Trevor Bostic",
       "Jeffrey Stanley",
@@ -4167,8 +4167,7 @@
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
       "Artificial Intelligence (cs.AI)",
-      "Machine Learning (cs.LG)",
-      "Software Engineering (cs.SE)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2110.14590"
   },
