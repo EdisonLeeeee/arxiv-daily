@@ -7239,8 +7239,7 @@
     "subjectives": [
       "Systems and Control (eess.SY)",
       "Artificial Intelligence (cs.AI)",
-      "Robotics (cs.RO)",
-      "Software Engineering (cs.SE)"
+      "Robotics (cs.RO)"
     ],
     "url": "https://arxiv.org/abs/2110.12662"
   },
@@ -7338,7 +7337,8 @@
     "abstract": "In this paper, we use and further develop upon a recently proposed\nmultivariate, distribution-free Goodness-of-Fit (GoF) test based on the theory\nof Optimal Transport (OT) called the Rank Energy (RE) [1], for non-parametric\nand unsupervised Change Point Detection (CPD) in multivariate time series data.\nWe show that directly using RE leads to high sensitivity to very small changes\nin distributions (causing high false alarms) and it requires large sample\ncomplexity and huge computational cost. To alleviate these drawbacks, we\npropose a new GoF test statistic called as soft-Rank Energy (sRE) that is based\non entropy regularized OT and employ it towards CPD. We discuss the advantages\nof using sRE over RE and demonstrate that the proposed sRE based CPD\noutperforms all the existing methods in terms of Area Under the Curve (AUC) and\nF1-score on real and synthetic data sets.",
     "descriptor": "\nComments: 6 pages, 1 figure\n",
     "authors": [
-      "Shoaib Bin Masud"
+      "Shoaib Bin Masud",
+      "Shuchin Aeron"
     ],
     "subjectives": [
       "Machine Learning (stat.ML)",
