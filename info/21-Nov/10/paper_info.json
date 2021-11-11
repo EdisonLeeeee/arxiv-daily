@@ -507,7 +507,7 @@
     "id": "arXiv:2111.04840",
     "title": "Cold Brew: Distilling Graph Node Representations with Incomplete or  Missing Neighborhoods",
     "abstract": "Graph Neural Networks (GNNs) have achieved state of the art performance in\nnode classification, regression, and recommendation tasks. GNNs work well when\nhigh-quality and rich connectivity structure is available. However, this\nrequirement is not satisfied in many real world graphs where the node degrees\nhave power-law distributions as many nodes have either fewer or noisy\nconnections. The extreme case of this situation is a node may have no neighbors\nat all, called Strict Cold Start (SCS) scenario. This forces the prediction\nmodels to rely completely on the node's input features. We propose Cold Brew to\naddress the SCS and noisy neighbor setting compared to pointwise and other\ngraph-based models via a distillation approach. We introduce\nfeature-contribution ratio (FCR), a metric to study the viability of using\ninductive GNNs to solve the SCS problem and to select the best architecture for\nSCS generalization. We experimentally show FCR disentangles the contributions\nof various components of graph datasets and demonstrate the superior\nperformance of Cold Brew on several public benchmarks and proprietary\ne-commerce datasets. The source code for our approach is available at:\nhttps://github.com/amazon-research/gnn-tail-generalization.",
-    "descriptor": "\nComments: ICLR 2022 submission\n",
+    "descriptor": "\nComments: -\n",
     "authors": [
       "Wenqing Zheng",
       "Edward W Huang",
@@ -878,7 +878,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Data Structures and Algorithms (cs.DS)"
+      "Data Structures and Algorithms (cs.DS)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2111.04888"
   },
