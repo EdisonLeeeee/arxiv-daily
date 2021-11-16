@@ -2648,8 +2648,10 @@
     "abstract": "Wearable technologies have traditionally been used to measure and monitor\nvital human signs for well-being and healthcare applications. However, there is\na growing interest in using and deploying these technologies to facilitate\nteaching and learning, particularly in a higher education environment. The aim\nof this paper is therefore to systematically review the range of wearable\ndevices that have been used for enhancing the teaching and delivery of\nengineering curricula in higher education. Moreover, we compare the advantages\nand disadvantages of these devices according to the location in which they are\nworn on the human body. According to our survey, wearable devices for enhanced\nlearning have mainly been worn on the head (e.g. eyeglasses), wrist (e.g.\nwatches) and chest (e.g. electrocardiogram patch). In fact, among those\nlocations, head-worn devices enable better student engagement with the learning\nmaterials, improved student attention as well as higher spatial and visual\nawareness. We identify the research questions and discuss the research\ninclusion and exclusion criteria to present the challenges faced by researchers\nin implementing learning technologies for enhanced engineering education.\nFurthermore, we provide recommendations on using wearable devices to improve\nthe teaching and learning of engineering courses in higher education.",
     "descriptor": "",
     "authors": [
-      "Rami Ghannam",
-      "Sara Khosravi"
+      "Sara Khosravi",
+      "Stuart G. Bailey",
+      "Hadi Parvizi",
+      "Rami Ghannam"
     ],
     "subjectives": [
       "Human-Computer Interaction (cs.HC)"
@@ -3005,7 +3007,7 @@
       "Eleanor Wedell",
       "Minhyuk Park",
       "Dmitriy Korobskiy",
-      "Tandy Warnbow",
+      "Tandy Warnow",
       "George Chacko"
     ],
     "subjectives": [
