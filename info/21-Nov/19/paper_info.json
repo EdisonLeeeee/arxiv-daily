@@ -3175,7 +3175,8 @@
       "Aniruddha Kembhavi"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2111.09888"
   },
@@ -3929,6 +3930,7 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Systems and Control (eess.SY)",
+      "Optimization and Control (math.OC)",
       "Applications (stat.AP)",
       "Machine Learning (stat.ML)"
     ],
