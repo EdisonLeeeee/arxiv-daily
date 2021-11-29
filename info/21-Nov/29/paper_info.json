@@ -465,7 +465,7 @@
     "id": "arXiv:2111.12797",
     "title": "ReAct: Out-of-distribution Detection With Rectified Activations",
     "abstract": "Out-of-distribution (OOD) detection has received much attention lately due to\nits practical importance in enhancing the safe deployment of neural networks.\nOne of the primary challenges is that models often produce highly confident\npredictions on OOD data, which undermines the driving principle in OOD\ndetection that the model should only be confident about in-distribution\nsamples. In this work, we propose ReAct--a simple and effective technique for\nreducing model overconfidence on OOD data. Our method is motivated by novel\nanalysis on internal activations of neural networks, which displays highly\ndistinctive signature patterns for OOD distributions. Our method can generalize\neffectively to different network architectures and different OOD detection\nscores. We empirically demonstrate that ReAct achieves competitive detection\nperformance on a comprehensive suite of benchmark datasets, and give\ntheoretical explication for our method's efficacy. On the ImageNet benchmark,\nReAct reduces the false positive rate (FPR95) by 25.05% compared to the\nprevious best method.",
-    "descriptor": "\nComments: NeurIPS 2021. arXiv admin note: text overlap with arXiv:2111.09805\n",
+    "descriptor": "\nComments: NeurIPS 2021\n",
     "authors": [
       "Yiyou Sun",
       "Chuan Guo",
