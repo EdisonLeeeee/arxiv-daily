@@ -1922,7 +1922,7 @@
     "descriptor": "\nComments: 26 pages, 5 tables, 3 figures. This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible\n",
     "authors": [
       "Luca Varotto",
-      "Angelo Cenedes",
+      "Angelo Cenedese",
       "Andrea Cavallaro"
     ],
     "subjectives": [
@@ -4701,8 +4701,7 @@
       "Minsung Yoon"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
-      "Logic in Computer Science (cs.LO)"
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2112.02810"
   },
@@ -6573,9 +6572,9 @@
       "Vinodkumar Prabhakaran"
     ],
     "subjectives": [
-      "Software Engineering (cs.SE)",
+      "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
-      "Machine Learning (cs.LG)"
+      "Software Engineering (cs.SE)"
     ],
     "url": "https://arxiv.org/abs/2112.03057"
   },
@@ -7782,7 +7781,7 @@
   {
     "id": "arXiv:2112.03243",
     "title": "Input-level Inductive Biases for 3D Reconstruction",
-    "abstract": "We explore 3D reconstruction using a generalist perception model, the recent\nPerceiver IO which ingests a matrix of unordered and flattened inputs (e.g.\npixels). The model is interrogated using a query matrix and generates an output\nfor every query -- in this paper the outputs are depth values for all pixels of\nthe input image pair. We incorporate inductive biases useful for multiple view\ngeometry into this generalist model without having to touch its architecture,\nby instead encoding them directly as additional inputs.",
+    "abstract": "Much of the recent progress in 3D vision has been driven by the development\nof specialized architectures that incorporate geometrical inductive biases. In\nthis paper we tackle 3D reconstruction using a domain agnostic architecture and\nstudy how instead to inject the same type of inductive biases directly as extra\ninputs to the model. This approach makes it possible to apply existing general\nmodels, such as Perceivers, on this rich domain, without the need for\narchitectural changes, while simultaneously maintaining data efficiency of\nbespoke models. In particular we study how to encode cameras, projective ray\nincidence and epipolar geometry as model inputs, and demonstrate competitive\nmulti-view depth estimation performance on multiple benchmarks.",
     "descriptor": "",
     "authors": [
       "Wang Yifan",
