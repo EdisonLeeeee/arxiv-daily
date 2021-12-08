@@ -2453,7 +2453,7 @@
     "id": "arXiv:2112.02472",
     "title": "Augmentation-Free Self-Supervised Learning on Graphs",
     "abstract": "Inspired by the recent success of self-supervised methods applied on images,\nself-supervised learning on graph structured data has seen rapid growth\nespecially centered on augmentation-based contrastive methods. However, we\nargue that without carefully designed augmentation techniques, augmentations on\ngraphs may behave arbitrarily in that the underlying semantics of graphs can\ndrastically change. As a consequence, the performance of existing\naugmentation-based methods is highly dependent on the choice of augmentation\nscheme, i.e., hyperparameters associated with augmentations. In this paper, we\npropose a novel augmentation-free self-supervised learning framework for\ngraphs, named AFGRL. Specifically, we generate an alternative view of a graph\nby discovering nodes that share the local structural information and the global\nsemantics with the graph. Extensive experiments towards various node-level\ntasks, i.e., node classification, clustering, and similarity search on various\nreal-world datasets demonstrate the superiority of AFGRL. The source code for\nAFGRL is available at https://github.com/Namkyeong/AFGRL.",
-    "descriptor": "",
+    "descriptor": "\nComments: AAAI 2022\n",
     "authors": [
       "Namkyeong Lee",
       "Junseok Lee",
@@ -8333,7 +8333,7 @@
   },
   {
     "id": "arXiv:2112.02378",
-    "title": "Quasiplanar graphs, string graphs, and the Erd\\H os-Gallai problem",
+    "title": "Quasiplanar graphs, string graphs, and the Erdos-Gallai problem",
     "abstract": "An $r$-quasiplanar graph is a graph drawn in the plane with no $r$ pairwise\ncrossing edges. We prove that there is a constant $C>0$ such that for any\n$s>2$, every $2^s$-quasiplanar graph with $n$ vertices has at most\n$n(\\frac{C\\log n}{s})^{2s-4}$ edges.\nA graph whose vertices are continuous curves in the plane, two being\nconnected by an edge if and only if they intersect, is called a \\emph{string\ngraph}. We show that for every $\\epsilon>0$, there exists $\\delta>0$ such that\nevery string graph with $n$ vertices, whose chromatic number is at least\n$n^{\\epsilon}$ contains a clique of size at least $n^{\\delta}$. A clique of\nthis size or a coloring using fewer than $n^{\\epsilon}$ colors can be found by\na polynomial time algorithm in terms of the size of the geometric\nrepresentation of the set of strings.\nFor every $r\\ge 3$, we construct families of $n$ segments in the plane\nwithout $r$ pairwise crossing members, which have the property that in any\ncoloring of the segments with fewer than $c \\log\\log n $ colors, at least one\nof the color classes contains $r-1$ pairwise crossing segments. Here $c=c(r)>0$\nis a suitable constant.\nIn the process, we use, generalize, and strengthen previous results of Lee,\nTomon, Walczak, and others. All of our theorems are related to geometric\nvariants of the following classical graph-theoretic problem of Erd\\H os,\nGallai, and Rogers. Given a $K_r$-free graph on $n$ vertices and an integer\n$s<r$, at least how many vertices can we find such that the subgraph induced by\nthem is $K_s$-free?",
     "descriptor": "",
     "authors": [
