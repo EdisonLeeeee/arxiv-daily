@@ -1339,7 +1339,7 @@
     "id": "arXiv:2112.04169",
     "title": "Equity Promotion in Online Resource Allocation",
     "abstract": "We consider online resource allocation under a typical non-profit setting,\nwhere limited or even scarce resources are administered by a not-for-profit\norganization like a government. We focus on the internal-equity by assuming\nthat arriving requesters are homogeneous in terms of their external factors\nlike demands but heterogeneous for their internal attributes like demographics.\nSpecifically, we associate each arriving requester with one or several groups\nbased on their demographics (i.e., race, gender, and age), and we aim to design\nan equitable distributing strategy such that every group of requesters can\nreceive a fair share of resources proportional to a preset target ratio. We\npresent two LP-based sampling algorithms and investigate them both\ntheoretically (in terms of competitive-ratio analysis) and experimentally based\non real COVID-19 vaccination data maintained by the Minnesota Department of\nHealth. Both theoretical and numerical results show that our LP-based sampling\nstrategies can effectively promote equity, especially when the arrival\npopulation is disproportionately represented, as observed in the early stage of\nthe COVID-19 vaccine rollout.",
-    "descriptor": "\nComments: A preliminary version will appear in the 36th AAAI conference on artificial intelligence (AAAI 22)\n",
+    "descriptor": "\nComments: A preliminary version will appear in the 36th AAAI Conference on Artificial Intelligence (AAAI 22)\n",
     "authors": [
       "Pan Xu",
       "Yifan Xu"
@@ -4862,8 +4862,7 @@
     ],
     "subjectives": [
       "General Economics (econ.GN)",
-      "Digital Libraries (cs.DL)",
-      "General Mathematics (math.GM)"
+      "Digital Libraries (cs.DL)"
     ],
     "url": "https://arxiv.org/abs/2106.13321"
   },
@@ -5094,6 +5093,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
+      "Information Theory (cs.IT)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2108.11345"
