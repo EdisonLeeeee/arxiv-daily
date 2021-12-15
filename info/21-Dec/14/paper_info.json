@@ -7527,7 +7527,9 @@
     ],
     "subjectives": [
       "Physics and Society (physics.soc-ph)",
-      "Social and Information Networks (cs.SI)"
+      "Social and Information Networks (cs.SI)",
+      "Dynamical Systems (math.DS)",
+      "Adaptation and Self-Organizing Systems (nlin.AO)"
     ],
     "url": "https://arxiv.org/abs/2112.05856"
   },
@@ -10946,11 +10948,11 @@
     "descriptor": "",
     "authors": [
       "Yuxi Wang",
-      "Jian Lang",
-      "Zhaoxiang Zhang",
+      "Jian Liang",
+      "Jun Xiao",
       "Yuran Yang",
       "Shuqi Mei",
-      "Jun Xiao"
+      "Zhaoxiang Zhang"
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)"
