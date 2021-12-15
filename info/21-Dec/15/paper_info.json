@@ -4418,7 +4418,8 @@
       "Carsten Sch\u00fcrmann"
     ],
     "subjectives": [
-      "Programming Languages (cs.PL)"
+      "Programming Languages (cs.PL)",
+      "Logic in Computer Science (cs.LO)"
     ],
     "url": "https://arxiv.org/abs/2112.07636"
   },
@@ -8026,8 +8027,8 @@
   {
     "id": "arXiv:2112.06410",
     "title": "How Good are Low-Rank Approximations in Gaussian Process Regression?",
-    "abstract": "Comments: This submission should be an update of an older arxiv version and not a new one!",
-    "descriptor": "\nComments: This submission should be an update of an older arxiv version and not a new one!\n",
+    "abstract": "Comments: This submission should be an update of arXiv:2004.01584",
+    "descriptor": "\nComments: This submission should be an update of arXiv:2004.01584\n",
     "authors": [
       "Constantinos Daskalakis",
       "Petros Dellaportas",
