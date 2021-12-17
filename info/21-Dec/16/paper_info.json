@@ -557,7 +557,8 @@
       "Chao Chen"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Computational Geometry (cs.CG)"
     ],
     "url": "https://arxiv.org/abs/2112.07812"
   },
@@ -1797,7 +1798,7 @@
   {
     "id": "arXiv:2112.07966",
     "title": "Modality-Aware Triplet Hard Mining for Zero-shot Sketch-Based Image  Retrieval",
-    "abstract": "This paper tackles the Zero-Shot Sketch-Based Image Retrieval (ZS-SBIR)\nproblem from the viewpoint of cross-modality metric learning. % with recent\ngood practices in deep metric learning. This task has two characteristics: 1)\nthe zero-shot setting requires a metric space with good within-class\ncompactness and the between-class discrepancy for recognizing the novel classes\nand 2) the sketch query and the photo gallery are in different modalities. The\nmetric learning viewpoint benefits ZS-SBIR from two aspects. First, it\nfacilitates improvement through recent good practices in deep metric learning\n(DML). By combining two fundamental learning approaches in DML, \\emph{e.g.},\nclassification training and pairwise training, we set up a strong baseline for\nZS-SBIR. Without bells and whistles, this baseline achieves competitive\nretrieval accuracy. Second, it provides an insight that properly suppressing\nthe modality gap is critical. To this end, we design a novel method named\nModality-Aware Triplet Hard Mining (MATHM). MATHM enhances the baseline with\nthree types of pairwise learning, \\emph{e.g.}, a cross-modality sample pair, a\nwithin-modality sample pair, and their combination.\\We also design an adaptive\nweighting method to balance these three components during training dynamically.\nExperimental results confirm that MATHM brings another round of significant\nimprovement based on the strong baseline and sets up new state-of-the-art\nperformance. For example, on the TU-Berlin dataset, we achieve 47.88+2.94\\%\nmAP@all and 58.28+2.34\\% Prec@100. Code will be publicly available.",
+    "abstract": "This paper tackles the Zero-Shot Sketch-Based Image Retrieval (ZS-SBIR)\nproblem from the viewpoint of cross-modality metric learning. This task has two\ncharacteristics: 1) the zero-shot setting requires a metric space with good\nwithin-class compactness and the between-class discrepancy for recognizing the\nnovel classes and 2) the sketch query and the photo gallery are in different\nmodalities. The metric learning viewpoint benefits ZS-SBIR from two aspects.\nFirst, it facilitates improvement through recent good practices in deep metric\nlearning (DML). By combining two fundamental learning approaches in DML, e.g.,\nclassification training and pairwise training, we set up a strong baseline for\nZS-SBIR. Without bells and whistles, this baseline achieves competitive\nretrieval accuracy. Second, it provides an insight that properly suppressing\nthe modality gap is critical. To this end, we design a novel method named\nModality-Aware Triplet Hard Mining (MATHM). MATHM enhances the baseline with\nthree types of pairwise learning, e.g., a cross-modality sample pair, a\nwithin-modality sample pair, and their combination.\\We also design an adaptive\nweighting method to balance these three components during training dynamically.\nExperimental results confirm that MATHM brings another round of significant\nimprovement based on the strong baseline and sets up new state-of-the-art\nperformance. For example, on the TU-Berlin dataset, we achieve 47.88+2.94%\nmAP@all and 58.28+2.34% Prec@100. Code will be publicly available at:\nhttps://github.com/huangzongheng/MATHM.",
     "descriptor": "\nComments: 13 pages, 7 figures\n",
     "authors": [
       "Zongheng Huang",
