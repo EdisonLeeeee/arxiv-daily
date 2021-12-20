@@ -4351,7 +4351,7 @@
   {
     "id": "arXiv:2112.09008",
     "title": "APTSHIELD: A Stable, Efficient and Real-time APT Detection System for  Linux Hosts",
-    "abstract": "Advanced Persistent Threat (APT) attack usually refers to the form of\nlong-term, covert and sustained attack on specific targets, with an adversary\nusing advanced attack techniques to destroy the key facilities of an\norganization. APT attacks have caused serious security threats and massive\nfinancial loss worldwide. Academics and industry thereby have proposed a series\nof solutions to detect APT attacks, such as dynamic/static code analysis,\ntraffic detection, sandbox technology, endpoint detection and response (EDR),\netc. However, existing defenses are failed to accurately and effectively defend\nagainst the current APT attacks that exhibit strong persistent, stealthy,\ndiverse and dynamic characteristics due to the weak data source integrity,\nlarge data processing overhead and poor real-time performance in the process of\nreal-world scenarios.\nTo overcome these difficulties, in this paper we propose \\sn{}, a stable,\nefficient and real-time APT detection system for Linux hosts. In the aspect of\ndata collection, audit is selected to stably collect kernel data of the\noperating system so as to carry out a complete portrait of the attack based on\ncomprehensive analysis and comparison of existing logging tools; In the aspect\nof data processing, redundant semantics skipping and non-viable node pruning\nare adopted to reduce the amount of data, so as to reduce the overhead of the\ndetection system; In the aspect of attack detection, an APT attack detection\nframework based on ATT\\&CK model is designed to carry out real-time attack\nresponse and alarm through the transfer and aggregation of labels. Experimental\nresults on both laboratory and Darpa Engagement show that our system can\neffectively detect web vulnerability attacks, file-less attacks and remote\naccess trojan attacks, and has a low false positive rate, which adds far more\nvalue than the existing frontier work.",
+    "abstract": "Advanced Persistent Threat (APT) attack usually refers to the form of\nlong-term, covert and sustained attack on specific targets, with an adversary\nusing advanced attack techniques to destroy the key facilities of an\norganization. APT attacks have caused serious security threats and massive\nfinancial loss worldwide. Academics and industry thereby have proposed a series\nof solutions to detect APT attacks, such as dynamic/static code analysis,\ntraffic detection, sandbox technology, endpoint detection and response (EDR),\netc. However, existing defenses are failed to accurately and effectively defend\nagainst the current APT attacks that exhibit strong persistent, stealthy,\ndiverse and dynamic characteristics due to the weak data source integrity,\nlarge data processing overhead and poor real-time performance in the process of\nreal-world scenarios.\nTo overcome these difficulties, in this paper we propose APTSHIELD, a stable,\nefficient and real-time APT detection system for Linux hosts. In the aspect of\ndata collection, audit is selected to stably collect kernel data of the\noperating system so as to carry out a complete portrait of the attack based on\ncomprehensive analysis and comparison of existing logging tools; In the aspect\nof data processing, redundant semantics skipping and non-viable node pruning\nare adopted to reduce the amount of data, so as to reduce the overhead of the\ndetection system; In the aspect of attack detection, an APT attack detection\nframework based on ATT\\&CK model is designed to carry out real-time attack\nresponse and alarm through the transfer and aggregation of labels. Experimental\nresults on both laboratory and Darpa Engagement show that our system can\neffectively detect web vulnerability attacks, file-less attacks and remote\naccess trojan attacks, and has a low false positive rate, which adds far more\nvalue than the existing frontier work.",
     "descriptor": "",
     "authors": [
       "Tiantian Zhu",
@@ -6039,8 +6039,8 @@
   {
     "id": "arXiv:2006.11165",
     "title": "Backdoor Attacks to Graph Neural Networks",
-    "abstract": "Comments: In ACM SACMAT, 2022",
-    "descriptor": "\nComments: In ACM SACMAT, 2022\n",
+    "abstract": "Comments: In ACM SACMAT, 2021",
+    "descriptor": "\nComments: In ACM SACMAT, 2021\n",
     "authors": [
       "Zaixi Zhang",
       "Jinyuan Jia",
@@ -7172,8 +7172,8 @@
   {
     "id": "arXiv:2107.01963",
     "title": "PANDADB: A Distributed Graph Database System to Query Unstructured Data  in Big Graph",
-    "abstract": "Comments: 16pages",
-    "descriptor": "\nComments: 16pages\n",
+    "abstract": "Comments: full",
+    "descriptor": "\nComments: full\n",
     "authors": [
       "Zihao Zhao",
       "Zhihong Shen",
@@ -7763,7 +7763,8 @@
     ],
     "subjectives": [
       "Information Theory (cs.IT)",
-      "Computational Complexity (cs.CC)"
+      "Computational Complexity (cs.CC)",
+      "Group Theory (math.GR)"
     ],
     "url": "https://arxiv.org/abs/2111.04808"
   },
