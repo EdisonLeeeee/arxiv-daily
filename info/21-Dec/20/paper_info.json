@@ -2263,7 +2263,7 @@
     "abstract": "We propose a new splitting method for strong numerical solution of the\nCox-Ingersoll-Ross model. For this method, applied over both deterministic and\nadaptive random meshes, we prove a uniform moment bound and strong error\nresults of order $1/4$ in $L_1$ and $L_2$ for the parameter regime\n$\\kappa\\theta>\\sigma^2$. Our scheme does not fall into the class analyzed in\nHefter & Herzwurm (2018) where convergence of maximum order $1/4$ of a novel\nclass of Milstein-based methods over the full range of parameter values is\nshown. Hence we present a separate convergence analysis before we extend the\nnew method to cover all parameter values by introducing a 'soft zero' region\n(where the deterministic flow determines the approximation) giving a hybrid\ntype method to deal with the reflecting boundary.\nFrom numerical simulations we observe a rate of order $1$ when\n$\\kappa\\theta>\\sigma^2$ rather than $1/4$. Asymptotically, for large noise, we\nobserve that the rates of convergence decrease similarly to those of other\nschemes but that the proposed method displays smaller error constants. Our\nresults also serve as supporting numerical evidence that the conjecture of\nHefter & Jentzen (2019) holds true for methods with non-uniform Wiener\nincrements.",
     "descriptor": "\nComments: 30 pages, 3 figures, submitted to the IMA Journal of Numerical Analysis\n",
     "authors": [
-      "C\u00f3ral Kelly",
+      "C\u00f3nall Kelly",
       "Gabriel J. Lord"
     ],
     "subjectives": [
