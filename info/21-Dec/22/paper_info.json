@@ -739,7 +739,7 @@
   {
     "id": "arXiv:2112.10935",
     "title": "Nearly Optimal Policy Optimization with Stable at Any Time Guarantee",
-    "abstract": "Policy optimization methods are one of the most widely used classes of\nReinforcement Learning (RL) algorithms. However, theoretical understanding of\nthese methods remains insufficient. Even in the episodic (time-inhomogeneous)\ntabular setting, the state-of-the-art theoretical result of policy-based method\nin \\citet{shani2020optimistic} is only $\\tilde{O}(\\sqrt{S^2AH^4K})$ where $S$\nis the number of states, $A$ is the number of actions, $H$ is the horizon, and\n$K$ is the number of episodes, and there is a $\\sqrt{SH}$ gap compared with the\ninformation theoretic lower bound $\\tilde{\\Omega}(\\sqrt{SAH^3K})$. To bridge\nsuch a gap, we propose a novel algorithm Reference-based Policy Optimization\nwith Stable at Any Time guarantee (\\algnameacro), which features the property\n\"Stable at Any Time\". We prove that our algorithm achieves\n$\\tilde{O}(\\sqrt{SAH^3K} + \\sqrt{AH^4})$ regret. When $S > H$, our algorithm is\nminimax optimal when ignoring logarithmic factors. To our best knowledge,\nRPO-SAT is the first computationally efficient, nearly minimax optimal\npolicy-based algorithm for tabular RL.",
+    "abstract": "Policy optimization methods are one of the most widely used classes of\nReinforcement Learning (RL) algorithms. However, theoretical understanding of\nthese methods remains insufficient. Even in the episodic (time-inhomogeneous)\ntabular setting, the state-of-the-art theoretical result of policy-based method\nin \\citet{shani2020optimistic} is only $\\tilde{O}(\\sqrt{S^2AH^4K})$ where $S$\nis the number of states, $A$ is the number of actions, $H$ is the horizon, and\n$K$ is the number of episodes, and there is a $\\sqrt{SH}$ gap compared with the\ninformation theoretic lower bound $\\tilde{\\Omega}(\\sqrt{SAH^3K})$. To bridge\nsuch a gap, we propose a novel algorithm Reference-based Policy Optimization\nwith Stable at Any Time guarantee (\\algnameacro), which features the property\n\"Stable at Any Time\". We prove that our algorithm achieves\n$\\tilde{O}(\\sqrt{SAH^3K} + \\sqrt{AH^4K})$ regret. When $S > H$, our algorithm\nis minimax optimal when ignoring logarithmic factors. To our best knowledge,\nRPO-SAT is the first computationally efficient, nearly minimax optimal\npolicy-based algorithm for tabular RL.",
     "descriptor": "",
     "authors": [
       "Tianhao Wu",
@@ -798,8 +798,8 @@
   {
     "id": "arXiv:2112.10941",
     "title": "Structured Semantic Transfer for Multi-Label Recognition with Partial  Labels",
-    "abstract": "Multi-label image recognition is a fundamental yet practical task because\nreal-world images inherently possess multiple semantic labels. However, it is\ndifficult to collect large-scale multi-label annotations due to the complexity\nof both the input images and output label spaces. To reduce the annotation\ncost, we propose a structured semantic transfer (SST) framework that enables\ntraining multi-label recognition models with partial labels, i.e., merely some\nlabels are known while other labels are missing (also called unknown labels)\nper image. The framework consists of two complementary transfer modules that\nexplore within-image and cross-image semantic correlations to transfer\nknowledge of known labels to generate pseudo labels for unknown labels.\nSpecifically, an intra-image semantic transfer module learns image-specific\nlabel co-occurrence matrix and maps the known labels to complement unknown\nlabels based on this matrix. Meanwhile, a cross-image transfer module learns\ncategory-specific feature similarities and helps complement unknown labels with\nhigh similarities. Finally, both known and generated labels are used to train\nthe multi-label recognition models. Extensive experiments on the Microsoft\nCOCO, Visual Genome and Pascal VOC datasets show that the proposed SST\nframework obtains superior performance over current state-of-the-art\nalgorithms. Codes are available at\n\\url{https://github.com/HCPLab-SYSU/SST-MLR-PL",
-    "descriptor": "\nComments: Accepted by AAAI 2022\n",
+    "abstract": "Multi-label image recognition is a fundamental yet practical task because\nreal-world images inherently possess multiple semantic labels. However, it is\ndifficult to collect large-scale multi-label annotations due to the complexity\nof both the input images and output label spaces. To reduce the annotation\ncost, we propose a structured semantic transfer (SST) framework that enables\ntraining multi-label recognition models with partial labels, i.e., merely some\nlabels are known while other labels are missing (also called unknown labels)\nper image. The framework consists of two complementary transfer modules that\nexplore within-image and cross-image semantic correlations to transfer\nknowledge of known labels to generate pseudo labels for unknown labels.\nSpecifically, an intra-image semantic transfer module learns image-specific\nlabel co-occurrence matrix and maps the known labels to complement unknown\nlabels based on this matrix. Meanwhile, a cross-image transfer module learns\ncategory-specific feature similarities and helps complement unknown labels with\nhigh similarities. Finally, both known and generated labels are used to train\nthe multi-label recognition models. Extensive experiments on the Microsoft\nCOCO, Visual Genome and Pascal VOC datasets show that the proposed SST\nframework obtains superior performance over current state-of-the-art\nalgorithms. Codes are available at https://github.com/HCPLab-SYSU/HCP-MLR-PL.",
+    "descriptor": "\nComments: Accepted by AAAI'22\n",
     "authors": [
       "Tianshui Chen",
       "Tao Pu",
@@ -892,6 +892,9 @@
     ],
     "subjectives": [
       "Social and Information Networks (cs.SI)",
+      "Machine Learning (cs.LG)",
+      "Probability (math.PR)",
+      "Adaptation and Self-Organizing Systems (nlin.AO)",
       "Physics and Society (physics.soc-ph)"
     ],
     "url": "https://arxiv.org/abs/2112.10953"
@@ -3540,7 +3543,7 @@
     "id": "arXiv:2112.11393",
     "title": "A Survey on Perfectly-Secure Verifiable Secret-Sharing",
     "abstract": "Verifiable Secret-Sharing (VSS) is a fundamental primitive in secure\ndistributed computing. It is used as a building block in several distributed\ncomputing tasks, such as Byzantine agreement and secure multi-party\ncomputation. In this article, we consider VSS schemes with perfect security,\ntolerating computationally unbounded adversaries. We comprehensively survey the\nexisting perfectly-secure VSS schemes in three different communication\nsettings, namely synchronous, asynchronous and hybrid setting and provide full\ndetails of the existing schemes in these settings. The aim of this survey is to\nprovide a clear knowledge and foundation to researchers who are interested in\nknowing and extending the state-of-the-art perfectly-secure VSS schemes.",
-    "descriptor": "\nComments: 38 pages, 17 figures, Under submission to ACM Computing Surveys\n",
+    "descriptor": "\nComments: 38 pages, 17 figures\n",
     "authors": [
       "Anirudh C",
       "Ashish Choudhury",
@@ -3664,7 +3667,10 @@
       "Ira Kemelmacher-Shlizerman"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Artificial Intelligence (cs.AI)",
+      "Graphics (cs.GR)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2112.11427"
   },
@@ -3975,6 +3981,7 @@
     ],
     "subjectives": [
       "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
       "Strongly Correlated Electrons (cond-mat.str-el)",
       "Machine Learning (cs.LG)"
     ],
