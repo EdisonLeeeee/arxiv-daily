@@ -213,8 +213,8 @@
     "abstract": "Safety-critical applications require controllers/policies that can guarantee\nsafety with high confidence. The control barrier function is a useful tool to\nguarantee safety if we have access to the ground-truth system dynamics. In\npractice, we have inaccurate knowledge of the system dynamics, which can lead\nto unsafe behaviors due to unmodeled residual dynamics. Learning the residual\ndynamics with deterministic machine learning models can prevent the unsafe\nbehavior but can fail when the predictions are imperfect. In this situation, a\nprobabilistic learning method that reasons about the uncertainty of its\npredictions can help provide robust safety margins. In this work, we use a\nGaussian process to model the projection of the residual dynamics onto a\ncontrol barrier function. We propose a novel optimization procedure to generate\nsafe controls that can guarantee safety with high probability. The safety\nfilter is provided with the ability to reason about the uncertainty of the\npredictions from the GP. We show the efficacy of this method through\nexperiments on Segway and Quadrotor simulations. Our proposed probabilistic\napproach is able to reduce the number of safety violations significantly as\ncompared to the deterministic approach with a neural network.",
     "descriptor": "\nComments: Presented at NeurIPS 2021 workshop - Safe and Robust Control of Uncertain Systems\n",
     "authors": [
-      "Sulin Liu",
       "Athindran Ramesh Kumar",
+      "Sulin Liu",
       "Jaime F. Fisac",
       "Ryan P. Adams",
       "Peter J. Ramadge"
@@ -1145,7 +1145,7 @@
       "Elvis Han Cui",
       "Yanan Li",
       "Donghui Wang",
-      "Weng Wong"
+      "Weng Kee Wong"
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)"
@@ -1215,7 +1215,7 @@
     "descriptor": "",
     "authors": [
       "Yihua Zhang",
-      "Guanhuan Zhang",
+      "Guanhua Zhang",
       "Prashant Khanduri",
       "Mingyi Hong",
       "Shiyu Chang",
@@ -3103,7 +3103,7 @@
     "id": "arXiv:2112.12761",
     "title": "BANMo: Building Animatable 3D Neural Models from Many Casual Videos",
     "abstract": "Prior work for articulated 3D shape reconstruction often relies on\nspecialized sensors (e.g., synchronized multi-camera systems), or pre-built 3D\ndeformable models (e.g., SMAL or SMPL). Such methods are not able to scale to\ndiverse sets of objects in the wild. We present BANMo, a method that requires\nneither a specialized sensor nor a pre-defined template shape. BANMo builds\nhigh-fidelity, articulated 3D models (including shape and animatable skinning\nweights) from many monocular casual videos in a differentiable rendering\nframework. While the use of many videos provides more coverage of camera views\nand object articulations, they introduce significant challenges in establishing\ncorrespondence across scenes with different backgrounds, illumination\nconditions, etc. Our key insight is to merge three schools of thought; (1)\nclassic deformable shape models that make use of articulated bones and blend\nskinning, (2) volumetric neural radiance fields (NeRFs) that are amenable to\ngradient-based optimization, and (3) canonical embeddings that generate\ncorrespondences between pixels and an articulated model. We introduce neural\nblend skinning models that allow for differentiable and invertible articulated\ndeformations. When combined with canonical embeddings, such models allow us to\nestablish dense correspondences across videos that can be self-supervised with\ncycle consistency. On real and synthetic datasets, BANMo shows higher-fidelity\n3D reconstructions than prior works for humans and animals, with the ability to\nrender realistic images from novel viewpoints and poses. Project webpage:\nbanmo-www.github.io .",
-    "descriptor": "",
+    "descriptor": "\nComments: Modified Sec. 3.2 deformation model and Sec. 3.4 active sampling\n",
     "authors": [
       "Gengshan Yang",
       "Minh Vo",
@@ -5247,8 +5247,8 @@
   {
     "id": "arXiv:2111.00698",
     "title": "Influential Prototypical Networks for Few Shot Learning: A  Dermatological Case Study",
-    "abstract": "Comments: Paper needs revision on data so want to withdraw",
-    "descriptor": "\nComments: Paper needs revision on data so want to withdraw\n",
+    "abstract": "Comments: Computer Vision and Pattern Recognition",
+    "descriptor": "\nComments: Computer Vision and Pattern Recognition\n",
     "authors": [
       "Ranjana Roy Chowdhury",
       "Deepti R. Bathula"
