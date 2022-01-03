@@ -176,7 +176,10 @@
       "Yanzhi Wang"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Artificial Intelligence (cs.AI)",
+      "Hardware Architecture (cs.AR)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2112.13890"
   },
@@ -221,7 +224,7 @@
   {
     "id": "arXiv:2112.13901",
     "title": "Expected hypervolume improvement for simultaneous multi-objective and  multi-fidelity optimization",
-    "abstract": "Bayesian optimization has proven to be an efficient method to optimize\nexpensive-to-evaluate systems. However, depending on the cost of single\nobservations, multi-dimensional optimizations of one or more objectives may\nstill be prohibitively expensive. Multi-fidelity optimization remedies this\nissue by including multiple, cheaper information sources such as low-resolution\napproximations in numerical simulations. Acquisition functions for\nmulti-fidelity optimization are typically based on exploration-heavy algorithms\nthat are difficult to combine with optimization towards multiple objectives.\nHere we show that the expected hypervolume improvement policy can act in many\nsituations as a suitable substitute. We incorporate the evaluation cost either\nvia a two-step evaluation or within a single acquisition function with an\nadditional fidelity-related objective. This permits simultaneous\nmulti-objective and multi-fidelity optimization, which allows to accurately\nestablish the Pareto set and front at fractional cost. Benchmarks show a cost\nreduction of an order of an order of magnitude or more. Our method thus allows\nfor Pareto optimization of extremely expansive black-box functions.\nThe presented methods are simple and straightforward to implement in\nexisting, optimized Bayesian optimization frameworks and can immediately be\nextended to batch optimization. The techniques can also be used to combine\ndifferent continuous and/or discrete fidelity dimensions, which makes them\nparticularly relevant for simulation problems in plasma physics, fluid dynamics\nand many other branches of scientific computing.",
+    "abstract": "Bayesian optimization has proven to be an efficient method to optimize\nexpensive-to-evaluate systems. However, depending on the cost of single\nobservations, multi-dimensional optimizations of one or more objectives may\nstill be prohibitively expensive. Multi-fidelity optimization remedies this\nissue by including multiple, cheaper information sources such as low-resolution\napproximations in numerical simulations. Acquisition functions for\nmulti-fidelity optimization are typically based on exploration-heavy algorithms\nthat are difficult to combine with optimization towards multiple objectives.\nHere we show that the expected hypervolume improvement policy can act in many\nsituations as a suitable substitute. We incorporate the evaluation cost either\nvia a two-step evaluation or within a single acquisition function with an\nadditional fidelity-related objective. This permits simultaneous\nmulti-objective and multi-fidelity optimization, which allows to accurately\nestablish the Pareto set and front at fractional cost. Benchmarks show a cost\nreduction of an order of magnitude or more. Our method thus allows for Pareto\noptimization of extremely expansive black-box functions.\nThe presented methods are simple and straightforward to implement in\nexisting, optimized Bayesian optimization frameworks and can immediately be\nextended to batch optimization. The techniques can also be used to combine\ndifferent continuous and/or discrete fidelity dimensions, which makes them\nparticularly relevant for simulation problems in plasma physics, fluid dynamics\nand many other branches of scientific computing.",
     "descriptor": "",
     "authors": [
       "Faran Irshad",
@@ -2788,7 +2791,7 @@
   },
   {
     "id": "arXiv:2112.14387",
-    "title": "Training time minimization for federated edge learning with optimized  gradient quantization and bandwidth allocation",
+    "title": "Training Time Minimization for Federated Edge Learning with Optimized  Gradient Quantization and Bandwidth Allocation",
     "abstract": "Training a machine learning model with federated edge learning (FEEL) is\ntypically time-consuming due to the constrained computation power of edge\ndevices and limited wireless resources in edge networks. In this paper, the\ntraining time minimization problem is investigated in a quantized FEEL system,\nwhere the heterogeneous edge devices send quantized gradients to the edge\nserver via orthogonal channels. In particular, a stochastic quantization scheme\nis adopted for compression of uploaded gradients, which can reduce the burden\nof per-round communication but may come at the cost of increasing number of\ncommunication rounds. The training time is modeled by taking into account the\ncommunication time, computation time and the number of communication rounds.\nBased on the proposed training time model, the intrinsic trade-off between the\nnumber of communication rounds and per-round latency is characterized.\nSpecifically, we analyze the convergence behavior of the quantized FEEL in\nterms of the optimality gap. Further, a joint data-and-model-driven fitting\nmethod is proposed to obtain the exact optimality gap, based on which the\nclosed-form expressions for the number of communication rounds and the total\ntraining time are obtained. Constrained by total bandwidth, the training time\nminimization problem is formulated as a joint quantization level and bandwidth\nallocation optimization problem. To this end, an algorithm based on alternating\noptimization is proposed, which alternatively solves the subproblem of\nquantization optimization via successive convex approximation and the\nsubproblem of bandwidth allocation via bisection search. With different\nlearning tasks and models, the validation of our analysis and the near-optimal\nperformance of the proposed optimization algorithm are demonstrated by the\nexperimental results.",
     "descriptor": "\nComments: 14 pages\n",
     "authors": [
@@ -3134,7 +3137,7 @@
   {
     "id": "arXiv:2112.14446",
     "title": "How Powerful are Interest Diffusion on Purchasing Prediction: A Case  Study of Taocode",
-    "abstract": "A taocode is a kind of specially coded text-link on taobao.com (the world's\nbiggest online shopping website), through which users can share messages about\nproducts with each other. Analyzing taocodes can potentially facilitate\nunderstanding of the social relationships between users and, more excitingly,\ntheir online purchasing behaviors under the influence of taocode diffusion.\nThis paper innovatively investigates the problem of online purchasing\npredictions from an information diffusion perspective, with taocode as a case\nstudy. Specifically, we conduct profound observational studies on a large-scale\nreal-world dataset from Taobao, containing over 100M Taocode sharing records.\nInspired by our observations, we propose InfNet, a dynamic GNN-based framework\nthat models the information diffusion across Taocode. We then apply InfNet to\nitem purchasing predictions. Extensive experiments on real-world datasets\nvalidate the effectiveness of InfNet compared with {\\nu}mofbaseline~\nstate-of-the-art baselines.",
+    "abstract": "A taocode is a kind of specially coded text-link on Taobao(the world's\nbiggest online shopping website), through which users can share messages about\nproducts with each other. Analyzing taocodes can potentially facilitate\nunderstanding of the social relationships between users and, more excitingly,\ntheir online purchasing behaviors under the influence of taocode diffusion.\nThis paper innovatively investigates the problem of online purchasing\npredictions from an information diffusion perspective, with taocode as a case\nstudy. Specifically, we conduct profound observational studies on a large-scale\nreal-world dataset from Taobao, containing over 100M Taocode sharing records.\nInspired by our observations, we propose InfNet, a dynamic GNN-based framework\nthat models the information diffusion across Taocode. We then apply InfNet to\nitem purchasing predictions. Extensive experiments on real-world datasets\nvalidate the effectiveness of InfNet compared with 8 state-of-the-art\nbaselines.",
     "descriptor": "",
     "authors": [
       "Xuanwen Huang",
@@ -8300,7 +8303,8 @@
     "subjectives": [
       "Computation (stat.CO)",
       "Machine Learning (cs.LG)",
-      "Methodology (stat.ME)"
+      "Methodology (stat.ME)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2112.03152"
   },
