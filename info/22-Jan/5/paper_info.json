@@ -1169,7 +1169,7 @@
     "id": "arXiv:2201.01051",
     "title": "Open Access Dataset for Electromyography based Multi-code Biometric  Authentication",
     "abstract": "Recently, surface electromyogram (EMG) has been proposed as a novel biometric\ntrait for addressing some key limitations of current biometrics, such as\nspoofing and liveness. The EMG signals possess a unique characteristic: they\nare inherently different for individuals (biometrics), and they can be\ncustomized to realize multi-length codes or passwords (for example, by\nperforming different gestures). However, current EMG-based biometric research\nhas two critical limitations: 1) a small subject pool, compared to other more\nestablished biometric traits, and 2) limited to single-session or single-day\ndata sets. In this study, forearm and wrist EMG data were collected from 43\nparticipants over three different days with long separation while they\nperformed static hand and wrist gestures. The multi-day biometric\nauthentication resulted in a median EER of 0.017 for the forearm setup and\n0.025 for the wrist setup, comparable to well-established biometric traits\nsuggesting consistent performance over multiple days. The presented\nlarge-sample multi-day data set and findings could facilitate further research\non EMG-based biometrics and other gesture recognition-based applications.",
-    "descriptor": "\nComments: manuscript for open access dataset\n",
+    "descriptor": "\nComments: manuscript for open access dataset (paper and appendix)\n",
     "authors": [
       "Ashirbad Pradhan",
       "Jiayuan He",
@@ -1254,8 +1254,8 @@
   },
   {
     "id": "arXiv:2201.01079",
-    "title": "CEMENT: Incomplete Multi-View Weak-Label Learning with Long Tail Labels",
-    "abstract": "A variety of modern applications exhibit multi-view multi-label learning,\nwhere each sample has multi-view features, and multiple labels are correlated\nvia common views. In recent years, several methods have been proposed to cope\nwith it and achieve much success, but still suffer from two key problems: 1)\nlack the ability to deal with the incomplete multi-view weak-label data, in\nwhich only a subset of features and labels are provided for each sample; 2)\nignore the presence of noisy views and tail labels usually occurring in\nreal-world problems. In this paper, we propose a novel method, named CEMENT, to\novercome the limitations. For 1), CEMENT jointly embeds incomplete views and\nweak labels into distinct low-dimensional subspaces, and then correlates them\nvia Hilbert-Schmidt Independence Criterion (HSIC). For 2), CEMEMT adaptively\nlearns the weights of embeddings to capture noisy views, and explores an\nadditional sparse component to model tail labels, making the low-rankness\navailable in the multi-label setting. We develop an alternating algorithm to\nsolve the proposed optimization problem. Experimental results on seven\nreal-world datasets demonstrate the effectiveness of the proposed method.",
+    "title": "CEMENT: Incomplete Multi-View Weak-Label Learning with Long-Tailed  Labels",
+    "abstract": "A variety of modern applications exhibit multi-view multi-label learning,\nwhere each sample has multi-view features, and multiple labels are correlated\nvia common views. In recent years, several methods have been proposed to cope\nwith it and achieved much success, but still suffer from two key problems: 1)\nlack the ability to deal with the incomplete multi-view weak-label data, in\nwhich only a subset of features and labels are provided for each sample; 2)\nignore the presence of noisy views and tail labels usually occurring in\nreal-world problems. In this paper, we propose a novel method, named CEMENT, to\novercome the limitations. For 1), CEMENT jointly embeds incomplete views and\nweak labels into distinct low-dimensional subspaces, and then correlates them\nvia Hilbert-Schmidt Independence Criterion (HSIC). For 2), CEMEMT adaptively\nlearns the weights of embeddings to capture noisy views, and explores an\nadditional sparse component to model tail labels, making the low-rankness\navailable in the multi-label setting. We develop an alternating algorithm to\nsolve the proposed optimization problem. Experimental results on seven\nreal-world datasets demonstrate the effectiveness of the proposed method.",
     "descriptor": "\nComments: 7 pages, 4 figures, conference\n",
     "authors": [
       "Zhiwei Li",
@@ -2841,7 +2841,7 @@
       "Weidong Sheng",
       "Li Liu",
       "Zaipin Lin",
-      "Shilin Zho"
+      "Shilin Zhou"
     ],
     "subjectives": [
       "Image and Video Processing (eess.IV)",
