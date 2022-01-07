@@ -581,7 +581,9 @@
     "abstract": "Adverse drug reactions / events (ADR/ADE) have a major impact on patient\nhealth and health care costs. Detecting ADR's as early as possible and sharing\nthem with regulators, pharma companies, and healthcare providers can prevent\nmorbidity and save many lives. While most ADR's are not reported via formal\nchannels, they are often documented in a variety of unstructured conversations\nsuch as social media posts by patients, customer support call transcripts, or\nCRM notes of meetings between healthcare providers and pharma sales reps. In\nthis paper, we propose a natural language processing (NLP) solution that\ndetects ADR's in such unstructured free-text conversations, which improves on\nprevious work in three ways. First, a new Named Entity Recognition (NER) model\nobtains new state-of-the-art accuracy for ADR and Drug entity extraction on the\nADE, CADEC, and SMM4H benchmark datasets (91.75%, 78.76%, and 83.41% F1 scores\nrespectively). Second, two new Relation Extraction (RE) models are introduced -\none based on BioBERT while the other utilizing crafted features over a Fully\nConnected Neural Network (FCNN) - are shown to perform on par with existing\nstate-of-the-art models, and outperform them when trained with a supplementary\nclinician-annotated RE dataset. Third, a new text classification model, for\ndeciding if a conversation includes an ADR, obtains new state-of-the-art\naccuracy on the CADEC dataset (86.69% F1 score). The complete solution is\nimplemented as a unified NLP pipeline in a production-grade library built on\ntop of Apache Spark, making it natively scalable and able to process millions\nof batch or streaming records on commodity clusters.",
     "descriptor": "\nComments: Accepted to W3PHIAI workshop at AAAI-22\n",
     "authors": [
-      "Hasham Ul Haq Veysel Kocaman David Talby"
+      "Hasham Ul Haq",
+      "Veysel Kocaman",
+      "David Talby"
     ],
     "subjectives": [
       "Computation and Language (cs.CL)",
@@ -1292,7 +1294,7 @@
     "id": "arXiv:2201.01538",
     "title": "Compliant Constant Output/ Input Force Mechanisms: Topology Optimization  with Contact",
     "abstract": "We synthesize monolithic topologies of constant output (CoFM) and input\n(CiFM) force mechanisms. During synthesis, we capture all possible aspects of\nmember deformation including finite displacements, buckling, interaction\nbetween members, their interaction with external surfaces, and importantly,\ninteraction of the mechanism with flexible workpieces to capture force transfer\nin true sense. Features of constant force characteristics, e.g., magnitude(s)\nof the desired force(s), range of input displacement over which slope of the\nforce displacement curve is near zero, and distance between workpiece and the\nmechanism are controlled individually via novel objectives proposed herein. Two\nof the constant output and constant input force mechanisms each, are\nsynthesized using stochastic optimization ensuring ready manufacturability. We\nobserve that presence of external surfaces may not be required for singlepiece\nmechanisms to attain constant force characteristics. However, interesting\nsolutions are possible if mutual contact is permitted. We also note that\ndesired force characteristics may not remain the same with alteration in the\nworkpieces shape and (or) material properties. We finally fabricate and test\nthe synthesized mechanisms and find that the desired constant force\ncharacteristics are by and large retained.",
-    "descriptor": "\nComments: 14 pages\n",
+    "descriptor": "\nComments: 25 pages\n",
     "authors": [
       "B V S Nagendra Reddy",
       "Vitthal Manohar Khatik",
@@ -2864,7 +2866,7 @@
       "Mohammad Mohammadi",
       "Jarvin Mutatiina",
       "Teymoor Saifollahi",
-      "Kerstin Bune"
+      "Kerstin Bunte"
     ],
     "subjectives": [
       "Astrophysics of Galaxies (astro-ph.GA)",
