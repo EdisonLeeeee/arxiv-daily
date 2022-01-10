@@ -1015,8 +1015,8 @@
   },
   {
     "id": "arXiv:2201.01931",
-    "title": "DReyeVR: Democratizing driving simulation in virtual reality for  behavioural & interaction research",
-    "abstract": "Simulators are an essential tool for behavioural and interaction research on\ndriving, due to the safety, cost, and experimental control issues of on-road\ndriving experiments. The most advanced simulators use expensive 360 degree\nprojections systems to ensure visual fidelity, full field of view, and\nimmersion. However, similar visual fidelity can be achieved affordably using a\nvirtual reality (VR) based visual interface. We present DReyeVR, an open-source\nVR based driving simulator platform designed with behavioural and interaction\nresearch priorities in mind. DReyeVR (read ``driver'') is based on Unreal\nEngine and the CARLA autonomous vehicle simulator and has features such as eye\ntracking, a functional driving heads-up display (HUD) and vehicle audio, custom\ndefinable routes and traffic scenarios, experimental logging, replay\ncapabilities, and compatibility with ROS. We describe the hardware required to\ndeploy this simulator for under $5000$ USD, much cheaper than commercially\navailable simulators. Finally, we describe how DReyeVR may be leveraged to\nanswer an interaction research question in an example scenario.",
+    "title": "DReyeVR: Democratizing Virtual Reality Driving Simulation for  Behavioural & Interaction Research",
+    "abstract": "Simulators are an essential tool for behavioural and interaction research on\ndriving, due to the safety, cost, and experimental control issues of on-road\ndriving experiments. The most advanced simulators use expensive 360 degree\nprojections systems to ensure visual fidelity, full field of view, and\nimmersion. However, similar visual fidelity can be achieved affordably using a\nvirtual reality (VR) based visual interface. We present DReyeVR, an open-source\nVR based driving simulator platform designed with behavioural and interaction\nresearch priorities in mind. DReyeVR (read \"driver\") is based on Unreal Engine\nand the CARLA autonomous vehicle simulator and has features such as eye\ntracking, a functional driving heads-up display (HUD) and vehicle audio, custom\ndefinable routes and traffic scenarios, experimental logging, replay\ncapabilities, and compatibility with ROS. We describe the hardware required to\ndeploy this simulator for under $5000$ USD, much cheaper than commercially\navailable simulators. Finally, we describe how DReyeVR may be leveraged to\nanswer an interaction research question in an example scenario.",
     "descriptor": "\nComments: Accepted at the short papers track of ACM/IEEE HRI 22. Code can be found at this https URL The first two authors contributed equally to this work\n",
     "authors": [
       "Gustavo Silvera",
@@ -1608,7 +1608,7 @@
   {
     "id": "arXiv:2201.02017",
     "title": "Enhancing Egocentric 3D Pose Estimation with Third Person Views",
-    "abstract": "In this paper, we propose a novel approach to enhance the 3D body pose\nestimation of a person computed from videos captured from a single wearable\ncamera. The key idea is to leverage high-level features linking first- and\nthird-views in a joint embedding space. To learn such embedding space we\nintroduce First2Third-Pose, a new paired synchronized dataset of nearly 2,000\nvideos depicting human activities captured from both first- and third-view\nperspectives. We explicitly consider spatial- and motion-domain features,\ncombined using a semi-Siamese architecture trained in a self-supervised\nfashion. Experimental results demonstrate that the joint multi-view embedded\nspace learned with our dataset is useful to extract discriminatory features\nfrom arbitrary single-view egocentric videos, without needing domain adaptation\nor knowledge of camera parameters. We achieve significant improvement of\negocentric 3D body pose estimation performance on two unconstrained datasets,\nover three supervised state-of-the-art approaches. Our dataset and code will be\navailable for research purposes.",
+    "abstract": "In this paper, we propose a novel approach to enhance the 3D body pose\nestimation of a person computed from videos captured from a single wearable\ncamera. The key idea is to leverage high-level features linking first- and\nthird-views in a joint embedding space. To learn such embedding space we\nintroduce First2Third-Pose, a new paired synchronized dataset of nearly 2,000\nvideos depicting human activities captured from both first- and third-view\nperspectives. We explicitly consider spatial- and motion-domain features,\ncombined using a semi-Siamese architecture trained in a self-supervised\nfashion. Experimental results demonstrate that the joint multi-view embedded\nspace learned with our dataset is useful to extract discriminatory features\nfrom arbitrary single-view egocentric videos, without needing domain adaptation\nnor knowledge of camera parameters. We achieve significant improvement of\negocentric 3D body pose estimation performance on two unconstrained datasets,\nover three supervised state-of-the-art approaches. Our dataset and code will be\navailable for research purposes.",
     "descriptor": "",
     "authors": [
       "Ameya Dhamanaskar",
@@ -2273,7 +2273,8 @@
       "Aske Plaat"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2201.02135"
   },
@@ -3610,15 +3611,16 @@
   {
     "id": "arXiv:2104.09950",
     "title": "Deleting, Eliminating and Decomposing to Hereditary Classes Are All  FPT-Equivalent",
-    "abstract": "Comments: 70 pages, To appear in SODA 2022. arXiv admin note: text overlap with arXiv:2103.09715 by other authors",
-    "descriptor": "\nComments: 70 pages, To appear in SODA 2022. arXiv admin note: text overlap with arXiv:2103.09715 by other authors\n",
+    "abstract": "Comments: 70 pages, To appear in SODA 2022. arXiv admin note: text overlap with arXiv:2103.09715, arXiv:2105.04660 by other authors",
+    "descriptor": "\nComments: 70 pages, To appear in SODA 2022. arXiv admin note: text overlap with arXiv:2103.09715, arXiv:2105.04660 by other authors\n",
     "authors": [
       "Akanksha Agrawal",
       "Lawqueen Kanesh",
       "Daniel Lokshtanov",
       "Fahad Panolan",
       "M. S. Ramanujan",
-      "Saket Saurabh"
+      "Saket Saurabh",
+      "Meirav Zehavi"
     ],
     "subjectives": [
       "Data Structures and Algorithms (cs.DS)"
