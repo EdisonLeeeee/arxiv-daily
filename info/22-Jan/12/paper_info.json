@@ -2930,7 +2930,7 @@
     "id": "arXiv:2201.03617",
     "title": "A Physics-Informed Vector Quantized Autoencoder for Data Compression of  Turbulent Flow",
     "abstract": "Analyzing large-scale data from simulations of turbulent flows is memory\nintensive, requiring significant resources. This major challenge highlights the\nneed for data compression techniques. In this study, we apply a\nphysics-informed Deep Learning technique based on vector quantization to\ngenerate a discrete, low-dimensional representation of data from simulations of\nthree-dimensional turbulent flows. The deep learning framework is composed of\nconvolutional layers and incorporates physical constraints on the flow, such as\npreserving incompressibility and global statistical characteristics of the\nvelocity gradients. The accuracy of the model is assessed using statistical,\ncomparison-based similarity and physics-based metrics. The training data set is\nproduced from Direct Numerical Simulation of an incompressible, statistically\nstationary, isotropic turbulent flow. The performance of this lossy data\ncompression scheme is evaluated not only with unseen data from the stationary,\nisotropic turbulent flow, but also with data from decaying isotropic\nturbulence, and a Taylor-Green vortex flow. Defining the compression ratio (CR)\nas the ratio of original data size to the compressed one, the results show that\nour model based on vector quantization can offer CR $=85$ with a mean square\nerror (MSE) of $O(10^{-3})$, and predictions that faithfully reproduce the\nstatistics of the flow, except at the very smallest scales where there is some\nloss. Compared to the recent study based on a conventional autoencoder where\ncompression is performed in a continuous space, our model improves the CR by\nmore than $30$ percent, and reduces the MSE by an order of magnitude. Our\ncompression model is an attractive solution for situations where fast, high\nquality and low-overhead encoding and decoding of large data are required.",
-    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2103.01074\n",
+    "descriptor": "\nComments: this article is a conference version of arXiv:2103.01074\n",
     "authors": [
       "Mohammadreza Momenifar",
       "Enmao Diao",
@@ -3415,7 +3415,8 @@
     "subjectives": [
       "General Relativity and Quantum Cosmology (gr-qc)",
       "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Numerical Analysis (math.NA)"
     ],
     "url": "https://arxiv.org/abs/2201.04086"
   },
