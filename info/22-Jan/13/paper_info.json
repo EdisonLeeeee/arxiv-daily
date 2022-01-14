@@ -836,7 +836,7 @@
     "id": "arXiv:2201.04314",
     "title": "Configuration Space Decomposition for Scalable Proxy Collision Checking  in Robot Planning and Control",
     "abstract": "Real-time robot motion planning in complex high-dimensional environments\nremains an open problem. Motion planning algorithms, and their underlying\ncollision checkers, are crucial to any robot control stack. Collision checking\ntakes up a large portion of computational time in robot motion planning.\nExisting collision checkers make trade-offs between speed and accuracy and\nscale poorly to high-dimensional, complex environments. We present a novel\nspace decomposition method using K-Means clustering in the Forward Kinematics\nspace to accelerate proxy collision checking. We train individual configuration\nspace models using Fastron, a kernel perceptron algorithm, on these decomposed\nsubspaces, yielding lightweight yet highly accurate models that can be queried\nrapidly and scale better to more complex environments. We demonstrate this new\nmethod, called Decomposed Fast Perceptron (D-Fastron), on the 7-DOF Baxter\nrobot producing on average 29x faster collision checks and up to 9.8x faster\nmotion planning compared to state-of-the-art geometric collision checkers.",
-    "descriptor": "\nComments: \\c{opyright} 2022 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works\n",
+    "descriptor": "\nComments: 8 pages, 9 figures, Accepted to IEEE Robotics and Automation Letters\n",
     "authors": [
       "Mrinal Verghese",
       "Nikhil Das",
@@ -2670,7 +2670,7 @@
       "Masaaki Imaizumi",
       "Masatoshi Uehara",
       "Masahiro Nomura",
-      "and Chao Qin"
+      "Chao Qin"
     ],
     "subjectives": [
       "Machine Learning (stat.ML)",
@@ -4307,7 +4307,7 @@
   },
   {
     "id": "arXiv:2112.02812",
-    "title": "user behavior understanding in real world settings",
+    "title": "User behavior understanding in real world settings",
     "abstract": "Comments: In this paper, authors proposed a sequential recommender which can predict different user preferences from given user historical sequences",
     "descriptor": "\nComments: In this paper, authors proposed a sequential recommender which can predict different user preferences from given user historical sequences\n",
     "authors": [
