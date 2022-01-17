@@ -331,7 +331,7 @@
     "id": "arXiv:2201.04727",
     "title": "Deep clustering with fusion autoencoder",
     "abstract": "Embracing the deep learning techniques for representation learning in\nclustering research has attracted broad attention in recent years, yielding a\nnewly developed clustering paradigm, viz. the deep clustering (DC). Typically,\nthe DC models capitalize on autoencoders to learn the intrinsic features which\nfacilitate the clustering process in consequence. Nowadays, a generative model\nnamed variational autoencoder (VAE) has got wide acceptance in DC studies.\nNevertheless, the plain VAE is insufficient to perceive the comprehensive\nlatent features, leading to the deteriorative clustering performance. In this\npaper, a novel DC method is proposed to address this issue. Specifically, the\ngenerative adversarial network and VAE are coalesced into a new autoencoder\ncalled fusion autoencoder (FAE) for discerning more discriminative\nrepresentation that benefits the downstream clustering task. Besides, the FAE\nis implemented with the deep residual network architecture which further\nenhances the representation learning ability. Finally, the latent space of the\nFAE is transformed to an embedding space shaped by a deep dense neural network\nfor pulling away different clusters from each other and collapsing data points\nwithin individual clusters. Experiment conducted on several image datasets\ndemonstrate the effectiveness of the proposed DC model against the baseline\nmethods.",
-    "descriptor": "",
+    "descriptor": "\nComments: Added the highlights section, corresponding author info, and the acknowledgments\n",
     "authors": [
       "Shuai Chang"
     ],
@@ -774,7 +774,7 @@
     "abstract": "We consider the problem of computing an $(s,d)$-hypernetwork in an acyclic\nF-hypergraph. This is a fundamental computational problem arising in directed\nhypergraphs, and is a foundational step in tackling problems of reachability\nand redundancy. This problem was previously explored in the context of general\ndirected hypergraphs (containing cycles), where it is NP-hard, and acyclic\nB-hypergraphs, where a linear time algorithm can be achieved. In a surprising\ncontrast, we find that for acyclic F-hypergraphs the problem is NP-hard, which\nalso implies the problem is hard in BF-hypergraphs. This is a striking\ncomplexity boundary given that F-hypergraphs and B-hypergraphs would at first\nseem to be symmetrical to one another. We provide the proof of complexity and\nexplain why there is a fundamental asymmetry between the two classes of\ndirected hypergraphs.",
     "descriptor": "",
     "authors": [
-      "Reynaldo Gil Pons",
+      "Reynaldo Gil-Pons",
       "Max Ward",
       "Lo\u00efc Miller"
     ],
@@ -1347,7 +1347,7 @@
     "id": "arXiv:2201.04876",
     "title": "Towards a Reference Software Architecture for Human-AI Teaming in Smart  Manufacturing",
     "abstract": "With the proliferation of AI-enabled software systems in smart manufacturing,\nthe role of such systems moves away from a reactive to a proactive role that\nprovides context-specific support to manufacturing operators. In the frame of\nthe EU funded Teaming.AI project, we identified the monitoring of teaming\naspects in human-AI collaboration, the runtime monitoring and validation of\nethical policies, and the support for experimentation with data and machine\nlearning algorithms as the most relevant challenges for human-AI teaming in\nsmart manufacturing. Based on these challenges, we developed a reference\nsoftware architecture based on knowledge graphs, tracking and scene analysis,\nand components for relational machine learning with a particular focus on its\nscalability. Our approach uses knowledge graphs to capture product- and process\nspecific knowledge in the manufacturing process and to utilize it for\nrelational machine learning. This allows for context-specific recommendations\nfor actions in the manufacturing process for the optimization of product\nquality and the prevention of physical harm. The empirical validation of this\nsoftware architecture will be conducted in cooperation with three large-scale\ncompanies in the automotive, energy systems, and precision machining domain. In\nthis paper we discuss the identified challenges for such a reference software\narchitecture, present its preliminary status, and sketch our further research\nvision in this project.",
-    "descriptor": "\nComments: accepted for publication at ICSE-NIER track 2022\n",
+    "descriptor": "\nComments: Conference: ICSE-NIER 2022 - The 44th International Conference on Software Engineering, 5 pages, 1 figure\n",
     "authors": [
       "Philipp Haindl",
       "Georg Buchgeher",
@@ -2081,7 +2081,7 @@
     "id": "arXiv:2201.05047",
     "title": "TransVOD: End-to-end Video Object Detection with Spatial-Temporal  Transformers",
     "abstract": "Detection Transformer (DETR) and Deformable DETR have been proposed to\neliminate the need for many hand-designed components in object detection while\ndemonstrating good performance as previous complex hand-crafted detectors.\nHowever, their performance on Video Object Detection (VOD) has not been well\nexplored. In this paper, we present TransVOD, the first end-to-end video object\ndetection system based on spatial-temporal Transformer architectures. The first\ngoal of this paper is to streamline the pipeline of VOD, effectively removing\nthe need for many hand-crafted components for feature aggregation, e.g.,\noptical flow model, relation networks. Besides, benefited from the object query\ndesign in DETR, our method does not need complicated post-processing methods\nsuch as Seq-NMS. In particular, we present a temporal Transformer to aggregate\nboth the spatial object queries and the feature memories of each frame. Our\ntemporal transformer consists of two components: Temporal Query Encoder (TQE)\nto fuse object queries, and Temporal Deformable Transformer Decoder (TDTD) to\nobtain current frame detection results. These designs boost the strong baseline\ndeformable DETR by a significant margin (3%-4% mAP) on the ImageNet VID\ndataset. Then, we present two improved versions of TransVOD including\nTransVOD++ and TransVOD Lite. The former fuses object-level information into\nobject query via dynamic convolution while the latter models the entire video\nclips as the output to speed up the inference time. We give detailed analysis\nof all three models in the experiment part. In particular, our proposed\nTransVOD++ sets a new state-of-the-art record in terms of accuracy on ImageNet\nVID with 90.0% mAP. Our proposed TransVOD Lite also achieves the best speed and\naccuracy trade-off with 83.7% mAP while running at around 30 FPS on a single\nV100 GPU device. Code and models will be available for further research.",
-    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2105.10920; text overlap with arXiv:2010.04159 by other authors\n",
+    "descriptor": "\nComments: Extended version of arXiv:2105.10920\n",
     "authors": [
       "Qianyu Zhou",
       "Xiangtai Li",
@@ -2355,7 +2355,7 @@
   {
     "id": "arXiv:2201.05088",
     "title": "Grow-and-Clip: Informative-yet-Concise Evidence Distillation for Answer  Explanation",
-    "abstract": "Interpreting the predictions of existing Question Answering (QA) models is\ncritical to many real-world intelligent applications, such as QA systems for\nhealthcare, education, and finance. However, existing QA models lack\ninterpretability and provide no feedback or explanation for end-users to help\nthem understand why a specific prediction is the answer to a question.In this\nresearch, we argue that the evidences of an answer is critical to enhancing the\ninterpretability of QA models. Unlike previous research that simply extracts\nseveral sentence(s) in the context as evidence, we are the first to explicitly\ndefine the concept of evidence as the supporting facts in a context which are\ninformative, concise, and readable. Besides, we provide effective strategies to\nquantitatively measure the informativeness, conciseness and readability of\nevidence. Furthermore, we propose Grow-and-Clip Evidence Distillation (GCED)\nalgorithm to extract evidences from the contexts by trade-off informativeness,\nconciseness, and readability. We conduct extensive experiments on the SQuAD and\nTriviaQA datasets with several baseline models to evaluate the effect of GCED\non interpreting answers to questions. Human evaluation are also carried out to\ncheck the quality of distilled evidences. Experimental results show that\nautomatic distilled evidences have human-like informativeness, conciseness and\nreadability, which can enhance the interpretability of the answers to\nquestions.",
+    "abstract": "Interpreting the predictions of existing Question Answering (QA) models is\ncritical to many real-world intelligent applications, such as QA systems for\nhealthcare, education, and finance. However, existing QA models lack\ninterpretability and provide no feedback or explanation for end-users to help\nthem understand why a specific prediction is the answer to a question. In this\nresearch, we argue that the evidences of an answer is critical to enhancing the\ninterpretability of QA models. Unlike previous research that simply extracts\nseveral sentence(s) in the context as evidence, we are the first to explicitly\ndefine the concept of evidence as the supporting facts in a context which are\ninformative, concise, and readable. Besides, we provide effective strategies to\nquantitatively measure the informativeness, conciseness and readability of\nevidence. Furthermore, we propose Grow-and-Clip Evidence Distillation (GCED)\nalgorithm to extract evidences from the contexts by trade-off informativeness,\nconciseness, and readability. We conduct extensive experiments on the SQuAD and\nTriviaQA datasets with several baseline models to evaluate the effect of GCED\non interpreting answers to questions. Human evaluation are also carried out to\ncheck the quality of distilled evidences. Experimental results show that\nautomatic distilled evidences have human-like informativeness, conciseness and\nreadability, which can enhance the interpretability of the answers to\nquestions.",
     "descriptor": "\nComments: Accepted to ICDE 2022 (Research Track)\n",
     "authors": [
       "Yuyan Chen",
@@ -3083,9 +3083,9 @@
     "descriptor": "\nComments: submitted to IEEEAccess\n",
     "authors": [
       "Matthias Mehlhose",
+      "Guillermo Marcus",
       "Daniel Sch\u00e4ufele",
       "Daniyal Amir Awan",
-      "Guillermo Marcus",
       "Nikolaus Binder",
       "Martin Kasparick",
       "Renato L. G. Cavalcante",
