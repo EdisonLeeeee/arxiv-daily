@@ -2246,7 +2246,8 @@
     "subjectives": [
       "Systems and Control (eess.SY)",
       "Computer Science and Game Theory (cs.GT)",
-      "Theoretical Economics (econ.TH)"
+      "Theoretical Economics (econ.TH)",
+      "Optimization and Control (math.OC)"
     ],
     "url": "https://arxiv.org/abs/2201.05959"
   },
@@ -2474,7 +2475,7 @@
     "id": "arXiv:2201.05979",
     "title": "SNCSE: Contrastive Learning for Unsupervised Sentence Embedding with  Soft Negative Samples",
     "abstract": "Unsupervised sentence embedding aims to obtain the most appropriate embedding\nfor a sentence to reflect its semantic. Contrastive learning has been\nattracting developing attention. For a sentence, current models utilize diverse\ndata augmentation methods to generate positive samples, while consider other\nindependent sentences as negative samples. Then they adopt InfoNCE loss to pull\nthe embeddings of positive pairs gathered, and push those of negative pairs\nscattered. Although these models have made great progress on sentence\nembedding, we argue that they may suffer from feature suppression. The models\nfail to distinguish and decouple textual similarity and semantic similarity.\nAnd they may overestimate the semantic similarity of any pairs with similar\ntextual regardless of the actual semantic difference between them. This is\nbecause positive pairs in unsupervised contrastive learning come with similar\nand even the same textual through data augmentation. To alleviate feature\nsuppression, we propose contrastive learning for unsupervised sentence\nembedding with soft negative samples (SNCSE). Soft negative samples share\nhighly similar textual but have surely and apparently different semantic with\nthe original samples. Specifically, we take the negation of original sentences\nas soft negative samples, and propose Bidirectional Margin Loss (BML) to\nintroduce them into traditional contrastive learning framework, which merely\ninvolves positive and negative samples. Our experimental results show that\nSNCSE can obtain state-of-the-art performance on semantic textual similarity\n(STS) task with average Spearman's correlation coefficient of 78.97% on\nBERTbase and 79.23% on RoBERTabase. Besides, we adopt rank-based error analysis\nmethod to detect the weakness of SNCSE for future study.",
-    "descriptor": "\nComments: 8 pages, 4 figures\n",
+    "descriptor": "\nComments: 7 pages, 4 figures\n",
     "authors": [
       "Hao Wang",
       "Yangguang Li",
@@ -2749,7 +2750,7 @@
   },
   {
     "id": "arXiv:2201.06014",
-    "title": "Standby-Base Deadlock Avoidance Method Standby-Based Deadlock Avoidance  Method for Multi-Agent Pickup and Delivery Tasks",
+    "title": "Standby-Based Deadlock Avoidance Method for Multi-Agent Pickup and  Delivery Tasks",
     "abstract": "The multi-agent pickup and delivery (MAPD) problem, in which multiple agents\niteratively carry materials without collisions, has received significant\nattention. However, many conventional MAPD algorithms assume a specifically\ndesigned grid-like environment, such as an automated warehouse. Therefore, they\nhave many pickup and delivery locations where agents can stay for a lengthy\nperiod, as well as plentiful detours to avoid collisions owing to the freedom\nof movement in a grid. By contrast, because a maze-like environment such as a\nsearch-and-rescue or construction site has fewer pickup/delivery locations and\ntheir numbers may be unbalanced, many agents concentrate on such locations\nresulting in inefficient operations, often becoming stuck or deadlocked. Thus,\nto improve the transportation efficiency even in a maze-like restricted\nenvironment, we propose a deadlock avoidance method, called standby-based\ndeadlock avoidance (SBDA). SBDA uses standby nodes determined in real-time\nusing the articulation-point-finding algorithm, and the agent is guaranteed to\nstay there for a finite amount of time. We demonstrated that our proposed\nmethod outperforms a conventional approach. We also analyzed how the parameters\nused for selecting standby nodes affect the performance.",
     "descriptor": "\nComments: Extended version of paper accepted at AAMAS 2022\n",
     "authors": [
@@ -3962,8 +3963,8 @@
   },
   {
     "id": "arXiv:2201.06224",
-    "title": "Unintended Bias in Language Model-drivenConversational Recommendation",
-    "abstract": "Conversational Recommendation Systems (CRSs) have recently started to\nleverage pretrained language models (LM) such as BERTfor their ability to\nsemantically interpret a wide range of preference statement variations.\nHowever, pretrained LMs are well-known to be prone to intrinsic biases in their\ntraining data, which may be exacerbated by biases embedded in domain-specific\nlanguage data(e.g., user reviews) used to fine-tune LMs for CRSs. We study are\nrecently introduced LM-driven recommendation backbone (termedLMRec) of a CRS to\ninvestigate how unintended bias i.e., language variations such as name\nreferences or indirect indicators of sexual orientation or location that should\nnot affect recommendations manifests in significantly shifted price and\ncategory distributions of restaurant recommendations. The alarming results we\nobserve strongly indicate that LMRec has learned to reinforce harmful\nstereotypes through its recommendations. For example, offhand mention of names\nassociated with the black community significantly lowers the price distribution\nof recommended restaurants, while offhand mentions of common male-associated\nnames lead to an increase in recommended alcohol-serving establishments. These\nand many related results presented in this work raise a red flag that advances\nin the language handling capability of LM-drivenCRSs do not come without\nsignificant challenges related to mitigating unintended bias in future deployed\nCRS assistants with a potential reach of hundreds of millions of end users.",
+    "title": "Unintended Bias in Language Model-driven Conversational Recommendation",
+    "abstract": "Conversational Recommendation Systems (CRSs) have recently started to\nleverage pretrained language models (LM) such as BERT for their ability to\nsemantically interpret a wide range of preference statement variations.\nHowever, pretrained LMs are well-known to be prone to intrinsic biases in their\ntraining data, which may be exacerbated by biases embedded in domain-specific\nlanguage data(e.g., user reviews) used to fine-tune LMs for CRSs. We study a\nrecently introduced LM-driven recommendation backbone (termed LMRec) of a CRS\nto investigate how unintended bias i.e., language variations such as name\nreferences or indirect indicators of sexual orientation or location that should\nnot affect recommendations manifests in significantly shifted price and\ncategory distributions of restaurant recommendations. The alarming results we\nobserve strongly indicate that LMRec has learned to reinforce harmful\nstereotypes through its recommendations. For example, offhand mention of names\nassociated with the black community significantly lowers the price distribution\nof recommended restaurants, while offhand mentions of common male-associated\nnames lead to an increase in recommended alcohol-serving establishments. These\nand many related results presented in this work raise a red flag that advances\nin the language handling capability of LM-drivenCRSs do not come without\nsignificant challenges related to mitigating unintended bias in future deployed\nCRS assistants with a potential reach of hundreds of millions of end-users.",
     "descriptor": "\nComments: 12 pages, 7 figures\n",
     "authors": [
       "Tianshu Shen",
@@ -5213,7 +5214,8 @@
       "Yongjun Xu"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2201.06418"
   },
@@ -7578,7 +7580,7 @@
     "abstract": "Online multi-object tracking (MOT) is a longstanding task for computer vision\nand intelligent vehicle platform. At present, the main paradigm is\ntracking-by-detection, and the main difficulty of this paradigm is how to\nassociate the current candidate detection with the historical tracklets.\nHowever, in the MOT scenarios, each historical tracklet is composed of an\nobject sequence, while each candidate detection is just a flat image, which\nlacks the temporal features of the object sequence. The feature difference\nbetween current candidate detection and historical tracklets makes the object\nassociation much harder. Therefore, we propose a Spatial-Temporal Mutual\n{Representation} Learning (STURE) approach which learns spatial-temporal\nrepresentations between current candidate detection and historical sequence in\na mutual representation space. For the historical trackelets, the detection\nlearning network is forced to match the representations of sequence learning\nnetwork in a mutual representation space. The proposed approach is capable of\nextracting more distinguishing detection and sequence representations by using\nvarious designed losses in object association. As a result, spatial-temporal\nfeature is learned mutually to reinforce the current detection features, and\nthe feature difference can be relieved. To prove the robustness of the STURE,\nit is applied to the public MOT challenge benchmarks and performs well compared\nwith various state-of-the-art online MOT trackers based on identity-preserving\nmetrics.",
     "descriptor": "",
     "authors": [
-      "HaidongWang",
+      "Haidong Wang",
       "Zhiyong Li",
       "Yaping Li",
       "Ke Nai",
@@ -7808,8 +7810,8 @@
       "Luya Wang",
       "Feng Liang",
       "Yangguang Li",
-      "Wanli Ouyang",
       "Honggang Zhang",
+      "Wanli Ouyang",
       "Jing Shao"
     ],
     "subjectives": [
@@ -8596,8 +8598,8 @@
   },
   {
     "id": "arXiv:2201.06971",
-    "title": "Identification for Privacy vs Accountability",
-    "abstract": "This document considers the counteracting requirements of privacy and\naccountability applied to identity management. Based on the requirements of\nGDPR 1 applied to identity attributes two forms of identity, with differing\nbalances between privacy and accountability, are suggested termed\n\"publicly-recognised identity\" and \"domain-specific identity\". These forms of\nidentity can be further refined using \"pseudonymisation\" and as described in\nGDPR. This leads to the different forms of identity on the spectrum of\naccountability vs privacy. It is recommended that the privacy and\naccountability requirements, and hence the appropriate form of identity, is\nconsidered in designing an identification scheme, and in the adoption of a\nscheme by data processing systems. Also, users should be aware of the\nimplications of the form of identity requested by a system so that they can\ndecide whether this is acceptable.",
+    "title": "Identification for Accountability vs Privacy",
+    "abstract": "This document considers the counteracting requirements of privacy and\naccountability applied to identity management. Based on the requirements of\nGDPR applied to identity attributes, two forms of identity, with differing\nbalances between privacy and accountability, are suggested, termed\n\"publicly-recognised identity\" and \"domain-specific identity\". These forms of\nidentity can be further refined using \"pseudonymisation\" and as described in\nGDPR. This leads to the different forms of identity on the spectrum of\naccountability vs privacy. It is recommended that the privacy and\naccountability requirements, and hence the appropriate form of identity, are\nconsidered in designing an identification scheme and in the adoption of a\nscheme by data processing systems. Also, users should be aware of the\nimplications of the form of identity requested by a system, so that they can\ndecide whether this is acceptable.",
     "descriptor": "\nComments: 4 pages\n",
     "authors": [
       "Nick Pope",
@@ -8962,7 +8964,7 @@
   {
     "id": "arXiv:2201.07030",
     "title": "Cooperative Multi-UAV Coverage Mission Planning Platform for Remote  Sensing Applications",
-    "abstract": "This paper proposes a novel mission planning platform, capable of efficiently\ndeploying a team of UAVs to cover complex-shaped areas, in various remote\nsensing applications. Under the hood lies a novel optimization scheme for\ngrid-based methods, utilizing Simulated Annealing algorithm, that significantly\nincreases the achieved percentage of coverage and improves the qualitative\nfeatures of the generated paths. Extensive simulated evaluation in comparison\nwith a state-of-the-art alternative methodology, for coverage path planning\n(CPP) operations, establishes the performance gains in terms of achieved\ncoverage and overall duration of the generated missions. On top of that, DARP\nalgorithm is employed to allocate sub-tasks to each member of the swarm, taking\ninto account each UAV's sensing and operational capabilities, their initial\npositions and any no-fly-zones possibly defined inside the operational area.\nThis feature is of paramount importance in real-life applications, as it has\nthe potential to achieve tremendous performance improvements in terms of time\ndemanded to complete a mission, while at the same time it unlocks a wide new\nrange of applications, that was previously not feasible due to the limited\nbattery life of UAVs. In order to investigate the actual efficiency gains that\nare introduced by the multi-UAV utilization, a simulated study is performed as\nwell. All of these capabilities are packed inside an end-to-end platform that\neases the utilization of UAVs' swarms in remote sensing applications. Its\nversatility is demonstrated via two different real-life applications: (i) a\nphotogrametry for precision agriculture and (ii) an indicative search and\nrescue for first responders missions, that were performed utilizing a swarm of\ncommercial UAVs.",
+    "abstract": "This paper proposes a novel mission planning platform, capable of efficiently\ndeploying a team of UAVs to cover complex-shaped areas, in various remote\nsensing applications. Under the hood lies a novel optimization scheme for\ngrid-based methods, utilizing Simulated Annealing algorithm, that significantly\nincreases the achieved percentage of coverage and improves the qualitative\nfeatures of the generated paths. Extensive simulated evaluation in comparison\nwith a state-of-the-art alternative methodology, for coverage path planning\n(CPP) operations, establishes the performance gains in terms of achieved\ncoverage and overall duration of the generated missions. On top of that, DARP\nalgorithm is employed to allocate sub-tasks to each member of the swarm, taking\ninto account each UAV's sensing and operational capabilities, their initial\npositions and any no-fly-zones possibly defined inside the operational area.\nThis feature is of paramount importance in real-life applications, as it has\nthe potential to achieve tremendous performance improvements in terms of time\ndemanded to complete a mission, while at the same time it unlocks a wide new\nrange of applications, that was previously not feasible due to the limited\nbattery life of UAVs. In order to investigate the actual efficiency gains that\nare introduced by the multi-UAV utilization, a simulated study is performed as\nwell. All of these capabilities are packed inside an end-to-end platform that\neases the utilization of UAVs' swarms in remote sensing applications. Its\nversatility is demonstrated via two different real-life applications: (i) a\nphotogrametry for precision agriculture and (ii) an indicative search and\nrescue for first responders missions, that were performed utilizing a swarm of\ncommercial UAVs. The source code can be found at:\nhttps://github.com/savvas-ap/mCPP-optimized-DARP",
     "descriptor": "\nComments: An implementation of the mCPP methodology introduced in this work, as well as a link for a demonstrative video and a link for a fully functional, on-line hosted instance of the presented platform can be found here: this https URL\n",
     "authors": [
       "Savvas D. Apostolidis",
@@ -9607,7 +9609,7 @@
     "id": "arXiv:2201.07124",
     "title": "Attentional Feature Refinement and Alignment Network for Aircraft  Detection in SAR Imagery",
     "abstract": "Aircraft detection in Synthetic Aperture Radar (SAR) imagery is a challenging\ntask in SAR Automatic Target Recognition (SAR ATR) areas due to aircraft's\nextremely discrete appearance, obvious intraclass variation, small size and\nserious background's interference. In this paper, a single-shot detector namely\nAttentional Feature Refinement and Alignment Network (AFRAN) is proposed for\ndetecting aircraft in SAR images with competitive accuracy and speed.\nSpecifically, three significant components including Attention Feature Fusion\nModule (AFFM), Deformable Lateral Connection Module (DLCM) and Anchor-guided\nDetection Module (ADM), are carefully designed in our method for refining and\naligning informative characteristics of aircraft. To represent characteristics\nof aircraft with less interference, low-level textural and high-level semantic\nfeatures of aircraft are fused and refined in AFFM throughly. The alignment\nbetween aircraft's discrete back-scatting points and convolutional sampling\nspots is promoted in DLCM. Eventually, the locations of aircraft are predicted\nprecisely in ADM based on aligned features revised by refined anchors. To\nevaluate the performance of our method, a self-built SAR aircraft sliced\ndataset and a large scene SAR image are collected. Extensive quantitative and\nqualitative experiments with detailed analysis illustrate the effectiveness of\nthe three proposed components. Furthermore, the topmost detection accuracy and\ncompetitive speed are achieved by our method compared with other\ndomain-specific,e.g., DAPN, PADN, and general CNN-based methods,e.g., FPN,\nCascade R-CNN, SSD, RefineDet and RPDet.",
-    "descriptor": "\nComments: 16 pages. This version is the same as the early access version published in TGRS\n",
+    "descriptor": "\nComments: A raw version as the same as the early access published in TGRS. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses\n",
     "authors": [
       "Yan Zhao",
       "Lingjun Zhao",
@@ -12844,6 +12846,7 @@
       "Lingjuan Lyu",
       "Han Yu",
       "Xingjun Ma",
+      "Chen Chen",
       "Lichao Sun",
       "Jun Zhao",
       "Qiang Yang",
@@ -14094,7 +14097,6 @@
     "authors": [
       "\u0141ukasz Neumann",
       "\u0141ukasz Lepak",
-      "Grzegorz Rype\u015b\u0107",
       "Pawe\u0142 Wawrzy\u0144ski"
     ],
     "subjectives": [
