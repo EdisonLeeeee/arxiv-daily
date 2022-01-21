@@ -1449,8 +1449,8 @@
     "descriptor": "",
     "authors": [
       "Nicholas Adrian",
-      "Do Van Thach",
-      "Pham Quang Cuong"
+      "Van-Thach Do",
+      "Quang-Cuong Pham"
     ],
     "subjectives": [
       "Robotics (cs.RO)"
@@ -2971,8 +2971,7 @@
       "Rolf Ingold"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)",
-      "Software Engineering (cs.SE)"
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2201.08295"
   },
@@ -3652,10 +3651,10 @@
       "Gianni De Fabritiis"
     ],
     "subjectives": [
-      "Computational Physics (physics.comp-ph)",
+      "Biomolecules (q-bio.BM)",
       "Machine Learning (cs.LG)",
       "Biological Physics (physics.bio-ph)",
-      "Biomolecules (q-bio.BM)"
+      "Computational Physics (physics.comp-ph)"
     ],
     "url": "https://arxiv.org/abs/2201.08110"
   },
