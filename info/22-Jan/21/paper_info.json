@@ -1064,7 +1064,7 @@
   {
     "id": "arXiv:2201.07989",
     "title": "Self-supervised Video Representation Learning with Cascade Positive  Retrieval",
-    "abstract": "Self-supervised video representation learning has been shown to effectively\nimprove downstream tasks such as video retrieval and action recognition.In this\npaper, we present the Cascade Positive Retrieval (CPR) that successively mines\npositive examples w.r.t. the query for contrastive learning in a cascade of\nstages. Specifically, CPR exploits multiple views of a query example in\ndifferent modalities, where an alternative view may help find another positive\nexample dissimilar in the query view. We explore the effects of possible CPR\nconfigurations in ablations including the number of mining stages, the top\nsimilar example selection ratio in each stage, and progressive training with an\nincremental number of the final Top-k selection. The overall mining quality is\nmeasured to reflect the recall across training set classes. CPR reaches a\nmedian class mining recall of 83.3%, outperforming previous work by 5.5%.\nImplementation-wise, CPR is complementary to pretext tasks and can be easily\napplied to previous work. In the evaluation of pretraining on UCF101, CPR\nconsistently improves existing work and even achieves state-of-the-art R@1 of\n56.7% and 24.4% in video retrieval as well as 83.8% and 54.8% in action\nrecognition on UCF101 and HMDB51. For transfer from large video dataset\nKinetics400 to UCF101 and HDMB, CPR benefits existing work, showing competitive\nTop-1 accuracies of 85.1% and 57.4% despite pretraining at a lower resolution\nand frame sampling rate. The code will be released soon for reproducing the\nresults. The code is available at https://github.com/necla-ml/CPR.",
+    "abstract": "Self-supervised video representation learning has been shown to effectively\nimprove downstream tasks such as video retrieval and action recognition. In\nthis paper, we present the Cascade Positive Retrieval (CPR) that successively\nmines positive examples w.r.t. the query for contrastive learning in a cascade\nof stages. Specifically, CPR exploits multiple views of a query example in\ndifferent modalities, where an alternative view may help find another positive\nexample dissimilar in the query view. We explore the effects of possible CPR\nconfigurations in ablations including the number of mining stages, the top\nsimilar example selection ratio in each stage, and progressive training with an\nincremental number of the final Top-k selection. The overall mining quality is\nmeasured to reflect the recall across training set classes. CPR reaches a\nmedian class mining recall of 83.3%, outperforming previous work by 5.5%.\nImplementation-wise, CPR is complementary to pretext tasks and can be easily\napplied to previous work. In the evaluation of pretraining on UCF101, CPR\nconsistently improves existing work and even achieves state-of-the-art R@1 of\n56.7% and 24.4% in video retrieval as well as 83.8% and 54.8% in action\nrecognition on UCF101 and HMDB51. For transfer from large video dataset\nKinetics400 to UCF101 and HDMB, CPR benefits existing work, showing competitive\nTop-1 accuracies of 85.1% and 57.4% despite pretraining at a lower resolution\nand frame sampling rate. The code will be released soon for reproducing the\nresults. The code is available at https://github.com/necla-ml/CPR.",
     "descriptor": "",
     "authors": [
       "Cheng-En Wu",
@@ -1273,7 +1273,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Signal Processing (eess.SP)"
+      "Signal Processing (eess.SP)",
+      "Systems and Control (eess.SY)"
     ],
     "url": "https://arxiv.org/abs/2201.08020"
   },
@@ -1486,7 +1487,7 @@
       "Bohan Zeng",
       "Baochang Zhang",
       "Peng Gao",
-      "Jinhu Lu"
+      "Jinhu Lv"
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
@@ -4259,8 +4260,8 @@
   },
   {
     "id": "arXiv:2008.02352",
-    "title": "Efficient Migrations Between Storage Tiers with PrismDB",
-    "abstract": "Efficient Migrations Between Storage Tiers with PrismDB",
+    "title": "Efficient Compactions Between Storage Tiers with PrismDB",
+    "abstract": "Efficient Compactions Between Storage Tiers with PrismDB",
     "descriptor": "",
     "authors": [
       "Ashwini Raina",
