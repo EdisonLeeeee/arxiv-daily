@@ -3606,8 +3606,8 @@
   {
     "id": "arXiv:2201.09429",
     "title": "End-to-End Neural Audio Coding for Real-Time Communications",
-    "abstract": "Deep-learning based methods have shown their advantages inaudio coding over\ntraditional ones but limited attention hasbeen paid on real-time communications\n(RTC). This paperproposes the TFNet, an end-to-end neural audio codec withlow\nlatency for RTC. It takes an encoder-temporal filtering-decoder paradigm that\nseldom being investigated in audiocoding. An interleaved structure is proposed\nfor temporalfiltering to capture both short-term and long-term\ntemporaldependencies. Furthermore, with end-to-end optimization,the TFNet is\njointly optimized with speech enhancement andpacket loss concealment, yielding\na one-for-all network forthree tasks. Both subjective and objective results\ndemonstratethe efficiency of the proposed TFNet.",
-    "descriptor": "",
+    "abstract": "Deep-learning based methods have shown their advantages in audio coding over\ntraditional ones but limited attention has been paid on real-time\ncommunications (RTC). This paper proposes the TFNet, an end-to-end neural audio\ncodec with low latency for RTC. It takes an encoder-temporal filtering-decoder\nparadigm that seldom being investigated in audio coding. An interleaved\nstructure is proposed for temporal filtering to capture both short-term and\nlong-term temporal dependencies. Furthermore, with end-to-end optimization, the\nTFNet is jointly optimized with speech enhancement and packet loss concealment,\nyielding a one-for-all network for three tasks. Both subjective and objective\nresults demonstrate the efficiency of the proposed TFNet.",
+    "descriptor": "\nComments: ICASSP 2022 (Accepted)\n",
     "authors": [
       "Xue Jiang",
       "Xiulian Peng",
@@ -4039,7 +4039,7 @@
     "id": "arXiv:2201.09507",
     "title": "Beamforming Towards Seamless Sensing Coverage for Cellular Integrated  Sensing and Communication",
     "abstract": "The sixth generation (6G) mobile communication networks are expected to offer\na new paradigm of cellular integrated sensing and communication (ISAC).\nHowever, due to the intrinsic difference between sensing and communication in\nterms of coverage requirement, current cellular networks that are deliberately\nplanned mainly for communication coverage are difficult to achieve seamless\nsensing coverage. To address this issue, this paper studies the beamforming\noptimization towards seamless sensing coverage for a basic bi-static ISAC\nsystem, while ensuring that the communication requirements of multiple users\nequipment (UEs) are satisfied. Towards this end, an optimization problem is\nformulated to maximize the worst-case sensing signal-to-noise ratio (SNR) in a\nprescribed coverage region, subject to the signal-to-interference-plus-noise\nratio (SINR) requirement for each UE. To gain some insights, we first\ninvestigate the special case with one single UE and one single sensing point,\nfor which a closed-from expression of the optimal beamforming is obtained. For\nthe general case with multiple communication UEs and contiguous regional\nsensing coverage, an efficient algorithm based on successive convex\napproximation (SCA) is proposed to solve the non-convex beamforming\noptimization problem. Numerical results demonstrate that the proposed design is\nable to achieve seamless sensing coverage in the prescribed region, while\nguaranteeing the communication requirements of the UEs.",
-    "descriptor": "\nComments: 6 Pages\n",
+    "descriptor": "\nComments: 7 Pages\n",
     "authors": [
       "Ruoguang Li",
       "Zhiqiang Xiao",
@@ -5821,8 +5821,8 @@
   },
   {
     "id": "arXiv:2201.09798",
-    "title": "IMO^3: Interactive Multi-Objective Off-Policy Optimization",
-    "abstract": "Most real-world optimization problems have multiple objectives. A system\ndesigner needs to find a policy that trades off these objectives to reach a\ndesired operating point. This problem has been studied extensively in the\nsetting of known objective functions. We consider a more practical but\nchallenging setting of unknown objective functions. In industry, this problem\nis mostly approached with online A/B testing, which is often costly and\ninefficient. As an alternative, we propose interactive multi-objective\noff-policy optimization (IMO^3). The key idea in our approach is to interact\nwith a system designer using policies evaluated in an off-policy fashion to\nuncover which policy maximizes her unknown utility function. We theoretically\nshow that IMO^3 identifies a near-optimal policy with high probability,\ndepending on the amount of feedback from the designer and training data for\noff-policy estimation. We demonstrate its effectiveness empirically on multiple\nmulti-objective optimization problems.",
+    "title": "IMO$^3$: Interactive Multi-Objective Off-Policy Optimization",
+    "abstract": "Most real-world optimization problems have multiple objectives. A system\ndesigner needs to find a policy that trades off these objectives to reach a\ndesired operating point. This problem has been studied extensively in the\nsetting of known objective functions. We consider a more practical but\nchallenging setting of unknown objective functions. In industry, this problem\nis mostly approached with online A/B testing, which is often costly and\ninefficient. As an alternative, we propose interactive multi-objective\noff-policy optimization (IMO$^3$). The key idea in our approach is to interact\nwith a system designer using policies evaluated in an off-policy fashion to\nuncover which policy maximizes her unknown utility function. We theoretically\nshow that IMO$^3$ identifies a near-optimal policy with high probability,\ndepending on the amount of feedback from the designer and training data for\noff-policy estimation. We demonstrate its effectiveness empirically on multiple\nmulti-objective optimization problems.",
     "descriptor": "",
     "authors": [
       "Nan Wang",
@@ -11228,7 +11228,9 @@
       "Xavier Boix"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)",
+      "Neurons and Cognition (q-bio.NC)"
     ],
     "url": "https://arxiv.org/abs/2112.04162"
   },
