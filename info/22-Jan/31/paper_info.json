@@ -4420,7 +4420,7 @@
     "abstract": "We implement a data assimilation framework for integrating ice surface and\nterminus position observations into a numerical ice-flow model. The model uses\nthe well-known shallow shelf approximation (SSA) coupled to a level set method\nto capture ice motion and changes in the glacier geometry. The level set method\nexplicitly tracks the evolving ice-atmosphere and ice-ocean boundaries for a\nmarine outlet glacier. We use an Ensemble Transform Kalman Filter to assimilate\nobservations of ice surface elevation and lateral ice extent by updating the\nlevel set function that describes the ice interface. Numerical experiments on\nan idealized marine-terminating glacier demonstrate the effectiveness of our\ndata assimilation approach for tracking seasonal and multi-year glacier advance\nand retreat cycles. The model is also applied to simulate Helheim Glacier, a\nmajor tidewater-terminating glacier of the Greenland Ice Sheet that has\nexperienced a recent history of rapid retreat. By assimilating observations\nfrom remotely-sensed surface elevation profiles we are able to more accurately\ntrack the migrating glacier terminus and glacier surface changes. These results\nsupport the use of data assimilation methodologies for obtaining more accurate\npredictions of short-term ice sheet dynamics.",
     "descriptor": "\nComments: 30 pages, 22 figures\n",
     "authors": [
-      "M. Alamgir Hossaina",
+      "M. Alamgir Hossain",
       "Sam Pimentel",
       "John M. Stockie"
     ],
