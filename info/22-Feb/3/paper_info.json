@@ -1592,7 +1592,7 @@
   },
   {
     "id": "arXiv:2202.00941",
-    "title": "CTMSTOU driven markets: simulated environment for regime-awareness in  trading policie",
+    "title": "CTMSTOU driven markets: simulated environment for regime-awareness in  trading policies",
     "abstract": "Market regimes is a popular topic in quantitative finance even though there\nis little consensus on the details of how they should be defined. They arise as\na feature both in financial market prediction problems and financial market\ntask performing problems.\nIn this work we use discrete event time multi-agent market simulation to\nfreely experiment in a reproducible and understandable environment where\nregimes can be explicitly switched and enforced.\nWe introduce a novel stochastic process to model the fundamental value\nperceived by market participants: Continuous-Time Markov Switching Trending\nOrnstein-Uhlenbeck (CTMSTOU), which facilitates the study of trading policies\nin regime switching markets.\nWe define the notion of regime-awareness for a trading agent as well and\nillustrate its importance through the study of different order placement\nstrategies in the context of order execution problems.",
     "descriptor": "",
     "authors": [
