@@ -341,7 +341,8 @@
       "Clint Dawson"
     ],
     "subjectives": [
-      "Numerical Analysis (math.NA)"
+      "Numerical Analysis (math.NA)",
+      "Mathematical Software (cs.MS)"
     ],
     "url": "https://arxiv.org/abs/2202.00762"
   },
@@ -2256,6 +2257,7 @@
     "subjectives": [
       "Numerical Analysis (math.NA)",
       "Machine Learning (cs.LG)",
+      "Mathematical Software (cs.MS)",
       "Computation (stat.CO)"
     ],
     "url": "https://arxiv.org/abs/2202.01085"
