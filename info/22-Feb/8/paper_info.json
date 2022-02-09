@@ -1316,7 +1316,11 @@
     "abstract": "Facing the challenge of statistical diversity in client local data\ndistribution, personalized federated learning (PFL) has become a growing\nresearch hotspot. Although the state-of-the-art methods with model\nsimilarity-based pairwise collaboration have achieved promising performance,\nthey neglect the fact that model aggregation is essentially a collaboration\nprocess within the coalition, where the complex multiwise influences take place\namong clients. In this paper, we first apply Shapley value (SV) from coalition\ngame theory into the PFL scenario. To measure the multiwise collaboration among\na group of clients on the personalized learning performance, SV takes their\nmarginal contribution to the final result as a metric. We propose a novel\npersonalized algorithm: pFedSV, which can 1. identify each client's optimal\ncollaborator coalition and 2. perform personalized model aggregation based on\nSV. Extensive experiments on various datasets (MNIST, Fashion-MNIST, and\nCIFAR-10) are conducted with different Non-IID data settings (Pathological and\nDirichlet). The results show that pFedSV can achieve superior personalized\naccuracy for each client, compared to the state-of-the-art benchmarks.",
     "descriptor": "\nComments: 6 pages exclude the reference, 6 figures\n",
     "authors": [
-      "Leijie Wu"
+      "Leijie Wu",
+      "Song Guo",
+      "Yaohong Ding",
+      "Yufeng Zhan",
+      "Jie Zhang"
     ],
     "subjectives": [
       "Artificial Intelligence (cs.AI)",
@@ -2371,7 +2375,8 @@
     "subjectives": [
       "Cryptography and Security (cs.CR)",
       "Machine Learning (cs.LG)",
-      "Machine Learning (stat.ML)"
+      "Machine Learning (stat.ML)",
+      "Other Statistics (stat.OT)"
     ],
     "url": "https://arxiv.org/abs/2202.02650"
   },
@@ -2567,7 +2572,8 @@
       "Lexing Ying"
     ],
     "subjectives": [
-      "Numerical Analysis (math.NA)"
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)"
     ],
     "url": "https://arxiv.org/abs/2202.02670"
   },
@@ -4178,7 +4184,8 @@
       "Daria Mi\u0107ovi\u0107",
       "Michael J. Guarino",
       "Kevin Alcedo",
-      "David Rosenbluth"
+      "David Rosenbluth",
+      "Adrian P. Pope"
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
@@ -6738,7 +6745,9 @@
       "Lenka Zdeborov\u00e1"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2202.03295"
   },
@@ -10174,8 +10183,8 @@
   {
     "id": "arXiv:2104.06876",
     "title": "Landmarking for Navigational Streaming of Stored High-Dimensional Media",
-    "abstract": "Comments: 15 pages, 13 figures,accepted by TCSVT",
-    "descriptor": "\nComments: 15 pages, 13 figures,accepted by TCSVT\n",
+    "abstract": "Comments: 15 pages, 13 figures,accepted by TCSVT. With supplementary files",
+    "descriptor": "\nComments: 15 pages, 13 figures,accepted by TCSVT. With supplementary files\n",
     "authors": [
       "Yuan Yuan",
       "Gene Cheung",
