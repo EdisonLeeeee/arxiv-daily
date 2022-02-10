@@ -143,7 +143,8 @@
       "Richard S. Sutton",
       "Marlos C. Machado",
       "G. Zacharias Holland",
-      "David Szepesvari Finbarr Timbers",
+      "David Szepesvari",
+      "Finbarr Timbers",
       "Brian Tanner",
       "Adam White"
     ],
@@ -155,7 +156,7 @@
   },
   {
     "id": "arXiv:2202.03469",
-    "title": "Locally Random P-adic Alloy Codes with ChannelCoding Theorems for  Distributed Coded Tensors",
+    "title": "Locally Random P-adic Alloy Codes with Channel Coding Theorems for  Distributed Coded Tensors",
     "abstract": "Tensors, i.e., multi-linear functions, are a fundamental building block of\nmachine learning algorithms. In order to train on large data-sets, it is common\npractice to distribute the computation amongst workers. However, stragglers and\nother faults can severely impact the performance and overall training time. A\nnovel strategy to mitigate these failures is the use of coded computation. We\nintroduce a new metric for analysis called the typical recovery threshold,\nwhich focuses on the most likely event and provide a novel construction of\ndistributed coded tensor operations which are optimal with this measure. We\nshow that our general framework encompasses many other computational schemes\nand metrics as a special case. In particular, we prove that the recovery\nthreshold and the tensor rank can be recovered as a special case of the typical\nrecovery threshold when the probability of noise, i.e., a fault, is equal to\nzero, thereby providing a noisy generalization of noiseless computation as a\nserendipitous result. Far from being a purely theoretical construction, these\ndefinitions lead us to practical random code constructions, i.e., locally\nrandom p-adic alloy codes, which are optimal with respect to the measures. We\nanalyze experiments conducted on Amazon EC2 and establish that they are faster\nand more numerically stable than many other benchmark computation schemes in\npractice, as is predicted by theory.",
     "descriptor": "\nComments: 6 pages, preprint\n",
     "authors": [
@@ -1191,7 +1192,10 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Social and Information Networks (cs.SI)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2202.03628"
   },
@@ -2397,7 +2401,7 @@
   {
     "id": "arXiv:2202.03792",
     "title": "Counterfactual Multi-Token Fairness in Text Classification",
-    "abstract": "The counterfactual token generation has been limited to perturbing only a\nsingle token in texts that are generally short and single sentences. These\ntokens are often associated with one of many sensitive attributes. With limited\ncounterfactuals generated, the goal to achieve invariant nature for machine\nlearning classification models towards any sensitive attribute gets bounded,\nand the formulation of Counterfactual Fairness gets narrowed. In this paper, we\novercome these limitations by solving root problems and opening bigger domains\nfor understanding. We have curated a resource of sensitive tokens and their\ncorresponding perturbation tokens, even extending the support beyond\ntraditionally used sensitive attributes like \\textit{Age}, \\textit{Gender}, and\n\\textit{Race} to \\textit{Nationality}, \\textit{Disability}, and\n\\textit{Religion}. The concept of Counterfactual Generation has been extended\nto multi-token support valid over all forms of texts and documents. We define\nthe method of generating counterfactuals by perturbing multiple sensitive\ntokens as \\textbf{Counterfactual Multi-token Generation}. The method has been\nconceptualized to showcase significant performance improvement over\nsingle-token methods and validated over multiple benchmark datasets. The\nemendation in counterfactual generation propagates in achieving improved\n\\textbf{Counterfactual Multi-token Fairness}.",
+    "abstract": "The counterfactual token generation has been limited to perturbing only a\nsingle token in texts that are generally short and single sentences. These\ntokens are often associated with one of many sensitive attributes. With limited\ncounterfactuals generated, the goal to achieve invariant nature for machine\nlearning classification models towards any sensitive attribute gets bounded,\nand the formulation of Counterfactual Fairness gets narrowed. In this paper, we\novercome these limitations by solving root problems and opening bigger domains\nfor understanding. We have curated a resource of sensitive tokens and their\ncorresponding perturbation tokens, even extending the support beyond\ntraditionally used sensitive attributes like Age, Gender, Race to Nationality,\nDisability, and Religion. The concept of Counterfactual Generation has been\nextended to multi-token support valid over all forms of texts and documents. We\ndefine the method of generating counterfactuals by perturbing multiple\nsensitive tokens as Counterfactual Multi-token Generation. The method has been\nconceptualized to showcase significant performance improvement over\nsingle-token methods and validated over multiple benchmark datasets. The\nemendation in counterfactual generation propagates in achieving improved\nCounterfactual Multi-token Fairness.",
     "descriptor": "",
     "authors": [
       "Pranay Lohia"
@@ -2477,7 +2481,7 @@
     "id": "arXiv:2202.03805",
     "title": "Quantifying the topic disparity of scientific articles",
     "abstract": "Citation count is a popular index for assessing scientific papers. However,\nit depends on not only the quality of a paper but also various factors, such as\nconventionality, team size, and gender. Here, we examine the extent to which\nthe conventionality of a paper is related to its citation percentile in a\ndiscipline by using our measure, topic disparity. The topic disparity is the\ncosine distance between a paper and its discipline on a neural embedding space.\nUsing this measure, we show that the topic disparity is negatively associated\nwith the citation percentile in many disciplines, even after controlling team\nsize and the genders of the first and last authors. This result indicates that\nless conventional research tends to receive fewer citations than conventional\nresearch. Our proposed method can be used to complement the raw citation counts\nand to recommend papers at the periphery of a discipline because of their less\nconventional topics.",
-    "descriptor": "\nComments: 5 pages, 2 figures\n",
+    "descriptor": "\nComments: 5 pages, 2 figures, Submitted to the 2nd International Workshop on Scientific Knowledge: Representation, Discovery, and Assessment\n",
     "authors": [
       "Munjung Kim",
       "Jisung Yoon",
@@ -3304,7 +3308,7 @@
     "id": "arXiv:2202.03934",
     "title": "Alexa, in you, I trust! Fairness and Interpretability Issues in  E-commerce Search through Smart Speakers",
     "abstract": "In traditional (desktop) e-commerce search, a customer issues a specific\nquery and the system returns a ranked list of products in order of relevance to\nthe query. An increasingly popular alternative in e-commerce search is to issue\na voice-query to a smart speaker (e.g., Amazon Echo) powered by a voice\nassistant (VA, e.g., Alexa). In this situation, the VA usually spells out the\ndetails of only one product, an explanation citing the reason for its\nselection, and a default action of adding the product to the customer's cart.\nThis reduced autonomy of the customer in the choice of a product during\nvoice-search makes it necessary for a VA to be far more responsible and\ntrustworthy in its explanation and default action.\nIn this paper, we ask whether the explanation presented for a product\nselection by the Alexa VA installed on an Amazon Echo device is consistent with\nhuman understanding as well as with the observations on other traditional\nmediums (e.g., desktop ecommerce search). Through a user survey, we find that\nin 81% cases the interpretation of 'a top result' by the users is different\nfrom that of Alexa. While investigating for the fairness of the default action,\nwe observe that over a set of as many as 1000 queries, in nearly 68% cases,\nthere exist one or more products which are more relevant (as per Amazon's own\ndesktop search results) than the product chosen by Alexa. Finally, we conducted\na survey over 30 queries for which the Alexa-selected product was different\nfrom the top desktop search result, and observed that in nearly 73% cases, the\nparticipants preferred the top desktop search result as opposed to the product\nchosen by Alexa. Our results raise several concerns and necessitates more\ndiscussions around the related fairness and interpretability issues of VAs for\ne-commerce search.",
-    "descriptor": "\nComments: This work has been accepted in Web4Good track at The Web Conference 2022 (WWW'22)\n",
+    "descriptor": "\nComments: This work has been accepted at The Web Conference 2022 (WWW'22)\n",
     "authors": [
       "Abhisek Dash",
       "Abhijnan Chakraborty",
@@ -3698,8 +3702,8 @@
   },
   {
     "id": "arXiv:2202.03984",
-    "title": "CAUSPref: Causal Preference Learning for Out-of-Distribution  Recommendation",
-    "abstract": "In spite of the tremendous development of recommender system owing to the\nprogressive capability of machine learning recently, the current recommender\nsystem is still vulnerable to the distribution shift of users and items in\nrealistic scenarios, leading to the sharp decline of performance in testing\nenvironments. It is even more severe in many common applications where only the\nimplicit feedback from sparse data is available. Hence, it is crucial to\npromote the performance stability of recommendation method in different\nenvironments. In this work, we first make a thorough analysis of implicit\nrecommendation problem from the viewpoint of out-of-distribution (OOD)\ngeneralization. Then under the guidance of our theoretical analysis, we propose\nto incorporate the recommendation-specific DAG learner into a novel causal\npreference-based recommendation framework named CAUSPref, mainly consisting of\ncausal learning of invariant user preference and anti-preference negative\nsampling to deal with implicit feedback. Extensive experimental results from\nreal-world datasets clearly demonstrate that our approach surpasses the\nbenchmark models significantly under types of out-of-distribution settings, and\nshow its impressive interpretability.",
+    "title": "CausPref: Causal Preference Learning for Out-of-Distribution  Recommendation",
+    "abstract": "In spite of the tremendous development of recommender system owing to the\nprogressive capability of machine learning recently, the current recommender\nsystem is still vulnerable to the distribution shift of users and items in\nrealistic scenarios, leading to the sharp decline of performance in testing\nenvironments. It is even more severe in many common applications where only the\nimplicit feedback from sparse data is available. Hence, it is crucial to\npromote the performance stability of recommendation method in different\nenvironments. In this work, we first make a thorough analysis of implicit\nrecommendation problem from the viewpoint of out-of-distribution (OOD)\ngeneralization. Then under the guidance of our theoretical analysis, we propose\nto incorporate the recommendation-specific DAG learner into a novel causal\npreference-based recommendation framework named CausPref, mainly consisting of\ncausal learning of invariant user preference and anti-preference negative\nsampling to deal with implicit feedback. Extensive experimental results from\nreal-world datasets clearly demonstrate that our approach surpasses the\nbenchmark models significantly under types of out-of-distribution settings, and\nshow its impressive interpretability.",
     "descriptor": "\nComments: WWW '22: The ACM Web Conference Proceedings\n",
     "authors": [
       "Yue He",
@@ -4777,6 +4781,9 @@
     ],
     "subjectives": [
       "Audio and Speech Processing (eess.AS)",
+      "Artificial Intelligence (cs.AI)",
+      "Computation and Language (cs.CL)",
+      "Machine Learning (cs.LG)",
       "Sound (cs.SD)"
     ],
     "url": "https://arxiv.org/abs/2202.03751"
@@ -5950,8 +5957,8 @@
   {
     "id": "arXiv:2106.15499",
     "title": "Self-Contrastive Learning: An Efficient Supervised Contrastive Framework  with Single-view and Sub-network",
-    "abstract": "Self-Contrastive Learning: An Efficient Supervised Contrastive Framework  with Single-view and Sub-network",
-    "descriptor": "",
+    "abstract": "Comments: 23 pages, 7 figures, and 21 tables",
+    "descriptor": "\nComments: 23 pages, 7 figures, and 21 tables\n",
     "authors": [
       "Sangmin Bae",
       "Sungnyun Kim",
@@ -7376,8 +7383,8 @@
   {
     "id": "arXiv:2202.01919",
     "title": "Theoretical Exploration of Solutions of Feedforward ReLU networks",
-    "abstract": "Comments: v2: hyperlink overrun modified",
-    "descriptor": "\nComments: v2: hyperlink overrun modified\n",
+    "abstract": "Comments: v2,v3: hyperlink mode modified",
+    "descriptor": "\nComments: v2,v3: hyperlink mode modified\n",
     "authors": [
       "Changcun Huang"
     ],
