@@ -1008,7 +1008,7 @@
     "id": "arXiv:2202.04243",
     "title": "Motion-Aware Transformer For Occluded Person Re-identification",
     "abstract": "Recently, occluded person re-identification(Re-ID) remains a challenging task\nthat people are frequently obscured by other people or obstacles, especially in\na crowd massing situation. In this paper, we propose a self-supervised deep\nlearning method to improve the location performance for human parts through\noccluded person Re-ID. Unlike previous works, we find that motion information\nderived from the photos of various human postures can help identify major human\nbody components. Firstly, a motion-aware transformer encoder-decoder\narchitecture is designed to obtain keypoints heatmaps and part-segmentation\nmaps. Secondly, an affine transformation module is utilized to acquire motion\ninformation from the keypoint detection branch. Then the motion information\nwill support the segmentation branch to achieve refined human part segmentation\nmaps, and effectively divide the human body into reasonable groups. Finally,\nseveral cases demonstrate the efficiency of the proposed model in\ndistinguishing different representative parts of the human body, which can\navoid the background and occlusion disturbs. Our method consistently achieves\nstate-of-the-art results on several popular datasets, including occluded,\npartial, and holistic.",
-    "descriptor": "\nComments: 12 pages, 3 figures\n",
+    "descriptor": "\nComments: 10 pages, 3 figures\n",
     "authors": [
       "Mi Zhou",
       "Hongye Liu",
@@ -1125,7 +1125,7 @@
   },
   {
     "id": "arXiv:2202.04261",
-    "title": "The volcspeech system for the icassp 2022 multi-channel multi-party  meeting transcription challenge",
+    "title": "The Volcspeech system for the ICASSP 2022 multi-channel multi-party  meeting transcription challenge",
     "abstract": "This paper describes our submission to ICASSP 2022 Multi-channel Multi-party\nMeeting Transcription (M2MeT) Challenge. For Track 1, we propose several\napproaches to empower the clustering-based speaker diarization system to handle\noverlapped speech. Front-end dereverberation and the direction-of-arrival (DOA)\nestimation are used to improve the accuracy of speaker diarization.\nMulti-channel combination and overlap detection are applied to reduce the\nmissed speaker error. A modified DOVER-Lap is also proposed to fuse the results\nof different systems. We achieve the final DER of 5.79% on the Eval set and\n7.23% on the Test set. For Track 2, we develop our system using the Conformer\nmodel in a joint CTC-attention architecture. Serialized output training is\nadopted to multi-speaker overlapped speech recognition. We propose a neural\nfront-end module to model multi-channel audio and train the model end-to-end.\nVarious data augmentation methods are utilized to mitigate over-fitting in the\nmulti-channel multi-speaker E2E system. Transformer language model fusion is\ndeveloped to achieve better performance. The final CER is 19.2% on the Eval set\nand 20.8% on the Test set.",
     "descriptor": "",
     "authors": [
@@ -1313,7 +1313,9 @@
       "Vincent Y. F. Tan"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Information Theory (cs.IT)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2202.04294"
   },
@@ -3389,7 +3391,7 @@
   {
     "id": "arXiv:2202.04167",
     "title": "Understanding the bias-variance tradeoff of Bregman divergences",
-    "abstract": "This paper builds upon the work of Pfau (2013), which generalized the bias\nvariance tradeoff to any Bregman divergence loss function. Pfau (2013) showed\nthat for Bregman divergences, the bias and variances are defined with respect\nto a central label, defined as the expected mean of the label, and a central\nprediction, of a more complex form. We show that, similarly to the label, the\ncentral prediction can be interpreted as the mean of a random variable, where\nthe mean operates in a dual space defined by the loss function itself. Viewing\nthe bias-variance tradeoff through operations taken in dual space, we\nsubsequently derive several results of interest. In particular, (a) the\nvariance terms satisfy a generalized law of total variance; (b) if a source of\nrandomness cannot be controlled, its contribution to the bias and variance has\na closed form; (c) there exist natural ensembling operations in the label and\nprediction spaces which reduce the variance and do not affect the bias.",
+    "abstract": "This paper builds upon the work of Pfau (2013), which generalized the bias\nvariance tradeoff to any Bregman divergence loss function. Pfau (2013) showed\nthat for Bregman divergences, the bias and variances are defined with respect\nto a central label, defined as the mean of the label variable, and a central\nprediction, of a more complex form. We show that, similarly to the label, the\ncentral prediction can be interpreted as the mean of a random variable, where\nthe mean operates in a dual space defined by the loss function itself. Viewing\nthe bias-variance tradeoff through operations taken in dual space, we\nsubsequently derive several results of interest. In particular, (a) the\nvariance terms satisfy a generalized law of total variance; (b) if a source of\nrandomness cannot be controlled, its contribution to the bias and variance has\na closed form; (c) there exist natural ensembling operations in the label and\nprediction spaces which reduce the variance and do not affect the bias.",
     "descriptor": "",
     "authors": [
       "Ben Adlam",
@@ -3500,7 +3502,7 @@
     "id": "arXiv:2202.04208",
     "title": "Evaluating Causal Inference Methods",
     "abstract": "The fundamental challenge of drawing causal inference is that counterfactual\noutcomes are not fully observed for any unit. Furthermore, in observational\nstudies, treatment assignment is likely to be confounded. Many statistical\nmethods have emerged for causal inference under unconfoundedness conditions\ngiven pre-treatment covariates, including propensity score-based methods,\nprognostic score-based methods, and doubly robust methods. Unfortunately for\napplied researchers, there is no `one-size-fits-all' causal method that can\nperform optimally universally. In practice, causal methods are primarily\nevaluated quantitatively on handcrafted simulated data. Such data-generative\nprocedures can be of limited value because they are typically stylized models\nof reality. They are simplified for tractability and lack the complexities of\nreal-world data. For applied researchers, it is critical to understand how well\na method performs for the data at hand. Our work introduces a deep generative\nmodel-based framework, Credence, to validate causal inference methods. The\nframework's novelty stems from its ability to generate synthetic data anchored\nat the empirical distribution for the observed sample, and therefore virtually\nindistinguishable from the latter. The approach allows the user to specify\nground truth for the form and magnitude of causal effects and confounding bias\nas functions of covariates. Thus simulated data sets are used to evaluate the\npotential performance of various causal estimation methods when applied to data\nsimilar to the observed sample. We demonstrate Credence's ability to accurately\nassess the relative performance of causal estimation techniques in an extensive\nsimulation study and two real-world data applications from Lalonde and Project\nSTAR studies.",
-    "descriptor": "\nComments: 4 figures, 12 pages\n",
+    "descriptor": "\nComments: 5 figures, 13 pages\n",
     "authors": [
       "Harsh Parikh",
       "Carlos Varjao",
@@ -3533,7 +3535,7 @@
     "id": "arXiv:2202.04219",
     "title": "Improving Computational Complexity in Statistical Models with  Second-Order Information",
     "abstract": "It is known that when the statistical models are singular, i.e., the Fisher\ninformation matrix at the true parameter is degenerate, the fixed step-size\ngradient descent algorithm takes polynomial number of steps in terms of the\nsample size $n$ to converge to a final statistical radius around the true\nparameter, which can be unsatisfactory for the application. To further improve\nthat computational complexity, we consider the utilization of the second-order\ninformation in the design of optimization algorithms. Specifically, we study\nthe normalized gradient descent (NormGD) algorithm for solving parameter\nestimation in parametric statistical models, which is a variant of gradient\ndescent algorithm whose step size is scaled by the maximum eigenvalue of the\nHessian matrix of the empirical loss function of statistical models. When the\npopulation loss function, i.e., the limit of the empirical loss function when\n$n$ goes to infinity, is homogeneous in all directions, we demonstrate that the\nNormGD iterates reach a final statistical radius around the true parameter\nafter a logarithmic number of iterations in terms of $n$. Therefore, for fixed\ndimension $d$, the NormGD algorithm achieves the optimal overall computational\ncomplexity $\\mathcal{O}(n)$ to reach the final statistical radius. This\ncomputational complexity is cheaper than that of the fixed step-size gradient\ndescent algorithm, which is of the order $\\mathcal{O}(n^{\\tau})$ for some $\\tau\n> 1$, to reach the same statistical radius. We illustrate our general theory\nunder two statistical models: generalized linear models and mixture models, and\nexperimental results support our prediction with general theory.",
-    "descriptor": "\nComments: 36 pages, 2 figures. arXiv admin note: text overlap with arXiv:2110.07810\n",
+    "descriptor": "\nComments: 26 pages, 2 figures. Considerably shortening the proofs to improve the readability\n",
     "authors": [
       "Tongzheng Ren",
       "Jiacheng Zhuo",
@@ -3981,7 +3983,7 @@
     "id": "arXiv:2202.04641",
     "title": "Unconditionally secure digital signatures implemented in an 8-user  quantum network",
     "abstract": "The ability to know and verifiably demonstrate the origins of messages can\noften be as important as encrypting the message itself. Here we present an\nexperimental demonstration of an unconditionally secure digital signature (USS)\nprotocol implemented for the first time, to the best of our knowledge, on a\nfully connected quantum network without trusted nodes. Our USS protocol is\nsecure against forging, repudiation and messages are transferrable. We show the\nfeasibility of unconditionally secure signatures using only bi-partite\nentangled states distributed throughout the network and experimentally evaluate\nthe performance of the protocol in real world scenarios with varying message\nlengths.",
-    "descriptor": "\nComments: 9 pages, 7 figures, 1 table\n",
+    "descriptor": "\nComments: Preprint, 9 pages, 7 figures, 1 table\n",
     "authors": [
       "Yoann Pelet",
       "Ittoop Vergheese Puthoor",
