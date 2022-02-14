@@ -2933,7 +2933,7 @@
     "id": "arXiv:2202.05200",
     "title": "Visual Servoing for Pose Control of Soft Continuum Arm in a Structured  Environment",
     "abstract": "For soft continuum arms, visual servoing is a popular control strategy that\nrelies on visual feedback to close the control loop. However, robust visual\nservoing is challenging as it requires reliable feature extraction from the\nimage, accurate control models and sensors to perceive the shape of the arm,\nboth of which can be hard to implement in a soft robot. This letter circumvents\nthese challenges by presenting a deep neural network-based method to perform\nsmooth and robust 3D positioning tasks on a soft arm by visual servoing using a\ncamera mounted at the distal end of the arm. A convolutional neural network is\ntrained to predict the actuations required to achieve the desired pose in a\nstructured environment. Integrated and modular approaches for estimating the\nactuations from the image are proposed and are experimentally compared. A\nproportional control law is implemented to reduce the error between the desired\nand current image as seen by the camera. The model together with the\nproportional feedback control makes the described approach robust to several\nvariations such as new targets, lighting, loads, and diminution of the soft\narm. Furthermore, the model lends itself to be transferred to a new environment\nwith minimal effort.",
-    "descriptor": "\nComments: 9 pages, 5 figures, RA-L + RoboSoft\n",
+    "descriptor": "\nComments: 9 pages, 5 figures, to be published in RA-L + RoboSoft\n",
     "authors": [
       "Shivani Kamtikar",
       "Samhita Marri",
@@ -6698,7 +6698,9 @@
       "He Chen"
     ],
     "subjectives": [
-      "Performance (cs.PF)"
+      "Performance (cs.PF)",
+      "Information Theory (cs.IT)",
+      "Networking and Internet Architecture (cs.NI)"
     ],
     "url": "https://arxiv.org/abs/2202.03152"
   },
