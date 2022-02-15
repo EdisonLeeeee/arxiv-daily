@@ -2211,7 +2211,7 @@
     "abstract": "In a federated learning system, the clients, e.g. mobile devices and\norganization participants, usually have different personal preferences or\nbehavior patterns, namely Non-IID data problems across clients. Clustered\nfederated learning is to group users into different clusters that the clients\nin the same group will share the same or similar behavior patterns that are to\nsatisfy the IID data assumption for most traditional machine learning\nalgorithms. Most of the existing clustering methods in FL treat every client\nequally that ignores the different importance contributions among clients. This\npaper proposes a novel weighted client-based clustered FL algorithm to leverage\nthe client's group and each client in a unified optimization framework.\nMoreover, the paper proposes convergence analysis to the proposed clustered FL\nmethod. The experimental analysis has demonstrated the effectiveness of the\nproposed method.",
     "descriptor": "\nComments: draft\n",
     "authors": [
-      "Jie MA",
+      "Jie Ma",
       "Guodong Long",
       "Tianyi Zhou",
       "Jing Jiang",
