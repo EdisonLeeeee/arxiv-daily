@@ -761,7 +761,7 @@
       "Xinyi Liu",
       "Qi Xie",
       "Qian Zhao",
-      "Hong Qang",
+      "Hong Wang",
       "Deyu Meng"
     ],
     "subjectives": [
@@ -4311,7 +4311,7 @@
   },
   {
     "id": "arXiv:2202.06477",
-    "title": "Characterize Differentially-Private Techniques in the Era of  Internet-of-Vehicles",
+    "title": "Characterizing Differentially-Private Techniques in the Era of  Internet-of-Vehicles",
     "abstract": "Recent developments of advanced Human-Vehicle Interactions rely on the\nconcept Internet-of-Vehicles (IoV), to achieve large-scale communications and\nsynchronizations of data in practice. The concept of IoV is highly similar to a\ndistributed system, where each vehicle is considered as a node and all nodes\nare grouped with a centralized server. In this manner, the concerns of data\nprivacy are significant since all vehicles collect, process and share personal\nstatistics (e.g. multi-modal, driving statuses and etc.). Therefore, it's\nimportant to understand how modern privacy-preserving techniques suit for IoV.\nWe present the most comprehensive study to characterize modern\nprivacy-preserving techniques for IoV to date. We focus on Differential Privacy\n(DP), a representative set of mathematically-guaranteed mechanisms for both\nprivacy-preserving processing and sharing on sensitive data. The purpose of our\nstudy is to demystify the tradeoffs of deploying DP techniques, in terms of\nservice quality. We first characterize representative privacy-preserving\nprocessing mechanisms, enabled by advanced DP approaches. Then we perform a\ndetailed study of an emerging in-vehicle, Deep-Neural-Network-driven\napplication, and study the upsides and downsides of DP for diverse types of\ndata streams. Our study obtains 11 key findings and we highlight FIVE most\nsignificant observations from our detailed characterizations. We conclude that\nthere are a large volume of challenges and opportunities for future studies, by\nenabling privacy-preserving IoV with low overheads for service quality.",
     "descriptor": "\nComments: Technical Report-Feb-03 at User-Centric Computing Group, University of Nottingham Ningbo China\n",
     "authors": [
@@ -4375,7 +4375,7 @@
     "id": "arXiv:2202.06483",
     "title": "BiFSMN: Binary Neural Network for Keyword Spotting",
     "abstract": "The deep neural networks, such as the Deep-FSMN, have been widely studied for\nkeyword spotting (KWS) applications. However, computational resources for these\nnetworks are significantly constrained since they usually run on-call on edge\ndevices. In this paper, we present BiFSMN, an accurate and extreme-efficient\nbinary neural network for KWS. We first construct a High-frequency Enhancement\nDistillation scheme for the binarization-aware training, which emphasizes the\nhigh-frequency information from the full-precision network's representation\nthat is more crucial for the optimization of the binarized network. Then, to\nallow the instant and adaptive accuracy-efficiency trade-offs at runtime, we\nalso propose a Thinnable Binarization Architecture to further liberate the\nacceleration potential of the binarized network from the topology perspective.\nMoreover, we implement a Fast Bitwise Computation Kernel for BiFSMN on ARMv8\ndevices which fully utilizes registers and increases instruction throughput to\npush the limit of deployment efficiency. Extensive experiments show that BiFSMN\noutperforms existing binarization methods by convincing margins on various\ndatasets and is even comparable with the full-precision counterpart (e.g., less\nthan 3% drop on Speech Commands V1-12). We highlight that benefiting from the\nthinnable architecture and the optimized 1-bit implementation, BiFSMN can\nachieve an impressive 22.3x speedup and 15.5x storage-saving on real-world edge\nhardware.",
-    "descriptor": "",
+    "descriptor": "\nComments: request from company\n",
     "authors": [
       "Haotong Qin",
       "Xudong Ma",
@@ -4394,7 +4394,7 @@
   },
   {
     "id": "arXiv:2202.06484",
-    "title": "ADeADA: Adaptive Density-aware Active Domain Adaptationfor Semantic  Segmentation",
+    "title": "ADeADA: Adaptive Density-aware Active Domain Adaptation for Semantic  Segmentation",
     "abstract": "In the field of domain adaptation, a trade-off exists between the model\nperformance and the number of target domain annotations. Active learning,\nmaximizing model performance with few informative labeled data, comes in handy\nfor such a scenario. In this work, we present ADeADA, a general active domain\nadaptation framework for semantic segmentation. To adapt the model to the\ntarget domain with minimum queried labels, we propose acquiring labels of the\nsamples with high probability density in the target domain yet with low\nprobability density in the source domain, complementary to the existing source\ndomain labeled data. To further facilitate the label efficiency, we design an\nadaptive budget allocation policy, which dynamically balances the labeling\nbudgets among different categories as well as between density-aware and\nuncertainty-based methods. Extensive experiments show that our method\noutperforms existing active learning and domain adaptation baselines on two\nbenchmarks, GTA5 -> Cityscapes and SYNTHIA -> Cityscapes. With less than 5%\ntarget domain annotations, our method reaches comparable results with that of\nfull supervision.",
     "descriptor": "\nComments: 8 pages, 5 figures\n",
     "authors": [
@@ -5634,7 +5634,7 @@
   },
   {
     "id": "arXiv:2202.06674",
-    "title": "Learning to Ground Objects for Robot Task andMotion Planning",
+    "title": "Learning to Ground Objects for Robot Task and Motion Planning",
     "abstract": "Task and motion planning (TAMP) algorithms have been developed to help robots\nplan behaviors in discrete and continuous spaces. Robots face complex\nreal-world scenarios, where it is hardly possible to model all objects or their\nphysical properties for robot planning (e.g., in kitchens or shopping centers).\nIn this paper, we define a new object-centric TAMP problem, where the TAMP\nrobot does not know object properties (e.g., size and weight of blocks). We\nthen introduce Task-Motion Object-Centric planning ({\\bf TMOC}), a grounded\nTAMP algorithm that learns to ground objects and their physical properties with\na physics engine. TMOC is particularly useful for those tasks that involve\ndynamic complex robot-multi-object interactions that can hardly be modeled\nbeforehand. We have demonstrated and evaluated TMOC in simulation and using a\nreal robot. Results show that TMOC outperforms competitive baselines from the\nliterature in cumulative utility.",
     "descriptor": "",
     "authors": [
@@ -7084,8 +7084,8 @@
   {
     "id": "arXiv:2202.06934",
     "title": "Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection",
-    "abstract": "Detection of small objects and objects far away in the scene is a major\nchallenge in surveillance applications. Such objects are represented by small\nnumber of pixels in the image and lack sufficient details, making them\ndifficult to detect using conventional detectors. In this work, an open-source\nframework called Slicing Aided Hyper Inference (SAHI) is proposed that provides\na generic slicing aided inference and fine-tuning pipeline for small object\ndetection. The proposed technique is generic in the sense that it can be\napplied on top of any available object detector without any fine-tuning.\nExperimental evaluations, using object detection baselines on the Visdrone and\nxView aerial object detection datasets show that the proposed inference method\ncan increase object detection AP by 6.8%, 5.1% and 5.3% for FCOS, VFNet and\nTOOD detectors, respectively. Moreover, the detection accuracy can be further\nincreased with a slicing aided fine-tuning, resulting in a cumulative increase\nof 12.7%, 13.4% and 14.5% AP in the same order. Proposed technique has been\nintegrated with Detectron2, MMDetection and YOLOv5 models and it is publicly\navailable at\n\\href{https://github.com/obss/sahi.git}{https://github.com/obss/sahi.git}",
-    "descriptor": "\nComments: 5 pages, 4 figures, 2 tables\n",
+    "abstract": "Detection of small objects and objects far away in the scene is a major\nchallenge in surveillance applications. Such objects are represented by small\nnumber of pixels in the image and lack sufficient details, making them\ndifficult to detect using conventional detectors. In this work, an open-source\nframework called Slicing Aided Hyper Inference (SAHI) is proposed that provides\na generic slicing aided inference and fine-tuning pipeline for small object\ndetection. The proposed technique is generic in the sense that it can be\napplied on top of any available object detector without any fine-tuning.\nExperimental evaluations, using object detection baselines on the Visdrone and\nxView aerial object detection datasets show that the proposed inference method\ncan increase object detection AP by 6.8%, 5.1% and 5.3% for FCOS, VFNet and\nTOOD detectors, respectively. Moreover, the detection accuracy can be further\nincreased with a slicing aided fine-tuning, resulting in a cumulative increase\nof 12.7%, 13.4% and 14.5% AP in the same order. Proposed technique has been\nintegrated with Detectron2, MMDetection and YOLOv5 models and it is publicly\navailable at https://github.com/obss/sahi.git .",
+    "descriptor": "\nComments: Submitted to ICIP 2022, 5 pages, 4 figures, 2 tables\n",
     "authors": [
       "Fatih Cagatay Akyon",
       "Sinan Onur Altinuc",
@@ -8062,7 +8062,7 @@
   },
   {
     "id": "arXiv:2202.06684",
-    "title": "Partially Fake Audio Detection by Self-attention-based Fake Span  discovery",
+    "title": "Partially Fake Audio Detection by Self-attention-based Fake Span  Discovery",
     "abstract": "The past few years have witnessed the significant advances of speech\nsynthesis and voice conversion technologies. However, such technologies can\nundermine the robustness of broadly implemented biometric identification models\nand can be harnessed by in-the-wild attackers for illegal uses. The ASVspoof\nchallenge mainly focuses on synthesized audios by advanced speech synthesis and\nvoice conversion models, and replay attacks. Recently, the first Audio Deep\nSynthesis Detection challenge (ADD 2022) extends the attack scenarios into more\naspects. Also ADD 2022 is the first challenge to propose the partially fake\naudio detection task. Such brand new attacks are dangerous and how to tackle\nsuch attacks remains an open question. Thus, we propose a novel framework by\nintroducing the question-answering (fake span discovery) strategy with the\nself-attention mechanism to detect partially fake audios. The proposed fake\nspan detection module tasks the anti-spoofing model to predict the start and\nend positions of the fake clip within the partially fake audio, address the\nmodel's attention into discovering the fake spans rather than other shortcuts\nwith less generalization, and finally equips the model with the discrimination\ncapacity between real and partially fake audios. Our submission ranked second\nin the partially fake audio detection track of ADD 2022.",
     "descriptor": "\nComments: Submitted to ICASSP 2022\n",
     "authors": [
@@ -12043,8 +12043,8 @@
   {
     "id": "arXiv:2112.04283",
     "title": "Adverse Weather Image Translation with Asymmetric and Uncertainty-aware  GAN",
-    "abstract": "Comments: BMVC 2021, ver.2 including supplementary material / codes are available in here: this https URL",
-    "descriptor": "\nComments: BMVC 2021, ver.2 including supplementary material / codes are available in here: this https URL\n",
+    "abstract": "Comments: BMVC 2021, codes are available in here: this https URL",
+    "descriptor": "\nComments: BMVC 2021, codes are available in here: this https URL\n",
     "authors": [
       "Jeong-gi Kwak",
       "Youngsaeng Jin",
