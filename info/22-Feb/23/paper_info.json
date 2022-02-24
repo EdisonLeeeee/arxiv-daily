@@ -1589,7 +1589,7 @@
   {
     "id": "arXiv:2202.10680",
     "title": "Submodlib: A Submodular Optimization Library",
-    "abstract": "Submodular functions are a special class of set functions which naturally\nmodel the notion of representativeness, diversity, coverage etc. and have been\nshown to be computationally very efficient. A lot of past work has applied\nsubmodular optimization to find optimal subsets in various contexts. Some\nexamples include data summarization for efficient human consumption, finding\neffective smaller subsets of training data to reduce the model development time\n(training, hyper parameter tuning), finding effective subsets of unlabeled data\nto reduce the labeling costs, etc. A recent work has also leveraged submodular\nfunctions to propose submodular information measures which have been found to\nbe very useful in solving the problems of guided subset selection and guided\nsummarization. In this work, we present Submodlib which is an open-source,\neasy-to-use, efficient and scalable Python library for submodular optimization\nwith a C++ optimization engine. Submodlib finds its application in\nsummarization, data subset selection, hyper parameter tuning, efficient\ntraining and more. Through a rich API, it offers a great deal of flexibility in\nthe way it can be used.",
+    "abstract": "Submodular functions are a special class of set functions which naturally\nmodel the notion of representativeness, diversity, coverage etc. and have been\nshown to be computationally very efficient. A lot of past work has applied\nsubmodular optimization to find optimal subsets in various contexts. Some\nexamples include data summarization for efficient human consumption, finding\neffective smaller subsets of training data to reduce the model development time\n(training, hyper parameter tuning), finding effective subsets of unlabeled data\nto reduce the labeling costs, etc. A recent work has also leveraged submodular\nfunctions to propose submodular information measures which have been found to\nbe very useful in solving the problems of guided subset selection and guided\nsummarization. In this work, we present Submodlib which is an open-source,\neasy-to-use, efficient and scalable Python library for submodular optimization\nwith a C++ optimization engine. Submodlib finds its application in\nsummarization, data subset selection, hyper parameter tuning, efficient\ntraining and more. Through a rich API, it offers a great deal of flexibility in\nthe way it can be used. Source of Submodlib is available at\nhttps://github.com/decile-team/submodlib.",
     "descriptor": "\nComments: 23 pages with references, 10 figures, 5 tables\n",
     "authors": [
       "Vishal Kaushal",
@@ -2174,10 +2174,10 @@
     "authors": [
       "Simon Bartels",
       "Kristoffer Stensbo-Smidt",
-      "Pablo Moreno-Munoz",
+      "Pablo Moreno-Mu\u00f1oz",
       "Wouter Boomsma",
       "Jes Frellsen",
-      "Soren Hauberg"
+      "S\u00f8ren Hauberg"
     ],
     "subjectives": [
       "Machine Learning (cs.LG)"
@@ -2193,7 +2193,7 @@
       "Yuhui Wang",
       "Yu Cheng",
       "Xiang-Hua Wang",
-      "Shunchuean Yang",
+      "Shunchuan Yang",
       "Zhizhang Chen"
     ],
     "subjectives": [
@@ -3106,14 +3106,9 @@
     "id": "arXiv:2202.10912",
     "title": "Variation Aware Training of Hybrid Precision Neural Networks with 28nm  HKMG FeFET Based Synaptic Core",
     "abstract": "This work proposes a hybrid-precision neural network training framework with\nan eNVM based computational memory unit executing the weighted sum operation\nand another SRAM unit, which stores the error in weight update during back\npropagation and the required number of pulses to update the weights in the\nhardware. The hybrid training algorithm for MLP based neural network with 28 nm\nferroelectric FET (FeFET) as synaptic devices achieves inference accuracy up to\n95% in presence of device and cycle variations. The architecture is primarily\nevaluated using behavioral or macro-model of FeFET devices with experimentally\ncalibrated device variations and we have achieved accuracies compared to\nfloating-point implementations.",
-    "descriptor": "",
+    "descriptor": "\nComments: This is only the first version and will be changed afterwards\n",
     "authors": [
       "Sunanda Thunder",
-      "Sourav De",
-      "Franz Muller",
-      "Tarek Ali",
-      "Maximillian Lederer",
-      "Thomas K\u00e4mpfe",
       "Po-Tsang Huang"
     ],
     "subjectives": [
@@ -3544,7 +3539,7 @@
   {
     "id": "arXiv:2202.10967",
     "title": "Learning Cluster Patterns for Abstractive Summarization",
-    "abstract": "Nowadays, pre-trained sequence-to-sequence models such as BERTSUM and BART\nhave shown state-of-the-art results in abstractive summarization. In these\nmodels, during fine-tuning, the encoder transforms sentences to context vectors\nin the latent space and the decoder learns the summary generation task based on\nthe context vectors. In our approach, we consider two clusters of salient and\nnon-salient context vectors, using which the decoder can attend more to salient\ncontext vectors for summary generation. For this, we propose a novel clustering\ntransformer layer between the encoder and the decoder, which first generates\ntwo clusters of salient and non-salient vectors, and then normalizes and\nshirinks the clusters to make them apart in the latent space. Our experimental\nresult shows that the proposed model outperforms the existing BART model by\nlearning these distinct cluster patterns, improving up to 4% in ROUGE and 0.3%\nin BERTScore on average in CNN/DailyMail and XSUM data sets.",
+    "abstract": "Nowadays, pre-trained sequence-to-sequence models such as BERTSUM and BART\nhave shown state-of-the-art results in abstractive summarization. In these\nmodels, during fine-tuning, the encoder transforms sentences to context vectors\nin the latent space and the decoder learns the summary generation task based on\nthe context vectors. In our approach, we consider two clusters of salient and\nnon-salient context vectors, using which the decoder can attend more to salient\ncontext vectors for summary generation. For this, we propose a novel clustering\ntransformer layer between the encoder and the decoder, which first generates\ntwo clusters of salient and non-salient vectors, and then normalizes and\nshrinks the clusters to make them apart in the latent space. Our experimental\nresult shows that the proposed model outperforms the existing BART model by\nlearning these distinct cluster patterns, improving up to 4% in ROUGE and 0.3%\nin BERTScore on average in CNN/DailyMail and XSUM data sets.",
     "descriptor": "\nComments: 11 pages, 4 figures, 4 tables\n",
     "authors": [
       "Sung-Guk Jo",
@@ -4101,7 +4096,7 @@
     "descriptor": "",
     "authors": [
       "Rostislav-Paul Wilhelm",
-      "Dr. Matthias Kirchhart"
+      "Matthias Kirchhart"
     ],
     "subjectives": [
       "Numerical Analysis (math.NA)",
@@ -4758,8 +4753,8 @@
   },
   {
     "id": "arXiv:2202.10873",
-    "title": "Ligandformer: A Graph Neural Network for Predicting Ligand Property with  Robust Interpretation",
-    "abstract": "Robust and efficient interpretation of QSAR methods is quite useful to\nvalidate AI prediction rationales with subjective opinion (chemist or biologist\nexpertise), understand sophisticated chemical or biological process mechanisms,\nand provide heuristic ideas for structure optimization in pharmaceutical\nindustry. For this purpose, we construct a multi-layer self-attention based\nGraph Neural Network framework, namely Ligandformer, for predicting ligand\nproperty with interpretation. Ligandformer integrates attention maps on ligand\nstructure from different network blocks. The integrated attention map reflects\nthe machine's local interest on compound structure, and indicates the\nrelationship between predicted compound property and its structure. This work\nmainly contributes to three aspects: 1. Ligandformer directly opens the\nblack-box of deep learning methods, providing local prediction rationales on\nchemical structures. 2. Ligandformer gives robust prediction in different\nexperimental rounds, overcoming the ubiquitous prediction instability of deep\nlearning methods. 3. Ligandformer can be generalized to predict different\nchemical or biological properties with high performance. Furthermore,\nLigandformer can simultaneously output specific property score and visible\nattention map on structure, which can support researchers to investigate\nchemical or biological property and optimize structure efficiently. Our\nframework outperforms over counterparts in terms of accuracy, robustness and\ngeneralization, and can be applied in complex system study.",
+    "title": "Ligandformer: A Graph Neural Network for Predicting Compound Property  with Robust Interpretation",
+    "abstract": "Robust and efficient interpretation of QSAR methods is quite useful to\nvalidate AI prediction rationales with subjective opinion (chemist or biologist\nexpertise), understand sophisticated chemical or biological process mechanisms,\nand provide heuristic ideas for structure optimization in pharmaceutical\nindustry. For this purpose, we construct a multi-layer self-attention based\nGraph Neural Network framework, namely Ligandformer, for predicting compound\nproperty with interpretation. Ligandformer integrates attention maps on\ncompound structure from different network blocks. The integrated attention map\nreflects the machine's local interest on compound structure, and indicates the\nrelationship between predicted compound property and its structure. This work\nmainly contributes to three aspects: 1. Ligandformer directly opens the\nblack-box of deep learning methods, providing local prediction rationales on\nchemical structures. 2. Ligandformer gives robust prediction in different\nexperimental rounds, overcoming the ubiquitous prediction instability of deep\nlearning methods. 3. Ligandformer can be generalized to predict different\nchemical or biological properties with high performance. Furthermore,\nLigandformer can simultaneously output specific property score and visible\nattention map on structure, which can support researchers to investigate\nchemical or biological property and optimize structure efficiently. Our\nframework outperforms over counterparts in terms of accuracy, robustness and\ngeneralization, and can be applied in complex system study.",
     "descriptor": "\nComments: 7 pages, 4 figures\n",
     "authors": [
       "Jinjiang Guo",
@@ -6543,9 +6538,10 @@
     "abstract": "A review of mobile robot motion planning methods: from classical motion  planning workflows to reinforcement learning-based architectures",
     "descriptor": "",
     "authors": [
+      "Lu Dong",
       "Zichen He",
-      "Jiawei Wang",
-      "Chunwei Song"
+      "Chunwei Song",
+      "Changyin Sun"
     ],
     "subjectives": [
       "Robotics (cs.RO)"
