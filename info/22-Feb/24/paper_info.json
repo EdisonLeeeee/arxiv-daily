@@ -562,7 +562,7 @@
   },
   {
     "id": "arXiv:2202.11226",
-    "title": "Model2Detector:Widening the Information Bottleneck for  Out-of-Distribution Detection using a Handful of Gradient Steps",
+    "title": "Model2Detector: Widening the Information Bottleneck for  Out-of-Distribution Detection using a Handful of Gradient Steps",
     "abstract": "Out-of-distribution detection is an important capability that has long eluded\nvanilla neural networks. Deep Neural networks (DNNs) tend to generate\nover-confident predictions when presented with inputs that are significantly\nout-of-distribution (OOD). This can be dangerous when employing machine\nlearning systems in the wild as detecting attacks can thus be difficult. Recent\nadvances inference-time out-of-distribution detection help mitigate some of\nthese problems. However, existing methods can be restrictive as they are often\ncomputationally expensive. Additionally, these methods require training of a\ndownstream detector model which learns to detect OOD inputs from\nin-distribution ones. This, therefore, adds latency during inference. Here, we\noffer an information theoretic perspective on why neural networks are\ninherently incapable of OOD detection. We attempt to mitigate these flaws by\nconverting a trained model into a an OOD detector using a handful of steps of\ngradient descent. Our work can be employed as a post-processing method whereby\nan inference-time ML system can convert a trained model into an OOD detector.\nExperimentally, we show how our method consistently outperforms the\nstate-of-the-art in detection accuracy on popular image datasets while also\nreducing computational complexity.",
     "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:1807.03888, arXiv:1812.04606 by other authors\n",
     "authors": [
@@ -3374,8 +3374,8 @@
   {
     "id": "arXiv:2202.11694",
     "title": "An information-theoretic proof of the Erd\u0151s-Kac theorem",
-    "abstract": "In this article we show that the Erd\\H{o}s-Kac theorem has an elegant proof\nvia Algorithmic Information Theory.",
-    "descriptor": "\nComments: 3 pages\n",
+    "abstract": "In this article we show that the Erd\\H{o}s-Kac theorem, which informally\nstates that the number of prime divisors of very large integers converges to a\nnormal distribution, has an elegant proof via Algorithmic Information Theory.",
+    "descriptor": "\nComments: 4 pages\n",
     "authors": [
       "Aidan Rocke"
     ],
@@ -5903,9 +5903,9 @@
   },
   {
     "id": "arXiv:2110.05809",
-    "title": "Couple Learning: Mean Teacher with PLG model improves the results of  sound event detection",
-    "abstract": "Comments: ICASSP2022",
-    "descriptor": "\nComments: ICASSP2022\n",
+    "title": "Couple Learning for semi-supervised sound event detection",
+    "abstract": "Comments: Interspeech 2022",
+    "descriptor": "\nComments: Interspeech 2022\n",
     "authors": [
       "Rui Tao",
       "Long Yan",
@@ -6815,6 +6815,8 @@
     ],
     "subjectives": [
       "Computational Complexity (cs.CC)",
+      "Commutative Algebra (math.AC)",
+      "Algebraic Geometry (math.AG)",
       "Representation Theory (math.RT)"
     ],
     "url": "https://arxiv.org/abs/2202.10846"
