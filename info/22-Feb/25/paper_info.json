@@ -540,6 +540,7 @@
     ],
     "subjectives": [
       "Sound (cs.SD)",
+      "Cryptography and Security (cs.CR)",
       "Machine Learning (cs.LG)",
       "Audio and Speech Processing (eess.AS)"
     ],
@@ -4419,7 +4420,7 @@
     "id": "arXiv:2202.12292",
     "title": "Bridging Level-K to Nash Equilibrium",
     "abstract": "We introduce NLK, a model that connects the Nash equilibrium (NE) and\nLevel-K. It allows a player in a game to believe that her opponent may be\neither less or as sophisticated as, she is, a view supported in psychology. We\napply NLK to data from five published papers on static, dynamic, and auction\ngames. NLK provides different predictions than those of the NE and Level-K;\nmoreover, a simple version of NLK explains the experimental data better in many\ncases, with the same or lower number of parameters. We discuss extensions to\ngames with more than two players and heterogeneous beliefs.",
-    "descriptor": "",
+    "descriptor": "\nComments: Keywords: Nash equilibrium, Level-K, Bayesian Nash Equilibrium, Sub-game Perfect Bayesian Nash Equilibrium, Bounded rationality, psychology, behavioral economics, false consensus effects, centipede Game, the 11-20 money request game, Common Value Auction, experienced and inexperienced bidders, learning in games, equilibrium solution concepts, strategic thinking, chess players\n",
     "authors": [
       "Dan Levin",
       "Luyao Zhang"
@@ -5459,7 +5460,7 @@
   },
   {
     "id": "arXiv:2109.07082",
-    "title": "Efficient and Probabilistic Adaptive Voxel Mapping for Accurate Online  3D SLAM",
+    "title": "Efficient and Probabilistic Adaptive Voxel Mapping for Accurate Online  LiDAR Odometry",
     "abstract": "Comments: 8 pages, 10 figures",
     "descriptor": "\nComments: 8 pages, 10 figures\n",
     "authors": [
