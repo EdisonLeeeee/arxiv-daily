@@ -2861,7 +2861,7 @@
   },
   {
     "id": "arXiv:2202.13313",
-    "title": "An Efficient End-to-End 3D Model Reconstructionbased on Neural  Architecture Search",
+    "title": "An Efficient End-to-End 3D Model Reconstruction based on Neural  Architecture Search",
     "abstract": "Using neural networks to represent 3D objects has become popular. However,\nmany previous works employ neural networks with fixed architecture and size to\nrepresent different 3D objects, which lead to excessive network parameters for\nsimple objects and limited reconstruction accuracy for complex objects. For\neach 3D model, it is desirable to have an end-to-end neural network with as few\nparameters as possible to achieve high-fidelity reconstruction. In this paper,\nwe propose an efficient model reconstruction method utilizing neural\narchitecture search (NAS) and binary classification. Taking the number of\nlayers, the number of nodes in each layer, and the activation function of each\nlayer as the search space, a specific network architecture can be obtained\nbased on reinforcement learning technology. Furthermore, to get rid of the\ntraditional surface reconstruction algorithms (e.g., marching cube) used after\nnetwork inference, we complete the end-to-end network by classifying binary\nvoxels. Compared to other signed distance field (SDF) prediction or binary\nclassification networks, our method achieves significantly higher\nreconstruction accuracy using fewer network parameters.",
     "descriptor": "",
     "authors": [
@@ -3147,7 +3147,7 @@
   {
     "id": "arXiv:2202.13361",
     "title": "Benign Underfitting of Stochastic Gradient Descent",
-    "abstract": "We study to what extent may stochastic gradient descent (SGD) be understood\nas a \"conventional\" learning rule that achieves generalization performance by\nobtaining a good fit to training data.\nWe consider the fundamental stochastic convex optimization framework, where\n(one pass, \\emph{without}-replacement) SGD is classically known to minimize the\npopulation risk at rate $O(1/\\sqrt n)$, and prove that, surprisingly, there\nexist problem instances where the SGD solution exhibits both empirical risk and\ngeneralization gap of $\\Omega(1)$.\nConsequently, it turns out that SGD is not algorithmically stable in\n\\emph{any} sense, and its generalization ability cannot be explained by uniform\nconvergence or any other currently known generalization bound technique for\nthat matter (other than that of its classical analysis).\nWe then continue to analyze the closely related \\emph{with}-replacement SGD,\nfor which we show that an analogous phenomenon does not occur and prove that\nits population risk does in fact converge at the optimal rate.\nFinally, we interpret our main results in the context of without-replacement\nSGD for finite-sum convex optimization problems, and derive upper and lower\nbounds for the multi-epoch regime that significantly improve upon previously\nknown results.",
+    "abstract": "We study to what extent may stochastic gradient descent (SGD) be understood\nas a \"conventional\" learning rule that achieves generalization performance by\nobtaining a good fit to training data. We consider the fundamental stochastic\nconvex optimization framework, where (one pass, without-replacement) SGD is\nclassically known to minimize the population risk at rate $O(1/\\sqrt n)$, and\nprove that, surprisingly, there exist problem instances where the SGD solution\nexhibits both empirical risk and generalization gap of $\\Omega(1)$.\nConsequently, it turns out that SGD is not algorithmically stable in any sense,\nand its generalization ability cannot be explained by uniform convergence or\nany other currently known generalization bound technique for that matter (other\nthan that of its classical analysis). We then continue to analyze the closely\nrelated with-replacement SGD, for which we show that an analogous phenomenon\ndoes not occur and prove that its population risk does in fact converge at the\noptimal rate. Finally, we interpret our main results in the context of\nwithout-replacement SGD for finite-sum convex optimization problems, and derive\nupper and lower bounds for the multi-epoch regime that significantly improve\nupon previously known results.",
     "descriptor": "",
     "authors": [
       "Tomer Koren",
@@ -3561,7 +3561,7 @@
     "descriptor": "",
     "authors": [
       "Thanh H. Nguyen",
-      "Arunesh Sinh"
+      "Arunesh Sinha"
     ],
     "subjectives": [
       "Artificial Intelligence (cs.AI)",
@@ -11850,8 +11850,8 @@
   {
     "id": "arXiv:2109.12832",
     "title": "Anti-collision Technologies for Unmanned Aerial Vehicles: Recent  Advances and Future Trends",
-    "abstract": "Comments: 21 pages, 8 figures and 9 tables",
-    "descriptor": "\nComments: 21 pages, 8 figures and 9 tables\n",
+    "abstract": "Comments: 32 pages, 7 figures and 9 tables",
+    "descriptor": "\nComments: 32 pages, 7 figures and 9 tables\n",
     "authors": [
       "Zhiqing Wei",
       "Zeyang Meng",
@@ -13783,8 +13783,8 @@
   {
     "id": "arXiv:2202.05404",
     "title": "Regularized Q-learning",
-    "abstract": "Regularized Q-learning",
-    "descriptor": "",
+    "abstract": "Comments: fix t-&gt;k",
+    "descriptor": "\nComments: fix t-&gt;k\n",
     "authors": [
       "Han-Dong Lim",
       "Do Wan Kim",
