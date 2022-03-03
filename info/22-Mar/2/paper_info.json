@@ -887,7 +887,7 @@
   },
   {
     "id": "arXiv:2203.00144",
-    "title": "The Concordance Index decomposition -- A measure for a deeper  understanding of survival prediction models",
+    "title": "The Concordance Index decomposition: a measure for a deeper  understanding of survival prediction models",
     "abstract": "The Concordance Index (C-index) is a commonly used metric in Survival\nAnalysis to evaluate how good a prediction model is. This paper proposes a\ndecomposition of the C-Index into a weighted harmonic mean of two quantities:\none for ranking observed events versus other observed events, and the other for\nranking observed events versus censored cases. This decomposition allows a more\nfine-grained analysis of the pros and cons of survival prediction methods. The\nutility of the decomposition is demonstrated using three benchmark survival\nanalysis models (Cox Proportional Hazard, Random Survival Forest, and Deep\nAdversarial Time-to-Event Network) together with a new variational generative\nneural-network-based method (SurVED), which is also proposed in this paper. The\ndemonstration is done on four publicly available datasets with varying\ncensoring levels. The analysis with the C-index decomposition shows that all\nmethods essentially perform equally well when the censoring level is high\nbecause of the dominance of the term measuring the ranking of events versus\ncensored cases. In contrast, some methods deteriorate when the censoring level\ndecreases because they do not rank the events versus other events well.",
     "descriptor": "",
     "authors": [
@@ -1503,9 +1503,9 @@
     "abstract": "Heightened social isolation during the COVID-19 outbreak puts individuals at\ngreater risks of loneliness (Bu et al., 2020) where elevated levels of\nloneliness are closely associated with depression (Killgore et al., 2020; Palgi\net al., 2020; Weeks et al., 1980). Prior research has suggested that lonely\nindividuals are more likely to seek mental health help from an online social\nplatform (e.g., Reddit), a perceived comfortable environment for lonely people\nto seek mental health support through anonymous communication with a broad\nsocial network (Andy, 2021; Bonetti et al., 2010; Morahan-Martin et al., 2003).\nTherefore, this study aims to identify and analyze depression-related dialogues\non loneliness subreddits during the COVID-19 outbreak, with the impact on\ndepression-related infoveillance during the pandemic. With the collected data\nusing Reddit API, our study utilized logistic regression and topic modeling to\nclassify and examine depression related discussions on loneliness subreddits\nduring the outbreak. Our results reveal that lonely individuals engaging in\ndepression-related discussions are likely to be experiencing elevated risks of\nmental health problems and domestic issues, higher level of relationship\nseeking, and heightened need of social support. Furthermore, the results\nsuggest an increase in dog adoption as a coping behavior and challenges in the\nonline learning environment. Finally, returning users disclose and seek\ninformation on triggering factors of mental health problems, indicating the\nsignificance of peer-to-peer mental health support on loneliness subreddits.\nOur future work will clinically validate the current approach, which has\nimplications on designing surveillance system during the crisis.",
     "descriptor": "",
     "authors": [
-      "M. Bak",
-      "J. Chin",
-      "C. Chiu"
+      "Michelle Bak",
+      "Jessie Chin",
+      "Chungyi Chiu"
     ],
     "subjectives": [
       "Social and Information Networks (cs.SI)",
@@ -1626,7 +1626,7 @@
     "id": "arXiv:2203.00249",
     "title": "Exploring and Adapting Chinese GPT to Pinyin Input Method",
     "abstract": "While GPT has become the de-facto method for text generation tasks, its\napplication to pinyin input method remains unexplored. In this work, we make\nthe first exploration to leverage Chinese GPT for pinyin input method. We find\nthat a frozen GPT achieves state-of-the-art performance on perfect pinyin.\nHowever, the performance drops dramatically when the input includes abbreviated\npinyin. A reason is that an abbreviated pinyin can be mapped to many perfect\npinyin, which links to even larger number of Chinese characters. We mitigate\nthis issue with two strategies, including enriching the context with pinyin and\noptimizing the training process to help distinguish homophones. To further\nfacilitate the evaluation of pinyin input method, we create a dataset\nconsisting of 270K instances from 15 domains. Results show that our approach\nimproves performance on abbreviated pinyin across all domains. Model analysis\ndemonstrates that both strategies contribute to the performance boost.",
-    "descriptor": "",
+    "descriptor": "\nComments: To appear in ACL 2022\n",
     "authors": [
       "Minghuan Tan",
       "Yong Dai",
@@ -3223,7 +3223,7 @@
     "id": "arXiv:2203.00472",
     "title": "DMF-Net: A decoupling-style multi-band fusion model for real-time  full-band speech enhancement",
     "abstract": "Full-band speech enhancement based on deep neural networks is still\nchallenging for the difficulty of modeling more frequency bands and real-time\nimplementation. Previous studies usually adopt compressed full-band speech\nfeatures in Bark and ERB scale with relatively low frequency resolution,\nleading to degraded performance, especially in the high-frequency region. In\nthis paper, we propose a decoupling-style multi-band fusion model to perform\nfull-band speech denoising and dereverberation. Instead of optimizing the\nfull-band speech by a single network structure, we decompose the full-band\ntarget into multi sub bands and then employ a multi-stage chain optimization\nstrategy to estimate clean spectrum stage by stage. Specifically, the low- (0-8\nkHz), middle- (8-16 kHz), and high-frequency (16-24 kHz) regions are mapped by\nthree separate sub-networks and are then fused to obtain the full-band clean\ntarget STFT spectrum. Comprehensive experiments on two public datasets\ndemonstrate that the proposed method outperforms previous advanced systems and\nyields promising performance in terms of speech quality and intelligibility in\nreal complex scenarios.",
-    "descriptor": "\nComments: submitted to Eusipco2022; 5 pages\n",
+    "descriptor": "\nComments: Submitted to Eusipco 2022\n",
     "authors": [
       "Guochen Yu",
       "Yuansheng Guan",
@@ -3257,7 +3257,7 @@
     "id": "arXiv:2203.00483",
     "title": "A Survey on How Test Flakiness Affects Developers and What Support They  Need To Address It",
     "abstract": "Non-deterministically passing and failing test cases, so-called flaky tests,\nhave recently become a focus area of software engineering research. While this\nresearch focus has been met with some enthusiastic endorsement from industry,\nprior work nevertheless mostly studied flakiness using a code-centric approach\nby mining software repositories. What data extracted from software repositories\ncannot tell us, however, is how developers perceive flakiness: How prevalent is\ntest flakiness in developers' daily routine, how does it affect them, and most\nimportantly: What do they want us researchers to do about it? To answer these\nquestions, we surveyed 335 professional software developers and testers in\ndifferent domains. The survey respondents confirm that flaky tests are a common\nand serious problem, thus reinforcing ongoing research on flaky test detection.\nDevelopers are less worried about the computational costs caused by re-running\ntests and more about the loss of trust in the test outcomes. Therefore, they\nwould like to have IDE plugins to detect flaky code as well as better\nvisualizations of the problem, particularly dashboards showing test outcomes\nover time; they also wish for more training and information on flakiness. These\nimportant aspects will require the attention of researchers as well as tool\ndevelopers.",
-    "descriptor": "",
+    "descriptor": "\nComments: 11 pages, to be published in the Proceedings of the IEEE International Conference on Software Testing, Verification and Validation (ICST 2022)\n",
     "authors": [
       "Martin Gruber",
       "Gordon Fraser"
@@ -5092,7 +5092,7 @@
     "descriptor": "\nComments: 5 pages, 4 figures, 1 table\n",
     "authors": [
       "Jianyuan Yu",
-      "Pu Wang",
+      "Wang",
       "Toshiaki Koike-Akino",
       "Philip V. Orlik"
     ],
@@ -5308,7 +5308,7 @@
   {
     "id": "arXiv:2203.00595",
     "title": "Parameter estimation for WMTI-Watson model of white matter using  encoder-decoder recurrent neural network",
-    "abstract": "Biophysical modelling of the diffusion MRI signal provides estimates of\nspecific microstructural tissue properties.Although nonlinear optimization such\nas non-linear least squares (NLLS) is the most widespread method for model\nestimation, it suffers from local minima and high computational cost. Deep\nLearning approaches are steadily replacing NL fitting, but come with the\nlimitation that the model needs to be retrained for each acquisition protocol\nand noise level. The White Matter Tract Integrity (WMTI)-Watson model was\nproposed as an implementation of the Standard Model of diffusion in white\nmatter that estimates model parameters from the diffusion and kurtosis tensors\n(DKI). Here we proposed a deep learning approach based on the encoder-decoder\nrecurrent neural network (RNN) to increase the robustness and accelerate the\nparameter estimation of WMTI-Watson. We use an embedding approach to render the\nmodel insensitive to potential differences in distributions between training\ndata and experimental data. This RNN-based solver thus has the advantage of\nbeing highly efficient in computation and more readily translatable to other\ndatasets, irrespective of acquisition protocol and underlying parameter\ndistributions as long as DKI was pre-computed from the data. In this study, we\nevaluated the performance of NLLS, the RNN-based method and a multilayer\nperceptron (MLP) on synthetic and in vivo datasets of rat and human brain. We\nshowed that the proposed RNN-based fitting approach had the advantage of highly\nreduced computation time over NLLS (from hours to seconds), with similar\naccuracy and precision but improved robustness, and superior translatability to\nnew datasets over MLP.",
+    "abstract": "Biophysical modelling of the diffusion MRI signal provides estimates of\nspecific microstructural tissue properties. Although nonlinear optimization\nsuch as non-linear least squares (NLLS) is the most widespread method for model\nestimation, it suffers from local minima and high computational cost. Deep\nLearning approaches are steadily replacing NL fitting, but come with the\nlimitation that the model needs to be retrained for each acquisition protocol\nand noise level. The White Matter Tract Integrity (WMTI)-Watson model was\nproposed as an implementation of the Standard Model of diffusion in white\nmatter that estimates model parameters from the diffusion and kurtosis tensors\n(DKI). Here we proposed a deep learning approach based on the encoder-decoder\nrecurrent neural network (RNN) to increase the robustness and accelerate the\nparameter estimation of WMTI-Watson. We use an embedding approach to render the\nmodel insensitive to potential differences in distributions between training\ndata and experimental data. This RNN-based solver thus has the advantage of\nbeing highly efficient in computation and more readily translatable to other\ndatasets, irrespective of acquisition protocol and underlying parameter\ndistributions as long as DKI was pre-computed from the data. In this study, we\nevaluated the performance of NLLS, the RNN-based method and a multilayer\nperceptron (MLP) on synthetic and in vivo datasets of rat and human brain. We\nshowed that the proposed RNN-based fitting approach had the advantage of highly\nreduced computation time over NLLS (from hours to seconds), with similar\naccuracy and precision but improved robustness, and superior translatability to\nnew datasets over MLP.",
     "descriptor": "",
     "authors": [
       "Yujian Diao",
@@ -8269,8 +8269,8 @@
   {
     "id": "arXiv:2202.11452",
     "title": "Deep Learning Reproducibility and Explainable AI (XAI)",
-    "abstract": "Comments: bibliography corrected",
-    "descriptor": "\nComments: bibliography corrected\n",
+    "abstract": "Comments: one more correction in the references",
+    "descriptor": "\nComments: one more correction in the references\n",
     "authors": [
       "A.-M. Leventi-Peetz",
       "T. \u00d6streich"
