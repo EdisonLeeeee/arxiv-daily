@@ -1105,7 +1105,7 @@
   {
     "id": "arXiv:2203.00859",
     "title": "MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose  Estimation in Video",
-    "abstract": "Recent transformer-based solutions have been introduced to estimate 3D human\npose from 2D keypoint sequence by considering body joints among all frames\nglobally to learn spatio-temporal correlation. We observe that the motions of\ndifferent joints differ significantly. However, the previous methods cannot\nefficiently model the solid inter-frame correspondence of each joint, leading\nto insufficient learning of spatial-temporal correlation. We propose MixSTE\n(Mixed Spatio-Temporal Encoder), which has a temporal transformer block to\nseparately model the temporal motion of each joint and a spatial transformer\nblock to learn inter-joint spatial correlation. These two blocks are utilized\nalternately to obtain better spatio-temporal feature encoding. In addition, the\nnetwork output is extended from the central frame to entire frames of the input\nvideo, thereby improving the coherence between the input and output sequences.\nExtensive experiments are conducted on three benchmarks (i.e. Human3.6M,\nMPI-INF-3DHP, and HumanEva) to evaluate the proposed method. The results show\nthat our model outperforms the state-of-the-art approach by 10.9% P-MPJPE and\n7.6% MPJPE on the Human3.6M dataset. Code is available in our supplementary\nmaterials.",
+    "abstract": "Recent transformer-based solutions have been introduced to estimate 3D human\npose from 2D keypoint sequence by considering body joints among all frames\nglobally to learn spatio-temporal correlation. We observe that the motions of\ndifferent joints differ significantly. However, the previous methods cannot\nefficiently model the solid inter-frame correspondence of each joint, leading\nto insufficient learning of spatial-temporal correlation. We propose MixSTE\n(Mixed Spatio-Temporal Encoder), which has a temporal transformer block to\nseparately model the temporal motion of each joint and a spatial transformer\nblock to learn inter-joint spatial correlation. These two blocks are utilized\nalternately to obtain better spatio-temporal feature encoding. In addition, the\nnetwork output is extended from the central frame to entire frames of the input\nvideo, thereby improving the coherence between the input and output sequences.\nExtensive experiments are conducted on three benchmarks (i.e. Human3.6M,\nMPI-INF-3DHP, and HumanEva) to evaluate the proposed method. The results show\nthat our model outperforms the state-of-the-art approach by 10.9% P-MPJPE and\n7.6% MPJPE on the Human3.6M dataset. Code is available.",
     "descriptor": "\nComments: CVPR2022 Accepted Paper\n",
     "authors": [
       "Jinlu Zhang",
@@ -3170,7 +3170,7 @@
     "authors": [
       "Yihan Lin",
       "Yifan Hu",
-      "Shiji Ma",
+      "Shijie Ma",
       "Guoqo Li",
       "Dongjie Yu"
     ],
@@ -3239,7 +3239,6 @@
     ],
     "subjectives": [
       "Logic in Computer Science (cs.LO)",
-      "Mathematical Software (cs.MS)",
       "Logic (math.LO)"
     ],
     "url": "https://arxiv.org/abs/2203.01173"
@@ -3279,8 +3278,8 @@
   },
   {
     "id": "arXiv:2203.01178",
-    "title": "DCT-Former: Efficient Self-Attention withDiscrete Cosine Transform",
-    "abstract": "Since their introduction the Trasformer architectures emerged as the\ndominating architectures for both natural language processing and, more\nrecently, computer vision applications. An intrinsic limitation of this family\nof \"fully-attentive\" architectures arises from the computation of the\ndot-product attention, which grows both in memory consumption and number of\noperations as $O(n^2)$ where $n$ stands for the input sequence length, thus\nlimiting the applications that require modeling very long sequences. Several\napproaches have been proposed so far in the literature to mitigate this issue,\nwith varying degrees of success. Our idea takes inspiration from the world of\n\\textit{lossy} data compression (such as the JPEG algorithm) to derive an\napproximation of the attention module by leveraging the properties of the\nDiscrete Cosine Transform. An extensive section of experiments shows that our\nmethod takes up less memory for the same performance, while also drastically\nreducing inference time. This makes it particularly suitable in real-time\ncontexts on embedded platforms. Moreover, we assume that the results of our\nresearch might serve as a starting point for a broader family of deep neural\nmodels with reduced memory footprint. The implementation will be made publicly\navailable at https://github.com/cscribano/DCT-Former-Public",
+    "title": "DCT-Former: Efficient Self-Attention with Discrete Cosine Transform",
+    "abstract": "Since their introduction the Trasformer architectures emerged as the\ndominating architectures for both natural language processing and, more\nrecently, computer vision applications. An intrinsic limitation of this family\nof \"fully-attentive\" architectures arises from the computation of the\ndot-product attention, which grows both in memory consumption and number of\noperations as $O(n^2)$ where $n$ stands for the input sequence length, thus\nlimiting the applications that require modeling very long sequences. Several\napproaches have been proposed so far in the literature to mitigate this issue,\nwith varying degrees of success. Our idea takes inspiration from the world of\nlossy data compression (such as the JPEG algorithm) to derive an approximation\nof the attention module by leveraging the properties of the Discrete Cosine\nTransform. An extensive section of experiments shows that our method takes up\nless memory for the same performance, while also drastically reducing inference\ntime. This makes it particularly suitable in real-time contexts on embedded\nplatforms. Moreover, we assume that the results of our research might serve as\na starting point for a broader family of deep neural models with reduced memory\nfootprint. The implementation will be made publicly available at\nhttps://github.com/cscribano/DCT-Former-Public",
     "descriptor": "",
     "authors": [
       "Carmelo Scribano",
@@ -3604,7 +3603,7 @@
   },
   {
     "id": "arXiv:2203.01216",
-    "title": "A simple and universal rotation equivariant point-cloud network",
+    "title": "A Simple and Universal Rotation Equivariant Point-cloud Network",
     "abstract": "Equivariance to permutations and rigid motions is an important inductive bias\nfor various 3D learning problems. Recently it has been shown that the\nequivariant Tensor Field Network architecture is universal -- it can\napproximate any equivariant function. In this paper we suggest a much simpler\narchitecture, prove that it enjoys the same universality guarantees and\nevaluate its performance on Modelnet40. The code to reproduce our experiments\nis available at \\url{https://github.com/simpleinvariance/UniversalNetwork}",
     "descriptor": "",
     "authors": [
@@ -3759,7 +3758,7 @@
   {
     "id": "arXiv:2203.01252",
     "title": "A Unified Query-based Paradigm for Point Cloud Understanding",
-    "abstract": "3D point cloud understanding is an important component in autonomous driving\nand robotics. In this paper, we present a novel Embedding-Querying paradigm\n(EQ-Paradigm) for 3D understanding tasks including detection, segmentation and\nclassification. EQ-Paradigm is a unified paradigm that enables the combination\nof any existing 3D backbone architectures with different task heads. Under the\nEQ-Paradigm, the input is firstly encoded in the embedding stage with an\narbitrary feature extraction architecture, which is independent of tasks and\nheads. Then, the querying stage enables the encoded features to be applicable\nfor diverse task heads. This is achieved by introducing an intermediate\nrepresentation, i.e., Q-representation, in the querying stage to serve as a\nbridge between the embedding stage and task heads. We design a novel Q-Net as\nthe querying stage network. Extensive experimental results on various 3D tasks\nshow that EQ-Paradigm in tandem with Q-Net is a general and effective pipeline,\nwhich enables a flexible collaboration of backbones and heads, and further\nboosts the performance of the state-of-the-art methods. All codes and models\nwill be published soon.",
+    "abstract": "3D point cloud understanding is an important component in autonomous driving\nand robotics. In this paper, we present a novel Embedding-Querying paradigm\n(EQ-Paradigm) for 3D understanding tasks including detection, segmentation and\nclassification. EQ-Paradigm is a unified paradigm that enables the combination\nof any existing 3D backbone architectures with different task heads. Under the\nEQ-Paradigm, the input is firstly encoded in the embedding stage with an\narbitrary feature extraction architecture, which is independent of tasks and\nheads. Then, the querying stage enables the encoded features to be applicable\nfor diverse task heads. This is achieved by introducing an intermediate\nrepresentation, i.e., Q-representation, in the querying stage to serve as a\nbridge between the embedding stage and task heads. We design a novel Q-Net as\nthe querying stage network. Extensive experimental results on various 3D tasks\nincluding semantic segmentation, object detection and shape classification show\nthat EQ-Paradigm in tandem with Q-Net is a general and effective pipeline,\nwhich enables a flexible collaboration of backbones and heads, and further\nboosts the performance of the state-of-the-art methods. All codes and models\nwill be published soon.",
     "descriptor": "\nComments: Accepted by CVPR2022\n",
     "authors": [
       "Zetong Yang",
@@ -4049,7 +4048,7 @@
   {
     "id": "arXiv:2203.01298",
     "title": "Pareto Frontier Approximation Network (PA-Net) to Solve Bi-objective TSP",
-    "abstract": "Travelling salesperson problem (TSP) is a classic resource allocation problem\nused to find an optimal order of doing a set of tasks while minimizing (or\nmaximizing) an associated objective function. It is widely used in robotics for\napplications such as planning, scheduling etc. In this work, we solve TSP for\ntwo objectives using reinforcement learning. Often in multi objective\noptimization problems, the associated objective functions can be conflicting in\nnature. In such cases, the optimality is defined in terms of Pareto optimality.\nA set of these Pareto Optimal solutions in the objective space form a Pareto\nfront (or frontier). Each solution has its own trade off. } In this work, we\npresent PA-Net, a network that generates good approximations of the Pareto\nfront for the bi-objective travelling salesperson problem (BTSP). Firstly, BTSP\nis converted into a constrained optimization problem. We then train our network\nto solve this constrained problem using the Lagrangian relaxation and policy\ngradient. With PA-Net we are able to generate good quality Pareto fronts with\nfast inference times. Finally, we present the application of PA-Net to find\noptimal visiting order in a robotic navigation task/coverage planning.",
+    "abstract": "Travelling salesperson problem (TSP) is a classic resource allocation problem\nused to find an optimal order of doing a set of tasks while minimizing (or\nmaximizing) an associated objective function. It is widely used in robotics for\napplications such as planning, scheduling etc. In this work, we solve TSP for\ntwo objectives using reinforcement learning. Often in multi objective\noptimization problems, the associated objective functions can be conflicting in\nnature. In such cases, the optimality is defined in terms of Pareto optimality.\nA set of these Pareto Optimal solutions in the objective space form a Pareto\nfront (or frontier). Each solution has its own trade off. In this work, we\npresent PA-Net, a network that generates good approximations of the Pareto\nfront for the bi-objective travelling salesperson problem (BTSP). Firstly, BTSP\nis converted into a constrained optimization problem. We then train our network\nto solve this constrained problem using the Lagrangian relaxation and policy\ngradient. With PA-Net we are able to generate good quality Pareto fronts with\nfast inference times. Finally, we present the application of PA-Net to find\noptimal visiting order in a robotic navigation task/coverage planning.",
     "descriptor": "",
     "authors": [
       "Ishaan Mehta",
@@ -4155,7 +4154,7 @@
     "id": "arXiv:2203.01308",
     "title": "Communicating over a Classical-Quantum MAC with State Information  Distributed at Senders",
     "abstract": "We consider the problem of communicating over a classical-quantum (CQ)\nmultiple access channel with random classical states non-causally available at\nthe transmitter, referred to as a QMSTx. QMSTx is a classical-quantum multiple\naccess analogue of the channel considered by Gelfand and Pinsker in 1980. We\nundertake a Shannon-theoretic study and focus on the problem of characterizing\ninner bounds to the capacity region of a QMSTx. We propose a new coding scheme\nbased on \\textit{union coset codes} - codes possessing algebraic properties and\nderive a new inner bound that subsumes the inner based on IID random coding. We\nidentify examples for which the derived inner bound is strictly larger.",
-    "descriptor": "",
+    "descriptor": "\nComments: Proof of Proposition 2 added\n",
     "authors": [
       "Arun Padakandla"
     ],
@@ -4593,7 +4592,7 @@
       "Varun Chauhan",
       "Kaushal Kapadiya",
       "Smit Sanghavi",
-      "Sungkyu Seo2",
+      "Sungkyu Seo",
       "Mohendra Roy"
     ],
     "subjectives": [
@@ -7946,8 +7945,8 @@
   {
     "id": "arXiv:2202.10401",
     "title": "Vision-Language Pre-Training with Triple Contrastive Learning",
-    "abstract": "Comments: code: this https URL; accepted by CVPR 2022",
-    "descriptor": "\nComments: code: this https URL; accepted by CVPR 2022\n",
+    "abstract": "Comments: CVPR 2022; code: this https URL",
+    "descriptor": "\nComments: CVPR 2022; code: this https URL\n",
     "authors": [
       "Jinyu Yang",
       "Jiali Duan",
