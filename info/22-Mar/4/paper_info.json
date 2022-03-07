@@ -3785,7 +3785,7 @@
   },
   {
     "id": "arXiv:2203.01872",
-    "title": "Don't Roll the Dice, Ask Twice: The Two-Query Distortion of Matching  Problems and Beyon",
+    "title": "Don't Roll the Dice, Ask Twice: The Two-Query Distortion of Matching  Problems and Beyond",
     "abstract": "In most social choice settings, the participating agents are typically\nrequired to express their preferences over the different alternatives in the\nform of linear orderings. While this simplifies preference elicitation, it\ninevitably leads to high distortion when aiming to optimize a cardinal\nobjective such as the social welfare, since the values of the agents remain\nvirtually unknown. A recent array of works put forward the agenda of designing\nmechanisms that can learn the values of the agents for a small number of\nalternatives via queries, and use this extra information to make a\nbetter-informed decision, thus improving distortion. Following this agenda, in\nthis work we focus on a class of combinatorial problems that includes most\nwell-known matching problems and several of their generalizations, such as\nOne-Sided Matching, Two-Sided Matching, General Graph Matching, and\n$k$-Constrained Resource Allocation. We design two-query mechanisms that\nachieve the best-possible worst-case distortion in terms of social welfare, and\noutperform the best-possible expected distortion that can be achieved by\nrandomized ordinal mechanisms.",
     "descriptor": "",
     "authors": [
@@ -7994,7 +7994,7 @@
       "Yihan Lin",
       "Yifan Hu",
       "Shijie Ma",
-      "Guoqo Li",
+      "Guoqi Li",
       "Dongjie Yu"
     ],
     "subjectives": [
