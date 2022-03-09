@@ -1141,7 +1141,7 @@
     "id": "arXiv:2203.02689",
     "title": "Federated and Generalized Person Re-identification through Domain and  Feature Hallucinating",
     "abstract": "In this paper, we study the problem of federated domain generalization\n(FedDG) for person re-identification (re-ID), which aims to learn a generalized\nmodel with multiple decentralized labeled source domains. An empirical method\n(FedAvg) trains local models individually and averages them to obtain the\nglobal model for further local fine-tuning or deploying in unseen target\ndomains. One drawback of FedAvg is neglecting the data distributions of other\nclients during local training, making the local model overfit local data and\nproducing a poorly-generalized global model. To solve this problem, we propose\na novel method, called \"Domain and Feature Hallucinating (DFH)\", to produce\ndiverse features for learning generalized local and global models.\nSpecifically, after each model aggregation process, we share the Domain-level\nFeature Statistics (DFS) among different clients without violating data\nprivacy. During local training, the DFS are used to synthesize novel domain\nstatistics with the proposed domain hallucinating, which is achieved by\nre-weighting DFS with random weights. Then, we propose feature hallucinating to\ndiversify local features by scaling and shifting them to the distribution of\nthe obtained novel domain. The synthesized novel features retain the original\npair-wise similarities, enabling us to utilize them to optimize the model in a\nsupervised manner. Extensive experiments verify that the proposed DFH can\neffectively improve the generalization ability of the global model. Our method\nachieves the state-of-the-art performance for FedDG on four large-scale re-ID\nbenchmarks.",
-    "descriptor": "",
+    "descriptor": "\nComments: Under Review\n",
     "authors": [
       "Fengxiang Yang",
       "Zhun Zhong",
@@ -1270,7 +1270,7 @@
     "abstract": "Future wireless communication systems will evolve toward multi-functional\nintegrated systems to improve spectrum utilization and reduce equipment sizes.\nA joint radar and communication (JRC) system, which can support simultaneous\ninformation transmission and target detection, has been regarded as a promising\nsolution for emerging applications such as autonomous vehicles. In JRC, data\nsecurity and privacy protection are critical issues. Thus, we first apply\ncovert communication into JRC and propose a joint radar and covert\ncommunication (JRCC) system to achieve high spectrum utilization and secure\ndata transmission simultaneously. In the JRCC system, an existence of sensitive\ndata transmission is hidden from a maliciously observant warden. However, the\nperformance of JRCC is restricted by severe signal propagation environment and\nhardware devices. Fortunately, reconfigurable intelligent surfaces (RISs) can\nchange the signal propagation smartly to improve the networks performance with\nlow cost. We first overview fundamental concepts of JRCC and RIS and then\npropose the RIS-aided JRCC system design. Furthermore, both covert\ncommunication and radar performance metrics are investigated and a game\ntheory-based covert rate optimization scheme is designed to achieve secure\ncommunication. Finally, we present several promising applications and future\ndirections of RIS-aided JRCC systems.",
     "descriptor": "",
     "authors": [
-      "ongyang Du",
+      "Hongyang Du",
       "Jiawen Kang",
       "Dusit Niyato",
       "Jiayi Zhang",
@@ -5712,11 +5712,11 @@
   },
   {
     "id": "arXiv:2203.03426",
-    "title": "Towards Managing Industrial Robot Fleets with Hyperledger Fabric  Blockchain and ROS~2",
-    "abstract": "Trust is increasingly becoming a key consideration in the design of\nautonomous robotic systems. In industrial applications, security and trust in\nthe system are requirements for widespread adoption. Blockchain technologies\nhave emerged as a potential solution to address identity management and secure\ndata aggregation and control. However, the vast majority of works to date\nutilize Ethereum and smart contracts that are not scalable or well suited for\nindustrial applications. This paper presents what is, to the best of our\nknowledge, the first integration of ROS~2 with the Hyperledger Fabric\nblockchain. With a framework that leverages Fabric smart contracts and ROS~2\nthrough a Go application, we delve into the potential of using blockchain for\ncontrolling robots, and gathering and processing their data. We demonstrate the\napplicability of the proposed framework to an inventory management use-case\nwhere different robots are used to detect objects of interest in a given area.\nDesigned to meet the requirements of distributed robotic systems, we show that\nthe performance of the robots is not impacted significantly by the blockchain\nlayer. At the same time, we provide examples for developing other applications\nthat integrate Fabric smart contracts with ROS~2. Our results pave the way for\nfurther adoption of blockchain technologies in autonomous robotic systems for\nbuilding trustable data sharing.",
+    "title": "Towards Managing Industrial Robot Fleets with Hyperledger Fabric  Blockchain and ROS 2",
+    "abstract": "Trust is increasingly becoming a key consideration in the design of\nautonomous robotic systems. In industrial applications, security and trust in\nthe system are requirements for widespread adoption. Blockchain technologies\nhave emerged as a potential solution to address identity management and secure\ndata aggregation and control. However, the vast majority of works to date\nutilize Ethereum and smart contracts that are not scalable or well suited for\nindustrial applications. This paper presents what is, to the best of our\nknowledge, the first integration of ROS 2 with the Hyperledger Fabric\nblockchain. With a framework that leverages Fabric smart contracts and ROS 2\nthrough a Go application, we delve into the potential of using blockchain for\ncontrolling robots, and gathering and processing their data. We demonstrate the\napplicability of the proposed framework to an inventory management use-case\nwhere different robots are used to detect objects of interest in a given area.\nDesigned to meet the requirements of distributed robotic systems, we show that\nthe performance of the robots is not impacted significantly by the blockchain\nlayer. At the same time, we provide examples for developing other applications\nthat integrate Fabric smart contracts with ROS 2. Our results pave the way for\nfurther adoption of blockchain technologies in autonomous robotic systems for\nbuilding trustable data sharing.",
     "descriptor": "\nComments: 8 Pages, 8 figures\n",
     "authors": [
-      "salma salimi",
+      "Salma Salimi",
       "Jorge Pe\u00f1a Queralta",
       "Tomi Westerlund"
     ],
@@ -5961,7 +5961,7 @@
     "id": "arXiv:2203.03457",
     "title": "Graph Neural Networks for Image Classification and Reinforcement  Learning using Graph representations",
     "abstract": "In this paper, we will evaluate the performance of graph neural networks in\ntwo distinct domains: computer vision and reinforcement learning. In the\ncomputer vision section, we seek to learn whether a novel non-redundant\nrepresentation for images as graphs can improve performance over trivial pixel\nto node mapping on a graph-level prediction graph, specifically image\nclassification. For the reinforcement learning section, we seek to learn if\nexplicitly modeling solving a Rubik's cube as a graph problem can improve\nperformance over a standard model-free technique with no inductive bias.",
-    "descriptor": "",
+    "descriptor": "\nComments: The work was done as a project for Neural Networks and Deep Learning course, Fall 2021 offering by Prof. Richard Zemel at Columbia University\n",
     "authors": [
       "Naman Goyal",
       "David Steiner"
@@ -6738,7 +6738,7 @@
     "id": "arXiv:2203.03564",
     "title": "TIGGER: Scalable Generative Modelling for Temporal Interaction Graphs",
     "abstract": "There has been a recent surge in learning generative models for graphs. While\nimpressive progress has been made on static graphs, work on generative modeling\nof temporal graphs is at a nascent stage with significant scope for\nimprovement. First, existing generative models do not scale with either the\ntime horizon or the number of nodes. Second, existing techniques are\ntransductive in nature and thus do not facilitate knowledge transfer. Finally,\ndue to relying on one-to-one node mapping from source to the generated graph,\nexisting models leak node identity information and do not allow\nup-scaling/down-scaling the source graph size. In this paper, we bridge these\ngaps with a novel generative model called TIGGER. TIGGER derives its power\nthrough a combination of temporal point processes with auto-regressive modeling\nenabling both transductive and inductive variants. Through extensive\nexperiments on real datasets, we establish TIGGER generates graphs of superior\nfidelity, while also being up to 3 orders of magnitude faster than the\nstate-of-the-art.",
-    "descriptor": "\nComments: To be published in AAAI-2022\n",
+    "descriptor": "\nComments: To be published in AAAI-2022, additionally contains technical appendices/supplementary material\n",
     "authors": [
       "Shubham Gupta",
       "Sahil Manchanda",
@@ -6966,7 +6966,8 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2203.03598"
   },
@@ -7921,7 +7922,7 @@
   {
     "id": "arXiv:2203.03185",
     "title": "Covariate-Balancing-Aware Interpretable Deep Learning models for  Treatment Effect Estimation",
-    "abstract": "Estimating treatment effects is of great importance for many biomedical\napplications with observational data. Particularly, interpretability of the\ntreatment effects is preferable to many biomedical researchers. In this paper,\nwe first give a theoretical analysis and propose an upper bound for the bias of\naverage treatment effect estimation under the strong ignorability assumption.\nThe proposed upper bound consists of two parts: training error for factual\noutcomes, and the distance between treated and control distributions. We use\nthe Weighted Energy Distance (WED) to measure the distance between two\ndistributions. Motivated by the theoretical analysis, we implement this upper\nbound as an objective function being minimized by leveraging a novel additive\nneural network architecture, which combines the expressivity of deep neural\nnetwork, the interpretability of generalized additive model, the sufficiency of\nthe balancing score for estimation adjustment, and covariate balancing\nproperties of treated and control distributions, for estimating average\ntreatment effects from observational data. Furthermore, we impose a so-called\nweighted regularization procedure based on non-parametric theory, to obtain\nsome desirable asymptotic properties. The proposed method is illustrated by\nre-examining the benchmark datasets for causal inference, and it outperforms\nthe state-of-art.",
+    "abstract": "Estimating treatment effects is of great importance for many biomedical\napplications with observational data. Particularly, interpretability of the\ntreatment effects is preferable for many biomedical researchers. In this paper,\nwe first give a theoretical analysis and propose an upper bound for the bias of\naverage treatment effect estimation under the strong ignorability assumption.\nThe proposed upper bound consists of two parts: training error for factual\noutcomes, and the distance between treated and control distributions. We use\nthe Weighted Energy Distance (WED) to measure the distance between two\ndistributions. Motivated by the theoretical analysis, we implement this upper\nbound as an objective function being minimized by leveraging a novel additive\nneural network architecture, which combines the expressivity of deep neural\nnetwork, the interpretability of generalized additive model, the sufficiency of\nthe balancing score for estimation adjustment, and covariate balancing\nproperties of treated and control distributions, for estimating average\ntreatment effects from observational data. Furthermore, we impose a so-called\nweighted regularization procedure based on non-parametric theory, to obtain\nsome desirable asymptotic properties. The proposed method is illustrated by\nre-examining the benchmark datasets for causal inference, and it outperforms\nthe state-of-art.",
     "descriptor": "\nComments: 27 pages, 2 figures\n",
     "authors": [
       "Kan Chen",
@@ -10954,7 +10955,7 @@
   },
   {
     "id": "arXiv:2109.10294",
-    "title": "DeepSTL -- From English Requirements to Signal Temporal Logic",
+    "title": "DeepSTL - From English Requirements to Signal Temporal Logic",
     "abstract": "Comments: 13 pages",
     "descriptor": "\nComments: 13 pages\n",
     "authors": [
