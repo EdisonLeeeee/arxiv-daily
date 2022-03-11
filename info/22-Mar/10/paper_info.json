@@ -1238,14 +1238,14 @@
     "id": "arXiv:2203.04489",
     "title": "Online Non-linear Centroidal MPC for Humanoid Robot Locomotion with Step  Adjustment",
     "abstract": "This paper presents a Non-Linear Model Predictive Controller for humanoid\nrobot locomotion with online step adjustment capabilities. The proposed\ncontroller considers the Centroidal Dynamics of the system to compute the\ndesired contact forces and torques and contact locations. Differently from\nbipedal walking architectures based on simplified models, the presented\napproach considers the reduced centroidal model, thus allowing the robot to\nperform highly dynamic movements while keeping the control problem still\ntreatable online. We show that the proposed controller can automatically adjust\nthe contact location both in single and double support phases. The overall\napproach is then tested with a simulation of one-leg and two-leg systems\nperforming jumping and running tasks, respectively. We finally validate the\nproposed controller on the position-controlled Humanoid Robot iCub. Results\nshow that the proposed strategy prevents the robot from falling while walking\nand pushed with external forces up to 40 Newton for 1 second applied at the\nrobot arm.",
-    "descriptor": "\nComments: Paper accepted to ICRA 2022\n",
+    "descriptor": "\nComments: Paper accepted in ICRA 2022\n",
     "authors": [
-      "Romualdi Giulio",
-      "Dafarra Stefano",
-      "L'Erario Giuseppe",
-      "Sorrentino Ines",
-      "Traversaro Silvio",
-      "Pucci Daniele"
+      "Giulio Romualdi",
+      "Stefano Dafarra",
+      "Giuseppe L'Erario",
+      "Ines Sorrentino",
+      "Silvio Traversaro",
+      "Daniele Pucci"
     ],
     "subjectives": [
       "Robotics (cs.RO)"
@@ -2025,7 +2025,7 @@
   },
   {
     "id": "arXiv:2203.04623",
-    "title": "Evaluation and Generation of Physical Adversarial Patch",
+    "title": "Controllable Evaluation and Generation of Physical Adversarial Patch on  Face Recognition",
     "abstract": "Recent studies have revealed the vulnerability of face recognition models\nagainst physical adversarial patches, which raises security concerns about the\ndeployed face recognition systems. However, it is still challenging to ensure\nthe reproducibility for most attack algorithms under complex physical\nconditions, which leads to the lack of a systematic evaluation of the existing\nmethods. It is therefore imperative to develop a framework that can enable a\ncomprehensive evaluation of the vulnerability of face recognition in the\nphysical world. To this end, we propose to simulate the complex transformations\nof faces in the physical world via 3D-face modeling, which serves as a digital\ncounterpart of physical faces. The generic framework allows us to control\ndifferent face variations and physical conditions to conduct reproducible\nevaluations comprehensively. With this digital simulator, we further propose a\nFace3DAdv method considering the 3D face transformations and realistic physical\nvariations. Extensive experiments validate that Face3DAdv can significantly\nimprove the effectiveness of diverse physically realizable adversarial patches\nin both simulated and physical environments, against various white-box and\nblack-box face recognition models.",
     "descriptor": "",
     "authors": [
@@ -3930,7 +3930,7 @@
     "id": "arXiv:2203.04927",
     "title": "Investigation of Factorized Optical Flows as Mid-Level Representations",
     "abstract": "In this paper, we introduce a new concept of incorporating factorized flow\nmaps as mid-level representations, for bridging the perception and the control\nmodules in modular learning based robotic frameworks. To investigate the\nadvantages of factorized flow maps and examine their interplay with the other\ntypes of mid-level representations, we further develop a configurable\nframework, along with four different environments that contain both static and\ndynamic objects, for analyzing the impacts of factorized optical flow maps on\nthe performance of deep reinforcement learning agents. Based on this framework,\nwe report our experimental results on various scenarios, and offer a set of\nanalyses to justify our hypothesis. Finally, we validate flow factorization in\nreal world scenarios.",
-    "descriptor": "\nComments: This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible\n",
+    "descriptor": "\nComments: Ting-Hsuan Liao, Hsu-Shen Liu, Li-Yuan Tsao, Tzu-Wen Wang, and Shan-Ya Yang contributed equally to this work, names listed in alphabetical order; This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible\n",
     "authors": [
       "Hsuan-Kung Yang",
       "Tsu-Ching Hsiao",
@@ -4774,7 +4774,7 @@
     "abstract": "A common technique in high energy physics is to characterize the response of\na detector by means of models tunned to data which build parametric maps from\nthe physical parameters of the system to the expected signal of the detector.\nWhen the underlying model is unknown it is difficult to apply this method, and\noften, simplifying assumptions are made introducing modeling errors. In this\narticle, using a waveform toy model we present how deep learning in the form of\nconstrained bottleneck autoencoders can be used to learn the underlying unknown\ndetector response model directly from data. The results show that excellent\nperformance results can be achieved even when the signals are significantly\naffected by random noise. The trained algorithm can be used simultaneously to\nperform estimations on the physical parameters of the model, simulate the\ndetector response with high fidelity and to denoise detector signals.",
     "descriptor": "",
     "authors": [
-      "C\u00e9sar Jes\u00fas Valls",
+      "C\u00e9sar Jes\u00fas-Valls",
       "Thorsten Lux",
       "Federico S\u00e1nchez"
     ],
