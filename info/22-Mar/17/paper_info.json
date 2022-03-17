@@ -3657,7 +3657,7 @@
     "id": "arXiv:2203.08674",
     "title": "Know your sensORs $\\unicode{x2013}$ A Modality Study For Surgical Action  Classification",
     "abstract": "The surgical operating room (OR) presents many opportunities for automation\nand optimization. Videos from various sources in the OR are becoming\nincreasingly available. The medical community seeks to leverage this wealth of\ndata to develop automated methods to advance interventional care, lower costs,\nand improve overall patient outcomes. Existing datasets from OR room cameras\nare thus far limited in size or modalities acquired, leaving it unclear which\nsensor modalities are best suited for tasks such as recognizing surgical action\nfrom videos. This study demonstrates that surgical action recognition\nperformance can vary depending on the image modalities used. We perform a\nmethodical analysis on several commonly available sensor modalities, presenting\ntwo fusion approaches that improve classification performance. The analyses are\ncarried out on a set of multi-view RGB-D video recordings of 18 laparoscopic\nprocedures.",
-    "descriptor": "\nComments: 12 pages, submitted to MICCAI 2022\n",
+    "descriptor": "\nComments: 12 pages\n",
     "authors": [
       "Lennart Bastian",
       "Tobias Czempiel",
