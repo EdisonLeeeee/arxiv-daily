@@ -2069,7 +2069,7 @@
     "id": "arXiv:2203.09835",
     "title": "Reliably Reproducing Machine-Checked Proofs with the Coq Platform",
     "abstract": "The Coq Platform is a continuously developed distribution of the Coq proof\nassistant together with commonly used libraries, plugins, and external tools\nuseful in Coq-based formal verification projects. The Coq Platform enables\nreproducing and extending Coq artifacts in research, education, and industry,\ne.g., formalized mathematics and verified software systems. In this paper, we\ndescribe the background and motivation for the Platform, and outline its\norganization and development process. We also compare the Coq Platform to\nsimilar distributions and processes in the proof assistant community, such as\nfor Isabelle and Lean, and in the wider open source software community.",
-    "descriptor": "",
+    "descriptor": "\nComments: RRRR 2022 - Workshop on Reproducibility and Replication of Research Results, Apr 2022, Munich, Germany\n",
     "authors": [
       "Karl Palmskog",
       "Enrico Tassi",
@@ -3449,6 +3449,7 @@
       "Sumanshu Agarwal"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (cs.LG)"
     ],
