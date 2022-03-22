@@ -479,7 +479,7 @@
     "id": "arXiv:2203.10165",
     "title": "Privacy-Preserving Reinforcement Learning Beyond Expectation",
     "abstract": "Cyber and cyber-physical systems equipped with machine learning algorithms\nsuch as autonomous cars share environments with humans. In such a setting, it\nis important to align system (or agent) behaviors with the preferences of one\nor more human users. We consider the case when an agent has to learn behaviors\nin an unknown environment. Our goal is to capture two defining characteristics\nof humans: i) a tendency to assess and quantify risk, and ii) a desire to keep\ndecision making hidden from external parties. We incorporate cumulative\nprospect theory (CPT) into the objective of a reinforcement learning (RL)\nproblem for the former. For the latter, we use differential privacy. We design\nan algorithm to enable an RL agent to learn policies to maximize a CPT-based\nobjective in a privacy-preserving manner and establish guarantees on the\nprivacy of value functions learned by the algorithm when rewards are\nsufficiently close. This is accomplished through adding a calibrated noise\nusing a Gaussian process mechanism at each step. Through empirical evaluations,\nwe highlight a privacy-utility tradeoff and demonstrate that the RL agent is\nable to learn behaviors that are aligned with that of a human user in the same\nenvironment in a privacy-preserving manner",
-    "descriptor": "\nComments: Submitted to conference\n",
+    "descriptor": "\nComments: Submitted to conference. arXiv admin note: text overlap with arXiv:2104.00540\n",
     "authors": [
       "Arezoo Rajabi",
       "Bhaskar Ramasubramanian",
@@ -785,7 +785,7 @@
     "id": "arXiv:2203.10196",
     "title": "Learning Morphological Feature Perturbations for Calibrated  Semi-Supervised Segmentation",
     "abstract": "We propose MisMatch, a novel consistency-driven semi-supervised segmentation\nframework which produces predictions that are invariant to learnt feature\nperturbations. MisMatch consists of an encoder and a two-head decoders. One\ndecoder learns positive attention to the foreground regions of interest (RoI)\non unlabelled images thereby generating dilated features. The other decoder\nlearns negative attention to the foreground on the same unlabelled images\nthereby generating eroded features. We then apply a consistency regularisation\non the paired predictions. MisMatch outperforms state-of-the-art\nsemi-supervised methods on a CT-based pulmonary vessel segmentation task and a\nMRI-based brain tumour segmentation task. In addition, we show that the\neffectiveness of MisMatch comes from better model calibration than its\nsupervised learning counterpart.",
-    "descriptor": "\nComments: Accepted at Conference on Medical Imaging with Deep Learning (MIDL) 2022\n",
+    "descriptor": "\nComments: Accepted at Conference on Medical Imaging with Deep Learning (MIDL) 2022. arXiv admin note: text overlap with arXiv:2110.12179\n",
     "authors": [
       "Mou-Cheng Xu",
       "Yu-Kun Zhou",
@@ -1094,7 +1094,7 @@
     "id": "arXiv:2203.10230",
     "title": "Temporal Correlation of Internet Observatories and Outposts",
     "abstract": "The Internet has become a critical component of modern civilization requiring\nscientific exploration akin to endeavors to understand the land, sea, air, and\nspace environments. Understanding the baseline statistical distributions of\ntraffic are essential to the scientific understanding of the Internet.\nCorrelating data from different Internet observatories and outposts can be a\nuseful tool for gaining insights into these distributions. This work compares\nobserved sources from the largest Internet telescope (the CAIDA darknet\ntelescope) with those from a commercial outpost (the GreyNoise honeyfarm).\nNeither of these locations actively emit Internet traffic and provide distinct\nobservations of unsolicited Internet traffic (primarily botnets and scanners).\nNewly developed GraphBLAS hyperspace matrices and D4M associative array\ntechnologies enable the efficient analysis of these data on significant scales.\nThe CAIDA sources are well approximated by a Zipf-Mandelbrot distribution. Over\na 6-month period 70\\% of the brightest (highest frequency) sources in the CAIDA\ntelescope are consistently detected by coeval observations in the GreyNoise\nhoneyfarm. This overlap drops as the sources dim (reduce frequency) and as the\ntime difference between the observations grows. The probability of seeing a\nCAIDA source is proportional to the logarithm of the brightness. The temporal\ncorrelations are well described by a modified Cauchy distribution. These\nobservations are consistent with a correlated high frequency beam of sources\nthat drifts on a time scale of a month.",
-    "descriptor": "\nComments: 8 pages, 8 figures, 2 tables, 59 references; accepted to GrAPL 2022\n",
+    "descriptor": "\nComments: 8 pages, 8 figures, 2 tables, 59 references; accepted to GrAPL 2022. arXiv admin note: substantial text overlap with arXiv:2108.06653\n",
     "authors": [
       "Jeremy Kepner",
       "Michael Jones",
@@ -1334,7 +1334,9 @@
       "Xiao-Hua Zhou"
     ],
     "subjectives": [
-      "Information Retrieval (cs.IR)"
+      "Information Retrieval (cs.IR)",
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2203.10258"
   },
@@ -1906,7 +1908,7 @@
     "id": "arXiv:2203.10339",
     "title": "Occlusion-Aware Self-Supervised Monocular 6D Object Pose Estimation",
     "abstract": "6D object pose estimation is a fundamental yet challenging problem in\ncomputer vision. Convolutional Neural Networks (CNNs) have recently proven to\nbe capable of predicting reliable 6D pose estimates even under monocular\nsettings. Nonetheless, CNNs are identified as being extremely data-driven, and\nacquiring adequate annotations is oftentimes very time-consuming and labor\nintensive. To overcome this limitation, we propose a novel monocular 6D pose\nestimation approach by means of self-supervised learning, removing the need for\nreal annotations. After training our proposed network fully supervised with\nsynthetic RGB data, we leverage current trends in noisy student training and\ndifferentiable rendering to further self-supervise the model on these\nunsupervised real RGB(-D) samples, seeking for a visually and geometrically\noptimal alignment. Moreover, employing both visible and amodal mask\ninformation, our self-supervision becomes very robust towards challenging\nscenarios such as occlusion. Extensive evaluations demonstrate that our\nproposed self-supervision outperforms all other methods relying on synthetic\ndata or employing elaborate techniques from the domain adaptation realm.\nNoteworthy, our self-supervised approach consistently improves over its\nsynthetically trained baseline and often almost closes the gap towards its\nfully supervised counterpart. The code and models are publicly available at\nhttps://github.com/THU-DA-6D-Pose-Group/self6dpp.git.",
-    "descriptor": "\nComments: Accepted to TPAMI 2021, in IEEE Transactions on Pattern Analysis and Machine Intelligence\n",
+    "descriptor": "\nComments: Accepted to TPAMI 2021, in IEEE Transactions on Pattern Analysis and Machine Intelligence. arXiv admin note: text overlap with arXiv:2004.06468\n",
     "authors": [
       "Gu Wang",
       "Fabian Manhardt",
@@ -2098,7 +2100,8 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Graphics (cs.GR)"
+      "Graphics (cs.GR)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2203.10363"
   },
@@ -2141,7 +2144,7 @@
     "id": "arXiv:2203.10366",
     "title": "Deep Learning Generalization, Extrapolation, and Over-parameterization",
     "abstract": "We study the generalization of over-parameterized deep networks (for image\nclassification) in relation to the convex hull of their training sets. Despite\ntheir great success, generalization of deep networks is considered a mystery.\nThese models have orders of magnitude more parameters than their training\nsamples, and they can achieve perfect accuracy on their training sets, even\nwhen training images are randomly labeled, or the contents of images are\nreplaced with random noise. The training loss function of these models has\ninfinite number of near zero minimizers, where only a small subset of those\nminimizers generalize well. Overall, it is not clear why models need to be\nover-parameterized, why we should use a very specific training regime to train\nthem, and why their classifications are so susceptible to imperceivable\nadversarial perturbations (phenomenon known as adversarial vulnerability)\n\\cite{papernot2016limitations,shafahi2018adversarial,tsipras2018robustness}.\nSome recent studies have made advances in answering these questions, however,\nthey only consider interpolation. We show that interpolation is not adequate to\nunderstand generalization of deep networks and we should broaden our\nperspective.",
-    "descriptor": "\nComments: Abstract accepted and presented at the Workshop on Theory of Over-parameterized Machine Learning, April 2021\n",
+    "descriptor": "\nComments: Abstract accepted and presented at the Workshop on Theory of Over-parameterized Machine Learning, April 2021. arXiv admin note: text overlap with arXiv:2101.09849\n",
     "authors": [
       "Roozbeh Yousefzadeh"
     ],
@@ -2466,8 +2469,9 @@
       "Miguel Angel Gonzalez Ballester"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.10417"
   },
@@ -2494,7 +2498,7 @@
     "id": "arXiv:2203.10422",
     "title": "Subspace Modeling for Fast Out-Of-Distribution and Anomaly Detection",
     "abstract": "This paper presents a fast, principled approach for detecting anomalous and\nout-of-distribution (OOD) samples in deep neural networks (DNN). We propose the\napplication of linear statistical dimensionality reduction techniques on the\nsemantic features produced by a DNN, in order to capture the low-dimensional\nsubspace truly spanned by said features. We show that the \"feature\nreconstruction error\" (FRE), which is the $\\ell_2$-norm of the difference\nbetween the original feature in the high-dimensional space and the pre-image of\nits low-dimensional reduced embedding, is highly effective for OOD and anomaly\ndetection. To generalize to intermediate features produced at any given layer,\nwe extend the methodology by applying nonlinear kernel-based methods.\nExperiments using standard image datasets and DNN architectures demonstrate\nthat our method meets or exceeds best-in-class quality performance, but at a\nfraction of the computational and memory cost required by the state of the art.\nIt can be trained and run very efficiently, even on a traditional CPU.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2012.04250\n",
     "authors": [
       "Ibrahima J. Ndiour",
       "Nilesh A. Ahuja",
@@ -2797,6 +2801,7 @@
       "Kazuhiro Hotta"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2203.10455"
@@ -3256,6 +3261,7 @@
       "Kehong Yuan"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (cs.LG)"
     ],
@@ -3694,7 +3700,8 @@
       "Wolfgang Heidrich"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2203.10562"
   },
@@ -3702,7 +3709,7 @@
     "id": "arXiv:2203.10565",
     "title": "LEReg: Empower Graph Neural Networks with Local Energy Regularization",
     "abstract": "Researches on analyzing graphs with Graph Neural Networks (GNNs) have been\nreceiving more and more attention because of the great expressive power of\ngraphs. GNNs map the adjacency matrix and node features to node representations\nby message passing through edges on each convolution layer. However, the\nmessage passed through GNNs is not always beneficial for all parts in a graph.\nSpecifically, as the data distribution is different over the graph, the\nreceptive field (the farthest nodes that a node can obtain information from)\nneeded to gather information is also different. Existing GNNs treat all parts\nof the graph uniformly, which makes it difficult to adaptively pass the most\ninformative message for each unique part. To solve this problem, we propose two\nregularization terms that consider message passing locally: (1) Intra-Energy\nReg and (2) Inter-Energy Reg. Through experiments and theoretical discussion,\nwe first show that the speed of smoothing of different parts varies enormously\nand the topology of each part affects the way of smoothing. With Intra-Energy\nReg, we strengthen the message passing within each part, which is beneficial\nfor getting more useful information. With Inter-Energy Reg, we improve the\nability of GNNs to distinguish different nodes. With the proposed two\nregularization terms, GNNs are able to filter the most useful information\nadaptively, learn more robustly and gain higher expressiveness. Moreover, the\nproposed LEReg can be easily applied to other GNN models with plug-and-play\ncharacteristics. Extensive experiments on several benchmarks verify that GNNs\nwith LEReg outperform or match the state-of-the-art methods. The effectiveness\nand efficiency are also empirically visualized with elaborate experiments.",
-    "descriptor": "\nComments: Proceedings of the 30th ACM International Conference on Information and Knowledge Management (CIKM '21), November 1--5, 2021, Virtual Event, QLD, Australia\n",
+    "descriptor": "\nComments: Proceedings of the 30th ACM International Conference on Information and Knowledge Management (CIKM '21), November 1--5, 2021, Virtual Event, QLD, Australia. arXiv admin note: text overlap with arXiv:2009.02027 by other authors\n",
     "authors": [
       "Xiaojun Ma",
       "Hanyue Chen",
@@ -4046,7 +4053,7 @@
     "id": "arXiv:2203.10612",
     "title": "VinDr-PCXR: An open, large-scale chest radiograph dataset for  interpretation of common thoracic diseases in children",
     "abstract": "Computer-aided diagnosis systems in adult chest radiography (CXR) have\nrecently achieved great success thanks to the availability of large-scale,\nannotated datasets and the advent of high-performance supervised learning\nalgorithms. However, the development of diagnostic models for detecting and\ndiagnosing pediatric diseases in CXR scans is undertaken due to the lack of\nhigh-quality physician-annotated datasets. To overcome this challenge, we\nintroduce and release VinDr-PCXR, a new pediatric CXR dataset of 9,125 studies\nretrospectively collected from a major pediatric hospital in Vietnam between\n2020 and 2021. Each scan was manually annotated by a pediatric radiologist who\nhas more than ten years of experience. The dataset was labeled for the presence\nof 36 critical findings and 15 diseases. In particular, each abnormal finding\nwas identified via a rectangle bounding box on the image. To the best of our\nknowledge, this is the first and largest pediatric CXR dataset containing\nlesion-level annotations and image-level labels for the detection of multiple\nfindings and diseases. For algorithm development, the dataset was divided into\na training set of 7,728 and a test set of 1,397. To encourage new advances in\npediatric CXR interpretation using data-driven approaches, we provide a\ndetailed description of the VinDr-PCXR data sample and make the dataset\npublicly available on https://physionet.org/.",
-    "descriptor": "\nComments: The manuscript is under review by Nature Scientific Data\n",
+    "descriptor": "\nComments: The manuscript is under review by Nature Scientific Data. arXiv admin note: substantial text overlap with arXiv:2012.15029\n",
     "authors": [
       "Ngoc H. Nguyen",
       "Hieu H. Pham",
@@ -4055,6 +4062,7 @@
       "Ha Q. Nguyen"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2203.10612"
@@ -4275,7 +4283,7 @@
     "id": "arXiv:2203.10639",
     "title": "DeeP-LCC: Data-EnablEd Predictive Leading Cruise Control in Mixed  Traffic Flow",
     "abstract": "For the control of connected and autonomous vehicles (CAVs), most existing\nmethods focus on model-based strategies. They require explicit knowledge of\ncar-following dynamics of human-driven vehicles that are non-trivial to\nidentify accurately. In this paper, instead of relying on a parametric\ncar-following model, we introduce a data-driven non-parametric strategy, called\nDeeP-LCC (Data-EnablEd Predictive Leading Cruise Control), to achieve safe and\noptimal control of CAVs in mixed traffic. We first utilize Willems' fundamental\nlemma to obtain a data-centric representation of mixed traffic behavior. This\nis justified by rigorous analysis on controllability and observability\nproperties of mixed traffic. We then employ a receding horizon strategy to\nsolve a finite-horizon optimal control problem at each time step, in which\ninput/output constraints are incorporated for collision-free guarantees.\nNumerical experiments validate the performance of DeeP-LCC compared to a\nstandard predictive controller that requires an accurate model. Extensive\nnonlinear traffic simulations further confirm its great potential on improving\ntraffic efficiency, driving safety, and fuel economy.",
-    "descriptor": "\nComments: 14 pages, 6 figures\n",
+    "descriptor": "\nComments: 14 pages, 6 figures. arXiv admin note: text overlap with arXiv:2110.10097\n",
     "authors": [
       "Jiawei Wang",
       "Yang Zheng",
@@ -4334,6 +4342,7 @@
       "Jiebo Luo"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2203.10645"
@@ -4469,7 +4478,6 @@
     ],
     "subjectives": [
       "Neural and Evolutionary Computing (cs.NE)",
-      "Artificial Intelligence (cs.AI)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.10670"
@@ -4892,6 +4900,7 @@
       "Dimitris Metaxas"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2203.10726"
@@ -5373,8 +5382,9 @@
       "Rui Li"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.10773"
   },
@@ -5409,6 +5419,7 @@
       "Dong Liang"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2203.10776"
@@ -5443,7 +5454,8 @@
       "Xuemei Hu"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2203.10779"
   },
@@ -5517,7 +5529,7 @@
     "id": "arXiv:2203.10791",
     "title": "IoT Data Discovery: Routing Table and Summarization Techniques",
     "abstract": "In this paper, we consider the IoT data discovery problem in very large and\ngrowing scale networks. Through analysis, examples, and experimental studies,\nwe show the importance of peer-to-peer, unstructured routing for IoT data\ndiscovery and point out the space efficiency issue that has been overlooked in\nkeyword-based routing algorithms in unstructured networks. Specifically, as the\nfirst in the field, this paper investigates routing table designs and various\ncompression techniques to support effective and space-efficient IoT data\ndiscovery routing. Novel summarization algorithms, including alphabetical,\nhash, and meaning-based summarization and their corresponding coding schemes,\nare proposed. We also consider routing table design to support summarization\nwithout degrading lookup efficiency for discovery query routing. The issue of\npotentially misleading routing due to summarization is also investigated.\nSubsequently, we analyze the strategy of when to summarize to balance the\ntradeoff between the routing table compression rate and the chance of causing\nmisleading routing. For the experimental study, we have collected 100K IoT data\nstreams from various IoT databases as the input dataset. Experimental results\nshow that our summarization solution can reduce the routing table size by 20 to\n30 folds with a 2-5% increase in latency compared with similar peer-to-peer\ndiscovery routing algorithms without summarization. Also, our approach\noutperforms DHT-based approaches by 2 to 6 folds in terms of latency and\ntraffic.",
-    "descriptor": "\nComments: 17 pages, 21 figures, 1 table, 3 algorithms\n",
+    "descriptor": "\nComments: 17 pages, 21 figures, 1 table, 3 algorithms. arXiv admin note: substantial text overlap with arXiv:2107.09558\n",
     "authors": [
       "Hieu Tran",
       "Son Nguyen",
@@ -6076,7 +6088,7 @@
     "id": "arXiv:2203.10865",
     "title": "Inverse Scale Space Iterations for Non-Convex Variational Problems: The  Continuous and Discrete Case",
     "abstract": "Non-linear filtering approaches allow to obtain decompositions of images with\nrespect to a non-classical notion of scale, induced by the choice of a convex,\nabsolutely one-homogeneous regularizer. The associated inverse scale space flow\ncan be obtained using the classical Bregman iteration with quadratic data term.\nWe apply the Bregman iteration to lifted, i.e. higher-dimensional and convex,\nfunctionals in order to extend the scope of these approaches to functionals\nwith arbitrary data term. We provide conditions for the subgradients of the\nregularizer -- in the continuous and discrete setting -- under which this\nlifted iteration reduces to the standard Bregman iteration. We show\nexperimental results for the convex and non-convex case.",
-    "descriptor": "\nComments: 15 pages, 6 figures, submitted for JMIV special issue\n",
+    "descriptor": "\nComments: 15 pages, 6 figures, submitted for JMIV special issue. arXiv admin note: substantial text overlap with arXiv:2105.02622\n",
     "authors": [
       "Danielle Bednarski",
       "Jan Lellmann"
@@ -6197,7 +6209,8 @@
       "Yan Wang"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2203.10886"
   },
@@ -6227,7 +6240,7 @@
     "id": "arXiv:2203.10892",
     "title": "OWC-enabled Spine and Leaf Architecture Towards Energy Efficient Data  Center Networks",
     "abstract": "Due to the emergence of new paradigms and services such as 5G/6G, IoT, and\nmore, current deployed wired Data Center Networks (DCNs) are not meeting the\nrequired performance metrics due to their limited reconfigurability,\nscalability, and throughput. To that end, wireless DCNs using technologies such\nas Optical Wireless Communication (OWC) have become viable and costeffective\nsolutions as they offer higher capacity, better energy efficiency, and better\nscalability. This paper proposes an OWC-based spine and leaf DCNs where the\nleaf switches are enabled with OWC transceivers, and the spine switches are\nreplaced by Access Points (APs) in the ceiling connected to a backbone network.\nThe APs are interconnected through a Passive Optical Network (PON) that also\nconnects the architecture with upper network layers. An Infrared (IR) OWC\nsystem that employs Wavelength Division Multiplexing (WDM) is proposed to\nenhance the DCN downlink communication. The simulation (i.e., channel modeling)\nresults show that our proposed data center links achieve good data rates in the\ndata center up to 15 Gbps. For the PON, Arrayed Waveguide Grating Routers\n(AWGRs) that enable WDM are proposed to connect the APs. We evaluate the\nperformance of the considered architecture in term of its power efficiency\ncompared to traditional spine and leaf data centers. The results show that the\nOWC-enabled DCN reduces the power consumption by 42% compared to traditional\nthe spine and leaf architecture.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2111.15301\n",
     "authors": [
       "Abrar S. Alhazmi",
       "Sanaa H. Mohamed",
@@ -6283,7 +6296,8 @@
       "Heng Tao Shen"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2203.10897"
   },
@@ -6831,6 +6845,7 @@
       "Enzo Ferrante"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2203.10977"
@@ -7034,7 +7049,8 @@
       "Yuche Li"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2203.11006"
   },
@@ -7095,7 +7111,7 @@
     "id": "arXiv:2203.11011",
     "title": "Reinforced MOOCs Concept Recommendation in Heterogeneous Information  Networks",
     "abstract": "Massive open online courses (MOOCs), which provide a large-scale interactive\nparticipation and open access via the web, are becoming a modish way for online\nand distance education. To help users have a better study experience, many MOOC\nplatforms have provided the services of recommending courses to users. However,\nwe argue that directly recommending a course to users will ignore the expertise\nlevels of different users. To fill this gap, this paper studies the problem of\nconcept recommendation in a more fine-grained view. We propose a novel\nHeterogeneous Information Networks based Concept Recommender with Reinforcement\nLearning (HinCRec-RL) incorporated for concept recommendation in MOOCs.\nSpecifically, we first formulate the concept recommendation in MOOCs as a\nreinforcement learning problem to better model the dynamic interaction among\nusers and knowledge concepts. In addition, to mitigate the data sparsity issue\nwhich also exists in many other recommendation tasks, we consider a\nheterogeneous information network (HIN) among users, courses, videos and\nconcepts, to better learn the semantic representation of users. In particular,\nwe use the meta-paths on HIN to guide the propagation of users' preferences and\npropose a heterogeneous graph attention network to represent the meta-paths. To\nvalidate the effectiveness of our proposed approach, we conduct comprehensive\nexperiments on a real-world dataset from XuetangX, a popular MOOC platform from\nChina. The promising results show that our proposed approach can outperform\nother baselines.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:1903.07293 by other authors\n",
     "authors": [
       "Jibing Gong",
       "Yao Wan",
@@ -7583,7 +7599,7 @@
     "id": "arXiv:2203.11087",
     "title": "Ovid: A Machine Learning Approach for Automated Vandalism Detection in  OpenStreetMap",
     "abstract": "OpenStreetMap is a unique source of openly available worldwide map data,\nincreasingly adopted in real-world applications. Vandalism detection in\nOpenStreetMap is critical and remarkably challenging due to the large scale of\nthe dataset, the sheer number of contributors, various vandalism forms, and the\nlack of annotated data to train machine learning algorithms. This paper\npresents Ovid - a novel machine learning method for vandalism detection in\nOpenStreetMap. Ovid relies on a neural network architecture that adopts a\nmulti-head attention mechanism to effectively summarize information indicating\nvandalism from OpenStreetMap changesets. To facilitate automated vandalism\ndetection, we introduce a set of original features that capture changeset,\nuser, and edit information. Our evaluation results on real-world vandalism data\ndemonstrate that the proposed Ovid method outperforms the baselines by 4.7\npercentage points in F1 score.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2201.10406\n",
     "authors": [
       "Nicolas Tempelmeier",
       "Elena Demidova"
@@ -7869,7 +7885,8 @@
       "Paolo Falcone"
     ],
     "subjectives": [
-      "Systems and Control (eess.SY)"
+      "Systems and Control (eess.SY)",
+      "Physics and Society (physics.soc-ph)"
     ],
     "url": "https://arxiv.org/abs/2203.11116"
   },
@@ -8337,7 +8354,6 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
       "Signal Processing (eess.SP)",
       "Medical Physics (physics.med-ph)"
     ],
@@ -8603,8 +8619,9 @@
       "John Thiltges"
     ],
     "subjectives": [
-      "High Energy Physics - Experiment (hep-ex)",
-      "Software Engineering (cs.SE)"
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Software Engineering (cs.SE)",
+      "High Energy Physics - Experiment (hep-ex)"
     ],
     "url": "https://arxiv.org/abs/2203.10161"
   },
@@ -9051,7 +9068,7 @@
     "id": "arXiv:2203.10671",
     "title": "Green's function for singular fractional differential equations and  applications",
     "abstract": "In this paper, we study the existence of positive solutions for nonlinear\nfractional differential equations with a singular weight. We derive Green's\nfunction and corresponding integral operator and then examine the compactness\nof the operator. As an application, we prove an existence-result for positive\nsolutions when a nonlinear term satisfies either superlinear or sublinear\nconditions. The proof was mainly employed by Krasnoselski's classical fixed\npoint theorem.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2202.09015\n",
     "authors": [
       "Jinsil Lee",
       "Yong-Hoon Lee"
@@ -9396,8 +9413,8 @@
   {
     "id": "arXiv:1706.09355",
     "title": "New Results On Routing Via Matchings On Graphs",
-    "abstract": "Comments: 15 Pages, 5 Figures , 21st International Symposium on Fundamentals of Computation Theory",
-    "descriptor": "\nComments: 15 Pages, 5 Figures , 21st International Symposium on Fundamentals of Computation Theory\n",
+    "abstract": "Comments: 15 Pages, 5 Figures , 21st International Symposium on Fundamentals of Computation Theory. arXiv admin note: text overlap with arXiv:1604.04978",
+    "descriptor": "\nComments: 15 Pages, 5 Figures , 21st International Symposium on Fundamentals of Computation Theory. arXiv admin note: text overlap with arXiv:1604.04978\n",
     "authors": [
       "Indranil Banerjee",
       "Dana Richards"
@@ -14998,8 +15015,8 @@
   {
     "id": "arXiv:2203.08360",
     "title": "Synthesis of the Supremal Covert Attacker Against Unknown Supervisors by  Using Observations",
-    "abstract": "Synthesis of the Supremal Covert Attacker Against Unknown Supervisors by  Using Observations",
-    "descriptor": "",
+    "abstract": "Comments: arXiv admin note: text overlap with arXiv:2106.12268",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2106.12268\n",
     "authors": [
       "Ruochen Tai",
       "Liyong Lin",
@@ -15077,8 +15094,8 @@
   {
     "id": "arXiv:2203.08733",
     "title": "A Note on the Outliers Theorem",
-    "abstract": "A Note on the Outliers Theorem",
-    "descriptor": "",
+    "abstract": "Comments: arXiv admin note: text overlap with arXiv:1907.01018",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:1907.01018\n",
     "authors": [
       "Samuel Epstein"
     ],
@@ -15139,8 +15156,8 @@
   {
     "id": "arXiv:2203.08994",
     "title": "AI Autonomy: Self-Initiation, Adaptation and Continual Learning",
-    "abstract": "AI Autonomy: Self-Initiation, Adaptation and Continual Learning",
-    "descriptor": "",
+    "abstract": "Comments: arXiv admin note: substantial text overlap with arXiv:2110.11385",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2110.11385\n",
     "authors": [
       "Bing Liu",
       "Sahisnu Mazumder",
