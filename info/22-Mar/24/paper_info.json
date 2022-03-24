@@ -217,7 +217,7 @@
     "abstract": "The asymptotic stability of the null equilibrium of a linear population model\nwith two physiological structures formulated as a first-order hyperbolic PDE is\ndetermined by the spectrum of its infinitesimal generator. We propose an\nequivalent reformulation of the problem in the space of absolutely continuous\nfunctions in the sense of Carath\\'eodory, so that the domain of the\ncorresponding infinitesimal generator is defined by trivial boundary\nconditions. Via bivariate collocation, we discretize the reformulated operator\nas a finite-dimensional matrix, which can be used to approximate the spectrum\nof the original infinitesimal generator. Finally, we provide test examples\nillustrating the converging behavior of the approximated eigenvalues and\neigenfunctions, and its dependence on the regularity of the model coefficients.",
     "descriptor": "",
     "authors": [
-      "Alessia and\u00f2",
+      "Alessia And\u00f2",
       "Simone De Reggi",
       "Davide Liessi",
       "Francesca Scarabel"
@@ -3414,7 +3414,7 @@
     "abstract": "A new privacy-preserving federated learning framework allowing laser\nmanufacturers to collaboratively build a robust ML-based laser lifetime\nprediction model, is proposed. It achieves a mean absolute error of 0.1 years\nand a significant performance improvement",
     "descriptor": "\nComments: Optical Fiber Communication Conference (OFC 2022)\n",
     "authors": [
-      "khouloud Abdelli",
+      "Khouloud Abdelli",
       "Helmut Griesser",
       "Stephan Pachnicke"
     ],
@@ -3430,7 +3430,7 @@
     "abstract": "A hybrid prognostic model based on convolutional neural networks (CNN) and\nlong short-term memory (LSTM) is proposed to predict the laser remaining useful\nlife (RUL). The experimental results show that it outperforms the conventional\nmethods.",
     "descriptor": "\nComments: Optoelectronics and Communications Conference 2021\n",
     "authors": [
-      "khouloud Abdelli",
+      "Khouloud Abdelli",
       "Helmut Griesser",
       "Stephan Pachnicke"
     ],
@@ -5370,9 +5370,9 @@
     "id": "arXiv:2203.12604",
     "title": "Optical Fiber Fault Detection and Localization in a Noisy OTDR Trace  Based on Denoising Convolutional Autoencoder and Bidirectional Long  Short-Term Memory",
     "abstract": "Optical time-domain reflectometry (OTDR) has been widely used for\ncharacterizing fiber optical links and for detecting and locating fiber faults.\nOTDR traces are prone to be distorted by different kinds of noise, causing\nblurring of the backscattered signals, and thereby leading to a misleading\ninterpretation and a more cumbersome event detection task. To address this\nproblem, a novel method combining a denoising convolutional autoencoder (DCAE)\nand a bidirectional long short-term memory (BiLSTM) is proposed, whereby the\nformer is used for noise removal of OTDR signals and the latter for fault\ndetection, localization, and diagnosis with the denoised signal as input. The\nproposed approach is applied to noisy OTDR signals of different levels of input\nSNR ranging from -5 dB to 15 dB. The experimental results demonstrate that: (i)\nthe DCAE is efficient in denoising the OTDR traces and it outperforms other\ndeep learning techniques and the conventional denoising methods; and (ii) the\nBiLSTM achieves a high detection and diagnostic accuracy of 96.7% with an\nimprovement of 13.74% compared to the performance of the same model trained\nwith noisy OTDR signals.",
-    "descriptor": "",
+    "descriptor": "\nComments: Journal of Lightwave Technology 2022\n",
     "authors": [
-      "khouloud Abdelli",
+      "Khouloud Abdelli",
       "Helmut Griesser",
       "Carsten Tropschug",
       "Stephan Pachnicke"
@@ -6909,7 +6909,8 @@
     "descriptor": "",
     "authors": [
       "Iram Arshad",
-      "Saeed Hamood Alsamhi"
+      "Saeed Hamood Alsamhi",
+      "Wasif Afzal"
     ],
     "subjectives": [
       "Artificial Intelligence (cs.AI)",
