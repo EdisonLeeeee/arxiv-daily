@@ -169,7 +169,8 @@
       "Martha White"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2203.11992"
   },
@@ -662,7 +663,9 @@
       "Xiaodong He"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2203.12067"
   },
@@ -1009,7 +1012,7 @@
       "Alexander Neuwirth"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2203.12112"
@@ -1318,6 +1321,7 @@
       "Joo Hun Yoo"
     ],
     "subjectives": [
+      "Signal Processing (eess.SP)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.12147"
@@ -1335,8 +1339,9 @@
       "Qianjin Feng"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.12151"
   },
@@ -1523,7 +1528,7 @@
   },
   {
     "id": "arXiv:2203.12187",
-    "title": "Converse - A Tree-Based Modular Task-Oriented Dialogue System",
+    "title": "Converse -- A Tree-Based Modular Task-Oriented Dialogue System",
     "abstract": "Creating a system that can have meaningful conversations with humans to help\naccomplish tasks is one of the ultimate goals of Artificial Intelligence (AI).\nIt has defined the meaning of AI since the beginning. A lot has been\naccomplished in this area recently, with voice assistant products entering our\ndaily lives and chat bot systems becoming commonplace in customer service. At\nfirst glance there seems to be no shortage of options for dialogue systems.\nHowever, the frequently deployed dialogue systems today seem to all struggle\nwith a critical weakness - they are hard to build and harder to maintain. At\nthe core of the struggle is the need to script every single turn of\ninteractions between the bot and the human user. This makes the dialogue\nsystems more difficult to maintain as the tasks become more complex and more\ntasks are added to the system. In this paper, we propose Converse, a flexible\ntree-based modular task-oriented dialogue system. Converse uses an and-or tree\nstructure to represent tasks and offers powerful multi-task dialogue\nmanagement. Converse supports task dependency and task switching, which are\nunique features compared to other open-source dialogue frameworks. At the same\ntime, Converse aims to make the bot building process easy and simple, for both\nprofessional and non-professional software developers. The code is available at\nhttps://github.com/salesforce/Converse.",
     "descriptor": "",
     "authors": [
@@ -1649,6 +1654,7 @@
       "M. Tanveer"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (cs.LG)"
     ],
@@ -2399,7 +2405,8 @@
       "Kostas Berberidis"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2203.12281"
   },
@@ -2482,7 +2489,8 @@
       "Jiancun Fan"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2203.12296"
   },
@@ -2695,7 +2703,7 @@
   },
   {
     "id": "arXiv:2203.12318",
-    "title": "Trust and Reliance in XAI - Distinguishing Between Attitudinal and  Behavioral Measures",
+    "title": "Trust and Reliance in XAI -- Distinguishing Between Attitudinal and  Behavioral Measures",
     "abstract": "Trust is often cited as an essential criterion for the effective use and\nreal-world deployment of AI. Researchers argue that AI should be more\ntransparent to increase trust, making transparency one of the main goals of\nXAI. Nevertheless, empirical research on this topic is inconclusive regarding\nthe effect of transparency on trust. An explanation for this ambiguity could be\nthat trust is operationalized differently within XAI. In this position paper,\nwe advocate for a clear distinction between behavioral (objective) measures of\nreliance and attitudinal (subjective) measures of trust. However, researchers\nsometimes appear to use behavioral measures when intending to capture trust,\nalthough attitudinal measures would be more appropriate. Based on past\nresearch, we emphasize that there are sound theoretical reasons to keep trust\nand reliance separate. Properly distinguishing these two concepts provides a\nmore comprehensive understanding of how transparency affects trust and\nreliance, benefiting future XAI research.",
     "descriptor": "\nComments: Will be published at the CHI 2022 Workshop on Trust and Reliance in AI-Human Teams. New Orleans '22: ACM Conference on Human Factors in Computing Systems\n",
     "authors": [
@@ -3032,8 +3040,10 @@
       "M. Jorge Cardoso"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
-      "Human-Computer Interaction (cs.HC)"
+      "Human-Computer Interaction (cs.HC)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2203.12362"
   },
@@ -3225,17 +3235,13 @@
   {
     "id": "arXiv:2203.12385",
     "title": "A Blueprint for Four-states Quantum Formal System",
-    "abstract": "A blueprint for a formal systemfor describing living systems, based on the\nentanglement and parallel computation of systems consisting of two qubits shall\nbe proposed. In particular, isomorphism with the S = {T, A, G, C}, | S | = 22 =\n4 system of DNA sequences consisting of nucleotide symbols are aimed for. In\nthis simple system, two qubits belong to system A and the other two qubits\nbelong to system B, which are entangled and inseparable. System A and System B\nare derived from a parent-mother diploid living system.",
+    "abstract": "A blueprint for a formal system for describing living systems, based on the\nentanglement and parallel computation of systems consisting of two qubits shall\nbe proposed. In particular, isomorphism with the S = {T, A, G, C}, | S | = 22 =\n4 system of DNA sequences consisting of nucleotide symbols are aimed for. In\nthis simple system, two qubits belong to system A and the other two qubits\nbelong to system B, which are entangled and inseparable. System A and System B\nare derived from a parent-mother diploid living system.",
     "descriptor": "",
     "authors": [
       "Kazuki Otsuka"
     ],
     "subjectives": [
-      "Formal Languages and Automata Theory (cs.FL)",
-      "Artificial Intelligence (cs.AI)",
-      "Information Theory (cs.IT)",
-      "Logic in Computer Science (cs.LO)",
-      "Quantum Algebra (math.QA)"
+      "Other Computer Science (cs.OH)"
     ],
     "url": "https://arxiv.org/abs/2203.12385"
   },
@@ -3413,6 +3419,7 @@
       "Stephan Pachnicke"
     ],
     "subjectives": [
+      "Signal Processing (eess.SP)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.12414"
@@ -3428,6 +3435,7 @@
       "Stephan Pachnicke"
     ],
     "subjectives": [
+      "Signal Processing (eess.SP)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.12415"
@@ -3541,7 +3549,6 @@
     ],
     "subjectives": [
       "Neural and Evolutionary Computing (cs.NE)",
-      "Artificial Intelligence (cs.AI)",
       "Cryptography and Security (cs.CR)",
       "Machine Learning (cs.LG)",
       "Social and Information Networks (cs.SI)"
@@ -3666,8 +3673,9 @@
       "Cuntai Guan"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.12454"
   },
@@ -3706,7 +3714,7 @@
   {
     "id": "arXiv:2203.12465",
     "title": "Multi-agent Searching System for Medical Information",
-    "abstract": "In the paper is proposed a model of multi-agent security system for searching\na medical information in Internet. The advantages when using mobile agent are\ndescribed, so that to perform searching in Internet. Nowadays, multi- agent\nsystems found their application into distribution of decisions. For modeling\nthe proposed multi- agent medical system is used JADE. Finally, the results\nwhen using mobile agent are generated that could reflect performance when\nworking with BIG DATA. The proposed system is having also relatively high\nprecision 96% .",
+    "abstract": "In the paper is proposed a model of multi-agent security system for searching\na medical information in Internet. The advantages when using mobile agent are\ndescribed, so that to perform searching in Internet. Nowadays, multi-agent\nsystems found their application into distribution of decisions. For modeling\nthe proposed multi-agent medical system is used JADE. Finally, the results when\nusing mobile agent are generated that could reflect performance when working\nwith BIG DATA. The proposed system is having also relatively high precision\n96%.",
     "descriptor": "\nComments: Volume 16, 2019, pp.140-145\n",
     "authors": [
       "Mariya Evtimova-Gardair"
@@ -3778,7 +3786,7 @@
   {
     "id": "arXiv:2203.12472",
     "title": "Planning Landscape Analysis for Self-Adaptive Systems",
-    "abstract": "To assure performance on the fly, planning is arguably one of the most\nimportant steps for self-adaptive systems (SASs), especially when they are\nhighly configurable with a daunting number of adaptation options. However,\nthere has been little understanding of the planning landscape or ways by which\nit can be analyzed. This in- evitably creates barriers to the design of better\nand tailored planners for SASs. In this paper, we showcase how the planning\nlandscapes of SASs can be quantified and reasoned, particularly with respect to\nthe different environments. By studying four diverse real-world SASs and 14\nenvironments, we found that (1) the SAS planning landscapes often provide\nstrong guidance to the planner, but their ruggedness and multi-modality can be\nthe major obstacle; (2) the extents of guidance and number of global/local\noptima are sensitive to the changing environment, but not the ruggedness of the\nsurface; (3) the local optima are often closer to the global optimum than other\nrandom points; and (4) there are considerable (and useful) overlaps on the\nglobal/local optima between landscapes under different environments. We then\ndiscuss the potential implications to the future work of planner designs for\nSASs.",
+    "abstract": "To assure performance on the fly, planning is arguably one of the most\nimportant steps for self-adaptive systems (SASs), especially when they are\nhighly configurable with a daunting number of adaptation options. However,\nthere has been little understanding of the planning landscape or ways by which\nit can be analyzed. This inevitably creates barriers to the design of better\nand tailored planners for SASs. In this paper, we showcase how the planning\nlandscapes of SASs can be quantified and reasoned, particularly with respect to\nthe different environments. By studying four diverse real-world SASs and 14\nenvironments, we found that (1) the SAS planning landscapes often provide\nstrong guidance to the planner, but their ruggedness and multi-modality can be\nthe major obstacle; (2) the extents of guidance and number of global/local\noptima are sensitive to the changing environment, but not the ruggedness of the\nsurface; (3) the local optima are often closer to the global optimum than other\nrandom points; and (4) there are considerable (and useful) overlaps on the\nglobal/local optima between landscapes under different environments. We then\ndiscuss the potential implications to the future work of planner designs for\nSASs.",
     "descriptor": "\nComments: The paper has been accepted by the 17th International Symposium on Software Engineering for Adaptive and Self-Managing Systems, SEAMS'22, 2022\n",
     "authors": [
       "Tao Chen"
@@ -3803,6 +3811,7 @@
       "Hongxiang Lin"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2203.12476"
@@ -4087,7 +4096,7 @@
   {
     "id": "arXiv:2203.12524",
     "title": "Computational historical linguistics and language diversity in South  Asia",
-    "abstract": "South Asia is home to a plethora of languages, many of which severely lack\naccess to new language technologies. This linguistic diversity also results in\na research environment conducive to the study of comparative, contact, and\nhistorical linguistics -- fields which necessitate the gathering of extensive\ndata from many languages. We claim that data scatteredness (rather than\nscarcity) is the primary obstacle in the development of South Asian language\ntechnology, and suggest that the study of language history is uniquely aligned\nwith surmounting this obstacle. We review recent developments in and at the\nintersection of South Asian NLP and historical--comparative linguistics,\ndescribing our and others' current efforts in this area. We also offer new\nstrategies towards breaking the data barrier.",
+    "abstract": "South Asia is home to a plethora of languages, many of which severely lack\naccess to new language technologies. This linguistic diversity also results in\na research environment conducive to the study of comparative, contact, and\nhistorical linguistics -- fields which necessitate the gathering of extensive\ndata from many languages. We claim that data scatteredness (rather than\nscarcity) is the primary obstacle in the development of South Asian language\ntechnology, and suggest that the study of language history is uniquely aligned\nwith surmounting this obstacle. We review recent developments in and at the\nintersection of South Asian NLP and historical-comparative linguistics,\ndescribing our and others' current efforts in this area. We also offer new\nstrategies towards breaking the data barrier.",
     "descriptor": "\nComments: 14 pages; accepted to ACL 2022 Theme Track\n",
     "authors": [
       "Aryaman Arora",
@@ -4424,7 +4433,7 @@
   {
     "id": "arXiv:2203.12578",
     "title": "Stability properties for a class of inverse problems",
-    "abstract": "We establish Lipschitz stability properties for a class of inverse problems.\nIn that class, the associated direct problem is formulated by an integral\noperator Am depending non- linearly on a parameter m and operating on a\nfunction u. In the inversion step both u and m are unknown but we are only\ninterested in recovering m. We discuss examples of such inverse problems for\nthe elasticity equation with applications to seismology and for the inverse\nscattering problem in electromagnetic theory. Assuming a few injectivity and\nregularity properties for Am, we prove that the inverse problem with a finite\nnumber of data points is solvable and that the solution is Lipschitz stable in\nthe data. We show a reconstruction example illustrating the use of neural\nnetworks.",
+    "abstract": "We establish Lipschitz stability properties for a class of inverse problems.\nIn that class, the associated direct problem is formulated by an integral\noperator Am depending non-linearly on a parameter m and operating on a function\nu. In the inversion step both u and m are unknown but we are only interested in\nrecovering m. We discuss examples of such inverse problems for the elasticity\nequation with applications to seismology and for the inverse scattering problem\nin electromagnetic theory. Assuming a few injectivity and regularity properties\nfor Am, we prove that the inverse problem with a finite number of data points\nis solvable and that the solution is Lipschitz stable in the data. We show a\nreconstruction example illustrating the use of neural networks.",
     "descriptor": "\nComments: 20 pages, 2 figures\n",
     "authors": [
       "Darko Volkov"
@@ -4572,7 +4581,7 @@
     ],
     "subjectives": [
       "Information Retrieval (cs.IR)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.12598"
   },
@@ -5213,7 +5222,7 @@
   {
     "id": "arXiv:2203.12550",
     "title": "Optimization-Based Safe Stabilizing Feedback with Guaranteed Region of  Attraction",
-    "abstract": "This paper proposes an optimization with penalty- based feedback design\nframework for safe stabilization of control affine systems. Our starting point\nis the availability of a control Lyapunov function (CLF) and a control barrier\nfunction (CBF) defining affine-in-the-input inequalities that certify,\nrespectively, the stability and safety objectives for the dynamics. Leveraging\nideas from penalty methods for con- strained optimization, the proposed design\nframework imposes one of the inequalities as a hard constraint and the other\none as a soft constraint. We study the properties of the closed-loop system\nunder the resulting feedback controller and identify conditions on the penalty\nparameter to eliminate undesired equilibria that might arise. Going beyond the\nlocal stability guarantees available in the literature, we are able to provide\nan inner approximation of the region of attraction of the equilibrium, and\nidentify conditions under which the whole safe set belongs to it. Simulations\nillustrate our results.",
+    "abstract": "This paper proposes an optimization with penalty-based feedback design\nframework for safe stabilization of control affine systems. Our starting point\nis the availability of a control Lyapunov function (CLF) and a control barrier\nfunction (CBF) defining affine-in-the-input inequalities that certify,\nrespectively, the stability and safety objectives for the dynamics. Leveraging\nideas from penalty methods for constrained optimization, the proposed design\nframework imposes one of the inequalities as a hard constraint and the other\none as a soft constraint. We study the properties of the closed-loop system\nunder the resulting feedback controller and identify conditions on the penalty\nparameter to eliminate undesired equilibria that might arise. Going beyond the\nlocal stability guarantees available in the literature, we are able to provide\nan inner approximation of the region of attraction of the equilibrium, and\nidentify conditions under which the whole safe set belongs to it. Simulations\nillustrate our results.",
     "descriptor": "\nComments: 6 pages, 1 figure, submitted to IEEE Control Systems Letters and 61st IEEE Conference on Decision and Control\n",
     "authors": [
       "Pol Mestres",
