@@ -3096,8 +3096,7 @@
     ],
     "subjectives": [
       "Distributed, Parallel, and Cluster Computing (cs.DC)",
-      "Artificial Intelligence (cs.AI)",
-      "Software Engineering (cs.SE)"
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2203.13061"
   },
@@ -3900,8 +3899,8 @@
       "Hao Zheng"
     ],
     "subjectives": [
-      "Hardware Architecture (cs.AR)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Hardware Architecture (cs.AR)"
     ],
     "url": "https://arxiv.org/abs/2203.13182"
   },
