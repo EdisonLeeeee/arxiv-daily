@@ -2211,7 +2211,6 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)",
       "Machine Learning (cs.LG)",
       "Image and Video Processing (eess.IV)"
     ],
@@ -6689,7 +6688,9 @@
       "Jingmin Chen"
     ],
     "subjectives": [
-      "Computational Engineering, Finance, and Science (cs.CE)"
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Social and Information Networks (cs.SI)",
+      "Physics and Society (physics.soc-ph)"
     ],
     "url": "https://arxiv.org/abs/2203.14807"
   },
@@ -7021,7 +7022,7 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2203.14856"
   },
