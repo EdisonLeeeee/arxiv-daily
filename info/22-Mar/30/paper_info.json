@@ -1486,7 +1486,8 @@
       "Jorge Navas",
       "Jason Biatek",
       "Huascar Sanchez",
-      "Anitha Murugesan"
+      "Anitha Murugesan",
+      "Hao Ren"
     ],
     "subjectives": [
       "Software Engineering (cs.SE)"
@@ -11951,7 +11952,8 @@
       "Lisandra Silva"
     ],
     "subjectives": [
-      "Distributed, Parallel, and Cluster Computing (cs.DC)"
+      "Distributed, Parallel, and Cluster Computing (cs.DC)",
+      "Logic in Computer Science (cs.LO)"
     ],
     "url": "https://arxiv.org/abs/2203.14711"
   },
