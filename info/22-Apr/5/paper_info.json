@@ -10,7 +10,9 @@
     ],
     "subjectives": [
       "Artificial Intelligence (cs.AI)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Neural and Evolutionary Computing (cs.NE)",
+      "Neurons and Cognition (q-bio.NC)"
     ],
     "url": "https://arxiv.org/abs/2204.00619"
   },
@@ -144,7 +146,8 @@
       "Hao Chen"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2204.00649"
   },
@@ -347,7 +350,9 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Sound (cs.SD)"
+      "Multimedia (cs.MM)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2204.00679"
   },
@@ -1140,7 +1145,9 @@
       "Yannick Est\u00e8ve"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2204.00803"
   },
@@ -1369,7 +1376,8 @@
       "Rongrong Ji"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2204.00833"
   },
