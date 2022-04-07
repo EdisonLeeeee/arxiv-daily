@@ -105,7 +105,8 @@
       "Holly Yanco"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Robotics (cs.RO)"
     ],
     "url": "https://arxiv.org/abs/2204.02437"
   },
@@ -373,7 +374,8 @@
       "Eli Yablonovitch"
     ],
     "subjectives": [
-      "Emerging Technologies (cs.ET)"
+      "Emerging Technologies (cs.ET)",
+      "Optimization and Control (math.OC)"
     ],
     "url": "https://arxiv.org/abs/2204.02472"
   },
