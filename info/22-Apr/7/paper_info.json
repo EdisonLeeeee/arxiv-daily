@@ -3098,15 +3098,13 @@
     "abstract": "DNA has become an attractive medium for storing digital information\ngradually. Despite the biochemical progress on DNA synthesis and sequencing,\nnovel coding algorithms need to be constructed under the specific constraints\nin DNA-based storage. In recent years, a growing number of functional\noperations and storage carriers were introduced, bringing in various\nbiochemical constraints including but not confined to long single-nucleotide\nrepeats and abnormal GC content. Given several local biochemical constraints\nand their combinations, existing coding algorithms are not applicable or\nunstable. In this paper, we design a graph-based architecture, named\nSPIDER-WEB, to generate corresponding graph-based algorithms under arbitrary\nlocal biochemical constraints. These generated coding algorithms could be used\nto encode arbitrary digital data as DNA sequences directly or served as a\nbenchmark for the follow-up construction of coding algorithms. To further\nconsider recovery and security issues existing in the storage field, it also\nprovides pluggable algorithmic patches based on the generated coding\nalgorithms: path-based correcting and mapping shuffling. They provide\napproaches for probabilistic error correction and symmetric encryption\nrespectively.",
     "descriptor": "\nComments: 30 pages; 12 figures; 2 tables\n",
     "authors": [
-      "Jia-Qi Wang",
-      "Yuan-Hao Yang",
-      "Ming Li",
-      "Hai-Qi Zhou",
-      "Xin-Biao Xu",
-      "Ji-Zhe Zhang",
-      "Chun-Hua Dong",
-      "Guang-Can Guo",
-      "Chang-Ling Zou"
+      "Haoling Zhang",
+      "Zhaojun Lan",
+      "Wenwei Zhang",
+      "Xun Xu",
+      "Zhi Ping",
+      "Yiwei Zhang",
+      "Yue Shen"
     ],
     "subjectives": [
       "Emerging Technologies (cs.ET)",
