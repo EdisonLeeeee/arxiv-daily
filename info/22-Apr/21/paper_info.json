@@ -1581,7 +1581,7 @@
     "id": "arXiv:2204.09296",
     "title": "Image Restoration in Non-Linear Filtering Domain using MDB approach",
     "abstract": "This paper proposes a new technique based on a non-linear Minmax Detector\nBased (MDB) filter for image restoration. The aim of image enhancement is to\nreconstruct the true image from the corrupted image. The process of image\nacquisition frequently leads to degradation and the quality of the digitized\nimage becomes inferior to the original image. Image degradation can be due to\nthe addition of different types of noise in the original image. Image noise can\nbe modelled of many types and impulse noise is one of them. Impulse noise\ngenerates pixels with gray value not consistent with their local neighbourhood.\nIt appears as a sprinkle of both light and dark or only light spots in the\nimage. Filtering is a technique for enhancing the image. Linear filter is the\nfiltering in which the value of an output pixel is a linear combination of\nneighborhood values, which can produce blur in the image. Thus a variety of\nsmoothing techniques have been developed that are non linear. Median filter is\nthe one of the most popular non-linear filter. When considering a small\nneighborhood it is highly efficient but for large window and in case of high\nnoise it gives rise to more blurring to image. The Centre Weighted Mean (CWM)\nfilter has got a better average performance over the median filter. However the\noriginal pixel corrupted and noise reduction is substantial under high noise\ncondition. Hence this technique has also blurring affect on the image. To\nillustrate the superiority of the proposed approach, the proposed new scheme\nhas been simulated along with the standard ones and various restored\nperformance measures have been compared.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:1003.1803 by other authors without attribution\n",
     "authors": [
       "S. K. Satpathy",
       "S. Panda",
@@ -4367,7 +4367,7 @@
     "id": "arXiv:2204.09055",
     "title": "Per-clip and per-bitrate adaptation of the Lagrangian multiplier in  video coding",
     "abstract": "In the past ten years there have been significant developments in\noptimization of transcoding parameters on a per-clip rather than per-genre\nbasis. In our recent work we have presented per-clip optimization for the\nLagrangian multiplier in Rate controlled compression, which yielded BD-Rate\nimprovements of approximately 2\\% across a corpus of videos using HEVC.\nHowever, in a video streaming application, the focus is on optimizing the\nrate/distortion tradeoff at a particular bitrate and not on average across a\nrange of performance. We observed in previous work that a particular multiplier\nmight give BD rate improvements over a certain range of bitrates, but not the\nentire range. Using different parameters across the range would improve gains\noverall. Therefore here we present a framework for choosing the best Lagrangian\nmultiplier on a per-operating point basis across a range of bitrates. In\neffect, we are trying to find the para-optimal gain across bitrate and\ndistortion for a single clip. In the experiments presented we employ direct\noptimization techniques to estimate this Lagrangian parameter path\napproximately 2,000 video clips. The clips are primarily from the YouTube-UGC\ndataset. We optimize both for bitrate savings as well as distortion metrics\n(PSNR, SSIM).",
-    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2204.08966\n",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2204.09056, arXiv:2204.08966\n",
     "authors": [
       "Daniel J. Ringis",
       "Fran\u00e7ois Piti\u00e9",
@@ -4383,7 +4383,7 @@
     "id": "arXiv:2204.09056",
     "title": "Near Optimal Per-Clip Lagrangian Multiplier Prediction in HEVC",
     "abstract": "The majority of internet traffic is video content. This drives the demand for\nvideo compression to deliver high quality video at low target bitrates.\nOptimising the parameters of a video codec for a specific video clip (per-clip\noptimisation) has been shown to yield significant bitrate savings. In previous\nwork we have shown that per-clip optimisation of the Lagrangian multiplier\nleads to up to 24% BD-Rate improvement. A key component of these algorithms is\nmodeling the R-D characteristic across the appropriate bitrate range. This is\ncomputationally heavy as it usually involves repeated video encodes of the high\nresolution material at different parameter settings. This work focuses on\nreducing this computational load by deploying a NN operating on lower bandwidth\nfeatures. Our system achieves BD-Rate improvement in approximately 90% of a\nlarge corpus with comparable results to previous work in direct optimisation.",
-    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2204.08966\n",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv: 2204.09055, arXiv:2204.08966\n",
     "authors": [
       "Daniel J Ringis",
       "Fran\u00e7ois Piti\u00e9",
