@@ -162,7 +162,9 @@
       "Juan D. Tardos"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Robotics (cs.RO)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2204.09083"
   },
@@ -4298,7 +4300,7 @@
   {
     "id": "arXiv:2204.09043",
     "title": "RNTuple performance: Status and Outlook",
-    "abstract": "Upcoming HEP experiments, e.g. at the HL-LHC, are expected to increase the\nvolume of generated data by at least one order of magnitude. In order to retain\nthe ability to analyze the influx of data, full exploitation of modern storage\nhardware and systems, such as low-latency high-bandwidth NVMe devices and\ndistributed object stores, becomes critical.\nTo this end, the ROOT RNTuple I/O subsystem has been designed to address\nperformance bottlenecks and shortcomings of ROOT's current state of the art\nTTree I/O subsystem. RNTuple provides a backwards-incompatible redesign of the\nTTree binary format and access API that evolves the ROOT event data I/O for the\nchallenges of the upcoming decades. It focuses on a compact data format, on\nperformance engineering for modern storage hardware, for instance through\nmaking parallel and asynchronous I/O calls by default, and on robust interfaces\nthat are easy to use correctly.\nIn this contribution, we evaluate the RNTuple performance for typical HEP\nanalysis tasks. We compare the throughput delivered by RNTuple to popular I/O\nlibraries outside HEP, such as HDF5 and Apache Parquet. We demonstrate the\nadvantages of RNTuple for HEP analysis workflows and provide an outlook on the\nroad to its use in production.",
+    "abstract": "Upcoming HEP experiments, e.g. at the HL-LHC, are expected to increase the\nvolume of generated data by at least one order of magnitude. In order to retain\nthe ability to analyze the influx of data, full exploitation of modern storage\nhardware and systems, such as low-latency high-bandwidth NVMe devices and\ndistributed object stores, becomes critical. To this end, the ROOT RNTuple I/O\nsubsystem has been designed to address performance bottlenecks and shortcomings\nof ROOT's current state of the art TTree I/O subsystem. RNTuple provides a\nbackwards-incompatible redesign of the TTree binary format and access API that\nevolves the ROOT event data I/O for the challenges of the upcoming decades. It\nfocuses on a compact data format, on performance engineering for modern storage\nhardware, for instance through making parallel and asynchronous I/O calls by\ndefault, and on robust interfaces that are easy to use correctly. In this\ncontribution, we evaluate the RNTuple performance for typical HEP analysis\ntasks. We compare the throughput delivered by RNTuple to popular I/O libraries\noutside HEP, such as HDF5 and Apache Parquet. We demonstrate the advantages of\nRNTuple for HEP analysis workflows and provide an outlook on the road to its\nuse in production.",
     "descriptor": "\nComments: 5 pages, 5 figures; submitted to proceedings of 20th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2021)\n",
     "authors": [
       "Javier Lopez-Gomez",
