@@ -275,7 +275,8 @@
     ],
     "subjectives": [
       "Computational Engineering, Finance, and Science (cs.CE)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
     ],
     "url": "https://arxiv.org/abs/2204.13168"
   },
@@ -369,8 +370,9 @@
       "Wolfgang Ecker"
     ],
     "subjectives": [
-      "Logic in Computer Science (cs.LO)",
-      "Hardware Architecture (cs.AR)"
+      "Software Engineering (cs.SE)",
+      "Hardware Architecture (cs.AR)",
+      "Logic in Computer Science (cs.LO)"
     ],
     "url": "https://arxiv.org/abs/2204.13183"
   },
@@ -388,7 +390,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2204.13188"
   },
@@ -451,6 +454,7 @@
     ],
     "subjectives": [
       "Human-Computer Interaction (cs.HC)",
+      "Artificial Intelligence (cs.AI)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2204.13194"
@@ -2176,8 +2180,7 @@
     ],
     "subjectives": [
       "Cryptography and Security (cs.CR)",
-      "Artificial Intelligence (cs.AI)",
-      "Computational Engineering, Finance, and Science (cs.CE)"
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2204.13442"
   },
@@ -2714,7 +2717,6 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Computational Engineering, Finance, and Science (cs.CE)",
       "Computation and Language (cs.CL)",
       "Computers and Society (cs.CY)"
     ],
@@ -3421,8 +3423,7 @@
       "Cristina Olaverri-Monreal"
     ],
     "subjectives": [
-      "Robotics (cs.RO)",
-      "Software Engineering (cs.SE)"
+      "Robotics (cs.RO)"
     ],
     "url": "https://arxiv.org/abs/2204.13643"
   },
@@ -4012,8 +4013,7 @@
       "Stefan Debener"
     ],
     "subjectives": [
-      "Signal Processing (eess.SP)",
-      "Software Engineering (cs.SE)"
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2204.13444"
   },
