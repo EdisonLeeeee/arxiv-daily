@@ -64,6 +64,7 @@
       "Seungjin Lee"
     ],
     "subjectives": [
+      "Computers and Society (cs.CY)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2204.13700"
@@ -1463,6 +1464,7 @@
       "Kamrul Hasan"
     ],
     "subjectives": [
+      "Human-Computer Interaction (cs.HC)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2204.13900"
@@ -1534,7 +1536,7 @@
   {
     "id": "arXiv:2204.13913",
     "title": "Leaner and Faster: Two-Stage Model Compression for Lightweight  Text-Image Retrieval",
-    "abstract": "Current text-image approaches (e.g., CLIP) typically adopt dual-encoder\narchitecture us- ing pre-trained vision-language representation. However, these\nmodels still pose non-trivial memory requirements and substantial incre- mental\nindexing time, which makes them less practical on mobile devices. In this\npaper, we present an effective two-stage framework to compress large\npre-trained dual-encoder for lightweight text-image retrieval. The result- ing\nmodel is smaller (39% of the original), faster (1.6x/2.9x for processing\nimage/text re- spectively), yet performs on par with or bet- ter than the\noriginal full model on Flickr30K and MSCOCO benchmarks. We also open- source an\naccompanying realistic mobile im- age search application.",
+    "abstract": "Current text-image approaches (e.g., CLIP) typically adopt dual-encoder\narchitecture using pre-trained vision-language representation. However, these\nmodels still pose non-trivial memory requirements and substantial incremental\nindexing time, which makes them less practical on mobile devices. In this\npaper, we present an effective two-stage framework to compress large\npre-trained dual-encoder for lightweight text-image retrieval. The resulting\nmodel is smaller (39% of the original), faster (1.6x/2.9x for processing\nimage/text respectively), yet performs on par with or better than the original\nfull model on Flickr30K and MSCOCO benchmarks. We also open-source an\naccompanying realistic mobile image search application.",
     "descriptor": "\nComments: Accepted by NAACL 2022 main conference\n",
     "authors": [
       "Siyu Ren",
@@ -1675,7 +1677,7 @@
   },
   {
     "id": "arXiv:2204.13931",
-    "title": "KERMIT - A Transformer-Based Approach for Knowledge Graph Matching",
+    "title": "KERMIT -- A Transformer-Based Approach for Knowledge Graph Matching",
     "abstract": "One of the strongest signals for automated matching of knowledge graphs and\nontologies are textual concept descriptions. With the rise of transformer-based\nlanguage models, text comparison based on meaning (rather than lexical\nfeatures) is available to researchers. However, performing pairwise comparisons\nof all textual descriptions of concepts in two knowledge graphs is expensive\nand scales quadratically (or even worse if concepts have more than one\ndescription). To overcome this problem, we follow a two-step approach: we first\ngenerate matching candidates using a pre-trained sentence transformer (so\ncalled bi-encoder). In a second step, we use fine-tuned transformer\ncross-encoders to generate the best candidates. We evaluate our approach on\nmultiple datasets and show that it is feasible and produces competitive\nresults.",
     "descriptor": "\nComments: accepted at the DeepOntoNLP Workshop at the ESWC 2022\n",
     "authors": [
@@ -2303,7 +2305,7 @@
   {
     "id": "arXiv:2204.14021",
     "title": "A Sampling Theorem for Exact Identification of Continuous-time Nonlinear  Dynamical Systems",
-    "abstract": "Low sampling frequency challenges the exact identification of the\ncontinuous-time (CT) dynamical system from sampled data, even when its model is\nidentifiable. The necessary and sufficient condition is proposed-- which is\nbuilt from Koopman operator-- to the exact identification of the CT system from\nsampled data. The condition gives a Nyquist-Shannon-like critical frequency for\nexact identification of CT nonlinear dynamical systems with Koopman invariant\nsubspaces: 1) it establishes a sufficient condition for a sampling frequency\nthat permits a discretized sequence of samples to discover the underlying\nsystem and 2) it also establishes a necessary condition for a sampling\nfrequency that leads to system aliasing that the underlying system is\nindistinguishable; and 3) the original CT signal does not have to be\nband-limited as required in the Nyquist-Shannon Theorem. The theoretical\ncriterion has been demonstrated on a number of simulated examples, including\nlinear systems, nonlinear systems with equilibria, and limit cycles.",
+    "abstract": "Low sampling frequency challenges the exact identification of the\ncontinuous-time (CT) dynamical system from sampled data, even when its model is\nidentifiable. The necessary and sufficient condition is proposed -- which is\nbuilt from Koopman operator -- to the exact identification of the CT system\nfrom sampled data. The condition gives a Nyquist-Shannon-like critical\nfrequency for exact identification of CT nonlinear dynamical systems with\nKoopman invariant subspaces: 1) it establishes a sufficient condition for a\nsampling frequency that permits a discretized sequence of samples to discover\nthe underlying system and 2) it also establishes a necessary condition for a\nsampling frequency that leads to system aliasing that the underlying system is\nindistinguishable; and 3) the original CT signal does not have to be\nband-limited as required in the Nyquist-Shannon Theorem. The theoretical\ncriterion has been demonstrated on a number of simulated examples, including\nlinear systems, nonlinear systems with equilibria, and limit cycles.",
     "descriptor": "",
     "authors": [
       "Zhexuan Zeng",
@@ -2514,7 +2516,8 @@
       "Marisa Ponti"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Human-Computer Interaction (cs.HC)"
     ],
     "url": "https://arxiv.org/abs/2204.14046"
   },
@@ -2584,8 +2587,8 @@
     ],
     "subjectives": [
       "Sound (cs.SD)",
-      "Artificial Intelligence (cs.AI)",
       "Computer Vision and Pattern Recognition (cs.CV)",
+      "Multimedia (cs.MM)",
       "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2204.14057"
@@ -2723,8 +2726,9 @@
       "Bob McLeod"
     ],
     "subjectives": [
+      "Multiagent Systems (cs.MA)",
       "Artificial Intelligence (cs.AI)",
-      "Multiagent Systems (cs.MA)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2204.14076"
   },
@@ -2969,7 +2973,7 @@
   },
   {
     "id": "arXiv:2204.14116",
-    "title": "SATfeatPy - A Python-based Feature Extraction System for Satisfiability",
+    "title": "SATfeatPy -- A Python-based Feature Extraction System for Satisfiability",
     "abstract": "Feature extraction is a fundamental task in the application of machine\nlearning methods to SAT solving. It is used in algorithm selection and\nconfiguration for solver portfolios and satisfiability classification. Many\napproaches have been proposed to extract meaningful attributes from CNF\ninstances. Most of them lack a working/updated implementation, and the limited\ndescriptions lack clarity affecting the reproducibility. Furthermore, the\nliterature misses a comparison among the features. This paper introduces\nSATfeatPy, a library that offers feature extraction techniques for SAT problems\nin the CNF form. This package offers the implementation of all the structural\nand statistical features from there major papers in the field. The library is\nprovided in an up-to-date, easy-to-use Python package alongside a detailed\nfeature description. We show the high accuracy of SAT/UNSAT and problem\ncategory classification, using five sets of features generated using our\nlibrary from a dataset of 3000 SAT and UNSAT instances, over ten different\nclasses of problems. Finally, we compare the usefulness of the features and\nimportance for predicting a SAT instance's original structure in an ablation\nstudy.",
     "descriptor": "\nComments: 8 pages, 2 figures, code available at this https URL\n",
     "authors": [
@@ -3159,7 +3163,7 @@
   {
     "id": "arXiv:2204.14142",
     "title": "A Framework for Constructing Machine Learning Models with Feature Set  Optimisation for Evapotranspiration Partitioning",
-    "abstract": "A deeper understanding of the drivers of evapotranspiration and the modelling\nof its constituent parts (evaporation and transpiration) could be of\nsignificant importance to the monitoring and management of water resources\nglobally over the coming decades. In this work, we developed a framework to\nidentify the best performing machine learning algorithm from a candidate set,\nselect optimal predictive features as well as ranking features in terms of\ntheir im- portance to predictive accuracy. Our experiments used 3 separate\nfeature sets across 4 wetland sites as input into 8 candidate machine learning\nalgorithms, providing 96 sets of experimental configurations. Given this high\nnumber of parameters, our results show strong evidence that there is no\nsingularly optimal machine learning algorithm or feature set across all of the\nwetland sites studied despite their similarities. A key finding discovered when\nexamining feature importance is that methane flux, a feature whose relationship\nwith evapotranspiration is not generally examined, may contribute to further\nbiophysical process understanding.",
+    "abstract": "A deeper understanding of the drivers of evapotranspiration and the modelling\nof its constituent parts (evaporation and transpiration) could be of\nsignificant importance to the monitoring and management of water resources\nglobally over the coming decades. In this work, we developed a framework to\nidentify the best performing machine learning algorithm from a candidate set,\nselect optimal predictive features as well as ranking features in terms of\ntheir importance to predictive accuracy. Our experiments used 3 separate\nfeature sets across 4 wetland sites as input into 8 candidate machine learning\nalgorithms, providing 96 sets of experimental configurations. Given this high\nnumber of parameters, our results show strong evidence that there is no\nsingularly optimal machine learning algorithm or feature set across all of the\nwetland sites studied despite their similarities. A key finding discovered when\nexamining feature importance is that methane flux, a feature whose relationship\nwith evapotranspiration is not generally examined, may contribute to further\nbiophysical process understanding.",
     "descriptor": "",
     "authors": [
       "Adam Stapleton",
@@ -3607,7 +3611,8 @@
       "A. Sirbu"
     ],
     "subjectives": [
-      "Social and Information Networks (cs.SI)"
+      "Social and Information Networks (cs.SI)",
+      "Physics and Society (physics.soc-ph)"
     ],
     "url": "https://arxiv.org/abs/2204.14223"
   },
@@ -3645,6 +3650,7 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)",
       "Instrumentation and Detectors (physics.ins-det)"
     ],
     "url": "https://arxiv.org/abs/2204.14228"
@@ -3844,7 +3850,7 @@
   {
     "id": "arXiv:2204.14261",
     "title": "Finite Entailment of UCRPQs over ALC Ontologies",
-    "abstract": "We investigate the problem of finite entailment of ontology- mediated\nqueries. We consider the expressive query language, unions of conjunctive\nregular path queries (UCRPQs), extending the well-known class of union of\nconjunctive queries, with regular expressions over roles. We look at ontologies\nformulated using the description logic ALC, and show a tight 2EXPTIME upper\nbound for entailment of UCRPQs. At the core of our decision procedure, there is\na novel automata-based technique introducing a stratification of\ninterpretations induced by the deterministic finite automaton underlying the\ninput UCRPQ",
+    "abstract": "We investigate the problem of finite entailment of ontology-mediated queries.\nWe consider the expressive query language, unions of conjunctive regular path\nqueries (UCRPQs), extending the well-known class of union of conjunctive\nqueries, with regular expressions over roles. We look at ontologies formulated\nusing the description logic ALC, and show a tight 2EXPTIME upper bound for\nentailment of UCRPQs. At the core of our decision procedure, there is a novel\nautomata-based technique introducing a stratification of interpretations\ninduced by the deterministic finite automaton underlying the input UCRPQ",
     "descriptor": "\nComments: Paper accepted to KR2022\n",
     "authors": [
       "V\u0131ctor Guti\u00e9rrez-Basulto",
@@ -4225,7 +4231,7 @@
   {
     "id": "arXiv:2204.13916",
     "title": "A study of tree-based methods and their combination",
-    "abstract": "Tree-based methods are popular machine learning techniques used in various\nfields. In this work, we review their foundations and a general framework the\nimportance sampled learning ensemble (ISLE) that accelerates their fitting\nprocess. Furthermore, we describe a model combination strategy called the\nadaptive regression by mixing (ARM), which is feasible for tree- based methods\nvia ISLE. Moreover, three modified ISLEs are proposed, and their performance\nare evaluated on the real data sets.",
+    "abstract": "Tree-based methods are popular machine learning techniques used in various\nfields. In this work, we review their foundations and a general framework the\nimportance sampled learning ensemble (ISLE) that accelerates their fitting\nprocess. Furthermore, we describe a model combination strategy called the\nadaptive regression by mixing (ARM), which is feasible for tree-based methods\nvia ISLE. Moreover, three modified ISLEs are proposed, and their performance\nare evaluated on the real data sets.",
     "descriptor": "",
     "authors": [
       "Yinuo Zeng"
@@ -4248,6 +4254,7 @@
     ],
     "subjectives": [
       "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2204.13940"
@@ -5016,7 +5023,7 @@
   },
   {
     "id": "arXiv:2104.11483",
-    "title": "14 Years of Self-Tracking Technology for mHealth - Literature Review:  Lessons Learnt and the PAST SELF Framework",
+    "title": "14 Years of Self-Tracking Technology for mHealth -- Literature Review:  Lessons Learnt and the PAST SELF Framework",
     "abstract": "Comments: 40 pages, 10 figures",
     "descriptor": "\nComments: 40 pages, 10 figures\n",
     "authors": [
@@ -5383,8 +5390,8 @@
   {
     "id": "arXiv:2109.04355",
     "title": "Multi-sensor Joint Adaptive Birth Sampler for Labeled Random Finite Set  Tracking",
-    "abstract": "Comments: Published in IEEE Transactions on Signal Processing, vol. 70, pp. 1010-1025, 2022, doi: 10.1109/TSP.2022.3151553",
-    "descriptor": "\nComments: Published in IEEE Transactions on Signal Processing, vol. 70, pp. 1010-1025, 2022, doi: 10.1109/TSP.2022.3151553\n",
+    "abstract": "Multi-sensor Joint Adaptive Birth Sampler for Labeled Random Finite Set  Tracking",
+    "descriptor": "",
     "authors": [
       "Anthony Trezza",
       "Donald J. Bucci Jr.",
