@@ -362,7 +362,8 @@
       "Ahmet-Serdar Karakaya",
       "Konstantin K\u00f6hler",
       "Julian Heinovski",
-      "Falko Dressler David Bermbach"
+      "Falko Dressler",
+      "David Bermbach"
     ],
     "subjectives": [
       "Multiagent Systems (cs.MA)",
@@ -1087,7 +1088,7 @@
   },
   {
     "id": "arXiv:2205.04646",
-    "title": "Crypto Pump and Dump via Deep Learning Techniques",
+    "title": "Crypto Pump and Dump Detection via Deep Learning Techniques",
     "abstract": "Despite the fact that cryptocurrencies themselves have experienced an\nastonishing rate of adoption over the last decade, cryptocurrency fraud\ndetection is a heavily under-researched problem area. Of all fraudulent\nactivity regarding cryptocurrencies, pump and dump schemes are some of the most\ncommon. Though some studies have been done on these kinds of scams in the stock\nmarket, the lack of labelled stock data and the volatility unique to the\ncryptocurrency space constrains the applicability of studies on the stock\nmarket toward this problem domain. Furthermore, the only work done in this\nspace thus far has been either statistical in nature, or has been concerned\nwith classical machine learning models such as random forest trees. We propose\nthe novel application of two existing neural network architectures to this\nproblem domain and show that deep learning solutions can significantly\noutperform all other existing pump and dump detection methods for\ncryptocurrencies.",
     "descriptor": "\nComments: 8 pages, 4 figures\n",
     "authors": [
