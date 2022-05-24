@@ -77,7 +77,8 @@
       "Sairam Sundaresan"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Neural and Evolutionary Computing (cs.NE)"
     ],
     "url": "https://arxiv.org/abs/2205.10358"
   },
@@ -758,6 +759,7 @@
       "Xiao Wang"
     ],
     "subjectives": [
+      "Cryptography and Security (cs.CR)",
       "Computer Vision and Pattern Recognition (cs.CV)",
       "Machine Learning (cs.LG)",
       "Machine Learning (stat.ML)"
@@ -1084,6 +1086,7 @@
       "Myounggyu Won"
     ],
     "subjectives": [
+      "Signal Processing (eess.SP)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2205.10491"
@@ -2300,7 +2303,7 @@
   },
   {
     "id": "arXiv:2205.10653",
-    "title": "Towards real-time and energy efficient Siamese tracking - a  hardware-software approach",
+    "title": "Towards real-time and energy efficient Siamese tracking -- a  hardware-software approach",
     "abstract": "Siamese trackers have been among the state-of-the-art solutions in each\nVisual Object Tracking (VOT) challenge over the past few years. However, with\ngreat accuracy comes great computational complexity: to achieve real-time\nprocessing, these trackers have to be massively parallelised and are usually\nrun on high-end GPUs. Easy to implement, this approach is energy consuming, and\nthus cannot be used in many low-power applications. To overcome this, one can\nuse energy-efficient embedded devices, such as heterogeneous platforms joining\nthe ARM processor system with programmable logic (FPGA). In this work, we\npropose a hardware-software implementation of the well-known fully connected\nSiamese tracker (SiamFC). We have developed a quantised Siamese network for the\nFINN accelerator, using algorithm-accelerator co-design, and performed design\nspace exploration to achieve the best efficiency-to-energy ratio (determined by\nFPS and used resources). For our network, running in the programmable logic\npart of the Zynq UltraScale+ MPSoC ZCU104, we achieved the processing of almost\n50 frames-per-second with tracker accuracy on par with its floating point\ncounterpart, as well as the original SiamFC network. The complete tracking\nsystem, implemented in ARM with the network accelerated on FPGA, achieves up to\n17 fps. These results bring us towards bridging the gap between the highly\naccurate but energy-demanding algorithms and energy-efficient solutions ready\nto be used in low-power, edge systems.",
     "descriptor": "\nComments: Accepted for DASIP 2022 workshop\n",
     "authors": [
@@ -8600,7 +8603,7 @@
   {
     "id": "arXiv:2205.11465",
     "title": "SQuALITY: Building a Long-Document Summarization Dataset the Hard Way",
-    "abstract": "Summarization datasets are often assembled either by scraping naturally\noccurring public-domain summaries -- which are nearly always in\ndifficult-to-work-with technical domains-- or by using approximate heuristics\nto extract them from everyday text -- which frequently yields unfaithful\nsummaries. In this work, we turn to a slower but more straightforward approach\nto developing summarization benchmark data: We hire highly-qualified\ncontractors to read stories and write original summaries from scratch. To\namortize reading time, we collect five summaries per document, with the first\ngiving an overview and the subsequent four addressing specific questions. We\nuse this protocol to collect SQuALITY, a dataset of question-focused summaries\nbuilt on the same public-domain short stories as the multiple-choice dataset\nQuALITY (Pang et al., 2021). Experiments with state-of-the-art summarization\nsystems show that our dataset is challenging and that existing automatic\nevaluation metrics are weak indicators of quality.",
+    "abstract": "Summarization datasets are often assembled either by scraping naturally\noccurring public-domain summaries -- which are nearly always in\ndifficult-to-work-with technical domains -- or by using approximate heuristics\nto extract them from everyday text -- which frequently yields unfaithful\nsummaries. In this work, we turn to a slower but more straightforward approach\nto developing summarization benchmark data: We hire highly-qualified\ncontractors to read stories and write original summaries from scratch. To\namortize reading time, we collect five summaries per document, with the first\ngiving an overview and the subsequent four addressing specific questions. We\nuse this protocol to collect SQuALITY, a dataset of question-focused summaries\nbuilt on the same public-domain short stories as the multiple-choice dataset\nQuALITY (Pang et al., 2021). Experiments with state-of-the-art summarization\nsystems show that our dataset is challenging and that existing automatic\nevaluation metrics are weak indicators of quality.",
     "descriptor": "",
     "authors": [
       "Alex Wang",
@@ -14990,7 +14993,7 @@
   },
   {
     "id": "arXiv:2205.00208",
-    "title": "Security and Privacy in Virtual Reality - A Literature Survey",
+    "title": "Security and Privacy in Virtual Reality -- A Literature Survey",
     "abstract": "Comments: 15 pages, 3 figures, 4 tables",
     "descriptor": "\nComments: 15 pages, 3 figures, 4 tables\n",
     "authors": [
