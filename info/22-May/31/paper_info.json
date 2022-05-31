@@ -2266,7 +2266,7 @@
   {
     "id": "arXiv:2205.14434",
     "title": "A Theory of L-shaped Floor-plans",
-    "abstract": "Existing graph theoretic approaches are mainly restricted to floor-plans with\nrectangular boundary. In this paper, we introduce floor-plans with L-shaped\nboundary (boundary with only one concave corner). To ensure the L-shaped\nboundary, we introduce the concept of non-triviality of a floor-plan. A\nfloor-plan with a rectilinear boundary with at least one concave corner is\nnon-trivial if the number of concave corners can not be reduced, without\naffecting the modules adjacencies within it. Further, we present necessary and\nsufficient conditions for the existence of a non-trivial L-shaped floor-plan\ncorresponding to a properly triangulated planar graph (PTPG) G. Also, we\ndevelop an O(n^2) algorithm for its construction, if it exists.",
+    "abstract": "Existing graph theoretic approaches are mainly restricted to floor-plans with\nrectangular boundary. In this paper, we introduce floor-plans with $L$-shaped\nboundary (boundary with only one concave corner). To ensure the L-shaped\nboundary, we introduce the concept of non-triviality of a floor-plan. A\nfloor-plan with a rectilinear boundary with at least one concave corner is\nnon-trivial if the number of concave corners can not be reduced, without\naffecting the modules adjacencies within it. Further, we present necessary and\nsufficient conditions for the existence of a non-trivial L-shaped floor-plan\ncorresponding to a properly triangulated planar graph (PTPG) $G$. Also, we\ndevelop an $O(n^2)$ algorithm for its construction, if it exists.",
     "descriptor": "\nComments: 35 pages, 61 figures\n",
     "authors": [
       "Raveena",
@@ -5006,7 +5006,7 @@
     "id": "arXiv:2205.14846",
     "title": "Precise Learning Curves and Higher-Order Scaling Limits for Dot Product  Kernel Regression",
     "abstract": "As modern machine learning models continue to advance the computational\nfrontier, it has become increasingly important to develop precise estimates for\nexpected performance improvements under different model and data scaling\nregimes. Currently, theoretical understanding of the learning curves that\ncharacterize how the prediction error depends on the number of samples is\nrestricted to either large-sample asymptotics ($m\\to\\infty$) or, for certain\nsimple data distributions, to the high-dimensional asymptotics in which the\nnumber of samples scales linearly with the dimension ($m\\propto d$). There is a\nwide gulf between these two regimes, including all higher-order scaling\nrelations $m\\propto d^r$, which are the subject of the present paper. We focus\non the problem of kernel ridge regression for dot-product kernels and present\nprecise formulas for the test error, bias, and variance, for data drawn\nuniformly from the sphere in the $r$th-order asymptotic scaling regime\n$m\\to\\infty$ with $m/d^r$ held constant. We observe a peak in the learning\ncurve whenever $m \\approx d^r/r!$ for any integer $r$, leading to multiple\nsample-wise descent and nontrivial behavior at multiple scales.",
-    "descriptor": "\nComments: 32 pages; 4 + 3 figures;\n",
+    "descriptor": "\nComments: 32 pages; 4 + 3 figures\n",
     "authors": [
       "Lechao Xiao",
       "Jeffrey Pennington"
