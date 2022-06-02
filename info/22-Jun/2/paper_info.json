@@ -412,8 +412,7 @@
       "Yi Li",
       "Rameswar Panda",
       "Yoon Kim",
-      "Chun-Fu",
-      "Chen",
+      "Chun-Fu Chen",
       "Rogerio Feris",
       "David Cox",
       "Nuno Vasconcelos"
@@ -3452,7 +3451,7 @@
   {
     "id": "arXiv:2206.00485",
     "title": "Co-creation and ownership for AI radio",
-    "abstract": "Recent breakthroughs in AI-generated music open the door for new forms for\nco-creation and co-creativity. We present Artificial.fm, a proof-of-concept\ncasual creator that blends AI-music generation, subjective ratings, and\npersonalized recommendation for the creation and curation of AI-generated\nmusic. Listeners can rate emergent songs to steer the evolution of future\nmusic. They can also personalize their preferences to better navigate the\npossibility space. As a \"slow creator\" with many human stakeholders,\nArtificial.fm is an example of how casual creators can leverage human curation\nat scale to collectively navigate a possibility space. It also provides a case\nstudy to reflect on how ownership should be considered in these contexts. We\nreport on the design and development of Artificial.fm, and provide a legal\nanalysis on the ownership of artifacts generated on the platform.",
+    "abstract": "Recent breakthroughs in AI-generated music open the door for new forms for\nco-creation and co-creativity. We present Artificial$.\\!$fm, a proof-of-concept\ncasual creator that blends AI-music generation, subjective ratings, and\npersonalized recommendation for the creation and curation of AI-generated\nmusic. Listeners can rate emergent songs to steer the evolution of future\nmusic. They can also personalize their preferences to better navigate the\npossibility space. As a \"slow creator\" with many human stakeholders,\nArtificial$.\\!$fm is an example of how casual creators can leverage human\ncuration at scale to collectively navigate a possibility space. It also\nprovides a case study to reflect on how ownership should be considered in these\ncontexts. We report on the design and development of Artificial$.\\!$fm, and\nprovide a legal analysis on the ownership of artifacts generated on the\nplatform.",
     "descriptor": "",
     "authors": [
       "Skylar Gordon",
