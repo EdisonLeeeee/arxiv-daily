@@ -2177,7 +2177,8 @@
     "abstract": "Federated learning (FL) has emerged as an effective approach to address\nconsumer privacy needs. FL has been successfully applied to certain machine\nlearning tasks, such as training smart keyboard models and keyword spotting.\nDespite FL's initial success, many important deep learning use cases, such as\nranking and recommendation tasks, have been limited from on-device learning.\nOne of the key challenges faced by practical FL adoption for DL-based ranking\nand recommendation is the prohibitive resource requirements that cannot be\nsatisfied by modern mobile systems. We propose Federated Ensemble Learning\n(FEL) as a solution to tackle the large memory requirement of deep learning\nranking and recommendation tasks. FEL enables large-scale ranking and\nrecommendation model training on-device by simultaneously training multiple\nmodel versions on disjoint clusters of client devices. FEL integrates the\ntrained sub-models via an over-arch layer into an ensemble model that is hosted\non the server. Our experiments demonstrate that FEL leads to 0.43-2.31% model\nquality improvement over traditional on-device federated learning - a\nsignificant improvement for ranking and recommendation system use cases.",
     "descriptor": "",
     "authors": [
-      "Meisam Hejazinia Dzmitry Huba",
+      "Meisam Hejazinia",
+      "Dzmitry Huba",
       "Ilias Leontiadis",
       "Kiwan Maeng",
       "Mani Malek",
