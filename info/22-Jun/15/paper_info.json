@@ -59,7 +59,8 @@
       "Mark Stamp"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2206.06371"
   },
@@ -142,7 +143,8 @@
       "Adel Daoud"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Methodology (stat.ME)"
     ],
     "url": "https://arxiv.org/abs/2206.06410"
   },
@@ -157,7 +159,8 @@
       "Adel Daoud"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Methodology (stat.ME)"
     ],
     "url": "https://arxiv.org/abs/2206.06417"
   },
@@ -1168,7 +1171,7 @@
   {
     "id": "arXiv:2206.06583",
     "title": "Exploring evolution-based & -free protein language models as protein  function predictors",
-    "abstract": "Large-scale Protein Language Models (PLMs) have improved performance in\nprotein prediction tasks, ranging from 3D structure prediction to various\nfunction predictions. In particular, AlphaFold, a ground-breaking AI system,\ncould potentially reshape structural biology. However, the utility of the PLM\nmodule in AlphaFold, Evoformer, has not been explored beyond structure\nprediction. In this paper, we investigate the representation ability of three\npopular PLMs: ESM-1b (single sequence), MSA-Transformer (multiple sequence\nalignment) and Evoformer (structural), with a special focus on Evoformer.\nSpecifically, we aim to answer the following key questions: (\\romannumeral1)\nDoes the Evoformer trained as part of AlphaFold produce representations\namenable to predicting protein function? (\\romannumeral2) If yes, can Evoformer\nreplace ESM-1b and MSA-Transformer? (\\romannumeral3) How much do these PLMs\nrely on evolution-related protein data? In this regard, are they complementary\nto each other? We compare these models by empirical study along with new\ninsights and conclusions.Finally, we release code and datasets for\nreproducibility.",
+    "abstract": "Large-scale Protein Language Models (PLMs) have improved performance in\nprotein prediction tasks, ranging from 3D structure prediction to various\nfunction predictions. In particular, AlphaFold, a ground-breaking AI system,\ncould potentially reshape structural biology. However, the utility of the PLM\nmodule in AlphaFold, Evoformer, has not been explored beyond structure\nprediction. In this paper, we investigate the representation ability of three\npopular PLMs: ESM-1b (single sequence), MSA-Transformer (multiple sequence\nalignment) and Evoformer (structural), with a special focus on Evoformer.\nSpecifically, we aim to answer the following key questions: (i) Does the\nEvoformer trained as part of AlphaFold produce representations amenable to\npredicting protein function? (ii) If yes, can Evoformer replace ESM-1b and\nMSA-Transformer? (iii) How much do these PLMs rely on evolution-related protein\ndata? In this regard, are they complementary to each other? We compare these\nmodels by empirical study along with new insights and conclusions. Finally, we\nrelease code and datasets for reproducibility.",
     "descriptor": "",
     "authors": [
       "Mingyang Hu",
@@ -1181,8 +1184,8 @@
       "Qiuyang Ding"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
-      "Quantitative Methods (q-bio.QM)"
+      "Quantitative Methods (q-bio.QM)",
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2206.06583"
   },
@@ -1288,7 +1291,7 @@
       "Rachel N. Huls"
     ],
     "subjectives": [
-      "Computation and Language (cs.CL)",
+      "Formal Languages and Automata Theory (cs.FL)",
       "Distributed, Parallel, and Cluster Computing (cs.DC)"
     ],
     "url": "https://arxiv.org/abs/2206.06594"
@@ -1739,6 +1742,7 @@
     "subjectives": [
       "Social and Information Networks (cs.SI)",
       "Adaptation and Self-Organizing Systems (nlin.AO)",
+      "Physics and Society (physics.soc-ph)",
       "Computation (stat.CO)"
     ],
     "url": "https://arxiv.org/abs/2206.06666"
@@ -1752,7 +1756,8 @@
       "Maciej Bendkowski"
     ],
     "subjectives": [
-      "Software Engineering (cs.SE)"
+      "Software Engineering (cs.SE)",
+      "Computation (stat.CO)"
     ],
     "url": "https://arxiv.org/abs/2206.06668"
   },
@@ -1886,7 +1891,8 @@
     ],
     "subjectives": [
       "Sound (cs.SD)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2206.06680"
   },
@@ -2089,6 +2095,7 @@
       "Renato A. Krohling"
     ],
     "subjectives": [
+      "Statistical Finance (q-fin.ST)",
       "Neural and Evolutionary Computing (cs.NE)"
     ],
     "url": "https://arxiv.org/abs/2206.06723"
@@ -2133,6 +2140,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
+      "Cryptography and Security (cs.CR)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2206.06737"
@@ -2540,7 +2548,8 @@
       "Junya Honda"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2206.06810"
   },
@@ -2692,6 +2701,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
+      "Optimization and Control (math.OC)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2206.06841"
@@ -3361,7 +3371,8 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
-      "Robotics (cs.RO)"
+      "Robotics (cs.RO)",
+      "Optimization and Control (math.OC)"
     ],
     "url": "https://arxiv.org/abs/2206.06965"
   },
