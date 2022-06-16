@@ -752,7 +752,7 @@
     "abstract": "Large-scale electron microscopy (EM) datasets generated using (semi-)\nautomated microscopes are becoming the standard in EM. Given the vast amounts\nof data, manual analysis of all data is not feasible, thus automated analysis\nis crucial. The main challenges in automated analysis include the annotation\nthat is needed to analyse and interpret biomedical images, coupled with\nachieving high-throughput. Here, we review the current state-of-the-art of\nautomated computer techniques and major challenges for the analysis of\nstructures in cellular EM. The advanced computer vision, deep learning and\nsoftware tools that have been developed in the last five years for automatic\nbiomedical image analysis are discussed with respect to annotation,\nsegmentation and scalability for EM data. Integration of automatic image\nacquisition and analysis will allow for high-throughput analysis of\nmillimeter-range datasets with nanometer resolution.",
     "descriptor": "",
     "authors": [
-      "Anusha Aswatha",
+      "Anusha Aswath",
       "Ahmad Alsahaf",
       "Ben N. G. Giepmans",
       "George Azzopardi"
@@ -3527,7 +3527,6 @@
     "subjectives": [
       "Robotics (cs.RO)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Databases (cs.DB)",
       "Human-Computer Interaction (cs.HC)",
       "Machine Learning (cs.LG)"
     ],
