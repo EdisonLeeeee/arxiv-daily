@@ -4612,8 +4612,7 @@
       "Yuxiang Yang"
     ],
     "subjectives": [
-      "Quantum Physics (quant-ph)",
-      "Logic in Computer Science (cs.LO)"
+      "Quantum Physics (quant-ph)"
     ],
     "url": "https://arxiv.org/abs/2206.08588"
   },
@@ -5035,7 +5034,7 @@
   },
   {
     "id": "arXiv:2206.08901",
-    "title": "SYMBA: Symbolic Computation of Squared Amplitudes in High Energy Physics  with Machine ALearning",
+    "title": "SYMBA: Symbolic Computation of Squared Amplitudes in High Energy Physics  with Machine Learning",
     "abstract": "The cross section is one of the most important physical quantities in\nhigh-energy physics and the most time consuming to compute. While machine\nlearning has proven to be highly successful in numerical calculations in\nhigh-energy physics, analytical calculations using machine learning are still\nin their infancy. In this work, we use a sequence-to-sequence transformer model\nto compute a key element of the cross section calculation, namely, the squared\namplitude of an interaction. We show that a transformer model is able to\npredict correctly 89.0% and 99.4% of squared amplitudes of QCD and QED\nprocesses, respectively. We discuss the performance of the current model, its\nlimitations and possible future directions for this work.",
     "descriptor": "",
     "authors": [
