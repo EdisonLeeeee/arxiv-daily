@@ -9869,7 +9869,7 @@
     "abstract": "As of writing this paper, COVID-19 (Coronavirus disease 2019) has spread to\nmore than 220 countries and territories. Following the outbreak, the pandemic's\nseriousness has made people more active on social media, especially on the\nmicroblogging platforms such as Twitter and Weibo. The pandemic-specific\ndiscourse has remained on-trend on these platforms for months now. Previous\nstudies have confirmed the contributions of such socially generated\nconversations towards situational awareness of crisis events. The early\nforecasts of cases are essential to authorities to estimate the requirements of\nresources needed to cope with the outgrowths of the virus. Therefore, this\nstudy attempts to incorporate the public discourse in the design of forecasting\nmodels particularly targeted for the steep-hill region of an ongoing wave. We\npropose a sentiment-involved topic-based methodology for designing multiple\ntime series from publicly available COVID-19 related Twitter conversations. As\na use case, we implement the proposed methodology on Australian COVID-19 daily\ncases and Twitter conversations generated within the country. Experimental\nresults: (i) show the presence of latent social media variables that\nGranger-cause the daily COVID-19 confirmed cases, and (ii) confirm that those\nvariables offer additional prediction capability to forecasting models.\nFurther, the results show that the inclusion of social media variables for\nmodeling introduces 48.83--51.38% improvements on RMSE over the baseline\nmodels. We also release the large-scale COVID-19 specific geotagged global\ntweets dataset, MegaGeoCOV, to the public anticipating that the geotagged data\nof this scale would aid in understanding the conversational dynamics of the\npandemic through other spatial and temporal contexts.",
     "descriptor": "\nComments: Preprint under review at an Elsevier Journal\n",
     "authors": [
-      "Rabindra Lamsala",
+      "Rabindra Lamsal",
       "Aaron Harwood",
       "Maria Rodriguez Read"
     ],
@@ -10440,7 +10440,6 @@
     ],
     "subjectives": [
       "Discrete Mathematics (cs.DM)",
-      "Logic in Computer Science (cs.LO)",
       "Combinatorics (math.CO)"
     ],
     "url": "https://arxiv.org/abs/2206.10557"
