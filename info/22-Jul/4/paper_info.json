@@ -4129,7 +4129,7 @@
     "abstract": "Our main goal in this study is to propose a transfer learning based method\nfor COVID-19 detection from Computed Tomography (CT) images. The transfer\nlearning model used for the task is a pretrained Xception model. Both model\narchitecture and pre-trained weights on ImageNet were used. The resulting\nmodified model was trained with 128 batch size and 224x224, 3 channeled input\nimages, converted from original 512x512, grayscale images. The dataset used is\na the COV19-CT-DB. Labels in the dataset include COVID-19 cases and\nNon-COVID-19 cases for COVID-1919 detection. Firstly, a accuracy and loss on\nthe validation partition of the dataset as well as precision recall and macro\nF1 score were used to measure the performance of the proposed method. The\nresulting Macro F1 score on the validation set exceeded the baseline model.",
     "descriptor": "",
     "authors": [
-      "Kenan Mornai",
+      "Kenan Morani",
       "Muhammet Fatih Balikci",
       "Tayfun Yigit Altuntas",
       "Devrim Unay"
