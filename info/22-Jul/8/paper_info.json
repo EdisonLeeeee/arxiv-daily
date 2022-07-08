@@ -2431,7 +2431,7 @@
   },
   {
     "id": "arXiv:2207.03247",
-    "title": "Local Inversion of maps:\\\\Black box Cryptanalysis",
+    "title": "Local Inversion of maps: Black box Cryptanalysis",
     "abstract": "This paper is a short summery of results announced in a previous paper on a\nnew universal method for Cryptanalysis which uses a Black Box linear algebra\napproach to computation of local inversion of nonlinear maps in finite fields.\nIt is shown that one local inverse $x$ of the map equation $y=F(x)$ can be\ncomputed by using the minimal polynomial of the sequence $y(k)$ defined by\niterates (or recursion) $y(k+1)=F(y(k))$ with $y(0)=y$ when the sequence is\nperiodic. This is the only solution in the periodic orbit of the map $F$.\nFurther, when the degree of the minimal polynomial is of polynomial order in\nnumber of bits of the input of $F$ (called low complexity case), the solution\ncan be computed in polynomial time. The method of computation only uses the\nforward computations $F(y)$ for given $y$ which is why this is called a Black\nBox approach. Application of this approach is then shown for cryptanalysis of\nseveral maps arising in cryptographic primitives. It is shown how in the low\ncomplexity cases maps defined by block and stream ciphers can be inverted to\nfind the symmetric key under known plaintext attack. Then it is shown how RSA\nmap can be inverted to find the plaintext as well as an equivalent private key\nto break the RSA algorithm without factoring the modulus. Finally it is shown\nthat the discrete log computation in finite field and elliptic curves can be\nformulated as a local inversion problem and the low complexity cases can be\nsolved in polynomial time.",
     "descriptor": "\nComments: 13 pages. Summery and comprehension of a previous paper arxiv.org/abs/2202.06584v2\n",
     "authors": [
@@ -3469,7 +3469,7 @@
     "descriptor": "\nComments: 39 pages\n",
     "authors": [
       "Martin Odersky",
-      "Aleksander Boruch Grusciezki",
+      "Aleksander Boruch-Gruszecki",
       "Edward Lee",
       "Jonathan Brachth\u00e4user",
       "Ond\u0159ej Lhot\u00e1k"
