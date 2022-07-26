@@ -28,7 +28,8 @@
       "Jiang Bian"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (stat.ML)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2207.11251"
   },
@@ -382,7 +383,6 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
       "Distributed, Parallel, and Cluster Computing (cs.DC)",
       "Chemical Physics (physics.chem-ph)",
       "Computational Physics (physics.comp-ph)"
@@ -523,6 +523,7 @@
       "Mohamad Habes"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2207.11352"
@@ -1084,6 +1085,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
+      "Artificial Intelligence (cs.AI)",
       "Systems and Control (eess.SY)"
     ],
     "url": "https://arxiv.org/abs/2207.11432"
@@ -1400,7 +1402,8 @@
       "Dejan Vukobratovic"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2207.11465"
   },
@@ -1605,7 +1608,9 @@
       "Anu Mary Chacko"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Information Retrieval (cs.IR)",
+      "Social and Information Networks (cs.SI)"
     ],
     "url": "https://arxiv.org/abs/2207.11490"
   },
@@ -1869,7 +1874,8 @@
       "Jing Guo"
     ],
     "subjectives": [
-      "Emerging Technologies (cs.ET)"
+      "Emerging Technologies (cs.ET)",
+      "Quantum Physics (quant-ph)"
     ],
     "url": "https://arxiv.org/abs/2207.11525"
   },
@@ -1925,7 +1931,9 @@
       "Kyung-Su Kim"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Image and Video Processing (eess.IV)",
+      "Artificial Intelligence (cs.AI)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2207.11534"
   },
@@ -2191,7 +2199,8 @@
       "Abbas Yongacoglu"
     ],
     "subjectives": [
-      "Systems and Control (eess.SY)"
+      "Systems and Control (eess.SY)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2207.11576"
   },
@@ -3058,7 +3067,9 @@
       "Jie Hao"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2207.11697"
   },
@@ -3254,7 +3265,8 @@
       "Yongzhen Huang"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2207.11720"
   },
@@ -3268,7 +3280,8 @@
       "Yifan Liu"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2207.11722"
   },
@@ -3361,7 +3374,8 @@
       "Yukiko Kato"
     ],
     "subjectives": [
-      "Information Theory (cs.IT)"
+      "Artificial Intelligence (cs.AI)",
+      "Computer Science and Game Theory (cs.GT)"
     ],
     "url": "https://arxiv.org/abs/2207.11733"
   },
@@ -3940,7 +3954,8 @@
       "Alfredo Vaccaro"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2207.11803"
   },
@@ -4690,10 +4705,11 @@
     "descriptor": "",
     "authors": [
       "Valentina N. Aleeva",
-      "Rifkhat Zh. Aleev}"
+      "Rifkhat Zh. Aleev"
     ],
     "subjectives": [
-      "Computational Complexity (cs.CC)"
+      "Computational Complexity (cs.CC)",
+      "Numerical Analysis (math.NA)"
     ],
     "url": "https://arxiv.org/abs/2207.11915"
   },
@@ -6783,7 +6799,8 @@
       "Donghwan Lee"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2207.12217"
   },
@@ -6829,7 +6846,8 @@
       "Andrea Saltelli"
     ],
     "subjectives": [
-      "General Literature (cs.GL)"
+      "General Literature (cs.GL)",
+      "History and Overview (math.HO)"
     ],
     "url": "https://arxiv.org/abs/2207.12230"
   },
@@ -7561,7 +7579,8 @@
       "Tao Shu"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2207.12327"
   },
