@@ -3014,7 +3014,7 @@
     "abstract": "A class of linear codes that extends classic Goppa codes to a non-commutative\ncontext is defined. An efficient decoding algorithm, based on the solution of a\nnon-commutative key equation, is designed. We show how the parameters of these\ncodes, when the alphabet is a finite field, may be adjusted to propose a\nMcEliece-type cryptosystem.",
     "descriptor": "",
     "authors": [
-      "Jos\u00e9 G\u00f3mez Torrecillas",
+      "Jos\u00e9 G\u00f3mez-Torrecillas",
       "F. J. Lobillo",
       "Gabriel Navarro"
     ],
