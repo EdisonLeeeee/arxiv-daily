@@ -2338,7 +2338,9 @@
     "abstract": "With the advent and popularity of big data mining and huge text analysis in\nmodern times, automated text summarization became prominent for extracting and\nretrieving important information from documents. This research investigates\naspects of automatic text summarization from the perspectives of single and\nmultiple documents. Summarization is a task of condensing huge text articles\ninto short, summarized versions. The text is reduced in size for summarization\npurpose but preserving key vital information and retaining the meaning of the\noriginal document. This study presents the Latent Dirichlet Allocation (LDA)\napproach used to perform topic modelling from summarised medical science\njournal articles with topics related to genes and diseases. In this study,\nPyLDAvis web-based interactive visualization tool was used to visualise the\nselected topics. The visualisation provides an overarching view of the main\ntopics while allowing and attributing deep meaning to the prevalence individual\ntopic. This study presents a novel approach to summarization of single and\nmultiple documents. The results suggest the terms ranked purely by considering\ntheir probability of the topic prevalence within the processed document using\nextractive summarization technique. PyLDAvis visualization describes the\nflexibility of exploring the terms of the topics' association to the fitted LDA\nmodel. The topic modelling result shows prevalence within topics 1 and 2. This\nassociation reveals that there is similarity between the terms in topic 1 and 2\nin this study. The efficacy of the LDA and the extractive summarization methods\nwere measured using Latent Semantic Analysis (LSA) and Recall-Oriented\nUnderstudy for Gisting Evaluation (ROUGE) metrics to evaluate the reliability\nand validity of the model.",
     "descriptor": "\nComments: 11 pages, 7 figures, 5 tables\n",
     "authors": [
-      "Daniel F.O. Onah"
+      "Daniel F. O. Onah",
+      "Elaine L. L. Pang",
+      "Mahmoud El-Haj"
     ],
     "subjectives": [
       "Information Retrieval (cs.IR)",
