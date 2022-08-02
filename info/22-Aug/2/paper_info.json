@@ -7309,7 +7309,8 @@
     "abstract": "Integrating low-power wearable Internet of Things (IoT) systems into routine\nhealth monitoring is an ongoing challenge. Recent advances in the computation\ncapabilities of wearables make it possible to target complex scenarios by\nexploiting multiple biosignals and using high-performance algorithms, such as\nDeep Neural Networks (DNNs). There is, however, a trade-off between performance\nof the algorithms and the low-power requirements of IoT platforms with limited\nresources. Besides, physically larger and multi-biosignal-based wearables bring\nsignificant discomfort to the patients. Consequently, reducing power\nconsumption and discomfort is necessary for patients to use IoT devices\ncontinuously during everyday life. To overcome these challenges, in the context\nof epileptic seizure detection, we propose a many-to-one signals knowledge\ndistillation approach targeting single-biosignal processing in IoT wearable\nsystems. The starting point is to get a highly-accurate multi-biosignal DNN,\nthen apply our approach to develop a single-biosignal DNN solution for IoT\nsystems that achieves an accuracy comparable to the original multi-biosignal\nDNN. To assess the practicality of our approach to real-life scenarios, we\nperform a comprehensive simulation experiment analysis on several\nstate-of-the-art edge computing platforms, such as Kendryte K210 and Raspberry\nPi Zero.",
     "descriptor": "",
     "authors": [
-      "Saleh Baghersalimi. Alireza Amirshahi",
+      "Saleh Baghersalimi",
+      "Alireza Amirshahi",
       "Farnaz Forooghifar",
       "Tomas Teijeiro",
       "Amir Aminifar",
