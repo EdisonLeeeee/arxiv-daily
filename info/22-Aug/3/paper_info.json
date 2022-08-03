@@ -2043,7 +2043,7 @@
       "Vijay K. Garg"
     ],
     "subjectives": [
-      "Software Engineering (cs.SE)",
+      "Data Structures and Algorithms (cs.DS)",
       "Distributed, Parallel, and Cluster Computing (cs.DC)"
     ],
     "url": "https://arxiv.org/abs/2208.01370"
@@ -2377,7 +2377,7 @@
     "id": "arXiv:2208.01424",
     "title": "Connection Reduction Is All You Need",
     "abstract": "Convolutional Neural Networks (CNN) increase depth by stacking convolutional\nlayers, and deeper network models perform better in image recognition.\nEmpirical research shows that simply stacking convolutional layers does not\nmake the network train better, and skip connection (residual learning) can\nimprove network model performance. For the image classification task, models\nwith global densely connected architectures perform well in large datasets like\nImageNet, but are not suitable for small datasets such as CIFAR-10 and SVHN.\nDifferent from dense connections, we propose two new algorithms to connect\nlayers. Baseline is a densely connected network, and the networks connected by\nthe two new algorithms are named ShortNet1 and ShortNet2 respectively. The\nexperimental results of image classification on CIFAR-10 and SVHN show that\nShortNet1 has a 5% lower test error rate and 25% faster inference time than\nBaseline. ShortNet2 speeds up inference time by 40% with less loss in test\naccuracy.",
-    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:1901.11504 by other authors\n",
+    "descriptor": "",
     "authors": [
       "Rui-Yang Ju",
       "Jen-Shiun Chiang"
@@ -2548,7 +2548,6 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Computational Engineering, Finance, and Science (cs.CE)",
       "Computational Physics (physics.comp-ph)",
       "Data Analysis, Statistics and Probability (physics.data-an)"
     ],
@@ -3792,7 +3791,6 @@
     ],
     "subjectives": [
       "Statistical Finance (q-fin.ST)",
-      "Computational Engineering, Finance, and Science (cs.CE)",
       "Econometrics (econ.EM)",
       "Data Analysis, Statistics and Probability (physics.data-an)",
       "Applications (stat.AP)"
@@ -4067,8 +4065,8 @@
   {
     "id": "arXiv:1907.09415",
     "title": "Quantum Computing: Lecture Notes",
-    "abstract": "Comments: 201 pages. Version 4: added a new chapter about quantum machine learning, more exercises, and many small improvements of the text throughout. arXiv admin note: text overlap with arXiv:1406.5121, arXiv:1409.2918, arXiv:1408.2427, arXiv:1611.02302, arXiv:1512.02942 by other authors",
-    "descriptor": "\nComments: 201 pages. Version 4: added a new chapter about quantum machine learning, more exercises, and many small improvements of the text throughout. arXiv admin note: text overlap with arXiv:1406.5121, arXiv:1409.2918, arXiv:1408.2427, arXiv:1611.02302, arXiv:1512.02942 by other authors\n",
+    "abstract": "Comments: 201 pages. Version 4: added a new chapter about quantum machine learning, more exercises, and many small improvements of the text throughout",
+    "descriptor": "\nComments: 201 pages. Version 4: added a new chapter about quantum machine learning, more exercises, and many small improvements of the text throughout\n",
     "authors": [
       "Ronald de Wolf"
     ],
