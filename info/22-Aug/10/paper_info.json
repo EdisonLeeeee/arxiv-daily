@@ -2774,9 +2774,9 @@
     "abstract": "Acceleration of urbanisation is posing great challenges to sustainable\ndevelopment. Growing accessibility to big data and artificial intelligence (AI)\ntechnologies have revolutionised many fields and offered great potential for\naddressing pressing urban problems. However, using these technologies without\nexplicitly considering responsibilities would bring new societal and\nenvironmental issues. To fully harness the potential of big data and AI without\ncreating new problems, we envisage a conceptual framework of Responsible Urban\nIntelligence (RUI) and advocate an agenda for action. We first define RUI as\nconsisting of three major components including urban problems, enabling\ntechnologies, and responsibilities; then introduce transparency, fairness, and\neco-friendliness as the three dimensions of responsibilities which naturally\nlink with the human, space, and time dimensions of cities; and further develop\na four-stage implementation framework for responsibilities as consisting of\nsolution design, data preparation, model building, and practical application;\nand finally present a research agenda for RUI addressing challenging issues\nincluding data and model transparency, tension between performance and\nfairness, and solving urban problems in an eco-friendly manner.",
     "descriptor": "",
     "authors": [
-      "Cao Rui",
-      "Gao Qili",
-      "Qiu Guoping"
+      "Rui Cao",
+      "Qili Gao",
+      "Guoping Qiu"
     ],
     "subjectives": [
       "Computers and Society (cs.CY)"
@@ -3033,9 +3033,7 @@
     ],
     "subjectives": [
       "Computers and Society (cs.CY)",
-      "Databases (cs.DB)",
-      "Human-Computer Interaction (cs.HC)",
-      "Software Engineering (cs.SE)"
+      "Human-Computer Interaction (cs.HC)"
     ],
     "url": "https://arxiv.org/abs/2208.04761"
   },
