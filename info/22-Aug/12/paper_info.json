@@ -1544,8 +1544,7 @@
       "Claudio J. Tessone"
     ],
     "subjectives": [
-      "Cryptography and Security (cs.CR)",
-      "Data Analysis, Statistics and Probability (physics.data-an)"
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2208.05748"
   },
@@ -2858,7 +2857,6 @@
     ],
     "subjectives": [
       "Machine Learning (stat.ML)",
-      "Computational Engineering, Finance, and Science (cs.CE)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2208.05667"
@@ -2867,7 +2865,7 @@
     "id": "arXiv:2208.05693",
     "title": "Dynamics of cold random hyperbolic graphs with link persistence",
     "abstract": "We consider and analyze a dynamic model of random hyperbolic graphs with link\npersistence. In the model, both connections and disconnections can be\npropagated from the current to the next snapshot with probability $\\omega \\in\n[0, 1)$. Otherwise, with probability $1-\\omega$, connections are reestablished\naccording to the random hyperbolic graphs model. We show that while the\npersistence probability $\\omega$ affects the averages of the contact and\nintercontact distributions, it does not affect the tails of these\ndistributions, which decay as power laws with exponents that do not depend on\n$\\omega$. We also consider examples of real temporal networks and show that the\nconsidered model can adequately reproduce several of their dynamical\nproperties. Our results advance our understanding of realistically modeling of\ntemporal networks and of the effects of link persistence.",
-    "descriptor": "\nComments: 13 pages, 7 figures. arXiv admin note: text overlap with arXiv:1907.00073\n",
+    "descriptor": "\nComments: 13 pages, 7 figures. Generalizes the model in arXiv:1907.00073\n",
     "authors": [
       "Sofoclis Zambirinis",
       "Harrison Hartle",
