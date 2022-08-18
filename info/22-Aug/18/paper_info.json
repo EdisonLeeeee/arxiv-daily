@@ -4151,7 +4151,7 @@
     "id": "arXiv:2208.08343",
     "title": "Transferability limitations for Covid 3D Localization Using SARS-CoV-2  segmentation models in 4D CT images",
     "abstract": "In this paper, we investigate the transferability limitations when using deep\nlearning models, for semantic segmentation of pneumonia-infected areas in CT\nimages. The proposed approach adopts a 4 channel input; 3 channels based on\nHounsfield scale, plus one channel (binary) denoting the lung area. We used 3\ndifferent, publicly available, CT datasets. If the lung area mask was not\navailable, a deep learning model generates a proxy image. Experimental results\nsuggesting that transferability should be used carefully, when creating Covid\nsegmentation models; retraining the model more than one times in large sets of\ndata results in a decrease in segmentation accuracy.",
-    "descriptor": "\nComments: arXiv:2205.02152v4\n",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2205.02152\n",
     "authors": [
       "Constantine Maganaris",
       "Eftychios Protopapadakis",
