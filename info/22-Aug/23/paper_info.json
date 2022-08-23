@@ -2079,8 +2079,7 @@
     ],
     "subjectives": [
       "Computation and Language (cs.CL)",
-      "Artificial Intelligence (cs.AI)",
-      "General Literature (cs.GL)"
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2208.09770"
   },
@@ -4960,7 +4959,8 @@
     ],
     "subjectives": [
       "Computation and Language (cs.CL)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Biomolecules (q-bio.BM)"
     ],
     "url": "https://arxiv.org/abs/2208.10228"
   },
