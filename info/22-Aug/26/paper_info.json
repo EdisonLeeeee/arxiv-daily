@@ -3134,7 +3134,7 @@
     "abstract": "The evolution of parallel I/O library as well as new concepts such as 'in\ntransit' and 'in situ' visualization and analysis have been identified as key\ntechnologies to circumvent I/O bottleneck in pre-exascale applications.\nNevertheless, data structure and data format can also be improved for both\nreducing I/O volume and improving data interoperability between data producer\nand data consumer. In this paper, we propose a very lightweight and\npurpose-specific post-processing data model for AMR meshes, called lightAMR.\nBased on this data model, we introduce a tree pruning algorithm that removes\ndata redundancy from a fully threaded AMR octree. In addition, we present two\nlossless compression algorithms, one for the AMR grid structure description and\none for AMR double/single precision physical quantity scalar fields. Then we\npresent performance benchmarks on RAMSES simulation datasets of this new\nlightAMR data model and the pruning and compression algorithms. We show that\nour pruning algorithm can reduce the total number of cells from RAMSES AMR\ndatasets by 10-40% without loss of information. Finally, we show that the\nRAMSES AMR grid structure can be compacted by ~ 3 orders of magnitude and the\nfloat scalar fields can be compressed by a factor ~ 1.2 for double precision\nand ~ 1.3 - 1.5 in single precision with a compression speed of ~ 1 GB/s.",
     "descriptor": "\nComments: 11 pages, 7 figures, accepted for publication in Journal of Computational Physics\n",
     "authors": [
-      "Lo\u00efc Straffela",
+      "Lo\u00efc Strafella",
       "Damien Chapon"
     ],
     "subjectives": [
