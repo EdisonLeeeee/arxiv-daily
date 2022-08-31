@@ -3757,7 +3757,7 @@
   },
   {
     "id": "arXiv:2208.14426",
-    "title": "Correct-by-Construction Runtime Enforcement in AI - A Survey",
+    "title": "Correct-by-Construction Runtime Enforcement in AI -- A Survey",
     "abstract": "Runtime enforcement refers to the theories, techniques, and tools for\nenforcing correct behavior with respect to a formal specification of systems at\nruntime. In this paper, we are interested in techniques for constructing\nruntime enforcers for the concrete application domain of enforcing safety in\nAI. We discuss how safety is traditionally handled in the field of AI and how\nmore formal guarantees on the safety of a self-learning agent can be given by\nintegrating a runtime enforcer. We survey a selection of work on such\nenforcers, where we distinguish between approaches for discrete and continuous\naction spaces. The purpose of this paper is to foster a better understanding of\nadvantages and limitations of different enforcement techniques, focusing on the\nspecific challenges that arise due to their application in AI. Finally, we\npresent some open challenges and avenues for future work.",
     "descriptor": "",
     "authors": [
