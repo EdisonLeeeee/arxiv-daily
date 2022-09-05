@@ -2009,7 +2009,7 @@
     "id": "arXiv:2209.01018",
     "title": "Normalization effects on deep neural networks",
     "abstract": "We study the effect of normalization on the layers of deep neural networks of\nfeed-forward type. A given layer $i$ with $N_{i}$ hidden units is allowed to be\nnormalized by $1/N_{i}^{\\gamma_{i}}$ with $\\gamma_{i}\\in[1/2,1]$ and we study\nthe effect of the choice of the $\\gamma_{i}$ on the statistical behavior of the\nneural network's output (such as variance) as well as on the test accuracy on\nthe MNIST data set. We find that in terms of variance of the neural network's\noutput and test accuracy the best choice is to choose the $\\gamma_{i}$'s to be\nequal to one, which is the mean-field scaling. We also find that this is\nparticularly true for the outer layer, in that the neural network's behavior is\nmore sensitive in the scaling of the outer layer as opposed to the scaling of\nthe inner layers. The mechanism for the mathematical analysis is an asymptotic\nexpansion for the neural network's output. An important practical consequence\nof the analysis is that it provides a systematic and mathematically informed\nway to choose the learning rate hyperparameters. Such a choice guarantees that\nthe neural network behaves in a statistically robust way as the $N_i$ grow to\ninfinity.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2011.10487\n",
     "authors": [
       "Jiahui Yu",
       "Konstantinos Spiliopoulos"
