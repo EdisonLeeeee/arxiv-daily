@@ -2477,9 +2477,9 @@
   },
   {
     "id": "arXiv:2209.01100",
-    "title": "Property inference attack; Graph neural networks; Privacy attacks and  defense; Trustworthy machine learning",
+    "title": "Group Property Inference Attacks Against Graph Neural Networks",
     "abstract": "With the fast adoption of machine learning (ML) techniques, sharing of ML\nmodels is becoming popular. However, ML models are vulnerable to privacy\nattacks that leak information about the training data. In this work, we focus\non a particular type of privacy attacks named property inference attack (PIA)\nwhich infers the sensitive properties of the training data through the access\nto the target ML model. In particular, we consider Graph Neural Networks (GNNs)\nas the target model, and distribution of particular groups of nodes and links\nin the training graph as the target property. While the existing work has\ninvestigated PIAs that target at graph-level properties, no prior works have\nstudied the inference of node and link properties at group level yet.\nIn this work, we perform the first systematic study of group property\ninference attacks (GPIA) against GNNs. First, we consider a taxonomy of threat\nmodels under both black-box and white-box settings with various types of\nadversary knowledge, and design six different attacks for these settings. We\nevaluate the effectiveness of these attacks through extensive experiments on\nthree representative GNN models and three real-world graphs. Our results\ndemonstrate the effectiveness of these attacks whose accuracy outperforms the\nbaseline approaches. Second, we analyze the underlying factors that contribute\nto GPIA's success, and show that the target model trained on the graphs with or\nwithout the target property represents some dissimilarity in model parameters\nand/or model outputs, which enables the adversary to infer the existence of the\nproperty. Further, we design a set of defense mechanisms against the GPIA\nattacks, and demonstrate that these mechanisms can reduce attack accuracy\neffectively with small loss on GNN model accuracy.",
-    "descriptor": "\nComments: To appear in ACM Conference on Computer and Communications Security (CCS), 2022\n",
+    "descriptor": "\nComments: Full version of the ACM CCS'22 paper\n",
     "authors": [
       "Xiuling Wang",
       "Wendy Hui Wang"
