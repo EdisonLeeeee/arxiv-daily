@@ -1219,7 +1219,7 @@
     "id": "arXiv:2209.04683",
     "title": "Simple and Effective Gradient-Based Tuning of Sequence-to-Sequence  Models",
     "abstract": "Recent trends towards training ever-larger language models have substantially\nimproved machine learning performance across linguistic tasks. However, the\nhuge cost of training larger models can make tuning them prohibitively\nexpensive, motivating the study of more efficient methods. Gradient-based\nhyper-parameter optimization offers the capacity to tune hyper-parameters\nduring training, yet has not previously been studied in a sequence-to-sequence\nsetting. We apply a simple and general gradient-based hyperparameter\noptimization method to sequence-to-sequence tasks for the first time,\ndemonstrating both efficiency and performance gains over strong baselines for\nboth Neural Machine Translation and Natural Language Understanding (NLU) tasks\n(via T5 pretraining). For translation, we show the method generalizes across\nlanguage pairs, is more efficient than Bayesian hyper-parameter optimization,\nand that learned schedules for some hyper-parameters can out-perform even\noptimal constant-valued tuning. For T5, we show that learning hyper-parameters\nduring pretraining can improve performance across downstream NLU tasks. When\nlearning multiple hyper-parameters concurrently, we show that the global\nlearning rate can follow a schedule over training that improves performance and\nis not explainable by the `short-horizon bias' of greedy methods\n\\citep{wu2018}. We release the code used to facilitate further research.",
-    "descriptor": "\nComments: 18 pages, 6 figures, Accepted to AutoML 2022\n",
+    "descriptor": "\nComments: 18 pages, 6 figures, In Proceedings of AutoML 2022 (Workshop track), Baltimore, MD, USA\n",
     "authors": [
       "Jared Lichtarge",
       "Chris Alberti",
@@ -2164,7 +2164,7 @@
   {
     "id": "arXiv:2209.04846",
     "title": "Joint Activity Detection and Channel Estimation for Massive IoT Access  Based on Millimeter-Wave/Terahertz Multi-Panel Massive MIMO",
-    "abstract": "The multi-panel array, as a state-of-the-art antennain- package technology,\nis very suitable for millimeter-wave (mmWave)/terahertz (THz) systems, due to\nits low-cost deployment and scalable configuration. But in the context of\nnonuniform array structures it leads to intractable signal processing. Based on\nsuch an array structure at the base station, this paper investigates a joint\nactive user detection (AUD) and channel estimation (CE) scheme based on\ncompressive sensing (CS) for application to the massive Internet of Things\n(IoT). Specifically, by exploiting the structured sparsity of mmWave/THz\nmassive IoT access channels, we firstly formulate the multi-panel massive\nmultiple-input multiple-output (mMIMO)-based joint AUD and CE problem as a\nmultiple measurement vector (MMV)- CS problem. Then, we harness the expectation\nmaximization (EM) algorithm to learn the prior parameters (i.e., the noise\nvariance and the sparsity ratio) and an orthogonal approximate message passing\n(OAMP)-EM-MMV algorithm is developed to solve this problem. Our simulation\nresults verify the improved AUD and CE performance of the proposed scheme\ncompared to conventional CS-based algorithms.",
+    "abstract": "The multi-panel array, as a state-of-the-art antenna-in-package technology,\nis very suitable for millimeter-wave (mmWave)/terahertz (THz) systems, due to\nits low-cost deployment and scalable configuration. But in the context of\nnonuniform array structures it leads to intractable signal processing. Based on\nsuch an array structure at the base station, this paper investigates a joint\nactive user detection (AUD) and channel estimation (CE) scheme based on\ncompressive sensing (CS) for application to the massive Internet of Things\n(IoT). Specifically, by exploiting the structured sparsity of mmWave/THz\nmassive IoT access channels, we firstly formulate the multi-panel massive\nmultiple-input multiple-output (mMIMO)-based joint AUD and CE problem as a\nmultiple measurement vector (MMV)-CS problem. Then, we harness the expectation\nmaximization (EM) algorithm to learn the prior parameters (i.e., the noise\nvariance and the sparsity ratio) and an orthogonal approximate message passing\n(OAMP)-EM-MMV algorithm is developed to solve this problem. Our simulation\nresults verify the improved AUD and CE performance of the proposed scheme\ncompared to conventional CS-based algorithms.",
     "descriptor": "\nComments: accepted by IEEE Transactions on Vehicular Technology\n",
     "authors": [
       "Hanlin Xiu",
@@ -3999,7 +3999,7 @@
     "id": "arXiv:2209.05133",
     "title": "Operation and Design of Ferroelectric FETs for a BEOL Compatible Device  Implementation",
     "abstract": "We present a study based on numerical simulations and comparative analysis of\nrecent experimental data concerning the operation and design of FeFETs. Our\nresults show that a proper consideration of charge trapping in the\nferroelectric-dielectric stack is indispensable to reconcile simulations with\nexperiments, and to attain the desired hysteretic behavior of the\ncurrent-voltage characteristics. Then we analyze a few design options for\npolysilicon channel FeFETs and, in particular, we study the influence of the\nchannel thickness and doping concentration on the memory window, and on the\nratio between the polarization dependent, high and low resistance state.",
-    "descriptor": "\nComments: \\copyright 2021 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works\n",
+    "descriptor": "",
     "authors": [
       "Daniel Lizzit",
       "David Esseni"
@@ -6912,7 +6912,7 @@
   },
   {
     "id": "arXiv:2209.04941",
-    "title": "Synthetic Wavelength Imaging - Utilizing Spectral Correlations for  High-Precision Time-of-Flight Sensing",
+    "title": "Synthetic Wavelength Imaging -- Utilizing Spectral Correlations for  High-Precision Time-of-Flight Sensing",
     "abstract": "This book chapter describes how spectral correlations in scattered light\nfields can be utilized for high-precision time-of-flight sensing. The chapter\nshould serve as a gentle introduction and is intended for computational imaging\nscientists and students new to the fascinating topic of synthetic wavelength\nimaging. Technical details (such as detector or light source specifications)\nwill be largely omitted. Instead, the similarities between different methods\nwill be emphasized to \"draw the bigger picture.\"",
     "descriptor": "",
     "authors": [
@@ -7912,8 +7912,8 @@
   {
     "id": "arXiv:2103.04131",
     "title": "Omni-swarm: A Decentralized Omnidirectional Visual-Inertial-UWB State  Estimation System for Aerial Swarms",
-    "abstract": "Comments: The paper is accepted by IEEE Transactions on Robotics (T-RO)",
-    "descriptor": "\nComments: The paper is accepted by IEEE Transactions on Robotics (T-RO)\n",
+    "abstract": "Comments: The paper is accepted by IEEE Transactions on Robotics (T-RO, 2022)",
+    "descriptor": "\nComments: The paper is accepted by IEEE Transactions on Robotics (T-RO, 2022)\n",
     "authors": [
       "Hao Xu",
       "Yichen Zhang",
@@ -8116,8 +8116,8 @@
   {
     "id": "arXiv:2105.10280",
     "title": "Near-Optimal Design of Safe Output Feedback Controllers from Noisy Data",
-    "abstract": "Comments: Baiwei Guo and Andrea Martin contributed equally to this work",
-    "descriptor": "\nComments: Baiwei Guo and Andrea Martin contributed equally to this work\n",
+    "abstract": "Comments: Baiwei Guo and Andrea Martin contributed equally to this work. in IEEE Transactions on Automatic Control, 2022",
+    "descriptor": "\nComments: Baiwei Guo and Andrea Martin contributed equally to this work. in IEEE Transactions on Automatic Control, 2022\n",
     "authors": [
       "Luca Furieri",
       "Baiwei Guo",
@@ -9291,8 +9291,8 @@
   {
     "id": "arXiv:2203.00913",
     "title": "A Principled Design of Image Representation: Towards Forensic Tasks",
-    "abstract": "Comments: Accepted by IEEE TPAMI this https URL",
-    "descriptor": "\nComments: Accepted by IEEE TPAMI this https URL\n",
+    "abstract": "Comments: Accepted by in IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022 this https URL",
+    "descriptor": "\nComments: Accepted by in IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022 this https URL\n",
     "authors": [
       "Shuren Qi",
       "Yushu Zhang",
