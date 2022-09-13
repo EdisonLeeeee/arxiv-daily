@@ -2730,7 +2730,7 @@
   },
   {
     "id": "arXiv:2209.04937",
-    "title": "Toward a Framework for Adaptive ImpedancenControl of an Upper-limb  Prosthesis",
+    "title": "Toward a Framework for Adaptive Impedance Control of an Upper-limb  Prosthesis",
     "abstract": "This paper describes a novel framework for a human-machine interface that can\nbe used to control an upper-limb prosthesis. The objective is to estimate the\nhuman's motor intent from noisy surface electromyography signals and to execute\nthe motor intent on the prosthesis (i.e., the robot) even in the presence of\npreviously unseen perturbations. The framework includes muscle-tendon models\nfor each degree of freedom, a method for learning the parameter values of\nmodels used to estimate the user's motor intent, and a variable impedance\ncontroller that uses the stiffness and damping values obtained from the muscle\nmodels to adapt the prosthesis' motion trajectory and dynamics. We\nexperimentally evaluate our framework in the context of able-bodied humans\nusing a simulated version of the human-machine interface to perform reaching\ntasks that primarily actuate one degree of freedom in the wrist, and consider\nexternal perturbations in the form of a uniform force field that pushes the\nwrist away from the target. We demonstrate that our framework provides the\ndesired adaptive performance, and substantially improves performance in\ncomparison with a data-driven baseline.",
     "descriptor": "",
     "authors": [
