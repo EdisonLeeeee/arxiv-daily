@@ -3943,7 +3943,7 @@
     "id": "arXiv:2209.06819",
     "title": "On the Expressiveness of Mixed Choice Sessions",
     "abstract": "Session types provide a flexible programming style for structuring\ninteraction, and are used to guarantee a safe and consistent composition of\ndistributed processes. Traditional session types include only one-directional\ninput (external) and output (internal) guarded choices. This prevents the\nsession-processes to explore the full expressive power of the pi-calculus where\nthe mixed choices are proved more expressive than the (non-mixed) guarded\nchoices. To account this issue, recently Casal, Mordido, and Vasconcelos\nproposed the binary session types with mixed choices (CMV+). This paper carries\na surprising, unfortunate result on CMV+: in spite of an inclusion of\nunrestricted channels with mixed choice, CMV+'s mixed choice is rather separate\nand not mixed. We prove this negative result using two methodologies (using\neither the leader election problem or a synchronisation pattern as\ndistinguishing feature), showing that there exists no good encoding from the\npi-calculus into CMV+, preserving distribution. We then close their open\nproblem on the encoding from CMV+ into CMV (without mixed choice), proving its\nsoundness and thereby that the encoding is good up to coupled similarity.",
-    "descriptor": "\nComments: In Proceedings EXPRESS/SOS 2022, arXiv:2208.14777\n",
+    "descriptor": "\nComments: In Proceedings EXPRESS/SOS 2022, arXiv:2208.14777. arXiv admin note: substantial text overlap with arXiv:2208.07041\n",
     "authors": [
       "Kirstin Peters",
       "Nobuko Yoshida"
@@ -3957,7 +3957,7 @@
     "id": "arXiv:2209.06820",
     "title": "Asynchronous Functional Sessions: Cyclic and Concurrent",
     "abstract": "We present Concurrent GV (CGV), a functional calculus with message-passing\nconcurrency governed by session types. With respect to prior calculi, CGV has\nincreased support for concurrent evaluation and for cyclic network topologies.\nThe design of CGV draws on APCP, a session-typed asynchronous pi-calculus\ndeveloped in prior work. Technical contributions are (i) the syntax, semantics,\nand type system of CGV; (ii) a correct translation of CGV into APCP; (iii) a\ntechnique for establishing deadlock-free CGV programs, by resorting to APCP's\npriority-based type system.",
-    "descriptor": "\nComments: In Proceedings EXPRESS/SOS 2022, arXiv:2208.14777\n",
+    "descriptor": "\nComments: In Proceedings EXPRESS/SOS 2022, arXiv:2208.14777. arXiv admin note: substantial text overlap with arXiv:2208.07644\n",
     "authors": [
       "Bas van den Heuvel",
       "Jorge A. P\u00e9rez"
@@ -4039,7 +4039,7 @@
     "id": "arXiv:2209.06265",
     "title": "Automated detection of pronunciation errors in non-native English speech  employing deep learning",
     "abstract": "Despite significant advances in recent years, the existing Computer-Assisted\nPronunciation Training (CAPT) methods detect pronunciation errors with a\nrelatively low accuracy (precision of 60% at 40%-80% recall). This Ph.D. work\nproposes novel deep learning methods for detecting pronunciation errors in\nnon-native (L2) English speech, outperforming the state-of-the-art method in\nAUC metric (Area under the Curve) by 41%, i.e., from 0.528 to 0.749. One of the\nproblems with existing CAPT methods is the low availability of annotated\nmispronounced speech needed for reliable training of pronunciation error\ndetection models. Therefore, the detection of pronunciation errors is\nreformulated to the task of generating synthetic mispronounced speech.\nIntuitively, if we could mimic mispronounced speech and produce any amount of\ntraining data, detecting pronunciation errors would be more effective.\nFurthermore, to eliminate the need to align canonical and recognized phonemes,\na novel end-to-end multi-task technique to directly detect pronunciation errors\nwas proposed. The pronunciation error detection models have been used at Amazon\nto automatically detect pronunciation errors in synthetic speech to accelerate\nthe research into new speech synthesis methods. It was demonstrated that the\nproposed deep learning methods are applicable in the tasks of detecting and\nreconstructing dysarthric speech.",
-    "descriptor": "\nComments: PhD Thesis, in Polish\n",
+    "descriptor": "\nComments: PhD Thesis, in English + extended summary in Polish\n",
     "authors": [
       "Daniel Korzekwa"
     ],
