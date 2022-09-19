@@ -94,7 +94,7 @@
   {
     "id": "arXiv:2209.07550",
     "title": "Human-level Atari 200x faster",
-    "abstract": "The task of building general agents that perform well over a wide range of\ntasks has been an importantgoal in reinforcement learning since its inception.\nThe problem has been subject of research of alarge body of work, with\nperformance frequently measured by observing scores over the wide rangeof\nenvironments contained in the Atari 57 benchmark. Agent57 was the first agent\nto surpass thehuman benchmark on all 57 games, but this came at the cost of\npoor data-efficiency, requiring nearly 80billion frames of experience to\nachieve. Taking Agent57 as a starting point, we employ a diverse set\nofstrategies to achieve a 200-fold reduction of experience needed to outperform\nthe human baseline. Weinvestigate a range of instabilities and bottlenecks we\nencountered while reducing the data regime, andpropose effective solutions to\nbuild a more robust and efficient agent. We also demonstrate\ncompetitiveperformance with high-performing methods such as Muesli and MuZero.\nThe four key components toour approach are (1) an approximate trust region\nmethod which enables stable bootstrapping from theonline network, (2) a\nnormalisation scheme for the loss and priorities which improves robustness\nwhenlearning a set of value functions with a wide range of scales, (3) an\nimproved architecture employingtechniques from NFNets in order to leverage\ndeeper networks without the need for normalization layers,and (4) a policy\ndistillation method which serves to smooth out the instantaneous greedy policy\novertime.",
+    "abstract": "The task of building general agents that perform well over a wide range of\ntasks has been an important goal in reinforcement learning since its inception.\nThe problem has been subject of research of a large body of work, with\nperformance frequently measured by observing scores over the wide range of\nenvironments contained in the Atari 57 benchmark. Agent57 was the first agent\nto surpass the human benchmark on all 57 games, but this came at the cost of\npoor data-efficiency, requiring nearly 80 billion frames of experience to\nachieve. Taking Agent57 as a starting point, we employ a diverse set of\nstrategies to achieve a 200-fold reduction of experience needed to out perform\nthe human baseline. We investigate a range of instabilities and bottlenecks we\nencountered while reducing the data regime, and propose effective solutions to\nbuild a more robust and efficient agent. We also demonstrate competitive\nperformance with high-performing methods such as Muesli and MuZero. The four\nkey components to our approach are (1) an approximate trust region method which\nenables stable bootstrapping from the online network, (2) a normalisation\nscheme for the loss and priorities which improves robustness when learning a\nset of value functions with a wide range of scales, (3) an improved\narchitecture employing techniques from NFNets in order to leverage deeper\nnetworks without the need for normalization layers, and (4) a policy\ndistillation method which serves to smooth out the instantaneous greedy policy\novertime.",
     "descriptor": "",
     "authors": [
       "Steven Kapturowski",
@@ -2749,7 +2749,6 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
-      "Computational Engineering, Finance, and Science (cs.CE)",
       "Computers and Society (cs.CY)"
     ],
     "url": "https://arxiv.org/abs/2209.07912"
@@ -3743,8 +3742,7 @@
       "Yi Liu"
     ],
     "subjectives": [
-      "Cryptography and Security (cs.CR)",
-      "Other Computer Science (cs.OH)"
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2209.08067"
   },
