@@ -2417,7 +2417,7 @@
     "id": "arXiv:2209.14745",
     "title": "A Multi-Agent Framework for the Asynchronous and Collaborative Extension  of Multitask ML Systems",
     "abstract": "Tradition ML development methodology does not enable a large number of\ncontributors, each with distinct objectives, to work collectively on the\ncreation and extension of a shared intelligent system. Enabling such a\ncollaborative methodology can accelerate the rate of innovation, increase ML\ntechnologies accessibility and enable the emergence of novel capabilities. We\nbelieve that this can be achieved through the definition of abstraction\nboundaries and a modularized representation of ML models and methods. We\npresent a multi-agent framework for collaborative and asynchronous extension of\ndynamic large-scale multitask intelligent systems.",
-    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2209.07326\n",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2209.07326, arXiv:2205.12755\n",
     "authors": [
       "Andrea Gesmundo"
     ],
