@@ -148,7 +148,7 @@
     "id": "arXiv:2210.03768",
     "title": "xDBTagger: Explainable Natural Language Interface to Databases Using  Keyword Mappings and Schema Graph",
     "abstract": "Translating natural language queries (NLQ) into structured query language\n(SQL) in interfaces to relational databases is a challenging task that has been\nwidely studied by researchers from both the database and natural language\nprocessing communities. Numerous works have been proposed to attack the natural\nlanguage interfaces to databases (NLIDB) problem either as a conventional\npipeline-based or an end-to-end deep-learning-based solution. Nevertheless,\nregardless of the approach preferred, such solutions exhibit black-box nature,\nwhich makes it difficult for potential users targeted by these systems to\ncomprehend the decisions made to produce the translated SQL. To this end, we\npropose xDBTagger, an explainable hybrid translation pipeline that explains the\ndecisions made along the way to the user both textually and visually. We also\nevaluate xDBTagger quantitatively in three real-world relational databases. The\nevaluation results indicate that in addition to being fully interpretable,\nxDBTagger is effective in terms of accuracy and translates the queries more\nefficiently compared to other state-of-the-art pipeline-based systems up to\n10000 times.",
-    "descriptor": "\nComments: 20 pages, 6 figures. arXiv admin note: text overlap with arXiv:2101.04226\n",
+    "descriptor": "\nComments: 20 pages, 6 figures. This work is the extended version of arXiv:2101.04226 that appeared in PVLDB'21\n",
     "authors": [
       "Arif Usta",
       "Akifhan Karakayali",
@@ -1303,7 +1303,7 @@
     "descriptor": "",
     "authors": [
       "Chenliang Zhou",
-      "Fancheng Zhong",
+      "Fangcheng Zhong",
       "Cengiz Oztireli"
     ],
     "subjectives": [
