@@ -4807,10 +4807,10 @@
       "Albert Ziegler"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)",
+      "Software Engineering (cs.SE)",
       "Artificial Intelligence (cs.AI)",
       "Human-Computer Interaction (cs.HC)",
-      "Software Engineering (cs.SE)"
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2210.05506"
   },
@@ -8645,7 +8645,7 @@
   },
   {
     "id": "arXiv:2203.09268",
-    "title": "Progressive Subsampling for Oversampled Data -- Application to  Quantitative MRI",
+    "title": "Progressive Subsampling for Oversampled Data - Application to  Quantitative MRI",
     "abstract": "Comments: Accepted In: Medical Image Computing and Computer Assisted Intervention (MICCAI) 2022",
     "descriptor": "\nComments: Accepted In: Medical Image Computing and Computer Assisted Intervention (MICCAI) 2022\n",
     "authors": [
