@@ -2395,7 +2395,8 @@
       "Baharan Mirzasoleiman"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2210.09671"
   },
@@ -3034,7 +3035,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Computer Science and Game Theory (cs.GT)"
+      "Computer Science and Game Theory (cs.GT)",
+      "Optimization and Control (math.OC)"
     ],
     "url": "https://arxiv.org/abs/2210.09769"
   },
@@ -3754,7 +3756,9 @@
       "Dmitry Kobak"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Human-Computer Interaction (cs.HC)"
     ],
     "url": "https://arxiv.org/abs/2210.09879"
   },
@@ -3933,7 +3937,9 @@
       "Pierangela Samarati"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Cryptography and Security (cs.CR)",
+      "Computers and Society (cs.CY)"
     ],
     "url": "https://arxiv.org/abs/2210.09904"
   },
@@ -4512,6 +4518,7 @@
       "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
       "Computers and Society (cs.CY)",
+      "Information Retrieval (cs.IR)",
       "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2210.09957"
@@ -5001,7 +5008,9 @@
     ],
     "subjectives": [
       "Computation and Language (cs.CL)",
-      "Machine Learning (cs.LG)"
+      "Computers and Society (cs.CY)",
+      "Machine Learning (cs.LG)",
+      "Social and Information Networks (cs.SI)"
     ],
     "url": "https://arxiv.org/abs/2210.10040"
   },
@@ -5804,6 +5813,7 @@
     ],
     "subjectives": [
       "Audio and Speech Processing (eess.AS)",
+      "Cryptography and Security (cs.CR)",
       "Machine Learning (cs.LG)",
       "Sound (cs.SD)"
     ],
