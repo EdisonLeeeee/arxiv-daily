@@ -943,15 +943,15 @@
     "abstract": "Feature-level interactions between nodes can carry crucial information for\nunderstanding complex interactions in graph-structured data. Current\ninterpretability techniques, however, are limited in their ability to capture\nfeature-level interactions between different nodes. In this work, we propose\nAMPNet, a general Graph Neural Network (GNN) architecture for uncovering\nfeature-level interactions between different spatial locations within\ngraph-structured data. Our framework applies a multiheaded attention operation\nduring message-passing to contextualize messages based on the feature\ninteractions between different nodes. We evaluate AMPNet on several benchmark\nand real-world datasets, and develop a synthetic benchmark based on cyclic\ncellular automata to test the ability of our framework to recover cyclic\npatterns in node states based on feature-interactions. We also propose several\nmethods for addressing the scalability of our architecture to large graphs,\nincluding subgraph sampling during training and node feature downsampling.",
     "descriptor": "\nComments: 9 pages, 3 figures\n",
     "authors": [
-      "S. A. Rizvi",
-      "N. Nguyen",
-      "H. Lyu",
-      "B. Christensen",
-      "J. O. Caro",
-      "E. Zappala",
-      "M. Brbic",
-      "R. M. Dhodapkar",
-      "D. V. Dijk"
+      "Syed Asad Rizvi",
+      "Nhi Nguyen",
+      "Haoran Lyu",
+      "Ben Christensen",
+      "Josue Ortega Caro",
+      "Emanuele Zappala",
+      "Maria Brbic",
+      "Rahul Madhav Dhodapkar",
+      "David van Dijk"
     ],
     "subjectives": [
       "Machine Learning (cs.LG)"
@@ -7284,7 +7284,8 @@
     "descriptor": "\nComments: revision on presentation; add experiments; more discussions on previous independent works of chizat2022mean and nitanda2022convex\n",
     "authors": [
       "Jingwei Zhang",
-      "Xunpeng Huang"
+      "Xunpeng Huang",
+      "Jincheng Yu"
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
