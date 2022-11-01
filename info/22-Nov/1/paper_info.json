@@ -1903,7 +1903,6 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
-      "Logic in Computer Science (cs.LO)",
       "Symbolic Computation (cs.SC)"
     ],
     "url": "https://arxiv.org/abs/2210.16606"
@@ -5032,8 +5031,7 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)",
-      "Software Engineering (cs.SE)"
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2210.17130"
   },
@@ -5541,8 +5539,8 @@
     "authors": [
       "Tom Savage",
       "Nausheen Basha",
-      "Omar Matar Ehecatl",
-      "Antonio Del-Rio Chanona"
+      "Omar Matar",
+      "Ehecatl Antonio Del-Rio Chanona"
     ],
     "subjectives": [
       "Computational Engineering, Finance, and Science (cs.CE)",
@@ -6769,7 +6767,6 @@
       "B. Sutradhar"
     ],
     "subjectives": [
-      "Software Engineering (cs.SE)",
       "Digital Libraries (cs.DL)",
       "Information Retrieval (cs.IR)"
     ],
@@ -7476,8 +7473,7 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)",
-      "Software Engineering (cs.SE)"
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2210.17484"
   },
