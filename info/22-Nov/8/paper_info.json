@@ -726,7 +726,8 @@
       "Laurent Charlin"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2211.02763"
   },
@@ -771,7 +772,8 @@
       "Tsegaye Tadesse"
     ],
     "subjectives": [
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Applications (stat.AP)"
     ],
     "url": "https://arxiv.org/abs/2211.02768"
   },
@@ -983,7 +985,8 @@
     ],
     "subjectives": [
       "Computation and Language (cs.CL)",
-      "Artificial Intelligence (cs.AI)"
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
     ],
     "url": "https://arxiv.org/abs/2211.02809"
   },
@@ -1098,7 +1101,9 @@
       "Le Hong Trang"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2211.02820"
   },
@@ -1323,6 +1328,7 @@
       "Clint J. van Alten"
     ],
     "subjectives": [
+      "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2211.02856"
@@ -1398,8 +1404,10 @@
       "R Murugan"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)",
+      "Neurons and Cognition (q-bio.NC)"
     ],
     "url": "https://arxiv.org/abs/2211.02868"
   },
@@ -1419,9 +1427,9 @@
       "Raul Ramos-Pollan"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
+      "Signal Processing (eess.SP)",
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Machine Learning (cs.LG)"
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2211.02869"
   },
@@ -1490,8 +1498,8 @@
       "Luu Anh Tuan"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
       "Computation and Language (cs.CL)",
+      "Cryptography and Security (cs.CR)",
       "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2211.02878"
@@ -1797,6 +1805,7 @@
       "Yu Dai"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2211.02915"
@@ -2040,7 +2049,7 @@
     "id": "arXiv:2211.02947",
     "title": "Prototypical quadruplet for few-shot class incremental learning",
     "abstract": "Many modern computer vision algorithms suffer from two major bottlenecks:\nscarcity of data and learning new tasks incrementally. While training the model\nwith new batches of data the model looses it's ability to classify the previous\ndata judiciously which is termed as catastrophic forgetting. Conventional\nmethods have tried to mitigate catastrophic forgetting of the previously\nlearned data while the training at the current session has been compromised.\nThe state-of-the-art generative replay based approaches use complicated\nstructures such as generative adversarial network (GAN) to deal with\ncatastrophic forgetting. Additionally, training a GAN with few samples may lead\nto instability. In this work, we present a novel method to deal with these two\nmajor hurdles. Our method identifies a better embedding space with an improved\ncontrasting loss to make classification more robust. Moreover, our approach is\nable to retain previously acquired knowledge in the embedding space even when\ntrained with new classes. We update previous session class prototypes while\ntraining in such a way that it is able to represent the true class mean. This\nis of prime importance as our classification rule is based on the nearest class\nmean classification strategy. We have demonstrated our results by showing that\nthe embedding space remains intact after training the model with new classes.\nWe showed that our method preformed better than the existing state-of-the-art\nalgorithms in terms of accuracy across different sessions.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2103.00991, arXiv:1704.01719, arXiv:1611.07725 by other authors\n",
     "authors": [
       "Sanchar Palit",
       "Biplab Banerjee",
@@ -2207,7 +2216,8 @@
       "Henry Arguello"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2211.02973"
   },
@@ -2611,7 +2621,7 @@
     "id": "arXiv:2211.03022",
     "title": "Physics Informed Machine Learning for Chemistry Tabulation",
     "abstract": "Modeling of turbulent combustion system requires modeling the underlying\nchemistry and the turbulent flow. Solving both systems simultaneously is\ncomputationally prohibitive. Instead, given the difference in scales at which\nthe two sub-systems evolve, the two sub-systems are typically (re)solved\nseparately. Popular approaches such as the Flamelet Generated Manifolds (FGM)\nuse a two-step strategy where the governing reaction kinetics are pre-computed\nand mapped to a low-dimensional manifold, characterized by a few reaction\nprogress variables (model reduction) and the manifold is then ``looked-up''\nduring the runtime to estimate the high-dimensional system state by the flow\nsystem. While existing works have focused on these two steps independently, in\nthis work we show that joint learning of the progress variables and the\nlook--up model, can yield more accurate results. We build on the base\nformulation and implementation ChemTab to include the dynamically generated\nThemochemical State Variables (Lower Dimensional Dynamic Source Terms). We\ndiscuss the challenges in the implementation of this deep neural network\narchitecture and experimentally demonstrate it's superior performance.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: substantial text overlap with arXiv:2202.09855\n",
     "authors": [
       "Amol Salunkhe",
       "Dwyer Deighan",
@@ -5253,7 +5263,7 @@
     "id": "arXiv:2211.03456",
     "title": "A Unified Pyramid Recurrent Network for Video Frame Interpolation",
     "abstract": "Flow-guide synthesis provides a common framework for frame interpolation,\nwhere optical flow is typically estimated by a pyramid network, and then\nleveraged to guide a synthesis network to generate intermediate frames between\ninput frames. In this paper, we present UPR-Net, a novel Unified Pyramid\nRecurrent Network for frame interpolation. Cast in a flexible pyramid\nframework, UPR-Net exploits lightweight recurrent modules for both\nbi-directional flow estimation and intermediate frame synthesis. At each\npyramid level, it leverages estimated bi-directional flow to generate\nforward-warped representations for frame synthesis; across pyramid levels, it\nenables iterative refinement for both optical flow and intermediate frame. In\nparticular, we show that our iterative synthesis can significantly improve the\nrobustness of frame interpolation on large motion cases. Despite being\nextremely lightweight (1.7M parameters), UPR-Net achieves excellent performance\non a large range of benchmarks. Code will be available soon.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2206.08572 by other authors\n",
     "authors": [
       "Xin Jin",
       "Longhai Wu",
@@ -6271,7 +6281,7 @@
     "id": "arXiv:2211.03613",
     "title": "Towards Devising A Fund Management System Using Blockchain",
     "abstract": "State government operations comprise a large number of transactions for\ndifferent processes that must be carried out across the state. This comprises\nnew projects, maintenance and repairs, public employee compensation, and\nagricultural schemes. Low-level corruption, which is sometimes difficult to\ntrace and hinders state growth, is a big challenge for the top administration.\nIn order to eradicate corruption and bring transparency, technology can be used\nin an efficient way. An important task to exterminate corruption is to keep\ntrack of all the financial transactions of an undergoing project. This research\nuses blockchain technology to keep track of fund management systems and assure\nthe transparency of any financial statement. This paper proposes to use a\ngateway where all transaction records are updated in the system and visible to\nall stakeholders. We find research gaps in the literature and focus on\nincluding government funds and local currency usage. The proposed model's\nmotive is to generate a funding model that attains two sub-goals: designing a\nfund management methodology in which authorized individuals can receive and\nwithdraw allocated funds in crypto currency, and evaluating a smart contract to\nincorporate the money and identify transparency and tracking. The proposed\nmodel executes every feature of our system in just 8.3786ms on average.",
-    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2203.03169 by other authors\n",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2203.03169 by other authors. arXiv admin note: substantial text overlap with arXiv:2203.03169 by other authors without attribution\n",
     "authors": [
       "Nibula Bente Rashid",
       "Joyeeta Saha",
