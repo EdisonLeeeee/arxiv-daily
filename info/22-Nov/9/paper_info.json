@@ -213,7 +213,8 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Machine Learning (cs.LG)"
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2211.03854"
   },
@@ -260,8 +261,8 @@
       "Hongcheng Wang"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
-      "Networking and Internet Architecture (cs.NI)"
+      "Networking and Internet Architecture (cs.NI)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2211.03872"
   },
@@ -325,7 +326,6 @@
       "Azim Eskandarian"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)",
       "Machine Learning (cs.LG)",
       "Signal Processing (eess.SP)"
     ],
@@ -426,7 +426,8 @@
       "Mingxuan Cai"
     ],
     "subjectives": [
-      "Computer Vision and Pattern Recognition (cs.CV)"
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2211.03885"
   },
@@ -835,7 +836,8 @@
       "Jingdong Chen"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2211.03934"
   },
@@ -1036,7 +1038,7 @@
   {
     "id": "arXiv:2211.03966",
     "title": "Parameter and Data Efficient Continual Pre-training for Robustness to  Dialectal Variance in Arabic",
-    "abstract": "The use of multilingual language models for tasks in low and high-resource\nlanguages has been a success story in deep learning. In recent times, Arabic\nhas been receiving widespread attention on account of its dialectal variance.\nWhile prior research studies have tried to adapt these multilingual models for\ndialectal variants of Arabic, it still remains a challenging problem owing to\nthe lack of sufficient monolingual dialectal data and parallel translation data\nof such dialectal variants. It remains an open problem on whether the limited\ndialectical data can be used to improve the models trained in Arabic on its\ndialectal variants. First, we show that multilingual-BERT (mBERT) incrementally\npretrained on Arabic monolingual data takes less training time and yields\ncomparable accuracy when compared to our custom monolingual Arabic model and\nbeat existing models (by an avg metric of +$6.41$). We then explore two\ncontinual pre-training methods-- (1) using small amounts of dialectical data\nfor continual finetuning and (2) parallel Arabic to English data and a\nTranslation Language Modeling loss function. We show that both approaches help\nimprove performance on dialectal classification tasks ($+4.64$ avg. gain) when\nused on monolingual models.",
+    "abstract": "The use of multilingual language models for tasks in low and high-resource\nlanguages has been a success story in deep learning. In recent times, Arabic\nhas been receiving widespread attention on account of its dialectal variance.\nWhile prior research studies have tried to adapt these multilingual models for\ndialectal variants of Arabic, it still remains a challenging problem owing to\nthe lack of sufficient monolingual dialectal data and parallel translation data\nof such dialectal variants. It remains an open problem on whether the limited\ndialectical data can be used to improve the models trained in Arabic on its\ndialectal variants. First, we show that multilingual-BERT (mBERT) incrementally\npretrained on Arabic monolingual data takes less training time and yields\ncomparable accuracy when compared to our custom monolingual Arabic model and\nbeat existing models (by an avg metric of +$6.41$). We then explore two\ncontinual pre-training methods -- (1) using small amounts of dialectical data\nfor continual finetuning and (2) parallel Arabic to English data and a\nTranslation Language Modeling loss function. We show that both approaches help\nimprove performance on dialectal classification tasks ($+4.64$ avg. gain) when\nused on monolingual models.",
     "descriptor": "",
     "authors": [
       "Soumajyoti Sarkar",
@@ -1599,7 +1601,7 @@
   {
     "id": "arXiv:2211.04047",
     "title": "DNN Filter for Bias Reduction in Distribution-to-Distribution Scan  Matching",
-    "abstract": "Distribution-to-distribution (D2D) point cloud registration techniques such\nas the Normal Distributions Transform (NDT) can align point clouds sampled from\nunstructured scenes and provide accurate bounds of their own solution error\ncovariance-- an important feature for safety-of life navigation tasks. D2D\nmethods rely on the assumption of a static scene and are therefore susceptible\nto bias from range-shadowing, self-occlusion, moving objects, and distortion\nartifacts as the recording device moves between frames. Deep Learning-based\napproaches can achieve higher accuracy in dynamic scenes by relaxing these\nconstraints, however, DNNs produce uninterpratable solutions which can be\nproblematic from a safety perspective. In this paper, we propose a method of\ndown-sampling LIDAR point clouds to exclude voxels that violate the assumption\nof a static scene and introduce error to the D2D scan matching process. Our\napproach uses a solution consistency filter, identifying and flagging voxels\nwhere D2D contributions disagree with local estimates from a PointNet-based\nregistration network.",
+    "abstract": "Distribution-to-distribution (D2D) point cloud registration techniques such\nas the Normal Distributions Transform (NDT) can align point clouds sampled from\nunstructured scenes and provide accurate bounds of their own solution error\ncovariance -- an important feature for safety-of life navigation tasks. D2D\nmethods rely on the assumption of a static scene and are therefore susceptible\nto bias from range-shadowing, self-occlusion, moving objects, and distortion\nartifacts as the recording device moves between frames. Deep Learning-based\napproaches can achieve higher accuracy in dynamic scenes by relaxing these\nconstraints, however, DNNs produce uninterpratable solutions which can be\nproblematic from a safety perspective. In this paper, we propose a method of\ndown-sampling LIDAR point clouds to exclude voxels that violate the assumption\nof a static scene and introduce error to the D2D scan matching process. Our\napproach uses a solution consistency filter, identifying and flagging voxels\nwhere D2D contributions disagree with local estimates from a PointNet-based\nregistration network.",
     "descriptor": "",
     "authors": [
       "Matthew McDermott",
@@ -1718,7 +1720,8 @@
       "Svetlana Yanushkevich"
     ],
     "subjectives": [
-      "Human-Computer Interaction (cs.HC)"
+      "Human-Computer Interaction (cs.HC)",
+      "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2211.04056"
   },
@@ -2133,7 +2136,8 @@
       "Bruno Raffin"
     ],
     "subjectives": [
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
     ],
     "url": "https://arxiv.org/abs/2211.04119"
   },
@@ -2448,7 +2452,7 @@
   {
     "id": "arXiv:2211.04166",
     "title": "Spiking sampling network for image sparse representation and dynamic  vision sensor data compression",
-    "abstract": "Sparse representation has attracted great attention because it can greatly\nsave storage re- sources and find representative features of data in a\nlow-dimensional space. As a result, it may be widely applied in engineering\ndomains including feature extraction, compressed sensing, signal denoising,\npicture clustering, and dictionary learning, just to name a few. In this paper,\nwe propose a spiking sampling network. This network is composed of spiking\nneurons, and it can dynamically decide which pixel points should be retained\nand which ones need to be masked according to the input. Our experiments\ndemonstrate that this approach enables better sparse representation of the\noriginal image and facilitates image reconstruction compared to random\nsampling. We thus use this approach for compressing massive data from the\ndynamic vision sensor, which greatly reduces the storage requirements for event\ndata.",
+    "abstract": "Sparse representation has attracted great attention because it can greatly\nsave storage resources and find representative features of data in a\nlow-dimensional space. As a result, it may be widely applied in engineering\ndomains including feature extraction, compressed sensing, signal denoising,\npicture clustering, and dictionary learning, just to name a few. In this paper,\nwe propose a spiking sampling network. This network is composed of spiking\nneurons, and it can dynamically decide which pixel points should be retained\nand which ones need to be masked according to the input. Our experiments\ndemonstrate that this approach enables better sparse representation of the\noriginal image and facilitates image reconstruction compared to random\nsampling. We thus use this approach for compressing massive data from the\ndynamic vision sensor, which greatly reduces the storage requirements for event\ndata.",
     "descriptor": "",
     "authors": [
       "Chunming Jiang",
@@ -2563,7 +2567,7 @@
     "id": "arXiv:2211.04192",
     "title": "Correction to: Convergent numerical approximation of the stochastic  total variation flow",
     "abstract": "We correct two errors in our paper [4]. First error concerns the definition\nof the SVI solution, where a boundary term which arises due to the Dirichlet\nboundary condition, was not included. The second error concerns the discrete\nestimate [4, Lemma 4.4], which involves the discrete Laplace operator. We\nprovide an alternative proof of the estimate in spatial dimension $d=1$ by\nusing a mass lumped version of the discrete Laplacian. Hence, after a minor\nmodification of the fully discrete numerical scheme the convergence in $d=1$\nfollows along the lines of the original proof. The convergence proof of the\ntime semi-discrete scheme, which relies on the continuous counterpart of the\nestimate [4, Lemma 4.4], remains valid in higher spatial dimension. The\nconvergence of the fully discrete finite element scheme from [4] in any spatial\ndimension is shown in [3] by using a different approach.",
-    "descriptor": "",
+    "descriptor": "\nComments: Stoch PDE: Anal Comp (2022)\n",
     "authors": [
       "\u013dubom\u00edr Ba\u0148as",
       "Michael R\u00f6ckner",
@@ -3124,7 +3128,7 @@
   {
     "id": "arXiv:2211.04266",
     "title": "TimeKit: A Time-series Forecasting-based Upgrade Kit for Collaborative  Filtering",
-    "abstract": "Recommender systems are a long-standing research problem in data mining and\nmachine learning. They are incremental in nature, as new user-item interaction\nlogs arrive. In real-world applications, we need to periodically train a\ncollaborative filtering algorithm to extract user/item embedding vectors and\ntherefore, a time-series of embedding vectors can be naturally defined. We\npresent a time-series forecasting-based upgrade kit (TimeKit), which works in\nthe following way: it i) first decides a base collaborative filtering\nalgorithm, ii) extracts user/item embedding vectors with the base algorithm\nfrom user-item interaction logs incrementally, e.g., every month, iii) trains\nour time-series forecasting model with the extracted time- series of embedding\nvectors, and then iv) forecasts the future embedding vectors and recommend with\ntheir dot-product scores owing to a recent breakthrough in processing\ncomplicated time- series data, i.e., neural controlled differential equations\n(NCDEs). Our experiments with four real-world benchmark datasets show that the\nproposed time-series forecasting-based upgrade kit can significantly enhance\nexisting popular collaborative filtering algorithms.",
+    "abstract": "Recommender systems are a long-standing research problem in data mining and\nmachine learning. They are incremental in nature, as new user-item interaction\nlogs arrive. In real-world applications, we need to periodically train a\ncollaborative filtering algorithm to extract user/item embedding vectors and\ntherefore, a time-series of embedding vectors can be naturally defined. We\npresent a time-series forecasting-based upgrade kit (TimeKit), which works in\nthe following way: it i) first decides a base collaborative filtering\nalgorithm, ii) extracts user/item embedding vectors with the base algorithm\nfrom user-item interaction logs incrementally, e.g., every month, iii) trains\nour time-series forecasting model with the extracted time-series of embedding\nvectors, and then iv) forecasts the future embedding vectors and recommend with\ntheir dot-product scores owing to a recent breakthrough in processing\ncomplicated time-series data, i.e., neural controlled differential equations\n(NCDEs). Our experiments with four real-world benchmark datasets show that the\nproposed time-series forecasting-based upgrade kit can significantly enhance\nexisting popular collaborative filtering algorithms.",
     "descriptor": "\nComments: Accepted at IEEE BigData 2022\n",
     "authors": [
       "Seoyoung Hong",
@@ -3213,7 +3217,7 @@
   },
   {
     "id": "arXiv:2211.04279",
-    "title": "Detecting Shortcuts in Medical Images - A Case Study in Chest X-rays",
+    "title": "Detecting Shortcuts in Medical Images -- A Case Study in Chest X-rays",
     "abstract": "The availability of large public datasets and the increased amount of\ncomputing power have shifted the interest of the medical community to\nhigh-performance algorithms. However, little attention is paid to the quality\nof the data and their annotations. High performance on benchmark datasets may\nbe reported without considering possible shortcuts or artifacts in the data,\nbesides, models are not tested on subpopulation groups. With this work, we aim\nto raise awareness about shortcuts problems. We validate previous findings, and\npresent a case study on chest X-rays using two publicly available datasets. We\nshare annotations for a subset of pneumothorax images with drains. We conclude\nwith general recommendations for medical image classification.",
     "descriptor": "\nComments: Submitted to ISBI 2023\n",
     "authors": [
@@ -3417,7 +3421,7 @@
   {
     "id": "arXiv:2211.04313",
     "title": "An Ensemble-based approach for assigning text to correct Harmonized  system code",
-    "abstract": "Industries must follow government rules and regulations around the world to\nclassify products when assessing duties and taxes for international shipment.\nHarmonized System (HS) is the most standardized numerical method of classifying\ntraded products among industry classification systems. A hierarchical ensemble\nmodel comprising of Bert- transformer, NER, distance-based approaches, and\nknowledge-graphs have been developed to address scalability, coverage, ability\nto capture nuances, automation and auditing requirements when classifying\nunknown text-descriptions as per HS method.",
+    "abstract": "Industries must follow government rules and regulations around the world to\nclassify products when assessing duties and taxes for international shipment.\nHarmonized System (HS) is the most standardized numerical method of classifying\ntraded products among industry classification systems. A hierarchical ensemble\nmodel comprising of Bert-transformer, NER, distance-based approaches, and\nknowledge-graphs have been developed to address scalability, coverage, ability\nto capture nuances, automation and auditing requirements when classifying\nunknown text-descriptions as per HS method.",
     "descriptor": "",
     "authors": [
       "Shubham",
@@ -6845,8 +6849,8 @@
   },
   {
     "id": "arXiv:2210.01560",
-    "title": "SicHash - Small Irregular Cuckoo Tables for Perfect Hashing",
-    "abstract": "SicHash - Small Irregular Cuckoo Tables for Perfect Hashing",
+    "title": "SicHash -- Small Irregular Cuckoo Tables for Perfect Hashing",
+    "abstract": "SicHash -- Small Irregular Cuckoo Tables for Perfect Hashing",
     "descriptor": "",
     "authors": [
       "Hans-Peter Lehmann",
