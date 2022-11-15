@@ -2781,7 +2781,7 @@
     "id": "arXiv:2211.06816",
     "title": "Long-Range Zero-Shot Generative Deep Network Quantization",
     "abstract": "Quantization approximates a deep network model with floating-point numbers by\nthe one with low bit width numbers, in order to accelerate inference and reduce\ncomputation. Quantizing a model without access to the original data, zero-shot\nquantization can be accomplished by fitting the real data distribution by data\nsynthesis. However, zero-shot quantization achieves inferior performance\ncompared to the post-training quantization with real data. We find it is\nbecause: 1) a normal generator is hard to obtain high diversity of synthetic\ndata, since it lacks long-range information to allocate attention to global\nfeatures; 2) the synthetic images aim to simulate the statistics of real data,\nwhich leads to weak intra-class heterogeneity and limited feature richness. To\novercome these problems, we propose a novel deep network quantizer, dubbed\nLong-Range Zero-Shot Generative Deep Network Quantization (LRQ). Technically,\nwe propose a long-range generator to learn long-range information instead of\nsimple local features. In order for the synthetic data to contain more global\nfeatures, long-range attention using large kernel convolution is incorporated\ninto the generator. In addition, we also present an Adversarial Margin Add\n(AMA) module to force intra-class angular enlargement between feature vector\nand class center. As AMA increases the convergence difficulty of the loss\nfunction, which is opposite to the training objective of the original loss\nfunction, it forms an adversarial process. Furthermore, in order to transfer\nknowledge from the full-precision network, we also utilize a decoupled\nknowledge distillation. Extensive experiments demonstrate that LRQ obtains\nbetter performance than other competitors.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2111.09136 by other authors\n",
     "authors": [
       "Yan Luo",
       "Yangcheng Gao",
@@ -3968,7 +3968,7 @@
   },
   {
     "id": "arXiv:2211.07022",
-    "title": "AutoDRIVE Simulator - Technical Report",
+    "title": "AutoDRIVE Simulator -- Technical Report",
     "abstract": "AutoDRIVE is envisioned to be a comprehensive research platform for scaled\nautonomous vehicles. This work is a stepping-stone towards the greater goal of\nrealizing such a research platform. Particularly, this work proposes a\npseudo-realistic simulator for scaled autonomous vehicles, which is targeted\ntowards simplicity, modularity and flexibility. The AutoDRIVE Simulator not\nonly mimics realistic system dynamics but also simulates a comprehensive sensor\nsuite and realistic actuator response. The simulator also features a\ncommunication bridge in order to interface externally developed autonomous\ndriving software stack, which allows users to design and develop their\nalgorithms conveniently and have them tested on our simulator. Presently, the\nbridge is compatible with Robot Operating System (ROS) and can be interfaced\ndirectly with the Python and C++ scripts developed as a part of this project.\nThe bridge supports local as well as distributed computing.",
     "descriptor": "\nComments: This work was a part of India Connect @ NTU (IC@N) Research Internship Program 2020. arXiv admin note: substantial text overlap with arXiv:2103.10030\n",
     "authors": [
@@ -4632,7 +4632,7 @@
   {
     "id": "arXiv:2211.07122",
     "title": "ContextCLIP: Contextual Alignment of Image-Text pairs on CLIP visual  representations",
-    "abstract": "State-of-the-art empirical work has shown that visual representations learned\nby deep neural networks are robust in nature and capable of performing\nclassification tasks on diverse datasets. For exam- ple, CLIP demonstrated\nzero-shot transfer performance on multiple datasets for classification tasks in\na joint embedding space of image and text pairs. However, it showed negative\ntransfer performance on standard datasets, e.g., BirdsNAP, RESISC45, and MNIST.\nIn this paper, we propose ContextCLIP, a contextual and contrastive learning\nframework for the contextual alignment of image-text pairs by learning robust\nvisual representations on Conceptual Captions dataset. Our framework was\nobserved to improve the image-text alignment by aligning text and image\nrepresentations contextually in the joint embedding space. ContextCLIP showed\ngood qualitative performance for text-to-image retrieval tasks and enhanced\nclassifica- tion accuracy. We evaluated our model quantitatively with zero-shot\ntransfer and fine-tuning experiments on CIFAR-10, CIFAR-100, Birdsnap,\nRESISC45, and MNIST datasets for classification task.",
+    "abstract": "State-of-the-art empirical work has shown that visual representations learned\nby deep neural networks are robust in nature and capable of performing\nclassification tasks on diverse datasets. For example, CLIP demonstrated\nzero-shot transfer performance on multiple datasets for classification tasks in\na joint embedding space of image and text pairs. However, it showed negative\ntransfer performance on standard datasets, e.g., BirdsNAP, RESISC45, and MNIST.\nIn this paper, we propose ContextCLIP, a contextual and contrastive learning\nframework for the contextual alignment of image-text pairs by learning robust\nvisual representations on Conceptual Captions dataset. Our framework was\nobserved to improve the image-text alignment by aligning text and image\nrepresentations contextually in the joint embedding space. ContextCLIP showed\ngood qualitative performance for text-to-image retrieval tasks and enhanced\nclassification accuracy. We evaluated our model quantitatively with zero-shot\ntransfer and fine-tuning experiments on CIFAR-10, CIFAR-100, Birdsnap,\nRESISC45, and MNIST datasets for classification task.",
     "descriptor": "\nComments: 11 Pages, 7 Figures, 2 Tables, ICVGIP\n",
     "authors": [
       "Chanda Grover",
@@ -7235,7 +7235,7 @@
   {
     "id": "arXiv:2211.07545",
     "title": "NeurIPS 2022 Competition: Driving SMARTS",
-    "abstract": "Driving SMARTS is a regular competition designed to tackle problems caused by\nthe distribution shift in dynamic interaction contexts that are prevalent in\nreal- world autonomous driving (AD). The proposed competition supports\nmethodologically diverse solutions, such as reinforcement learning (RL) and\noffline learning methods, trained on a combination of naturalistic AD data and\nopen-source simulation platform SMARTS. The two-track structure allows focusing\non different aspects of the distribution shift. Track 1 is open to any method\nand will give ML researchers with different backgrounds an opportunity to solve\na real-world autonomous driving challenge. Track 2 is designed for strictly\noffline learning methods. Therefore, direct com- parisons can be made between\ndifferent methods with the aim to identify new promising research directions.\nThe proposed setup consists of 1) realistic traffic generated using real-world\ndata and micro simulators to ensure fidelity of the scenarios, 2) framework\naccommodating diverse methods for solving the problem, and 3) baseline method.\nAs such it provides a unique opportunity for the principled investigation into\nvarious aspects of autonomous vehicle deployment.",
+    "abstract": "Driving SMARTS is a regular competition designed to tackle problems caused by\nthe distribution shift in dynamic interaction contexts that are prevalent in\nreal-world autonomous driving (AD). The proposed competition supports\nmethodologically diverse solutions, such as reinforcement learning (RL) and\noffline learning methods, trained on a combination of naturalistic AD data and\nopen-source simulation platform SMARTS. The two-track structure allows focusing\non different aspects of the distribution shift. Track 1 is open to any method\nand will give ML researchers with different backgrounds an opportunity to solve\na real-world autonomous driving challenge. Track 2 is designed for strictly\noffline learning methods. Therefore, direct comparisons can be made between\ndifferent methods with the aim to identify new promising research directions.\nThe proposed setup consists of 1) realistic traffic generated using real-world\ndata and micro simulators to ensure fidelity of the scenarios, 2) framework\naccommodating diverse methods for solving the problem, and 3) baseline method.\nAs such it provides a unique opportunity for the principled investigation into\nvarious aspects of autonomous vehicle deployment.",
     "descriptor": "\nComments: 10 pages, 8 figures\n",
     "authors": [
       "Amir Rasouli",
@@ -8605,7 +8605,7 @@
   },
   {
     "id": "arXiv:2211.06967",
-    "title": "Identifying Coordination in a Cognitive Radar Network - A  Multi-Objective Inverse Reinforcement Learning Approach",
+    "title": "Identifying Coordination in a Cognitive Radar Network -- A  Multi-Objective Inverse Reinforcement Learning Approach",
     "abstract": "Consider a target being tracked by a cognitive radar network. If the target\ncan intercept some radar network emissions, how can it detect coordination\namong the radars? By 'coordination' we mean that the radar emissions satisfy\nPareto optimality with respect to multi-objective optimization over each\nradar's utility. This paper provides a novel multi-objective inverse\nreinforcement learning approach which allows for both detection of such Pareto\noptimal ('coordinating') behavior and subsequent reconstruction of each radar's\nutility function, given a finite dataset of radar network emissions. The method\nfor accomplishing this is derived from the micro-economic setting of Revealed\nPreferences, and also applies to more general problems of inverse detection and\nlearning of multi-objective optimizing systems.",
     "descriptor": "",
     "authors": [
@@ -8998,7 +8998,7 @@
   },
   {
     "id": "arXiv:2211.07322",
-    "title": "Bayesian Integrity Monitoring for Cellular Positioning - A Simplified  Case Study",
+    "title": "Bayesian Integrity Monitoring for Cellular Positioning -- A Simplified  Case Study",
     "abstract": "Bayesian receiver autonomous integrity monitoring (RAIM) algorithms are\ndeveloped for the snapshot cellular positioning problem in a simplified\none-dimensional (1D) linear Gaussian setting. Position estimation, multi-fault\ndetection and exclusion, and protection level (PL) computation are enabled by\nthe efficient and exact computation of the position posterior probabilities via\nmessage passing along a factor graph. Computer simulations demonstrate the\nsignificant performance improvement of the proposed Bayesian RAIM algorithms\nover a baseline advanced RAIM algorithm, as it obtains tighter PLs that meet\nthe target integrity risk (TIR) requirements.",
     "descriptor": "",
     "authors": [
@@ -10039,8 +10039,8 @@
   {
     "id": "arXiv:2102.02729",
     "title": "Adversarial Attacks and Defenses in Physiological Computing: A  Systematic Review",
-    "abstract": "Adversarial Attacks and Defenses in Physiological Computing: A  Systematic Review",
-    "descriptor": "",
+    "abstract": "Comments: National Science Open, 2022",
+    "descriptor": "\nComments: National Science Open, 2022\n",
     "authors": [
       "Dongrui Wu",
       "Jiaxin Xu",
@@ -12419,8 +12419,8 @@
   {
     "id": "arXiv:2205.15858",
     "title": "Automatic diagnosis of schizophrenia and attention deficit hyperactivity  disorder in rs-fMRI modality using convolutional autoencoder model and  interval type-2 fuzzy regression",
-    "abstract": "Automatic diagnosis of schizophrenia and attention deficit hyperactivity  disorder in rs-fMRI modality using convolutional autoencoder model and  interval type-2 fuzzy regression",
-    "descriptor": "",
+    "abstract": "Comments: Cogn Neurodyn (2022)",
+    "descriptor": "\nComments: Cogn Neurodyn (2022)\n",
     "authors": [
       "Afshin Shoeibi",
       "Navid Ghassemi",
