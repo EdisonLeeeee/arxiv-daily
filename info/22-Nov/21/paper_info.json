@@ -3123,7 +3123,7 @@
     "abstract": "In this paper, the coupled dynamics of the floating platform and the WTG\nrotor is analysed. In particular, the damping is explicitly derived from the\ncoupled equations of rotor and floating platform. The analysis of the damping\nleads to the study of the instability phenomena and it derives the explicit\nconditions that lead to the Non Minimum Phase Zero (NMPZ). Two NMPZs, one\nrelated to the rotor dynamics and the other one to the platform pitch dynamics,\nare analysed. The latter is a novelty and it is analysed in this work,\nproviding the community of an explicit condition for its verification. The\ndomain of the instability of the platform is explicitly derived from the\ncoupled system of equations. In the second part of the paper, from the analysis\nof the damping of the floating platform, a new strategy for the control of\nFOWTs is proposed. This strategy allows one to impose to the controller an\nexplicit level of damping in the platform pitch motion without changing the\nperiod of platform pitching. Finally the new strategy is compared to the one\nwithout compensation by performing aero-hydro-servo-elastic numerical\nsimulations of the UMaine IEA15MW FOWT. Generated power, movements, blade pitch\nand tower base fatigue are compared showing that the new control strategy can\nreduce fatigue in the structure without affecting the power production.",
     "descriptor": "\nComments: pre-print version to be submitted in Wind Energy Science\n",
     "authors": [
-      "Matteo CapaldoO",
+      "Matteo Capaldo",
       "Paul Mella"
     ],
     "subjectives": [
