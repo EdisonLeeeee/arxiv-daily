@@ -2148,7 +2148,7 @@
   },
   {
     "id": "arXiv:2211.10754",
-    "title": "HALSIE -- Hybrid Approach to Learning Segmentation by Simultaneously  Exploiting Image and Event Modalities",
+    "title": "HALSIE - Hybrid Approach to Learning Segmentation by Simultaneously  Exploiting Image and Event Modalities",
     "abstract": "Standard frame-based algorithms fail to retrieve accurate segmentation maps\nin challenging real-time applications like autonomous navigation, owing to the\nlimited dynamic range and motion blur prevalent in traditional cameras. Event\ncameras address these limitations by asynchronously detecting changes in\nper-pixel intensity to generate event streams with high temporal resolution,\nhigh dynamic range, and no motion blur. However, event camera outputs cannot be\ndirectly used to generate reliable segmentation maps as they only capture\ninformation at the pixels in motion. To augment the missing contextual\ninformation, we postulate that fusing spatially dense frames with temporally\ndense events can generate semantic maps with fine-grained predictions. To this\nend, we propose HALSIE, a hybrid approach to learning segmentation by\nsimultaneously leveraging image and event modalities. To enable efficient\nlearning across modalities, our proposed hybrid framework comprises two input\nbranches, a Spiking Neural Network (SNN) branch and a standard Artificial\nNeural Network (ANN) branch to process event and frame data respectively, while\nexploiting their corresponding neural dynamics. Our hybrid network outperforms\nthe state-of-the-art semantic segmentation benchmarks on DDD17 and MVSEC\ndatasets and shows comparable performance on the DSEC-Semantic dataset with\nupto 33.23$\\times$ reduction in network parameters. Further, our method shows\nupto 18.92$\\times$ improvement in inference cost compared to existing SOTA\napproaches, making it suitable for resource-constrained edge applications.",
     "descriptor": "",
     "authors": [
@@ -10408,7 +10408,7 @@
     "abstract": "Decision tree learning is increasingly being used for pointwise inference.\nImportant applications include causal heterogenous treatment effects and\ndynamic policy decisions, as well as conditional quantile regression and design\nof experiments, where tree estimation and inference is conducted at specific\nvalues of the covariates. In this paper, we call into question the use of\ndecision trees (trained by adaptive recursive partitioning) for such purposes\nby demonstrating that they can fail to achieve polynomial rates of convergence\nin uniform norm, even with pruning. Instead, the convergence may be\npoly-logarithmic or, in some important special cases, such as honest regression\ntrees, fail completely. We show that random forests can remedy the situation,\nturning poor performing trees into nearly optimal procedures, at the cost of\nlosing interpretability and introducing two additional tuning parameters. The\ntwo hallmarks of random forests, subsampling and the random feature selection\nmechanism, are seen to each distinctively contribute to achieving nearly\noptimal performance for the model class considered.",
     "descriptor": "",
     "authors": [
-      "Mattias D. Cattaneo",
+      "Matias D. Cattaneo",
       "Jason M. Klusowski",
       "Peter M. Tian"
     ],
