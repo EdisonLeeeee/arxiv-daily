@@ -264,7 +264,8 @@
       "Mohit Singh"
     ],
     "subjectives": [
-      "Data Structures and Algorithms (cs.DS)"
+      "Data Structures and Algorithms (cs.DS)",
+      "Combinatorics (math.CO)"
     ],
     "url": "https://arxiv.org/abs/2211.10507"
   },
@@ -441,7 +442,8 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2211.10532"
   },
@@ -577,7 +579,8 @@
     ],
     "subjectives": [
       "Computer Vision and Pattern Recognition (cs.CV)",
-      "Artificial Intelligence (cs.AI)"
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
     ],
     "url": "https://arxiv.org/abs/2211.10563"
   },
@@ -648,7 +651,8 @@
     ],
     "subjectives": [
       "Machine Learning (cs.LG)",
-      "Artificial Intelligence (cs.AI)"
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2211.10575"
   },
@@ -915,6 +919,7 @@
       "Yi Wang"
     ],
     "subjectives": [
+      "Image and Video Processing (eess.IV)",
       "Computer Vision and Pattern Recognition (cs.CV)"
     ],
     "url": "https://arxiv.org/abs/2211.10597"
@@ -1088,7 +1093,7 @@
     "id": "arXiv:2211.10623",
     "title": "Do Pre-trained Language Models Indeed Understand Software Engineering  Tasks?",
     "abstract": "Artificial intelligence (AI) for software engineering (SE) tasks has recently\nachieved promising performance. In this paper, we investigate to what extent\nthe pre-trained language model truly understands those SE tasks such as code\nsearch, code summarization, etc. We conduct a comprehensive empirical study on\na board set of AI for SE (AI4SE) tasks by feeding them with variant inputs: 1)\nwith various masking rates and 2) with sufficient input subset method. Then,\nthe trained models are evaluated on different SE tasks, including code search,\ncode summarization, and duplicate bug report detection. Our experimental\nresults show that pre-trained language models are insensitive to the given\ninput, thus they achieve similar performance in these three SE tasks. We refer\nto this phenomenon as overinterpretation, where a model confidently makes a\ndecision without salient features, or where a model finds some irrelevant\nrelationships between the final decision and the dataset. Our study\ninvestigates two approaches to mitigate the overinterpretation phenomenon:\nwhole word mask strategy and ensembling. To the best of our knowledge, we are\nthe first to reveal this overinterpretation phenomenon to the AI4SE community,\nwhich is an important reminder for researchers to design the input for the\nmodels and calls for necessary future work in understanding and implementing\nAI4SE tasks.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2202.08005 by other authors\n",
     "authors": [
       "Yao Li",
       "Tao Zhang",
@@ -2530,7 +2535,7 @@
     "id": "arXiv:2211.10815",
     "title": "Non-stationary Risk-sensitive Reinforcement Learning: Near-optimal  Dynamic Regret, Adaptive Detection, and Separation Design",
     "abstract": "We study risk-sensitive reinforcement learning (RL) based on an entropic risk\nmeasure in episodic non-stationary Markov decision processes (MDPs). Both the\nreward functions and the state transition kernels are unknown and allowed to\nvary arbitrarily over time with a budget on their cumulative variations. When\nthis variation budget is known a prior, we propose two restart-based\nalgorithms, namely Restart-RSMB and Restart-RSQ, and establish their dynamic\nregrets. Based on these results, we further present a meta-algorithm that does\nnot require any prior knowledge of the variation budget and can adaptively\ndetect the non-stationarity on the exponential value functions. A dynamic\nregret lower bound is then established for non-stationary risk-sensitive RL to\ncertify the near-optimality of the proposed algorithms. Our results also show\nthat the risk control and the handling of the non-stationarity can be\nseparately designed in the algorithm if the variation budget is known a prior,\nwhile the non-stationary detection mechanism in the adaptive algorithm depends\non the risk parameter. This work offers the first non-asymptotic theoretical\nanalyses for the non-stationary risk-sensitive RL in the literature.",
-    "descriptor": "\nComments: 33 pages,3 figures, AAAI 2023\n",
+    "descriptor": "\nComments: 33 pages,3 figures, AAAI 2023. arXiv admin note: text overlap with arXiv:2111.03947, arXiv:2102.05406 by other authors\n",
     "authors": [
       "Yuhao Ding",
       "Ming Jin",
@@ -6315,7 +6320,7 @@
     "id": "arXiv:2211.11262",
     "title": "Boosting Novel Category Discovery Over Domains with Soft Contrastive  Learning and All-in-One Classifier",
     "abstract": "Unsupervised domain adaptation (UDA) has been highly successful in\ntransferring knowledge acquired from a label-rich source domain to a\nlabel-scarce target domain. Open-set domain adaptation (ODA) and universal\ndomain adaptation (UNDA) have been proposed as solutions to the problem\nconcerning the presence of additional novel categories in the target domain.\nExisting ODA and UNDA approaches treat all novel categories as one unified\nunknown class and attempt to detect this unknown class during the training\nprocess. We find that domain variance leads to more significant view-noise in\nunsupervised data augmentation, affecting the further applications of\ncontrastive learning~(CL), as well as the current closed-set classifier and\nopen-set classifier causing the model to be overconfident in novel class\ndiscovery. To address the above two issues, we propose Soft-contrastive\nAll-in-one Network~(SAN) for ODA and UNDA tasks. SAN includes a novel\ndata-augmentation-based CL loss, which is used to improve the representational\ncapability, and a more human-intuitive classifier, which is used to improve the\nnew class discovery capability. The soft contrastive learning~(SCL) loss is\nused to weaken the adverse effects of the data-augmentation label noise\nproblem, which is amplified in domain transfer. The All-in-One~(AIO) classifier\novercomes the overconfidence problem of the current mainstream closed-set\nclassifier and open-set classifier in a more human-intuitive way. The\nvisualization results and ablation experiments demonstrate the importance of\nthe two proposed innovations. Moreover, extensive experimental results on ODA\nand UNDA show that SAN has advantages over the existing state-of-the-art\nmethods.",
-    "descriptor": "\nComments: 8 pages, 5 figures\n",
+    "descriptor": "\nComments: 8 pages, 5 figures. arXiv admin note: text overlap with arXiv:2104.03344 by other authors\n",
     "authors": [
       "Zelin Zang",
       "Lei Shang",
@@ -6347,7 +6352,7 @@
     "id": "arXiv:2211.11276",
     "title": "300 GHz Channel Measurement and Characterization in the Atrium of a  Building",
     "abstract": "With abundant bandwidth resource, the Terahertz band (0.1~THz to 10~THz) is\nenvisioned as a key technology to realize ultra-high data rates in the 6G and\nbeyond mobile communication systems. However, moving to the THz band, existing\nchannel models dedicated for microwave or millimeter-wave bands are\nineffective. To fill this research gap, extensive channel measurement campaigns\nand characterizations are necessary. In this paper, using a frequency-domain\nVector Network Analyzer (VNA)-based sounder, a measurement campaign is\nconducted in the outdoor atrium of a building in 306-321 GHz band. The measured\ndata are further processed to obtain the channel transfer functions (CTFs),\nparameters of multipath components (MPCs), as well as clustering results. Based\non the MPC parameters, the channel characteristics, such as path loss, shadow\nfading, K-factor, etc., are calculated and analyzed. The extracted channel\ncharacteristics and numerology are helpful to study channel modeling and guide\nsystem design for THz communications.",
-    "descriptor": "\nComments: 5 pages, 2 figures\n",
+    "descriptor": "\nComments: 5 pages, 2 figures. arXiv admin note: text overlap with arXiv:2203.16745 by other authors\n",
     "authors": [
       "Yuanbo Li",
       "Yiqin Wang",
@@ -9703,7 +9708,7 @@
     "id": "arXiv:2211.11720",
     "title": "Multitask Vision-Language Prompt Tuning",
     "abstract": "Prompt Tuning, conditioning on task-specific learned prompt vectors, has\nemerged as a data-efficient and parameter-efficient method for adapting large\npretrained vision-language models to multiple downstream tasks. However,\nexisting approaches usually consider learning prompt vectors for each task\nindependently from scratch, thereby failing to exploit the rich shareable\nknowledge across different vision-language tasks. In this paper, we propose\nmultitask vision-language prompt tuning (MVLPT), which incorporates cross-task\nknowledge into prompt tuning for vision-language models. Specifically, (i) we\ndemonstrate the effectiveness of learning a single transferable prompt from\nmultiple source tasks to initialize the prompt for each target task; (ii) we\nshow many target tasks can benefit each other from sharing prompt vectors and\nthus can be jointly learned via multitask prompt tuning. We benchmark the\nproposed MVLPT using three representative prompt tuning methods, namely text\nprompt tuning, visual prompt tuning, and the unified vision-language prompt\ntuning. Results in 20 vision tasks demonstrate that the proposed approach\noutperforms all single-task baseline prompt tuning methods, setting the new\nstate-of-the-art on the few-shot ELEVATER benchmarks and cross-task\ngeneralization benchmarks. To understand where the cross-task knowledge is most\neffective, we also conduct a large-scale study on task transferability with 20\nvision tasks in 400 combinations for each prompt tuning method. It shows that\nthe most performant MVLPT for each prompt tuning method prefers different task\ncombinations and many tasks can benefit each other, depending on their visual\nsimilarity and label similarity. Code is available at\nhttps://github.com/sIncerass/MVLPT.",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2203.05557 by other authors\n",
     "authors": [
       "Sheng Shen",
       "Shijia Yang",
@@ -10844,7 +10849,7 @@
     "id": "arXiv:2211.11336",
     "title": "Orientation recognition and correction of Cardiac MRI with deep neural  network",
     "abstract": "In this paper, the problem of orientation correction in cardiac MRI images is\ninvestigated and a framework for orientation recognition via deep neural\nnetworks is proposed. For multi-modality MRI, we introduce a transfer learning\nstrategy to transfer our proposed model from single modality to multi-modality.\nWe embed the proposed network into the orientation correction command-line\ntool, which can implement orientation correction on 2D DICOM and 3D NIFTI\nimages. Our source code, network models and tools are available at\nhttps://github.com/Jy-stdio/MSCMR_orient/",
-    "descriptor": "",
+    "descriptor": "\nComments: arXiv admin note: text overlap with arXiv:2011.08761 by other authors\n",
     "authors": [
       "Jiyao Liu"
     ],
