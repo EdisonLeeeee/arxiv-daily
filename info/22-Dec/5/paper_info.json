@@ -240,7 +240,7 @@
   {
     "id": "arXiv:2212.00844",
     "title": "A Comparison of New Swarm Task Allocation Algorithms in Unknown  Environments with Varying Task Density",
-    "abstract": "Task allocation is an important problem for robot swarms to solve, allowing\nagents to use reduce task completion time by performing tasks in a distributed\nfashion. Existing task allocation algorithms often assume prior knowledge of\ntask location and demand or fail to consider the effects of the geometric\ndistribution of tasks on the completion time and communication cost of the\nalgorithms. In this paper, we examine an environment where agents must explore\nand discover tasks with positive demand and successfully assign themselves to\ncomplete all such tasks. We propose two new task allocation algorithms for\ninitially unknown environments -- one based on N-site selection and the other\non virtual pheromones. We analyze each algorithm separately and also evaluate\nthe effectiveness of the two algorithms in dense vs. sparse task distributions.\nCompared to the Levy walk, which has been theorized to be optimal for foraging,\nour virtual pheromone inspired algorithm is much faster in sparse to medium\ntask densities but is communication and agent intensive. Our site selection\ninspired algorithm also outperforms Levy walk in sparse task densities and is a\nless resource-intensive option than our virtual pheromone algorithm for this\ncase. Because the performance of both algorithms relative to random walk is\ndependent on task density, our results shed light on how task density is\nimportant in choosing a task allocation algorithm in initially unknown\nenvironments.",
+    "abstract": "Task allocation is an important problem for robot swarms to solve, allowing\nagents to reduce task completion time by performing tasks in a distributed\nfashion. Existing task allocation algorithms often assume prior knowledge of\ntask location and demand or fail to consider the effects of the geometric\ndistribution of tasks on the completion time and communication cost of the\nalgorithms. In this paper, we examine an environment where agents must explore\nand discover tasks with positive demand and successfully assign themselves to\ncomplete all such tasks. We propose two new task allocation algorithms for\ninitially unknown environments -- one based on N-site selection and the other\non virtual pheromones. We analyze each algorithm separately and also evaluate\nthe effectiveness of the two algorithms in dense vs. sparse task distributions.\nCompared to the Levy walk, which has been theorized to be optimal for foraging,\nour virtual pheromone inspired algorithm is much faster in sparse to medium\ntask densities but is communication and agent intensive. Our site selection\ninspired algorithm also outperforms Levy walk in sparse task densities and is a\nless resource-intensive option than our virtual pheromone algorithm for this\ncase. Because the performance of both algorithms relative to random walk is\ndependent on task density, our results shed light on how task density is\nimportant in choosing a task allocation algorithm in initially unknown\nenvironments.",
     "descriptor": "\nComments: 10 pages, 9 figures\n",
     "authors": [
       "Grace Cai",
@@ -801,7 +801,7 @@
     "id": "arXiv:2212.00920",
     "title": "Geometry-Aware Network for Domain Adaptive Semantic Segmentation",
     "abstract": "Measuring and alleviating the discrepancies between the synthetic (source)\nand real scene (target) data is the core issue for domain adaptive semantic\nsegmentation. Though recent works have introduced depth information in the\nsource domain to reinforce the geometric and semantic knowledge transfer, they\ncannot extract the intrinsic 3D information of objects, including positions and\nshapes, merely based on 2D estimated depth. In this work, we propose a novel\nGeometry-Aware Network for Domain Adaptation (GANDA), leveraging more compact\n3D geometric point cloud representations to shrink the domain gaps. In\nparticular, we first utilize the auxiliary depth supervision from the source\ndomain to obtain the depth prediction in the target domain to accomplish\nstructure-texture disentanglement. Beyond depth estimation, we explicitly\nexploit 3D topology on the point clouds generated from RGB-D images for further\ncoordinate-color disentanglement and pseudo-labels refinement in the target\ndomain. Moreover, to improve the 2D classifier in the target domain, we perform\ndomain-invariant geometric adaptation from source to target and unify the 2D\nsemantic and 3D geometric segmentation results in two domains. Note that our\nGANDA is plug-and-play in any existing UDA framework. Qualitative and\nquantitative results demonstrate that our model outperforms state-of-the-arts\non GTA5->Cityscapes and SYNTHIA->Cityscapes.",
-    "descriptor": "\nComments: Accepted by AAAI 2023\n",
+    "descriptor": "\nComments: AAAI 2023\n",
     "authors": [
       "Yinghong Liao",
       "Wending Zhou",
@@ -1343,7 +1343,6 @@
       "Fangxun Shu",
       "Biaolong Chen",
       "Yue Liao",
-      "Ke Gao",
       "Shuwen Xiao",
       "Wenyu Sun",
       "Xiaobo Li",
@@ -2860,7 +2859,8 @@
       "Xingyi Yao",
       "Kaiwen Li",
       "Rui Wang",
-      "Tao Zhang"
+      "Tao Zhang",
+      "Ling Wang"
     ],
     "subjectives": [
       "Neural and Evolutionary Computing (cs.NE)"
@@ -4413,8 +4413,8 @@
   {
     "id": "arXiv:1006.4910",
     "title": "Kalman Filters and Homography: Utilizing the Matrix $A$",
-    "abstract": "Kalman Filters and Homography: Utilizing the Matrix $A$",
-    "descriptor": "",
+    "abstract": "Comments: Typos fixed",
+    "descriptor": "\nComments: Typos fixed\n",
     "authors": [
       "Burak Bayramli"
     ],
@@ -5642,7 +5642,9 @@
       "Sergey Samsonov"
     ],
     "subjectives": [
-      "Numerical Analysis (math.NA)"
+      "Numerical Analysis (math.NA)",
+      "Statistics Theory (math.ST)",
+      "Machine Learning (stat.ML)"
     ],
     "url": "https://arxiv.org/abs/2206.09527"
   },
