@@ -2372,7 +2372,7 @@
   },
   {
     "id": "arXiv:2212.02918",
-    "title": "Thermal Dissipation Resulting from Everyday Interactions as a Sensing  Modality-The MIDAS Touch",
+    "title": "Thermal Dissipation Resulting from Everyday Interactions as a Sensing  Modality -- The MIDAS Touch",
     "abstract": "We contribute MIDAS as a novel sensing solution for characterizing everyday\nobjects using thermal dissipation. MIDAS takes advantage of the fact that\nanytime a person touches an object it results in heat transfer. By capturing\nand modeling the dissipation of the transferred heat, e.g., through the\ndecrease in the captured thermal radiation, MIDAS can characterize the object\nand determine its material. We validate MIDAS through extensive empirical\nbenchmarks and demonstrate that MIDAS offers an innovative sensing modality\nthat can recognize a wide range of materials with up to 83% accuracy and\ngeneralize to variations in the people interacting with objects. We also\ndemonstrate that MIDAS can detect thermal dissipation through objects, up to 2\nmm thickness, and support analysis of multiple objects that are interacted with",
     "descriptor": "",
     "authors": [
@@ -2388,7 +2388,9 @@
       "Huber Flores"
     ],
     "subjectives": [
-      "Distributed, Parallel, and Cluster Computing (cs.DC)"
+      "Distributed, Parallel, and Cluster Computing (cs.DC)",
+      "Human-Computer Interaction (cs.HC)",
+      "Signal Processing (eess.SP)"
     ],
     "url": "https://arxiv.org/abs/2212.02918"
   },
