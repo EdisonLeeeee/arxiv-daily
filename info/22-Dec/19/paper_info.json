@@ -181,7 +181,7 @@
     "id": "arXiv:2212.08109",
     "title": "An Empirical Study of Deep Learning Models for Vulnerability Detection",
     "abstract": "Deep learning (DL) models of code have recently reported great progress for\nvulnerability detection. In some cases, DL-based models have outperformed\nstatic analysis tools. Although many great models have been proposed, we do not\nyet have a good understanding of these models. This limits the further\nadvancement of model robustness, debugging, and deployment for the\nvulnerability detection. In this paper, we surveyed and reproduced 9\nstate-of-the-art (SOTA) deep learning models on 2 widely used vulnerability\ndetection datasets: Devign and MSR. We investigated 6 research questions in\nthree areas, namely model capabilities, training data, and model\ninterpretation. We experimentally demonstrated the variability between\ndifferent runs of a model and the low agreement among different models'\noutputs. We investigated models trained for specific types of vulnerabilities\ncompared to a model that is trained on all the vulnerabilities at once. We\nexplored the types of programs DL may consider \"hard\" to handle. We\ninvestigated the relations of training data sizes and training data composition\nwith model performance. Finally, we studied model interpretations and analyzed\nimportant features that the models used to make predictions. We believe that\nour findings can help better understand model results, provide guidance on\npreparing training data, and improve the robustness of the models. All of our\ndatasets, code, and results are available at\nhttps://figshare.com/s/284abfba67dba448fdc2.",
-    "descriptor": "\nComments: 11 pages, 14 figures. Accepted at ICSE 2023 (not camera-ready version)\n",
+    "descriptor": "\nComments: 11 pages, 14 figures. Accepted at ICSE 2023 (not camera-ready version). Corrected typos in Listing 2\n",
     "authors": [
       "Benjamin Steenhoek",
       "Md Mahbubur Rahman",
@@ -1986,6 +1986,7 @@
     "subjectives": [
       "Machine Learning (cs.LG)",
       "Artificial Intelligence (cs.AI)",
+      "Computation and Language (cs.CL)",
       "Cryptography and Security (cs.CR)"
     ],
     "url": "https://arxiv.org/abs/2212.08349"
@@ -4388,7 +4389,7 @@
     "id": "arXiv:2212.08624",
     "title": "Development of A Real-time POCUS Image Quality Assessment and  Acquisition Guidance System",
     "abstract": "Point-of-care ultrasound (POCUS) is one of the most commonly applied tools\nfor cardiac function imaging in the clinical routine of the emergency\ndepartment and pediatric intensive care unit. The prior studies demonstrate\nthat AI-assisted software can guide nurses or novices without prior sonography\nexperience to acquire POCUS by recognizing the interest region, assessing image\nquality, and providing instructions. However, these AI algorithms cannot simply\nreplace the role of skilled sonographers in acquiring diagnostic-quality POCUS.\nUnlike chest X-ray, CT, and MRI, which have standardized imaging protocols,\nPOCUS can be acquired with high inter-observer variability. Though being with\nvariability, they are usually all clinically acceptable and interpretable. In\nchallenging clinical environments, sonographers employ novel heuristics to\nacquire POCUS in complex scenarios. To help novice learners to expedite the\ntraining process while reducing the dependency on experienced sonographers in\nthe curriculum implementation, We will develop a framework to perform real-time\nAI-assisted quality assessment and probe position guidance to provide training\nprocess for novice learners with less manual intervention.",
-    "descriptor": "\nComments: 4 pages, 1 figure, 2 tables\n",
+    "descriptor": "",
     "authors": [
       "Zhenge Jia",
       "Yiyu Shi",
