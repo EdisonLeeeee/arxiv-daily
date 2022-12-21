@@ -1279,7 +1279,7 @@
     "id": "arXiv:2212.08846",
     "title": "Painterly Image Harmonization in Dual Domains",
     "abstract": "Image harmonization aims to produce visually harmonious composite images by\nadjusting the foreground appearance to be compatible with the background. When\nthe composite image has photographic foreground and painterly background, the\ntask is called painterly image harmonization. There are only few works on this\ntask, which are either time-consuming or weak in generating well-harmonized\nresults. In this work, we propose a novel painterly harmonization network\nconsisting of a dual-domain generator and a dual-domain discriminator, which\nharmonizes the composite image in both spatial domain and frequency domain. The\ndual-domain generator performs harmonization by using AdaIn modules in the\nspatial domain and our proposed ResFFT modules in the frequency domain. The\ndual-domain discriminator attempts to distinguish the inharmonious patches\nbased on the spatial feature and frequency feature of each patch, which can\nenhance the ability of generator in an adversarial manner. Extensive\nexperiments on the benchmark dataset show the effectiveness of our method. Our\ncode and model are available at\nhttps://github.com/bcmi/PHDNet-Painterly-Image-Harmonization.",
-    "descriptor": "",
+    "descriptor": "\nComments: Accepted by AAAI2023\n",
     "authors": [
       "Junyan Cao",
       "Yan Hong",
@@ -1602,10 +1602,10 @@
     "abstract": "This work introduces the design analysis simulation and a standard MEMS\nfabrication process for a three dimensional microcoil with a magnetic core and\na digital switch configuration using a completely integrated fully MEMS\ncompatible process to achieve a digitally controlled inductance. The proposed\ndesign can also be utilized as a micro transformer. The proposed design\nconsists of five identical 3D coils and their corresponding MEMS switches.\nThese coils are digitally controlled to achieve a variable inductor ranging\nfrom one fifth of the coil inductance up to five times the coil inductance. A\nstandard five layer Polymumps process is proposed to fabricate the microcoils\nand the integrated switches. Each micro coil is anchored directly on chip\nconnected to the input signal from one side and the other is connected to the\nswitch. The Ni based magnetic core improves the coil response by confining and\nguiding the magnetic field in the magnetic device compared to Si core based by\nmore than five times. The presented coil has the number of windings limited by\nthe designed length and the minimum spacing that can be realized by standard\noptical lithography. The coil diameter is also restricted by the limits defined\nby optical lithography whereas the maximum height realizable by the Polymumps\nprocess limits the height of the magnetic core and accordingly results in lower\ninductor performance. Based on this technique we present coils ranging from 100\num in length and ten winding up to 1000 um in length and 100 windings. The new\nmonolithically integrated MEMS switches act as selectors to achieve a variable\ninductance with digital control to allow the selection among n inductance steps\nwhere n is the number of coils.",
     "descriptor": "\nComments: Submitted to Microelectronic Engineering Journal - Elsevier\n",
     "authors": [
-      "Abdelhameed. Sharaf",
+      "Abdelhameed Sharaf",
       "S. M. Eladl",
       "A. Nasr",
-      "Mohmaed Serry"
+      "Mohamed Serry"
     ],
     "subjectives": [
       "Systems and Control (eess.SY)"
@@ -1844,7 +1844,7 @@
     "id": "arXiv:2212.08930",
     "title": "On Noisy Evaluation in Federated Hyperparameter Tuning",
     "abstract": "Hyperparameter tuning is critical to the success of federated learning\napplications. Unfortunately, appropriately selecting hyperparameters is\nchallenging in federated networks. Issues of scale, privacy, and heterogeneity\nintroduce noise in the tuning process and make it difficult to evaluate the\nperformance of various hyperparameters. In this work, we perform the first\nsystematic study on the effect of noisy evaluation in federated hyperparameter\ntuning. We first identify and rigorously explore key sources of noise,\nincluding client subsampling, data and systems heterogeneity, and data privacy.\nSurprisingly, our results indicate that even small amounts of noise can\nsignificantly impact tuning methods-reducing the performance of\nstate-of-the-art approaches to that of naive baselines. To address noisy\nevaluation in such scenarios, we propose a simple and effective approach that\nleverages public proxy data to boost the evaluation signal. Our work\nestablishes general challenges, baselines, and best practices for future work\nin federated hyperparameter tuning.",
-    "descriptor": "\nComments: 19 pages, 15 figures, submitted to MLSys2023\n",
+    "descriptor": "\nComments: 19 pages, 15 figures, submitted to MLSys2023 v2: Fixed citation formatting\n",
     "authors": [
       "Kevin Kuo",
       "Pratiksha Thaker",
@@ -2416,7 +2416,7 @@
     "id": "arXiv:2212.09000",
     "title": "Confidence-aware Training of Smoothed Classifiers for Certified  Robustness",
     "abstract": "Any classifier can be \"smoothed out\" under Gaussian noise to build a new\nclassifier that is provably robust to $\\ell_2$-adversarial perturbations, viz.,\nby averaging its predictions over the noise via randomized smoothing. Under the\nsmoothed classifiers, the fundamental trade-off between accuracy and\n(adversarial) robustness has been well evidenced in the literature: i.e.,\nincreasing the robustness of a classifier for an input can be at the expense of\ndecreased accuracy for some other inputs. In this paper, we propose a simple\ntraining method leveraging this trade-off to obtain robust smoothed\nclassifiers, in particular, through a sample-wise control of robustness over\nthe training samples. We make this control feasible by using \"accuracy under\nGaussian noise\" as an easy-to-compute proxy of adversarial robustness for an\ninput. Specifically, we differentiate the training objective depending on this\nproxy to filter out samples that are unlikely to benefit from the worst-case\n(adversarial) objective. Our experiments show that the proposed method, despite\nits simplicity, consistently exhibits improved certified robustness upon\nstate-of-the-art training methods. Somewhat surprisingly, we find these\nimprovements persist even for other notions of robustness, e.g., to various\ntypes of common corruptions.",
-    "descriptor": "\nComments: 21 pages; Code is available at this https URL; AAAI 2023\n",
+    "descriptor": "\nComments: 21 pages; AAAI 2023; Code is available at this https URL\n",
     "authors": [
       "Jongheon Jeong",
       "Seojin Kim",
@@ -3568,7 +3568,7 @@
   },
   {
     "id": "arXiv:2212.09162",
-    "title": "Medical Diagnosis with Large Scale Multimodal Transformers -- Leveraging  Diverse Data for More Accurate Diagnosis",
+    "title": "Medical Diagnosis with Large Scale Multimodal Transformers: Leveraging  Diverse Data for More Accurate Diagnosis",
     "abstract": "Multimodal deep learning has been used to predict clinical endpoints and\ndiagnoses from clinical routine data. However, these models suffer from scaling\nissues: they have to learn pairwise interactions between each piece of\ninformation in each data type, thereby escalating model complexity beyond\nmanageable scales. This has so far precluded a widespread use of multimodal\ndeep learning. Here, we present a new technical approach of \"learnable\nsynergies\", in which the model only selects relevant interactions between data\nmodalities and keeps an \"internal memory\" of relevant data. Our approach is\neasily scalable and naturally adapts to multimodal data inputs from clinical\nroutine. We demonstrate this approach on three large multimodal datasets from\nradiology and ophthalmology and show that it outperforms state-of-the-art\nmodels in clinically relevant diagnosis tasks. Our new approach is transferable\nand will allow the application of multimodal deep learning to a broad set of\nclinically relevant problems.",
     "descriptor": "",
     "authors": [
@@ -7149,7 +7149,7 @@
     "id": "arXiv:2212.09735",
     "title": "Correspondence Distillation from NeRF-based GAN",
     "abstract": "The neural radiance field (NeRF) has shown promising results in preserving\nthe fine details of objects and scenes. However, unlike mesh-based\nrepresentations, it remains an open problem to build dense correspondences\nacross different NeRFs of the same category, which is essential in many\ndownstream tasks. The main difficulties of this problem lie in the implicit\nnature of NeRF and the lack of ground-truth correspondence annotations. In this\npaper, we show it is possible to bypass these challenges by leveraging the rich\nsemantics and structural priors encapsulated in a pre-trained NeRF-based GAN.\nSpecifically, we exploit such priors from three aspects, namely 1) a dual\ndeformation field that takes latent codes as global structural indicators, 2) a\nlearning objective that regards generator features as geometric-aware local\ndescriptors, and 3) a source of infinite object-specific NeRF samples. Our\nexperiments demonstrate that such priors lead to 3D dense correspondence that\nis accurate, smooth, and robust. We also show that established dense\ncorrespondence across NeRFs can effectively enable many NeRF-based downstream\napplications such as texture transfer.",
-    "descriptor": "",
+    "descriptor": "\nComments: Project page: this https URL\n",
     "authors": [
       "Yushi Lan",
       "Chen Change Loy",
@@ -7211,11 +7211,11 @@
   {
     "id": "arXiv:2212.09741",
     "title": "One Embedder, Any Task: Instruction-Finetuned Text Embeddings",
-    "abstract": "We introduce INSTRUCTOR, a new method for computing text embeddings given\ntask instructions: every text input is embedded together with instructions\nexplaining the use case (e.g., task and domain descriptions). Unlike encoders\nfrom prior work that are more specialized, INSTRUCTOR is a single embedder that\ncan generate text embeddings tailored to different downstream tasks and\ndomains, without any further training. We first annotate instructions for 330\ndiverse tasks and train INSTRUCTOR on this multitask mixture with a contrastive\nloss. We evaluate INSTRUCTOR on 70 embedding evaluation tasks (66 of which are\nunseen during training), ranging from classification and information retrieval\nto semantic textual similarity and text generation evaluation. INSTRUCTOR,\nwhile having an order of magnitude fewer parameters than the previous best\nmodel, achieves state-of-the-art performance, with an average improvement of\n3.4% compared to the previous best results on the 70 diverse datasets. Our\nanalysis suggests that INSTRUCTOR is robust to changes in instructions, and\nthat instruction finetuning mitigates the challenge of training a single model\non diverse datasets.",
+    "abstract": "We introduce INSTRUCTOR, a new method for computing text embeddings given\ntask instructions: every text input is embedded together with instructions\nexplaining the use case (e.g., task and domain descriptions). Unlike encoders\nfrom prior work that are more specialized, INSTRUCTOR is a single embedder that\ncan generate text embeddings tailored to different downstream tasks and\ndomains, without any further training. We first annotate instructions for 330\ndiverse tasks and train INSTRUCTOR on this multitask mixture with a contrastive\nloss. We evaluate INSTRUCTOR on 70 embedding evaluation tasks (66 of which are\nunseen during training), ranging from classification and information retrieval\nto semantic textual similarity and text generation evaluation. INSTRUCTOR,\nwhile having an order of magnitude fewer parameters than the previous best\nmodel, achieves state-of-the-art performance, with an average improvement of\n3.4% compared to the previous best results on the 70 diverse datasets. Our\nanalysis suggests that INSTRUCTOR is robust to changes in instructions, and\nthat instruction finetuning mitigates the challenge of training a single model\non diverse datasets. Our model, code, and data are available at\nhttps://instructor-embedding.github.io.",
     "descriptor": "",
     "authors": [
       "Hongjin Su",
-      "Weijia Shi*",
+      "Weijia Shi",
       "Jungo Kasai",
       "Yizhong Wang",
       "Yushi Hu",
@@ -7257,7 +7257,7 @@
   {
     "id": "arXiv:2212.09746",
     "title": "Evaluating Human-Language Model Interaction",
-    "abstract": "Many real-world applications of language models (LMs), such as code\nautocomplete and writing assistance, involve human-LM interaction, but the main\nLM benchmarks are non-interactive, where a system produces output without human\nintervention. To evaluate human-LM interaction, we develop a framework,\nHuman-AI Language-based Interaction Evaluation (H-LINE), that expands\nnon-interactive evaluation along three dimensions, capturing (i) the\ninteractive process, not only the final output; (ii) the first-person\nsubjective experience, not just a third-party assessment; and (iii) notions of\npreference beyond quality. We then design five tasks ranging from goal-oriented\nto open-ended to capture different forms of interaction. On four\nstate-of-the-art LMs (three variants of OpenAI's GPT-3 and AI21's J1-Jumbo), we\nfind that non-interactive performance does not always result in better human-LM\ninteraction and that first-person and third-party metrics can diverge,\nsuggesting the importance of examining the nuances of human-LM interaction.",
+    "abstract": "Many real-world applications of language models (LMs), such as code\nautocomplete and writing assistance, involve human-LM interaction. However, the\nmain LM benchmarks are non-interactive in that a system produces output without\nhuman involvement. To evaluate human-LM interaction, we develop a new\nframework, Human-AI Language-based Interaction Evaluation (HALIE), that expands\nnon-interactive evaluation along three dimensions, capturing (i) the\ninteractive process, not only the final output; (ii) the first-person\nsubjective experience, not just a third-party assessment; and (iii) notions of\npreference beyond quality. We then design five tasks ranging from goal-oriented\nto open-ended to capture different forms of interaction. On four\nstate-of-the-art LMs (three variants of OpenAI's GPT-3 and AI21's J1-Jumbo), we\nfind that non-interactive performance does not always result in better human-LM\ninteraction and that first-person and third-party metrics can diverge,\nsuggesting the importance of examining the nuances of human-LM interaction.",
     "descriptor": "",
     "authors": [
       "Mina Lee",
@@ -12349,9 +12349,9 @@
   },
   {
     "id": "arXiv:2212.06321",
-    "title": "Data Layout from a Type-Theoretic Perspective",
-    "abstract": "Comments: Submitted to MFPS 2022 special issue of ENTICS",
-    "descriptor": "\nComments: Submitted to MFPS 2022 special issue of ENTICS\n",
+    "title": "Data Layout from a Type-Theoretic Perspective (extended version)",
+    "abstract": "Comments: Extended version of paper to appear in MFPS 2022 special issue of ENTICS; contains additional section and proofs",
+    "descriptor": "\nComments: Extended version of paper to appear in MFPS 2022 special issue of ENTICS; contains additional section and proofs\n",
     "authors": [
       "Henry DeYoung",
       "Frank Pfenning"
