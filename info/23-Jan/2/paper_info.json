@@ -54,7 +54,7 @@
     "id": "arXiv:2212.14050",
     "title": "Proof of Swarm Based Ensemble Learning for Federated Learning  Applications",
     "abstract": "Ensemble learning combines results from multiple machine learning models in\norder to provide a better and optimised predictive model with reduced bias,\nvariance and improved predictions. However, in federated learning it is not\nfeasible to apply centralised ensemble learning directly due to privacy\nconcerns. Hence, a mechanism is required to combine results of local models to\nproduce a global model. Most distributed consensus algorithms, such as\nByzantine fault tolerance (BFT), do not normally perform well in such\napplications. This is because, in such methods predictions of some of the peers\nare disregarded, so a majority of peers can win without even considering other\npeers' decisions. Additionally, the confidence score of the result of each peer\nis not normally taken into account, although it is an important feature to\nconsider for ensemble learning. Moreover, the problem of a tie event is often\nleft un-addressed by methods such as BFT. To fill these research gaps, we\npropose PoSw (Proof of Swarm), a novel distributed consensus algorithm for\nensemble learning in a federated setting, which was inspired by particle swarm\nbased algorithms for solving optimisation problems. The proposed algorithm is\ntheoretically proved to always converge in a relatively small number of steps\nand has mechanisms to resolve tie events while trying to achieve sub-optimum\nsolutions. We experimentally validated the performance of the proposed\nalgorithm using ECG classification as an example application in healthcare,\nshowing that the ensemble learning model outperformed all local models and even\nthe FL-based global model. To the best of our knowledge, the proposed algorithm\nis the first attempt to make consensus over the output results of distributed\nmodels trained using federated learning.",
-    "descriptor": "\nComments: This is the full edition of a 4-page poster paper published at the Proceedings of the 38th ACM/SIGAPP Symposium on Applied Computing (SAC '23)\n",
+    "descriptor": "\nComments: This is the full edition of a 4-page poster paper published at the Proceedings of the 38th ACM/SIGAPP Symposium on Applied Computing (SAC '23) which can be accessed via the following DOI link: this https URL\n",
     "authors": [
       "Ali Raza",
       "Kim Phuc Tran",
@@ -2531,7 +2531,8 @@
       "Hsin-Hao Su"
     ],
     "subjectives": [
-      "Distributed, Parallel, and Cluster Computing (cs.DC)"
+      "Distributed, Parallel, and Cluster Computing (cs.DC)",
+      "Data Structures and Algorithms (cs.DS)"
     ],
     "url": "https://arxiv.org/abs/2212.14425"
   },
@@ -2726,7 +2727,7 @@
   },
   {
     "id": "arXiv:2212.14464",
-    "title": "A Survey of Diversification Metrics and Approaches in Retrieval Systems:  From the Perspective of Search and Recommendation",
+    "title": "A Survey of Diversification Techniques in Search and Recommendation",
     "abstract": "Diversifying search results is an important research topic in retrieval\nsystems in order to satisfy both the various interests of customers and the\nequal market exposure of providers. There has been a growing attention on\ndiversity-aware research during recent years, accompanied by a proliferation of\nliterature on methods to promote diversity in search and recommendation.\nHowever, the diversity-aware studies in retrieval systems lack a systematic\norganization and are rather fragmented. In this survey, we are the first to\npropose a unified taxonomy for classifying the metrics and approaches of\ndiversification in both search and recommendation, which are two of the most\nextensively researched fields of retrieval systems. We begin the survey with a\nbrief discussion of why diversity is important in retrieval systems, followed\nby a summary of the various diversity concerns in search and recommendation,\nhighlighting their relationship and differences. For the survey's main body, we\npresent a unified taxonomy of diversification metrics and approaches in\nretrieval systems, from both the search and recommendation perspectives. In the\nlater part of the survey, we discuss the openness research questions of\ndiversity-aware research in search and recommendation in an effort to inspire\nfuture innovations and encourage the implementation of diversity in real-world\nsystems.",
     "descriptor": "",
     "authors": [
@@ -5282,7 +5283,7 @@
   {
     "id": "arXiv:2212.14457",
     "title": "Bayesian Interpolation with Deep Linear Networks",
-    "abstract": "This article concerns Bayesian inference using deep linear networks with\noutput dimension one. In the interpolating (zero noise) regime we show that\nwith Gaussian weight priors and MSE negative log-likelihood loss both the\npredictive posterior and the Bayesian model evidence can be written in closed\nform in terms of a class of meromorphic special functions called Meijer-G\nfunctions. These results are non-asymptotic and hold for any training dataset,\nnetwork depth, and hidden layer widths, giving exact solutions to Bayesian\ninterpolation using a deep Gaussian process with a Euclidean covariance at each\nlayer. Through novel asymptotic expansions of Meijer-G functions, a rich new\npicture of the role of depth emerges. Specifically, we find:\n${\\bf \\text{The role of depth in extrapolation}}$: The posteriors in deep\nlinear networks with data-independent priors are the same as in shallow\nnetworks with evidence maximizing data-dependent priors. In this sense, deep\nlinear networks make provably optimal predictions.\n${\\bf \\text{The role of depth in model selection}}$: Starting from\ndata-agnostic priors, Bayesian model evidence in wide networks is only\nmaximized at infinite depth. This gives a principled reason to prefer deeper\nnetworks (at least in the linear case).\n${\\bf \\text{Scaling laws relating depth, width, and number of datapoints}}$:\nWith data-agnostic priors, a novel notion of effective depth given by\n\\[\\#\\text{hidden layers}\\times\\frac{\\#\\text{training data}}{\\text{network\nwidth}}\\] determines the Bayesian posterior in wide linear networks, giving\nrigorous new scaling laws for generalization error.",
+    "abstract": "This article concerns Bayesian inference using deep linear networks with\noutput dimension one. In the interpolating (zero noise) regime we show that\nwith Gaussian weight priors and MSE negative log-likelihood loss both the\npredictive posterior and the Bayesian model evidence can be written in closed\nform in terms of a class of meromorphic special functions called Meijer-G\nfunctions. These results are non-asymptotic and hold for any training dataset,\nnetwork depth, and hidden layer widths, giving exact solutions to Bayesian\ninterpolation using a deep Gaussian process with a Euclidean covariance at each\nlayer. Through novel asymptotic expansions of Meijer-G functions, a rich new\npicture of the role of depth emerges. Specifically, we find that the posteriors\nin deep linear networks with data-independent priors are the same as in shallow\nnetworks with evidence maximizing data-dependent priors. In this sense, deep\nlinear networks make provably optimal predictions. We also prove that, starting\nfrom data-agnostic priors, Bayesian model evidence in wide networks is only\nmaximized at infinite depth. This gives a principled reason to prefer deeper\nnetworks (at least in the linear case). Finally, our results show that with\ndata-agnostic priors a novel notion of effective depth given by\n\\[\\#\\text{hidden layers}\\times\\frac{\\#\\text{training data}}{\\text{network\nwidth}}\\] determines the Bayesian posterior in wide linear networks, giving\nrigorous new scaling laws for generalization error.",
     "descriptor": "",
     "authors": [
       "Boris Hanin",
@@ -8392,8 +8393,8 @@
   {
     "id": "arXiv:2212.03423",
     "title": "Learn to Explore: on Bootstrapping Interactive Data Exploration with  Meta-learning",
-    "abstract": "Comments: Some key issues need to be revised and re-uploaded",
-    "descriptor": "\nComments: Some key issues need to be revised and re-uploaded\n",
+    "abstract": "Learn to Explore: on Bootstrapping Interactive Data Exploration with  Meta-learning",
+    "descriptor": "",
     "authors": [
       "Yukun Cao",
       "Xike Xie",
