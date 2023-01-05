@@ -65,7 +65,7 @@
   },
   {
     "id": "arXiv:2301.01320",
-    "title": "Towards Deployable RL - What's Broken with RL Research and a Potential  Fix",
+    "title": "Towards Deployable RL -- What's Broken with RL Research and a Potential  Fix",
     "abstract": "Reinforcement learning (RL) has demonstrated great potential, but is\ncurrently full of overhyping and pipe dreams. We point to some difficulties\nwith current research which we feel are endemic to the direction taken by the\ncommunity. To us, the current direction is not likely to lead to \"deployable\"\nRL: RL that works in practice and can work in practical situations yet still is\neconomically viable. We also propose a potential fix to some of the\ndifficulties of the field.",
     "descriptor": "",
     "authors": [
@@ -1327,7 +1327,7 @@
   },
   {
     "id": "arXiv:2301.01576",
-    "title": "Robofriend: An Adpative Storytelling Robotic Teddy Bear - Technical  Report",
+    "title": "Robofriend: An Adpative Storytelling Robotic Teddy Bear -- Technical  Report",
     "abstract": "In this paper we describe Robofriend, a robotic teddy bear for telling\nstories to young children. Robofriend adapts its behavior to keep the\nchildrens' attention using reinforcement learning.",
     "descriptor": "",
     "authors": [
@@ -4259,7 +4259,7 @@
   },
   {
     "id": "arXiv:2207.13829",
-    "title": "We Do Not Understand What It Says - Studying Student Perceptions of  Software Modelling",
+    "title": "We Do Not Understand What It Says -- Studying Student Perceptions of  Software Modelling",
     "abstract": "Comments: Submitted to a journal",
     "descriptor": "\nComments: Submitted to a journal\n",
     "authors": [
@@ -4485,7 +4485,7 @@
   },
   {
     "id": "arXiv:2210.06012",
-    "title": "Phantom - A RL-driven multi-agent framework to model complex systems",
+    "title": "Phantom -- A RL-driven multi-agent framework to model complex systems",
     "abstract": "Comments: 2022 ACM International Conference on Artificial Intelligence in Finance - Benchmarks for AI in Finance Workshop",
     "descriptor": "\nComments: 2022 ACM International Conference on Artificial Intelligence in Finance - Benchmarks for AI in Finance Workshop\n",
     "authors": [
@@ -4752,8 +4752,8 @@
   },
   {
     "id": "arXiv:2212.00654",
-    "title": "maplab 2.0 - A Modular and Multi-Modal Mapping Framework",
-    "abstract": "maplab 2.0 - A Modular and Multi-Modal Mapping Framework",
+    "title": "maplab 2.0 -- A Modular and Multi-Modal Mapping Framework",
+    "abstract": "maplab 2.0 -- A Modular and Multi-Modal Mapping Framework",
     "descriptor": "",
     "authors": [
       "Andrei Cramariuc",
