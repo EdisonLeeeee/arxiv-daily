@@ -1748,7 +1748,8 @@
       "Nengkun Yu"
     ],
     "subjectives": [
-      "Computers and Society (cs.CY)"
+      "Computers and Society (cs.CY)",
+      "Quantum Physics (quant-ph)"
     ],
     "url": "https://arxiv.org/abs/2301.02995"
   },
@@ -3910,7 +3911,7 @@
   {
     "id": "arXiv:2301.03352",
     "title": "Memristive Memory Enhancement by Device Miniaturization for Neuromorphic  Computing",
-    "abstract": "The areal footprint of memristors is a key consideration in material-based\nneuromorophic computing and large-scale architecture integration. Electronic\ntransport in the most widely investigated memristive devices is mediated by\nfilaments, posing a challenge to their scalability in architecture\nimplementation. Here we present a compelling alternative memristive device and\ndemonstrate that areal downscaling leads to enhancement in memristive memory\nwindow, while maintaining analogue behavior, contrary to expectations. Our\ndevice designs directly integrated on semiconducting Nb-SrTiO3 allows\nleveraging electric field effects at edges, increasing the dynamic range in\nsmaller devices. Our findings are substantiated by studying the microscopic\nnature of switching using scanning transmission electron microscopy, in\ndifferent resistive states, revealing an interfacial layer whose physical\nextent is influenced by applied electric fields. The ability of Nb-SrTiO3\nmemristors to satisfy hardware and software requirements with downscaling,\nwhile significantly enhancing memristive functionalities, makes them strong\ncontenders for non-von Neumann computing, beyond CMOS.",
+    "abstract": "The areal footprint of memristors is a key consideration in material-based\nneuromorophic computing and large-scale architecture integration. Electronic\ntransport in the most widely investigated memristive devices is mediated by\nfilaments, posing a challenge to their scalability in architecture\nimplementation. Here we present a compelling alternative memristive device and\ndemonstrate that areal downscaling leads to enhancement in memristive memory\nwindow, while maintaining analogue behavior, contrary to expectations. Our\ndevice designs directly integrated on semiconducting Nb-SrTiO$_3$ allows\nleveraging electric field effects at edges, increasing the dynamic range in\nsmaller devices. Our findings are substantiated by studying the microscopic\nnature of switching using scanning transmission electron microscopy, in\ndifferent resistive states, revealing an interfacial layer whose physical\nextent is influenced by applied electric fields. The ability of Nb-SrTiO$_3$\nmemristors to satisfy hardware and software requirements with downscaling,\nwhile significantly enhancing memristive functionalities, makes them strong\ncontenders for non-von Neumann computing, beyond CMOS.",
     "descriptor": "\nComments: main text: 11 pages, 5 figures\n",
     "authors": [
       "Anouk S. Goossens",
@@ -3921,7 +3922,8 @@
       "Tamalika Banerjee"
     ],
     "subjectives": [
-      "Emerging Technologies (cs.ET)"
+      "Emerging Technologies (cs.ET)",
+      "Applied Physics (physics.app-ph)"
     ],
     "url": "https://arxiv.org/abs/2301.03352"
   },
@@ -4652,7 +4654,7 @@
   },
   {
     "id": "arXiv:2301.03458",
-    "title": "Mining Healthcare Procurement Data Using Text Mining and Natural  Language Processing - Reflection From An Industrial Project",
+    "title": "Mining Healthcare Procurement Data Using Text Mining and Natural  Language Processing -- Reflection From An Industrial Project",
     "abstract": "While text mining and NLP research has been established for decades, there\nremain gaps in the literature that reports the use of these techniques in\nbuilding real-world applications. For example, they typically look at single\nand sometimes simplified tasks, and do not discuss in-depth data heterogeneity\nand inconsistency that is common in real-world problems or their implication on\nthe development of their methods. Also, few prior work has focused on the\nhealthcare domain. In this work, we describe an industry project that developed\ntext mining and NLP solutions to mine millions of heterogeneous, multilingual\nprocurement documents in the healthcare sector. We extract structured\nprocurement contract data that is used to power a platform for dynamically\nassessing supplier risks. Our work makes unique contributions in a number of\nways. First, we deal with highly heterogeneous, multilingual data and we\ndocument our approach to tackle these challenges. This is mainly based on a\nmethod that effectively uses domain knowledge and generalises to multiple text\nmining and NLP tasks and languages. Second, applying this method to mine\nmillions of procurement documents, we develop the first structured procurement\ncontract database that will help facilitate the tendering process. Second,\nFinally, we discuss lessons learned for practical text mining/NLP development,\nand make recommendations for future research and practice.",
     "descriptor": "",
     "authors": [
@@ -4663,6 +4665,7 @@
       "Adam Funk"
     ],
     "subjectives": [
+      "Computation and Language (cs.CL)",
       "Artificial Intelligence (cs.AI)"
     ],
     "url": "https://arxiv.org/abs/2301.03458"
@@ -9393,7 +9396,7 @@
   },
   {
     "id": "arXiv:2211.12769",
-    "title": "Byzantine Multiple Access Channels - Part I: Reliable Communication",
+    "title": "Byzantine Multiple Access Channels -- Part I: Reliable Communication",
     "abstract": "Comments: This supercedes Part I of arxiv:1904.11925",
     "descriptor": "\nComments: This supercedes Part I of arxiv:1904.11925\n",
     "authors": [
