@@ -1572,7 +1572,7 @@
     "id": "arXiv:2301.05544",
     "title": "UserSimCRS: A User Simulation Toolkit for Evaluating Conversational  Recommender Systems",
     "abstract": "We present an extensible user simulation toolkit to facilitate automatic\nevaluation of conversational recommender systems. It builds on an established\nagenda-based approach and extends it with several novel elements, including\nuser satisfaction prediction, persona and context modeling, and conditional\nnatural language generation. We showcase the toolkit with a pre-existing movie\nrecommender system and demonstrate its ability to simulate dialogues that mimic\nreal conversations, while requiring only a handful of manually annotated\ndialogues as training data.",
-    "descriptor": "\nComments: Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining (WSDM '23), February 27-March 3, 2023, Singapore, Singapore\n",
+    "descriptor": "\nComments: Will resubmit until code is ready\n",
     "authors": [
       "Jafar Afzali",
       "Aleksander Mark Drzewiecki",
@@ -2632,6 +2632,7 @@
     "descriptor": "\nComments: 55 pages\n",
     "authors": [
       "Xinke Huang",
+      "Yuqin Jiang",
       "Ali Mostafavi"
     ],
     "subjectives": [
@@ -3849,8 +3850,8 @@
   },
   {
     "id": "arXiv:2209.00853",
-    "title": "TarGF: Learning Target Gradient Field for Object Rearrangement",
-    "abstract": "TarGF: Learning Target Gradient Field for Object Rearrangement",
+    "title": "TarGF: Learning Target Gradient Field to Rearrange Objects without  Explicit Goal Specification",
+    "abstract": "TarGF: Learning Target Gradient Field to Rearrange Objects without  Explicit Goal Specification",
     "descriptor": "",
     "authors": [
       "Mingdong Wu",
@@ -4575,8 +4576,8 @@
   {
     "id": "arXiv:2301.01181",
     "title": "Large Language Models as Corporate Lobbyists",
-    "abstract": "Comments: Our open-source code available here: this https URL arXiv admin note: text overlap with arXiv:2209.13020",
-    "descriptor": "\nComments: Our open-source code available here: this https URL arXiv admin note: text overlap with arXiv:2209.13020\n",
+    "abstract": "Comments: Our open-source code available here: this https URL",
+    "descriptor": "\nComments: Our open-source code available here: this https URL\n",
     "authors": [
       "John J. Nay"
     ],
